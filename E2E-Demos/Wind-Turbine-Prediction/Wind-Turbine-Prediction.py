@@ -12,6 +12,9 @@ from pyspark.sql import SparkSession
 from pyspark.conf import SparkConf
 from pyspark import SparkContext
 
+from py4j.java_gateway import java_import
+java_import(spark._sc._jvm, "org.apache.spark.sql.api.python.*")
+
 # Reading Dataset
 spark_df = spark.read.csv('file:///mounts/hpedemo-user01-volume/pf-spark-windturbine/T1.csv', header=True, inferSchema=True)
 
