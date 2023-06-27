@@ -1,0 +1,101 @@
+Namespaces is a kernel feature that allows you to create isolated environments within a single Linux system. Each namespace has its own view of the system, meaning that processes within a namespace are unaware of the processes running in other namespaces.
+
+## Types of namespaces
+
+There are several different types of namespaces in Linux, including the following:
+
+- `PID` namespace: Isolates the process ID space so that processes in different `PID` namespaces can have the same `PID` without conflicting with each other.
+- `net` namespace: Isolates the network stack, including network interfaces, IP addresses, and routing tables.
+- `mount` namespace: Isolates the mount points so that processes in different mount namespaces can have their own private file systems that are separate from each other and from the host file system.
+- `IPC` namespace: Isolates interprocess communication resources, such as System V `IPC` objects and POSIX message queues.
+- `uts` namespace: Isolates the hostname.
+
+## Example
+
+Let’s create a new `PID` namespace and run the `bash` command in it. First, let’s explore the current state of our system using the `pstree` command:
+
+```bash
+vagrant@vbox:~$ pstree
+systemd─┬─VBoxService───8*[{VBoxService}]
+        ├─accounts-daemon───2*[{accounts-daemon}]
+        ├─2*[agetty]
+        ├─atd
+        ├─containerd───8*[{containerd}]
+        ├─cron
+        ├─dbus-daemon
+        ├─dockerd───7*[{dockerd}]
+        ├─fwupd───4*[{fwupd}]
+        ├─irqbalance───{irqbalance}
+        ├─multipathd───6*[{multipathd}]
+        ├─networkd-dispat
+        ├─polkitd───2*[{polkitd}]
+        ├─rsyslogd───3*[{rsyslogd}]
+        ├─snapd───11*[{snapd}]
+        ├─sshd───sshd───sshd───bash───tmux: client
+        ├─systemd───(sd-pam)
+        ├─systemd-journal
+        ├─systemd-logind
+        ├─systemd-network
+        ├─systemd-resolve
+        ├─systemd-udevd
+        ├─tmux: server─┬─bash───pstree
+        │              └─2*[bash───watch]
+        ├─udisksd───4*[{udisksd}]
+        └─unattended-upgr───{unattended-upgr}
+```
+
+Here we see the way processes in Linux are structured. Every process has a parent except the first process. Typically the `init` process will be `PID` 1 and has no parent.
+
+If we create a new `PID` namespace, we expect to have a new tree structure with the processes that belong to this namespace. Moreover, the command we will run first in this namespace will take the `PID` 1, which will be mapped to a higher `PID` number in the host. Let’s see that in action:
+
+```bash
+unshare -ipf
+```
+
+The `unshare` command is the one you want to use to create new namespaces. In this context and with these flags, it will create a new `PID` namespace (the `p` flag) and a new `IPC` namespace (the `i` flag).
+
+Now, if you try to get the processes running in this namespace, you should be able to see `bash` as `PID` 1, right? Let’s check this:
+
+```bash
+root@vbox:/home/vagrant# ps -ef                                                                                                                                                                                    
+UID          PID    PPID  C STIME TTY          TIME CMD                                                                                                                             
+root           1       0  0 Jan04 ?        00:00:01 /sbin/init                                                                                                                     
+root           2       0  0 Jan04 ?        00:00:00 [kthreadd]                                                                                                                     
+root           3       2  0 Jan04 ?        00:00:00 [rcu_gp]                                                                                                                       
+root           4       2  0 Jan04 ?        00:00:00 [rcu_par_gp]                                                                                                                   
+root           6       2  0 Jan04 ?        00:00:00 [kworker/0:0H-events_highpri]                                                                                                    root           8       2  0 Jan04 ?        00:00:00 [kworker/0:1H-kblockd]                                                                                                         
+root          10       2  0 Jan04 ?        00:00:00 [ksoftirqd/0]                                                                                                                   
+root          11       2  0 Jan04 ?        00:00:02 [rcu_sched]                                                                                                                     
+root          12       2  0 Jan04 ?        00:00:00 [migration/0]                                                                                                                   
+root          13       2  0 Jan04 ?        00:00:00 [idle_inject/0]                                                                                                                 
+root          15       2  0 Jan04 ?        00:00:00 [cpuhp/0]                                                                                                                       
+root          16       2  0 Jan04 ?        00:00:00 [cpuhp/1]                                                                                                                       
+root          17       2  0 Jan04 ?        00:00:00 [idle_inject/1]                                                                                                                 
+root          18       2  0 Jan04 ?        00:00:00 [migration/1]                                                                                                                   
+root          19       2  0 Jan04 ?        00:00:00 [ksoftirqd/1]                                                                                                                   
+root          21       2  0 Jan04 ?        00:00:00 [kworker/1:0H-events_highpri]                                                                                                   
+root          22       2  0 Jan04 ?        00:00:00 [kdevtmpfs]                                                                                                                     
+root          23       2  0 Jan04 ?        00:00:00 [netns]                                                                                                                         
+root          24       2  0 Jan04 ?        00:00:00 [rcu_tasks_kthre]                                                                                                               
+root          25       2  0 Jan04 ?        00:00:00 [kauditd]                                                                                                                       
+root          26       2  0 Jan04 ?        00:00:00 [khungtaskd]                                                                                                                   
+root          27       2  0 Jan04 ?        00:00:00 [oom_reaper]
+...
+```
+
+So, what is going on? Why do I still see the `init` process as `PID` 1? The Linux kernel uses the `/proc` file system to get data about the running processes. Thus, we’re missing a component here. We need to also create a new `mount` namespace and mount a new `/proc` file system because now we’re getting this information from the default `mount` namespace.
+
+To resolve this error, we will use the `--mount-proc` flag, which creates a new `mount` namespace and mounts a new `/proc` file system. Type `exit` to get out of the `PID` namespace you created and run the following command:
+
+```bash
+unshare -ipf --mount-proc
+```
+
+Now, if you run `ps -ef` again you’ll get what you were looking for:
+
+```bash
+root@vbox:/home/vagrant# ps -ef
+UID          PID    PPID  C STIME TTY          TIME CMD
+root           1       0  0 07:54 pts/1    00:00:00 -bash
+root          13       1  0 07:54 pts/1    00:00:00 ps -ef
+```

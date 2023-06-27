@@ -1,0 +1,21 @@
+`systemctl` is a command line utility for managing system services in a Linux operating system. It is used to start, stop, restart, enable, and disable services and features that are provided by the system.
+
+The `systemctl` command is part of the `systemd` system and service manager, which is a replacement for the older `init` system and is used in many modern Linux distributions.
+
+To use `systemctl`, you must be logged in as the root user or use the `sudo` command to execute the command with superuser privileges. Here are some examples of how `systemctl` can be used:
+
+- Get the status of a unit: `systemctl status <unit>`
+- Start a service: `systemctl start service_name` 
+- Stop a service: `systemctl stop service_name`
+- Restart a service: `systemctl restart service_name`
+- Enable a service to start automatically at boot:  `systemctl enable service_name`
+- Disable a service from starting automatically at boot: `systemctl disable service_name`
+- List all units of specific type: `systemctl list-units --type <unit-type>`
+
+When you enable a service to start automatically at boot, `systemctl` creates a symlink in the `.target.wants` directory of the target located in the `WantedBy` section of the unit file. For example, if the unit file specifiles the `multi-user.target` in the `WatedBy` section of its file, `systemctl` will create a symlink in `/etc/systemd/system/multi-user.target.wants` folder:
+
+```bash
+/etc/systemd/system/multi-user.target.wants/docker.service -> /usr/lib/systemd/system/docker.service
+```
+
+Running `systemctl enable` won't start the unit. However, the next time the system will boot the service with start.
