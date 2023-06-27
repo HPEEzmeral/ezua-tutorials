@@ -1,0 +1,9 @@
+Herman Hollerith (1860-1929) was an American inventor and engineer widely recognized as one of the pioneers of modern computing. Hollerith is best known for developing the punched card, a data storage medium used for processing information in early computing machines.
+
+In the late 19th century, the United States Census Bureau employed Hollerith and asked him to find a more efficient way to process the data collected in the decennial census. He developed an electromechanical machine that used punched cards to store and process census data. These punch cards were paper cards with a grid of locations that could be punched out to represent data. For example, if you were married, you would punch out the married spot. Then, when the card was inserted into Hollerith's machine, little metal pins would come down over the card. If a spot was punched out, the pin would pass through the hole in the paper and into a little vial of mercury, which completed the circuit. This completed circuit powered an electric motor, which turned a gear to add one to the "married" total.
+
+Hollerith's machine was roughly 10x faster than manual tabulations, and the census was completed in just two and a half years, saving the census office millions of dollars.
+
+Hollerith founded the Tabulating Machine Company (which later became IBM) to manufacture and market his punched card machines. These machines were used for a wide variety of data processing tasks, from accounting to inventory management. His work revolutionized the data processing field and helped establish the foundation for the modern computer industry.
+
+Hollerith's contributions to computing have been widely recognized, and he was posthumously inducted into the National Inventors Hall of Fame in 1968.

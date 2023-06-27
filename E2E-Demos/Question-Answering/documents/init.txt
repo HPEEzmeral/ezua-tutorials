@@ -1,0 +1,11 @@
+In the Linux operating system, the `init` process is the first process that is started when the system boots up. It is responsible for starting all other processes on the system and setting up the environment in which they will run.
+
+The init process is typically started by the kernel, and it is assigned a process ID of 1. It is the ancestor of all other processes on the system, and it remains running until the system is shut down.
+
+In the Linux operating system, every process has a parent process, which is the process that spawned it. The parent process can then have its own parent process, and so on, forming a hierarchy of processes. The init process is at the root of this hierarchy, meaning that it is the ancestor of all other processes on the system.
+
+For example, if the init process starts a system daemon, the system daemon becomes a child process of the init process. If the system daemon then starts a user program, the user program becomes a child process of the system daemon, which is itself a child of the init process. This relationship is represented in the process tree, which can be viewed using the `ps` command or a utility such as `pstree`.
+
+In this way, the init process is responsible for starting and managing the processes on the system. Even if a process dies leaving orphan processes behind, `init` "adopts" these processes. So, `init` manages the processes in a system and supervise their behavior.
+
+`init` used to be a series of plain text scripts under `/etc/init.d/`. This is known as SysV init. There were some drawbacks to this approach, thus, `systemd` has replaced it in Linux (not UNIX).

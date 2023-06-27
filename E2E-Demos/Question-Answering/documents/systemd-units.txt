@@ -1,0 +1,32 @@
+In the `systemd` init system, a unit is a configuration file that describes a specific entity that the system should manage, such as a service, a socket, a device, or a mount point. Units are used to specify the properties and behavior of these entities, and they define how the system should start, stop, or otherwise manage them.
+
+There are several different types of units in systemd, each of which serves a specific purpose. Some common types of units include:
+
+- Service units: These units describe a service, such as a daemon or a server, that should be started and stopped as part of the system boot process or in response to specific events. Service units specify how the service should be started, what dependencies it has, and how it should be restarted if it fails.
+- Socket units: These units describe a network socket or a Unix domain socket, and they specify how the system should listen for and accept incoming connections on the socket.
+- Device units: These units describe a device that should be created or removed as part of the system boot process or in response to specific events. Device units are used to manage devices such as disks, partitions, or network interfaces.
+- Mount units: These units describe a file system mount point, and they specify how the system should mount or unmount the file system at the specified mount point.
+
+Units can be managed using the `systemctl` command, which is used to start, stop, enable, disable, and otherwise manage units on the system.
+
+# Location
+
+Unit files are typically stored in the `/lib/systemd/system` directory, and they use a simple configuration file format. Units from locally installed packages are usually kept under `usr/lib/systemd/system`, while transient unit files are kept under `/run/systemd/system`. Moreover, custom unit files are usually kept under `/etc/systemd/system/`.
+
+# Example
+
+Let's write a simple `systemd` unit file. Since it's a custom one we'll place it under `/etc/systemd/system`:
+
+```
+[Unit]
+Description=A very simple service
+After=network-up.target
+
+[Service]
+ExecStart=/path/to/executable
+
+[Install]
+WantetBy=multi-user.target
+```
+
+This is a very simple service that you can run, as long as you point `/path/to/executable` to an actual executable.

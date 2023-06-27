@@ -1,0 +1,5 @@
+Ada Lovelace (1815-1852) was an English mathematician and writer widely recognized as the first computer programmer. Lovelace is best known for her work on Charles Babbage's Analytical Engine, an early mechanical computer that he designed in the mid-19th century.
+
+Lovelace corresponded with Babbage and translated an article about the Analytical Engine by Italian mathematician Luigi Menabrea from French to English. Lovelace also wrote extensive notes on the article, describing a method for calculating a sequence of Bernoulli numbers using the machine. Lovelace's notes are now considered the first published algorithm intended for implementation on a machine, and she is recognized as the world's first computer programmer.
+
+Although Lovelace did not live to see the completion of the Analytical Engine or witness the development of electronic computers, her ideas and contributions to computing have been widely celebrated in the field of computer science, and she continues to be an inspiration for women in STEM.

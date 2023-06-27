@@ -1,0 +1,3 @@
+Linux containers are a powerful technology that allows you to run multiple isolated processes on a single host.
+
+These processes share the host’s kernel but have their own user space, meaning that they have their own set of libraries, dependencies, and runtime environments. There are three key components that make up a Linux container: namespaces, control groups, and overlay file systems.
