@@ -18,8 +18,8 @@ spec:
   mainApplicationFile: local:///tmp/DataProcessTransfer.jar
   mainClass: com.mapr.sparkdemo.DataProcessTransfer
   arguments:
-    - s3a://ezaf-demo/data/financial-partitioned      # source path
-    - parquet                                         # source format
+    - s3a://ezaf-demo/data/financial.csv              # source path
+    - csv                                             # source format
     - file:///mounts/data/financial-processed         # destination path
     - parquet                                         # destination format
   restartPolicy:
