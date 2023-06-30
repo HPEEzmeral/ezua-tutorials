@@ -1,11 +1,10 @@
 apiVersion: "sparkoperator.hpe.com/v1beta2"
 kind: SparkApplication
 metadata:
-  name: spark-fts-{{dag_run.conf.get("username", "hpedemo-user01")}}
+  name: data-transfer-mnist-s3-secret-demo
   namespace: spark
 spec:
   sparkConf:
-    spark.mapr.extraconf.secret: {{dag_run.conf.get("s3_secret_name", "spark-s3-creds")}}
     spark.hadoop.fs.s3a.path.style.access: "true"
     spark.hadoop.fs.s3a.impl: "org.apache.hadoop.fs.s3a.S3AFileSystem"
     spark.hadoop.fs.s3a.connection.ssl.enabled: "true"
@@ -14,19 +13,19 @@ spec:
   type: Scala
   sparkVersion: 3.4.0
   mode: cluster
-  image: gcr.io/mapr-252711/ezaf-spark-demo-example:fy23-q3-fts
+  image: gcr.io/mapr-252711/ezaf-spark-demo-example:fy23-q3-mnist
   imagePullPolicy: Always
-  mainApplicationFile: local:///tmp/DataProcessTransfer.jar
-  mainClass: com.mapr.sparkdemo.DataProcessTransfer
+  mainApplicationFile: local:///tmp/DataTransfer.jar
+  mainClass: com.mapr.sparkdemo.DataTransfer
   arguments:
-    - s3a://ezaf-demo/data/financial.csv
-    - csv
-    - file:///mounts/data/{{dag_run.conf.get("training_path", "financial-processed")}}
+    - s3a://ezaf-demo/data/mnist
+    - binaryFile
+    - file:///mounts/data/mnist-spark-data
     - parquet
   restartPolicy:
     type: Never
   imagePullSecrets:
-    - imagepull
+    - hpe-imagepull-secrets
   driver:
     cores: 1
     coreLimit: "1000m"
@@ -36,6 +35,8 @@ spec:
     volumeMounts:
       - mountPath: /mounts/data/
         name: spark-data
+      - mountPath: /opt/mapr/kubernetes/spark_secrets
+        name: spark-s3-config
   executor:
     cores: 1
     instances: 2
@@ -45,7 +46,14 @@ spec:
     volumeMounts:
       - mountPath: /mounts/data
         name: spark-data
+      - mountPath: /opt/mapr/kubernetes/spark_secrets
+        name: spark-s3-config
   volumes:
     - name: spark-data
       persistentVolumeClaim:
-        claimName: {{dag_run.conf.get("username", "hpedemo-user01")}}-spark-pvc
+        claimName:  <username>-<namespace>-pvc
+    - name: spark-s3-config
+      secret:
+        secretName: spark-s3-creds
+        defaultMode: 400
+        optional: false
