@@ -1,0 +1,11 @@
+apiVersion: "serving.kserve.io/v1beta1"
+kind: "InferenceService"
+metadata:
+  name: "bike-sharing-1"
+  namespace: hpedemo-user01
+spec:
+  predictor:
+    serviceAccountName: kserve-minio-sa
+    sklearn:
+      protocolVersion: "v2"
+      storageUri: "s3://mlflow/1/6eb897abc2d14298bdc407dadc9c9fcb/artifacts/model"
