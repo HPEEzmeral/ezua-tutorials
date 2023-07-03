@@ -1,4 +1,4 @@
-FROM gcr.io/mapr-252711/spark-3.3.1:v3.3.1
+FROM gcr.io/mapr-252711/spark-3.4.0:v3.4.0
 
 ARG SPARK_APP_SOURCE
 ARG SPARK_APP_DEST
