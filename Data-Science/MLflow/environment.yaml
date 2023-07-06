@@ -1,0 +1,21 @@
+name: bike-sharing
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.8
+  - graphviz [conda-forge]
+  - pip
+  - pip:
+    - py-spy==0.3.14
+    - numpy==1.19.5
+    - pandas==1.4.4
+    - seaborn==0.12.2
+    - scikit-learn==1.0.1
+    - boto3==1.20.24
+    - jupyter==1.0.0
+    - mlflow==2.1.1
+    - graphviz==0.20.1
+    - pygraphviz==1.10
+    - pydotplus==2.0.2
+    - kserve==0.8.0.2
