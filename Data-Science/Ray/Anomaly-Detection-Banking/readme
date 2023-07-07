@@ -1,0 +1,22 @@
+## RAY experiment fraud detection on banking system
+## Please follow the steps to run this experiment on you environment
+
+## :: Steps are following ::
+1. lets assume you have complete EzUA setup.
+2. Initialize Jupiter notebook service.
+3. Import all required packages, user define functions, initialize global objects
+4. Procure dataset from object storage, once the dataset loaded successfully
+5. Data we need to pre-process, validating, once all the above actions are done here, we are defining the required variables.
+6. Once the global variables we are available, we are initiating the model training, at the and based on the best satisfactory score. 
+    1. In this experiment gloabl values you can find 3 areas
+    2. RayFraudDetectionExperiment (Ray actor details)
+    3. configuration_dtl (experiment required configuration declared)
+    4. config_data (Kaycloak Authentication and Authorization) 
+7. Please find the./secret folder, run the below command it will create a secret, access object store.
+    1. command: kubectl apply -f fraud-detection-create-s3-secret.yaml
+8. Based on the satisfactory score we are deploying the model with KServe on top kubernetes cluster.
+9. The detail documentation and unit end experiment snips are updated./assets
+10. Reference and Conclusion I have updated the real-world statistics and survey details, have a look.
+
+
+## If I can be of assistance, please do not hesitate to contact me : Aravind G | email: aravindg@hpe.com
