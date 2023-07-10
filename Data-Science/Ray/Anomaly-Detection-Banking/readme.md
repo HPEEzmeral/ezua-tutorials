@@ -38,5 +38,3 @@ To complete the tutorial follow simple steps below:
 2. Create a new notebook server using the `jupyter-data-science` image.
 3. Clone the repository locally.
 4. Launch the `ray_acceleration_experiment_fraud_detecting_on_banking_system.ipynb` notebook file.
-
-## If I can be of assistance, please do not hesitate to contact me : Aravind G | email: aravindg@hpe.com
