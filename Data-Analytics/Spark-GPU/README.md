@@ -1,27 +1,32 @@
 ## Running spark-on-gpu example
-###### This example shows how to configure a spark application to allocate and utilize GPU in sql computations
-1. Build SparkDemo.jar file as described in examples readme file
-2. Put the jar file to available location, e.g., maprfs
-3. Run the scala-gpu example, check physical plan in the output logs:
-```shell
-== Physical Plan ==
-GpuColumnarToRow false
-+- GpuFilter NOT (value#2 = 1), true
-   +- GpuRowToColumnar targetsize(2147483647)
-      +- *(1) SerializeFromObject [input[0, int, false] AS value#2]
-         +- Scan[obj#1]
-```
-4. Disable RAPIDs sql feature by changing the following option in yaml file:
+###### Configuration in yaml file (do not try to apply it as-is, it has a fake path to the app file)
+Note: if not configured properly, spark functions will run on CPU instead of GPU, even if GPU-specific image is used.
+
+Note: do not allocate GPUs for driver pod, it doesn't have any sense. GPUs are used by executors only.
+
+To run spark on GPUs, make sure to:
+
+1. Use 'spark-gpu-...' image. As of Q3 timeframe, we provide 2 images: spark-gpu-3.3.1:v3.3.1 and spark-gpu-3.4.0:v3.4.0. Depending on the controller, spark image can be set:
+   a. Spark operator: via 'image' value in yaml
+   b. Livy server: via 'spark.kubernetes.container.image' option in sparkConf.
+2. Add the following spark configuration options to enable RAPIDs plugin and allocate GPU for executors. This part of options is spark-version independent.
 ```yaml
-spark.conf:
-  ...
-  spark.rapids.sql.enabled: "false"
-  ...
+# Enabling RAPIDs plugin
+spark.plugins: "com.nvidia.spark.SQLPlugin"
+spark.rapids.sql.enabled: "true"
+spark.rapids.force.caller.classloader: "false"
+ 
+# GPU allocation and discovery settings
+spark.task.resource.gpu.amount: "1"
+spark.executor.resource.gpu.amount: "1"
+spark.executor.resource.gpu.vendor: "nvidia.com"
 ```
-5. Restart application and check the physical plan again. Since sql-on-gpu is disabled, now it should look like this:
-```shell
-== Physical Plan ==
-*(1) Filter NOT (value#2 = 1)
-+- *(1) SerializeFromObject [input[0, int, false] AS value#2]
-   +- Scan[obj#1]
+3. Set path to GPU-discovery script. In spark-eep images, it's built-in at path "/opt/mapr/spark/spark-[VERSION]/examples/src/main/scripts/getGpusResources.sh". Make sure to replace [VERSION] with actual spark version. Example for 3.4.0:
+```yaml
+spark.executor.resource.gpu.discoveryScript: "/opt/mapr/spark/spark-3.4.0/examples/src/main/scripts/getGpusResources.sh"
 ```
+4. Set RAPIDs shim layer to be used for execution. Spark-eep is compatible with its corresponding open-source spark version. RAPIDs jar includes shim layer provider classes named "com.nvidia.spark.rapids.shims.[spark-identifier].SparkShimServiceProvider", where 'spark-identifier' might be spark311, spark330 etc. For EEP spark-3.3.1 compatible provider has the identifier "spark331"; for spark-3.4.0 identifier is "spark340". So for spark-gpu-3.4.0 image, this setting will be:
+```yaml
+spark.rapids.shims-provider-override: "com.nvidia.spark.rapids.shims.spark340.SparkShimServiceProvider"
+```
+5. Run the scala or python example as exampled in their respective README.md files
