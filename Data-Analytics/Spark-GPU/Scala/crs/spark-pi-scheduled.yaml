@@ -1,0 +1,43 @@
+apiVersion: "sparkoperator.hpe.com/v1beta2"
+kind: ScheduledSparkApplication
+metadata:
+  name: spark-pi-scheduled
+  namespace: sampletenant
+spec:
+  schedule: "@every 1m"
+  concurrencyPolicy: Allow
+  template:
+    #sparkConf:
+      # Note: If you are executing the application as a K8 user that MapR can verify,
+      #       you do not need to specify a spark.mapr.user.secret
+      #spark.mapr.user.secret: spark-user-secret
+      # Note: You do not need to specify a spark.eventLog.dir
+      #       it will be auto-generated with the pattern "maprfs:///apps/spark/<namespace>"
+      #spark.eventLog.dir: "maprfs:///apps/spark/sampletenant"
+    type: Scala
+    sparkVersion: 3.3.1
+    mode: cluster
+    image: gcr.io/mapr-252711/spark-3.3.1:202304252229AN
+    imagePullPolicy: Always
+    imagePullSecrets:
+      - imagepull
+    mainClass: org.apache.spark.examples.SparkPi
+    mainApplicationFile: "local:///opt/mapr/spark/spark-3.3.1/examples/jars/spark-examples_2.12-3.3.1.0-eep-910.jar"
+    restartPolicy:
+      type: Never
+    driver:
+      cores: 1
+      coreLimit: "1000m"
+      memory: "512m"
+      labels:
+        version: 3.3.1
+      # Note: You do not need to specify a serviceAccount
+      #       it will be auto-generated referencing the pre-existing "hpe-<namespace>"
+      #serviceAccount: hpe-sampletenant
+    executor:
+      cores: 1
+      coreLimit: "1000m"
+      instances: 1
+      memory: "512m"
+      labels:
+        version: 3.3.1
