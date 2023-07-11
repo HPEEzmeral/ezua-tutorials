@@ -24,6 +24,16 @@ This example code Precisely explains how you can connect your database into EzAF
 
 In this kernel example Fraud Detection will give you precise information, how easy the tools integrated, that can help to develop robust models.
 
+## Simple instructions to run experiment.
+
+To complete the tutorial follow simple steps below:
+
+1. Login to you EzAF cluster.
+2. Create a new notebook server using the `jupyter-data-science` image.
+3. Clone the repository locally.
+4. Launch the python file name `EzSQLDBComponent.py` on top of notebook.
+
+
 ## Reference:
 1. https://www.statista.com/statistics/871513/worldwide-data-created/
 2. https://www.statista.com/chart/17723/the-data-created-last-year-is-equal-to/
