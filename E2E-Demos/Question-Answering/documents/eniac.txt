@@ -1,0 +1,9 @@
+ENIAC (Electronic Numerical Integrator and Computer) was one of the first electronic computers and was developed during World War II and completed in 1946 by a team of American scientists led by John Mauchly and J. Presper Eckert. ENIAC was the first truly general purpose programmable electronic computer.
+
+ENIAC used over 17,000 vacuum tubes and was capable of performing up to 5,000 additions or subtractions per second. It used punched cards to input data and had to be manually programmed by rewiring its circuits. The process of programming ENIAC was time-consuming and required a team of technicians to complete.
+
+ENIAC was a significant breakthrough in the history of computing, as it was one of the first computers to use vacuum tubes to perform calculations. It was also one of the first computers to be used for a practical application, demonstrating the potential of electronic computers for solving complex scientific and engineering problems.
+
+ENIAC was used extensively for scientific and engineering calculations after the war, including for the development of the hydrogen bomb and weather forecasting. It also paved the way for the development of modern electronic computers and the field of digital computing.
+
+While ENIAC was a significant breakthrough, it had several limitations compared to modern electronic computers. It was large, bulky, and consumed a lot of power, and its vacuum tubes were prone to failure. It also required a team of technicians to operate and program, making it relatively expensive to use. However, it represented a significant step forward in the field of computing and paved the way for the development of more advanced electronic computers in the years to come.

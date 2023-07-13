@@ -1,0 +1,9 @@
+Charles Babbage (1791-1871) was an English mathematician, and inventor often called the "father of the computer." He is best known for his work on designing the Analytical Engine, an early mechanical computer that he designed in the mid-19th century.
+
+Babbage designed and tried to build a prototype for a Difference Engine, a mechanical calculator that could perform mathematical calculations automatically. The Difference Engine was capable of approximating polynomials. Polynomials describe the relationship between several variables, like range and air pressure. It could also approximate logarithmic and trigonometric functions, which is very difficult to do by hand.
+
+Babbage started building such a machine in 1823 and, over the next two decades, tried to assemble the 25,000 components that make it up. Although he never completed the project, it inspired further developments in computing technology and helped to establish the field of computer science. In 1991, historians constructed a Difference Engine based on Babbage's designs, which worked perfectly!
+
+Babbage envisioned a more complicated machine during this effort: the Analytical Engine. Unlike the Difference Engine, the Analytical Engine was a "general purpose computer". One could use the Analytical Engine for more than just one particular computation. It could be given data and run operations in sequence. It also had memory and a primitive printer.
+
+In addition to his work on computing machines, Babbage was a prominent mathematician and contributed to fields such as calculus, algebra, and statistics. He was a member of the Royal Society and received numerous honors during his lifetime for his contributions to science and technology.

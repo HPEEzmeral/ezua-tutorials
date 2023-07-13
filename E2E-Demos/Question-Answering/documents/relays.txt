@@ -1,0 +1,15 @@
+Relays are electromechanical devices that can be used as switches to control the flow of electrical current. They consist of a coil of wire (the control wire) that, when energized, creates a magnetic field that pulls an armature or a set of contacts. The contacts can then be used to open or close an electrical circuit, allowing current to flow or preventing it from flowing.
+
+This circuit can then connect to other circuits, or to something like a motor, which might increment a count on a gear, like in Hollerith's tabulating machine. Relays were commonly used in early computers like the Harvard Mark I because they could perform logic operations such as AND, OR, and NOT. By combining these operations, complex computations could be performed.
+
+In addition to being used in early computers, relays were widely used in industrial and control systems, where they provided a cost-effective mean of controlling high-power electrical loads. For example, relays could be used to switch on and off motors, lights, or other devices in response to signals from sensors or switches.
+
+However, relays have several limitations compared to modern electronic switches. First, they are relatively slow; a good relay in the 40s might be able to flick back and forth fifty times in a second. Mark I was able to do 3 additions or subtractions per second, multiplications took 6 seconds, and divisions could take up to 15 seconds. More complex operations, like a trigonometric function, could take over a minute.
+
+In addition to slow switching speed, another limitation was wear and tear. Anything mechanical that moves wear over time. So, as the number of relays increases, the probability of a failure increases too. The Harvard Mark I had 3500 relays. Even if a relay had a lifetime of 10 years, this would mean that you would have to replace, on average, a relay every day!
+
+Moreover, these huge, warm machines also attracted insects. In September 1947, operators on the Harvard Mark II pulled a dead moth from a malfunctioning relay. Grace Hopper then noted:
+
+> From then on, when anything went wrong with a computer, we said it had bugs in it.
+
+Finally, relays also require a significant amount of power to operate, take up more space, and are more expensive than electronic components. As a result, they were replaced by a faster, more reliable alternative, the vacuum tube.

@@ -1,0 +1,155 @@
+Linux control groups, or `cgroups`, is a kernel feature that allows an administrator to allocate resources such as CPU, memory, and I/O bandwidth to groups of processes.
+
+`cgroups` provide a way to control how much of the system’s resources a process or a group of processes can use. For example, an administrator could create a `cgroup` for a group of processes associated with a specific application (e.g., a web application running on a server) and then set limits on the amount of CPU and memory that those processes are allowed to use.
+
+But `cgroups` are not just useful for system administrators — they also provide a way for containers to take control of their own resources, enabling them to run more efficiently and reliably within a shared host environment.
+
+## Example
+
+To make this example work, we need to control the amount of memory the application uses. To this end, we will use a Debian package called `memhog`.
+
+`memhog` is a simple package that allocates the memory we tell it to for testing purposes (see the manpage [here](https://man7.org/linux/man-pages/man8/memhog.8.html) for more details).
+
+The first step is to install `memhog`:
+
+```bash
+sudo apt update && sudo apt install numactl
+```
+
+Test that you have installed `memhog` properly by asking it to allocate 100 megabytes of memory:
+
+```bash
+memhog 100M
+```
+
+The output should be something like this:
+
+```bash
+..........
+```
+
+If you get this output, then you’re good to go! Let’s create a bash script that will run this every 2 seconds. So, our application is a service that asks for 100 megabytes every two seconds. Create a new file, call it `memhog.sh` and put the following content inside:
+
+```bash
+#!/bin/bash  
+while true; do memhog 100M; sleep 2; done
+```
+
+Finally, make the file executable:
+
+```bash
+sudo chmod +x memhog.sh
+```
+
+To create, manage, and monitor `cgroups`, we need another package called `cgroup-tools`. So, first, you need to install this:
+
+```bash
+sudo apt install cgroup-tools
+```
+
+Now that we have this in our toolbox, the process goes as follows:
+
+1.  Create a new `cgroup` using the package we just installed
+2.  Set a limit for the resource we want to control for this specific `cgroup`
+3.  Run the application or namespace under this `cgroup`
+
+Thus, let us first create the `cgroup`. To achieve this, use the following command:
+
+```bash
+sudo cgcreate -g memory:memhog-limiter
+```
+
+This command creates a new `cgroup` (`cgcreate`) of type memory and sets its name to `memhog-limiter`. What this command actually did was create a new directory under `/sys/fs/cgroup/memory`, and you can view its contents by running `ls`:
+
+```bash
+$ ls -la /sys/fs/cgroup/memory/memhog-limiter/  
+drwxr-xr-x 2 root root 0 Jan 9 05:56 .  
+dr-xr-xr-x 8 root root 0 Jan 4 10:31 ..  
+-rw-r--r-- 1 root root 0 Jan 9 05:56 cgroup.clone_children  
+--w--w--w- 1 root root 0 Jan 9 05:56 cgroup.event_control  
+-rw-r--r-- 1 root root 0 Jan 9 05:56 cgroup.procs  
+-rw-r--r-- 1 root root 0 Jan 9 05:56 memory.failcnt  
+--w------- 1 root root 0 Jan 9 05:56 memory.force_empty  
+-rw-r--r-- 1 root root 0 Jan 9 05:56 memory.kmem.failcnt  
+-rw-r--r-- 1 root root 0 Jan 9 05:56 memory.kmem.limit_in_bytes  
+-rw-r--r-- 1 root root 0 Jan 9 05:56 memory.kmem.max_usage_in_bytes  
+-r--r--r-- 1 root root 0 Jan 9 05:56 memory.kmem.slabinfo  
+-rw-r--r-- 1 root root 0 Jan 9 05:56 memory.kmem.tcp.failcnt  
+-rw-r--r-- 1 root root 0 Jan 9 05:56 memory.kmem.tcp.limit_in_bytes  
+-rw-r--r-- 1 root root 0 Jan 9 05:56 memory.kmem.tcp.max_usage_in_bytes  
+-r--r--r-- 1 root root 0 Jan 9 05:56 memory.kmem.tcp.usage_in_bytes  
+-r--r--r-- 1 root root 0 Jan 9 05:56 memory.kmem.usage_in_bytes  
+-rw-r--r-- 1 root root 0 Jan 9 05:56 memory.limit_in_bytes  
+-rw-r--r-- 1 root root 0 Jan 9 05:56 memory.max_usage_in_bytes  
+-rw-r--r-- 1 root root 0 Jan 9 05:56 memory.move_charge_at_immigrate  
+-r--r--r-- 1 root root 0 Jan 9 05:56 memory.numa_stat  
+-rw-r--r-- 1 root root 0 Jan 9 05:56 memory.oom_control  
+---------- 1 root root 0 Jan 9 05:56 memory.pressure_level  
+-rw-r--r-- 1 root root 0 Jan 9 05:56 memory.soft_limit_in_bytes  
+-r--r--r-- 1 root root 0 Jan 9 05:56 memory.stat  
+-rw-r--r-- 1 root root 0 Jan 9 05:56 memory.swappiness  
+-r--r--r-- 1 root root 0 Jan 9 05:56 memory.usage_in_bytes  
+-rw-r--r-- 1 root root 0 Jan 9 05:56 memory.use_hierarchy  
+-rw-r--r-- 1 root root 0 Jan 9 05:56 notify_on_release  
+-rw-r--r-- 1 root root 0 Jan 9 05:56 tasks
+```
+
+> Depending on your system, the location or structure of this directory may vary.
+
+Now that we have created the `cgroup` let’s set our limits. We’ll set a limit of 50 megabytes, which means that any process that runs in this context cannot exceed it. Similarly, when talking about groups of processes, the sum of their needs cannot exceed this limit.
+
+To set the memory limit, run the following command:
+
+```bash
+sudo cgset -r memory.limit_in_bytes=50M memhog-limiter
+```
+
+This command sets a memory limit of 50 megabytes for the `cgroup` `momhog-limiter`. If you cat the corresponding file from the directory structure we saw earlier, you’ll see precisely this (in bytes):
+
+```bash
+cat /sys/fs/cgroup/memory/memhog-limiter/memory.limit_in_bytes  
+52428800
+```
+
+We’re ready to run our application and namespace in this context. Our state now is the following: we have created a service that allocates 100 megabytes of memory every two seconds. We have also created a `cgroup` that limits the memory a process or a group of processes can consume to 50 megabytes. What do you expect to happen if we try to run our service in this context?
+
+Without further ado, to execute a service in this context, run the command below:
+
+```bash
+sudo cgexec -g memory:memhog-limiter ./memhogtest.sh
+```
+
+The result is what we expected it to be: the Linux kernel kills the service every time it tries to run:
+
+```bash
+....../memhogtest.sh: line 2: 174662 Killed memhog 100M  
+....../memhogtest.sh: line 2: 174668 Killed memhog 100M
+```
+
+That’s great; this is precisely what we’d like to see. But now, how can we create a namespace in this context?
+
+Creating a namespace in this context is pretty simple. The following command may look familiar:
+
+```bash
+sudo cgexec -g memory:memhog-limiter unshare -fp --mount-proc
+```
+
+Thus, if we bring everything together, this command creates a new `PID` namespace in the context of our `cgroup`. To verify that you are in a new namespace, run the following command:
+
+```bash
+# ps -ef  
+UID PID PPID C STIME TTY TIME CMD  
+root 1 0 0 08:00 pts/0 00:00:00 -bash  
+root 12 1 0 08:00 pts/0 00:00:00 ps -ef
+```
+
+As you can see, in your new namespace only `bash` is running as `PID` 1. So, every service you’ll start now will start in the context of our `cgroup`. Let’s verify this:
+
+```bash
+# ./memhogtest.sh  
+....../memhogtest.sh: line 2: 14 Killed memhog 100M  
+....../memhogtest.sh: line 2: 16 Killed memhog 100M  
+....../memhogtest.sh: line 2: 18 Killed memhog 100M
+```
+
+This is great! We got the same output as before. If you want to play around, you could reduce the memory that `memhog` tries to allocate and make it work.

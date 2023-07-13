@@ -1,0 +1,5 @@
+kserve
+boto3
+chromadb
+langchain==0.0.192
+sentence_transformers

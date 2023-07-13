@@ -1,0 +1,16 @@
+name: question-answering
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.9.0
+  - pip
+  - pip:
+    - mlflow==2.1.1
+    - boto3
+    - chromadb
+    - langchain
+    - gpt4all
+    - sentence_transformers
+    - tqdm
+    - jupyter
