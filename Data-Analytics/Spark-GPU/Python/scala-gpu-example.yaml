@@ -2,7 +2,7 @@ apiVersion: "sparkoperator.hpe.com/v1beta2"
 kind: SparkApplication
 metadata:
   name:
-spark-eep-gpu-340
+spark-gpu-340
   namespace: spark
 spec:
   sparkConf:
