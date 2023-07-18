@@ -21,11 +21,11 @@ spark.task.resource.gpu.amount: "1"
 spark.executor.resource.gpu.amount: "1"
 spark.executor.resource.gpu.vendor: "nvidia.com"
 ```
-3. Set path to GPU-discovery script. In spark-eep images, it's built-in at path "/opt/mapr/spark/spark-[VERSION]/examples/src/main/scripts/getGpusResources.sh". Make sure to replace [VERSION] with actual spark version. Example for 3.4.0:
+3. Set path to GPU-discovery script. In spark images, it's built-in at path "/opt/mapr/spark/spark-[VERSION]/examples/src/main/scripts/getGpusResources.sh". Make sure to replace [VERSION] with actual spark version. Example for 3.4.0:
 ```yaml
 spark.executor.resource.gpu.discoveryScript: "/opt/mapr/spark/spark-3.4.0/examples/src/main/scripts/getGpusResources.sh"
 ```
-4. Set RAPIDs shim layer to be used for execution. Spark-eep is compatible with its corresponding open-source spark version. RAPIDs jar includes shim layer provider classes named "com.nvidia.spark.rapids.shims.[spark-identifier].SparkShimServiceProvider", where 'spark-identifier' might be spark311, spark330 etc. For EEP spark-3.3.1 compatible provider has the identifier "spark331"; for spark-3.4.0 identifier is "spark340". So for spark-gpu-3.4.0 image, this setting will be:
+4. Set RAPIDs shim layer to be used for execution. Spark is compatible with its corresponding open-source spark version. RAPIDs jar includes shim layer provider classes named "com.nvidia.spark.rapids.shims.[spark-identifier].SparkShimServiceProvider", where 'spark-identifier' might be spark311, spark330 etc. For spark-3.3.1 compatible provider has the identifier "spark331"; for spark-3.4.0 identifier is "spark340". So for spark-gpu-3.4.0 image, this setting will be:
 ```yaml
 spark.rapids.shims-provider-override: "com.nvidia.spark.rapids.shims.spark340.SparkShimServiceProvider"
 ```

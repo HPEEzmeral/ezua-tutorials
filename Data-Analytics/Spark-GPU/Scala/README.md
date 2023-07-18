@@ -2,7 +2,8 @@
 Examples for Ezmeral Spark on Kubernetes v3.3.1
 
 1. Put the jar file to available location, e.g., maprfs
-2. Run the scala-gpu example, check physical plan in the output logs:
+2. Run the scala-gpu example, check physical plan in the output logs
+
 ```shell
 == Physical Plan ==
 GpuColumnarToRow false
@@ -27,3 +28,14 @@ spark.conf:
 ```
 
 
+To test the same on livy, use the following code:
+```scala
+import spark.implicits._
+
+val viewName = "df"
+val df = sc.parallelize(Seq(1, 2, 3)).toDF("value")
+df.createOrReplaceTempView(viewName)
+
+spark.sql(s"SELECT value FROM $viewName WHERE value <>1").explain()
+spark.sql(s"SELECT value FROM $viewName WHERE value <>1").show()
+```
