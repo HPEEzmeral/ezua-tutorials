@@ -1,7 +1,5 @@
-FROM busybox
+FROM busybox:1.35
 
-ENV SHARED_PATH /etc/mnt/shared-pv
+RUN mkdir /ezua-tutorials
 
-ADD . /ezua-tutorials/
-
-COPY . $SHARED_PATH/ezua-tutorials
+COPY /Data-Science /ezua-tutorials/Data-Science
