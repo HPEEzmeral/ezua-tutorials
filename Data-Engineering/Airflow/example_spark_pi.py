@@ -18,6 +18,9 @@ dag = DAG(
     default_args=default_args,
     schedule_interval=None,
     tags=['ezaf', 'spark', 'pi'],
+    params={
+        'airgap_registry_url': ""
+    }
 )
 
 submit = SparkKubernetesOperator(
