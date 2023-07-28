@@ -1,0 +1,12 @@
+apiVersion: "serving.kserve.io/v1beta1"
+kind: "InferenceService"
+metadata:
+  name: "gpu-mnist-inferenceservice"
+spec:
+  predictor:
+    serviceAccountName: gpu-mnist-minio-sa
+    tensorflow:
+      storageUri: ""
+      resources:
+        limits:
+          nvidia.com/gpu: 1

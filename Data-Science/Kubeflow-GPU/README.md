@@ -62,7 +62,7 @@ Check logs of "Train model cpu" and "Train model gpu1" steps in order to see acc
 
 The trained MNIST model is exported to `/mnt/user/mnist-gpu-test` directory in the notebook server pod.
 
-## Running inference service on GPU for trained model
+## Running InferenceService on GPU for trained model
 
 In order to run inference service on GPU for trained model, create `InferenceService` resource and specify in resources
 section `nvidia.com/gpu: 1` as limits. For example:
@@ -82,3 +82,10 @@ spec:
         limits:
           nvidia.com/gpu: 1
 ```
+
+### Deploying InferenceService on GPU for trained MNIST model
+
+Open `Train_and_infer_mnist.ipynb` notebook in order to train MNIST model with Tensorflow on GPU and deploy
+InferenceService on GPU for trained model. Run all cells in notebook just to check that it works properly. In the last
+cell of the notebook there should be a test images with predicted labels - it means that InferenceService is working
+properly on GPU.
