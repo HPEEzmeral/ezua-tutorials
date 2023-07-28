@@ -21,7 +21,8 @@ dag = DAG(
     params={
         'username': "hpedemo-user01",
         'training_path': "financial-processed",
-        's3_secret_name': "spark-s3-creds"
+        's3_secret_name': "spark-s3-creds",
+        'airgap_registry_url': ""
     }
 )
 
