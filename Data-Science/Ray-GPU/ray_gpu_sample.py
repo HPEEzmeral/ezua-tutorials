@@ -9,7 +9,9 @@ import tensorflow as tf
 #    ray.init(address="ray://kuberay-head-svc.kuberay:10001", runtime_env={"pip": ["tensorflow"]})
 # 3. If you have proxy, then you need to add following dictionary into runtime_env parameter in ray.init method
 #    "env_vars": {"http_proxy": "<PROXY_ADDRESS>", "https_proxy": "<PROXY_ADDRESS>"}
-ray.init(address="ray://kuberay-head-svc.kuberay:10001", runtime_env={"pip": ["tensorflow"]})
+# ray.init(address="ray://kuberay-head-svc.kuberay:10001", runtime_env={"pip": ["tensorflow"]})
+
+ray.init(address="ray://kuberay-head-svc.kuberay:10001", ignore_reinit_error=True)
 
 @ray.remote(num_gpus=1)
 def gpu_operation(data):
