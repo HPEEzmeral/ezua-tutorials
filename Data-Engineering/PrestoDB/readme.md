@@ -22,7 +22,7 @@ Today, I'have excited to announce how the EzAF offering the robust and resilient
 
 This example code Precisely explains how you can connect your database into EzAF then after how you can connect to Notebook for other experiment purpose.
 
-In this kernel example Fraud Detection will give you precise information, how easy the tools integrated, that can help to develop robust models.
+In this kernel example will give you precise information, how easly you can leverage the integrated tool and services.
 
 ## Simple instructions to run experiment.
 
