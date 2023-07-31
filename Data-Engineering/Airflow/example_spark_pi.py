@@ -1,4 +1,5 @@
 from airflow import DAG
+from airflow.models.param import Param
 from airflow.providers.cncf.kubernetes.operators.spark_kubernetes import SparkKubernetesOperator
 from airflow.utils.dates import days_ago
 
@@ -19,8 +20,9 @@ dag = DAG(
     schedule_interval=None,
     tags=['ezaf', 'spark', 'pi'],
     params={
-        'airgap_registry_url': ""
-    }
+        'airgap_registry_url': Param("", type=["null", "string"], pattern=r"^$|^\S+/$")
+    },
+    render_template_as_native_obj=True
 )
 
 submit = SparkKubernetesOperator(
