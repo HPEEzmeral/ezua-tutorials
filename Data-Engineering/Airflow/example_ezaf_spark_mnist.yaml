@@ -14,7 +14,7 @@ spec:
   type: Scala
   sparkVersion: 3.4.0
   mode: cluster
-  image: {{dag_run.conf.get("airgap_registry_url", "")}}gcr.io/mapr-252711/ezaf-spark-demo-example:fy23-q3-mnist
+  image: {{dag_run.conf["airgap_registry_url"]|default("", True)}}gcr.io/mapr-252711/ezaf-spark-demo-example:fy23-q3-mnist
   imagePullPolicy: Always
   mainApplicationFile: local:///tmp/DataTransfer.jar
   mainClass: com.mapr.sparkdemo.DataTransfer
