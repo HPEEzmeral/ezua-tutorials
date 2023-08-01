@@ -1,7 +1,7 @@
 #!/bin/bash
 
 APP_IMAGE_NAME=${APP_IMAGE_NAME:-"gcr.io/mapr-252711/ezua-tutorials"}
-APP_IMAGE_TAG=${APP_IMAGE_TAG:-"fy23-q3"}
+APP_IMAGE_TAG=${APP_IMAGE_TAG:-"fy23-q3-rc1"}
 
 function build() {
   echo "Building the ${APP_IMAGE_NAME}:${APP_IMAGE_TAG} image"
