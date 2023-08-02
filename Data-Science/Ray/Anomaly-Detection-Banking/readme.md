@@ -38,3 +38,18 @@ To complete the tutorial follow simple steps below:
 2. Create a new notebook server using the `jupyter-data-science` image.
 3. Clone the repository locally.
 4. Launch the `ray_acceleration_experiment_fraud_detecting_on_banking_system.ipynb` notebook file.
+
+NOTE: If the runtime_env={"pip" : ["minio", "imblearn"]} causing trouble to run the experiment, please follow the below manual steps.
+
+[A] with proxy environment:
+1. Open the Ray head, worker node pod termainal run the following commands.
+    1. pip install minio
+    2. pip install imblearn
+2. please close the pod terminal, go back to your notebook and run the experiment it will work as expected. 
+
+[B] with out proxy environment:
+1. Open the Ray head, worker node pod termainal run the following commands 
+    1. export http_proxy="http://10.78.90.46:80" && export https_proxy="http://10.78.90.46:80" && export HTTP_PROXY ="http://10.78.90.46:80"  && export HTTPS_PROXY ="http://10.78.90.46:80" 
+    2. pip install minio
+    3. pip install imblearn
+2. please close the pod terminal, go back to your notebook and run the experiment it will work as expected.
