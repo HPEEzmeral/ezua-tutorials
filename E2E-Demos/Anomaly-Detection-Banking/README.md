@@ -2,7 +2,7 @@
 
 Fraudulent activity has permeated multiple sectors, from e-commerce and healthcare to banking and payment systems. This illicit industry amasses billions every year and is on an upward trajectory. The 2018 global economic crime survey by PwC verifies this assertion, revealing that 49 percent of the 7,200 enterprises surveyed had fallen prey to some form of fraudulent conduct.
 
-![fraud-detection-banking](images/fraud-detection.jpg)
+![fraud-detection-banking](images/artboard.png)
 
 Despite the perceived peril of fraud to businesses, the advent of sophisticated systems, such as rule engines or machine learning, equips us with the tools to detect and prevent such behaviors. In this notebook, we demonstrate how a machine learning system helps us achieve this.
 
@@ -14,10 +14,10 @@ This is where machine learning comes to the rescue: By reducing both the risk of
 
 To complete the tutorial follow the steps below:
 
-1. Login to you EzAF cluster.
+1. Login to Ezmeral Unified Analytics cluster.
 1. Create a new notebook server using the `jupyter-data-science` image.
-1. Clone the repository locally.
 1. Launch the `experiment.ipynb` notebook file.
+1. Run the first section of the Notebook (i.e., "Imports & Initialization") to upload the datase to object storage.
 1. Enable the Kale Jupyter extension from the left side panel.
 1. Click on the compile and run button and wait for Kale to compile your Notebook and submit the pipeline.
 1. Wait until the pipeline completes and submits an Inference service.
