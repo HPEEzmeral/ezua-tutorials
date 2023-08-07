@@ -1,8 +1,10 @@
 # This is an example feature definition file
 
 from datetime import timedelta
+from pathlib import Path
 
 import pandas as pd
+
 
 from feast import (
     Entity,
@@ -25,7 +27,7 @@ driver = Entity(name="driver", join_keys=["driver_id"])
 # for more info.
 driver_stats_source = FileSource(
     name="driver_hourly_stats_source",
-    path="/home/hpedemouser01/feast/data/driver_stats.parquet",
+    path=f"{str(Path.home())}/user/Feast/data/driver_stats.parquet",
     timestamp_field="event_timestamp",
     created_timestamp_column="created",
 )
