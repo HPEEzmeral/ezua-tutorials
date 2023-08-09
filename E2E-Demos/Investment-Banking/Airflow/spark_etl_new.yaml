@@ -38,8 +38,8 @@ spec:
     memory: 1g
     serviceAccount: hpe-spark
     volumeMounts:
-      - name: hpedemo-user01-volume
-        mountPath: /mounts/hpedemo-user01-volume
+      - name: {{dag_run.conf.get("username", "hpedemo-user01")}}-volume
+        mountPath: /mounts/{{dag_run.conf.get("username", "hpedemo-user01")}}-volume
       - name: shared-volume
         mountPath: /mounts/shared-volume
   executor:
@@ -50,15 +50,15 @@ spec:
     memory: 1g
     serviceAccount: hpe-spark
     volumeMounts:
-      - name: hpedemo-user01-volume
-        mountPath: /mounts/hpedemo-user01-volume
+      - name: {{dag_run.conf.get("username", "hpedemo-user01")}}-volume
+        mountPath: /mounts/{{dag_run.conf.get("username", "hpedemo-user01")}}-volume
       - name: shared-volume
         mountPath: /mounts/shared-volume
     instances: 1
   volumes:
-    - name: hpedemo-user01-volume
+    - name: {{dag_run.conf.get("username", "hpedemo-user01")}}-volume
       persistentVolumeClaim:
-        claimName: hpedemo-user01-spark-pvc
+        claimName: {{dag_run.conf.get("username", "hpedemo-user01")}}-spark-pvc
     - name: shared-volume
       persistentVolumeClaim:
         claimName: kubeflow-shared-pvc
