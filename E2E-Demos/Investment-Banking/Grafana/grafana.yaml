@@ -1,0 +1,19 @@
+apiVersion: networking.istio.io/v1beta1
+kind: VirtualService
+metadata:
+        name: grafana-vs
+        namespace: promethus
+spec:
+        gateways:
+        - istio-system/ezaf-gateway
+        host:
+        - grafana.hpe-staging-ezaf.com
+        http:
+        - match:
+                -uri:
+                        prefix: /
+                route:
+                -destination:
+                        host: my-release-grafana.promethus.svc.cluster.local
+                        port:
+                                number: 80
