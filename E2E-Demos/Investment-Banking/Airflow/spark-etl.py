@@ -1,34 +1,32 @@
 from datetime import datetime, timedelta
 from airflow import DAG
 from airflow.operators.python_operator import PythonOperator
-from airflow.utils.dates import days_ago
+from airflow.models.param import Param
+
 from airflow.providers.cncf.kubernetes.operators.spark_kubernetes import SparkKubernetesOperator
 from airflow.providers.cncf.kubernetes.sensors.spark_kubernetes import SparkKubernetesSensor
 
 default_args = {
     'owner': 'airflow',
     'depends_on_past': False,
-    'start_date':days_ago(1),
-    'email': ['airflow@example.com'],
-    'email_on_failure': False,
-    'email_on_retry': False,
-    'retries': 0
+    'start_date': datetime(2023,7,5),
+    'retries': 1,
+    'retry_delay': timedelta(minutes=5),
 }
 dag = DAG(
-    'spark-etl',
+    'spark-etl-new',
     default_args=default_args,
     description='Banking-data-demo',
     schedule_interval=None,
     tags=['e2e example','ETL', 'spark'],
     params={
-        'username': "hpedemo-user01",
-        'training_path': "bank-processed",
-        's3_secret_name': "spark-s3-creds"
+        'username': Param("hpedemo-user01", type="string"),
+        's3_secret_name': Param("spark-s3-creds", type="string")
     }
 )
 
 def start_job():
-    print("Start Data Reading from Shared Volume")
+    print("Start Data Reading from Minio S3 Bucket and QA1 MySQL Database...")
 
 def end_job():
     print("Data Loading to S3 Done...")
