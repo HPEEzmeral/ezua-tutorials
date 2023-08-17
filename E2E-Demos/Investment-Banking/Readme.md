@@ -17,10 +17,10 @@ Follow the steps below:
 - Create a new notebook server using the jupyter-data-science image.
 - Clone the repository locally.
 - Place the Spark-Magics.ipynb and execute it.
-- Select Add Endpoint
-- Select Basic_Access, paste your Livy endpoint and authenticate with your credentials
-- Select Create Session with relevant properties like spark.hadoop.fs.s3a.access.key etc 
-- Provide a name select python and click Create Session
+- Select Add Endpoint.
+- Select Single Sign-On.
+- Select Create Session with relevant properties like spark.hadoop.fs.s3a.access.key etc. 
+- Provide a name select python and click Create Session.
 - When your session is ready the Manage Sessions pane will become active, providing you the session ID. The session state will become idle which means that you are good to go!
 
 ### Jupyter Notebook
@@ -89,3 +89,4 @@ Creating the dashboards:
 - Upload your dashboard's JSON file and import it.
 - Customize variables from the dashboard settings as needed.
 
+For importing dashboards refer to this git repo: https://github.com/knative-extensions/monitoring/tree/main/grafana
