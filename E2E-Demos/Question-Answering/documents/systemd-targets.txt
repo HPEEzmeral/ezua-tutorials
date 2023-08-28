@@ -1,0 +1,7 @@
+In `systemd`, a target is a unit that represents a specific system state or a group of units that should be activated together. Targets are used to define the desired state of the system and to specify the order in which units should be started or stopped.
+
+Targets are similar to runlevels in the older `init` system, but they are more flexible and can represent more complex system states. For example, a target might represent a single service, a group of services that are needed for a specific task, or the entire system.
+
+There are several predefined targets in `systemd`, including `multi-user.target`, which represents a multiuser system with networking enabled, and `rescue.target`, which represents a single-user system with minimal services for troubleshooting and recovery.
+
+You can use the `systemctl` command to view the available targets and to switch between them. For example, `systemctl list-units --type=target` will list all of the available targets, and `systemctl isolate rescue.target` will switch to the `rescue.target` target. `isolate` essentially moves the state of the system to the one defined by the target.

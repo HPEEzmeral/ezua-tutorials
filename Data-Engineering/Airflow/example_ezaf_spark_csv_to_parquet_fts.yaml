@@ -1,7 +1,7 @@
 apiVersion: "sparkoperator.hpe.com/v1beta2"
 kind: SparkApplication
 metadata:
-  name: spark-fts-{{dag_run.conf.get("username", "hpedemo-user01")}}
+  name: spark-fts-{{dag_run.conf.get("username", "hpedemo-user01")}}-{{ts_nodash|replace("T", "")}}
   namespace: spark
 spec:
   sparkConf:
@@ -12,9 +12,9 @@ spec:
     "spark.driver.extraJavaOptions": "-Dcom.amazonaws.sdk.disableCertChecking=true"
     "spark.executor.extraJavaOptions": "-Dcom.amazonaws.sdk.disableCertChecking=true"
   type: Scala
-  sparkVersion: 3.3.1
+  sparkVersion: 3.4.0
   mode: cluster
-  image: gcr.io/mapr-252711/ezaf-spark-demo-example:v3.3.1
+  image: {{dag_run.conf["airgap_registry_url"]|default("", True)}}gcr.io/mapr-252711/ezaf-spark-demo-example:fy23-q3-fts
   imagePullPolicy: Always
   mainApplicationFile: local:///tmp/DataProcessTransfer.jar
   mainClass: com.mapr.sparkdemo.DataProcessTransfer
@@ -32,7 +32,7 @@ spec:
     coreLimit: "1000m"
     memory: "512m"
     labels:
-      version: 3.3.1
+      version: 3.4.0
     volumeMounts:
       - mountPath: /mounts/data/
         name: spark-data
@@ -41,7 +41,7 @@ spec:
     instances: 2
     memory: "512m"
     labels:
-      version: 3.3.1
+      version: 3.4.0
     volumeMounts:
       - mountPath: /mounts/data
         name: spark-data
