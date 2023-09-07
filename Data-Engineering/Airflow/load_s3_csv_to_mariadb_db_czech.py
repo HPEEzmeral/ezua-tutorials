@@ -16,7 +16,7 @@ from airflow import DAG
 from airflow.operators.python_operator import PythonOperator
 import boto3
 import pandas as pd
-import mysql.connector
+import MySQLdb
 import logging
 import os
 
@@ -56,7 +56,7 @@ def read_csv_from_s3(bucket_name, file_name, s3_endpoint, access_key=None, secre
     return df
 
 def import_csv_to_mariadb(df, db_host, db_port, db_user, db_password, db_name, table_name):
-    conn = mysql.connector.connect(
+    conn = MySQLdb.connector.connect(
         host=db_host,
         port=db_port,
         user=db_user,

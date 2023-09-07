@@ -16,7 +16,7 @@ from airflow import DAG
 from airflow.operators.python_operator import PythonOperator
 import boto3
 import pandas as pd
-import mysql.connector
+import MySQLdb
 import logging
 import os
 
