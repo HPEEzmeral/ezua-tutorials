@@ -128,7 +128,7 @@ def get_database_connection(database_type):
             sys.exit()
 
         cnx = MySQLdb.Connection(user=user, password=password,
-                                 host=host, port=port, database=database)
+                                 host=host, port=int(port), database=database)
         return cnx
     elif database_type == "postgresql":
         # Define the PostgreSQL database parameters
