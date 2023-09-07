@@ -32,7 +32,7 @@ default_args = {
 op_kwargs = {
     'bucket_name': 'ezaf-demo',
     'file_name': 'Czechia_sales_data_2019_2023.csv',
-    's3_endpoint': 'https://home.hpe-qa16-ezaf.com:31900',
+    's3_endpoint': 'https://home.hpe-qa16-ezaf.com',
     'access_key': 'minioadmin',
     'secret_key': 'minioadmin',
     'db_host': '10.227.209.61',
@@ -56,9 +56,9 @@ def read_csv_from_s3(bucket_name, file_name, s3_endpoint, access_key=None, secre
     return df
 
 def import_csv_to_mariadb(df, db_host, db_port, db_user, db_password, db_name, table_name):
-    conn = MySQLdb.Connection(
+    conn = MySQLdb.connector.connect(
         host=db_host,
-        port=int(db_port),
+        port=db_port,
         user=db_user,
         password=db_password,
         database=db_name
