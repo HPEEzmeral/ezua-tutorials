@@ -23,11 +23,11 @@ prof_path_target="/mnt/shared/airflow-whylog/profile_wine_target.bin"
 prof_path_ref="/mnt/shared/airflow-whylog/profile_wine_ref.bin"
 html_path="/mnt/shared/airflow-whylog/Profile_wine.html"
 
-def profile_data_target(data_path=file_path("data/wine.csv")):
+def profile_data_target(data_path=file_path("data/target_dataset.csv")):
     df = pd.read_csv(data_path)
     result = why.log(df)
     result.writer("local").write(dest=prof_path_target)
-def profile_data_ref(data_path=file_path("data/wine1.csv")):
+def profile_data_ref(data_path=file_path("data/reference_dataset.csv")):
     df = pd.read_csv(data_path)
     result = why.log(df)
     result.writer("local").write(dest=prof_path_ref)
