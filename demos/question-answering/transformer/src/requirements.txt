@@ -1,1 +1,1 @@
-kserve==0.11.0rc0
+kserve==0.11.0
