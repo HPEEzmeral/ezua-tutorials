@@ -27,7 +27,6 @@ def download_directory(uri: str) -> str:
     Args:
         uri (str): The URI of the directory object.
     """
-    os.environ["HTTPS_PROXY"] = ""
     client = _get_s3_client()
 
     parsed_uri = urllib.parse.urlparse(uri)
