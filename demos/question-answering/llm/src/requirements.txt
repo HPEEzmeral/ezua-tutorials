@@ -1,3 +1,2 @@
-kserve
-gpt4all
-langchain==0.0.192
+kserve==0.11.0
+gpt4all==1.0.12
