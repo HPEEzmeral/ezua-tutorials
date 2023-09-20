@@ -1,5 +1,9 @@
-kserve
-boto3
+--extra-index-url https://download.pytorch.org/whl/cpu
+torch==2.0.1
+torchvision==0.15.2
+kserve==0.11.0
+boto3==1.28.16
+pandas==1.5.3
 chromadb==0.3.26
 langchain==0.0.192
-sentence_transformers
+sentence_transformers==2.2.2
