@@ -35,14 +35,14 @@ Once a question is provided, the application embeds it into the same vector spac
 
 KServe allows you to create an inference service using a custom predictor. Since there's no out-of-the-box support for LLMs yet, you need to create the images that KServe will use to serve the Vector Store and the LLM. As such, you need to create three images and push them to a registry you have access:
 
-1. Vector Store: Move into the `vectorstore` directory and build the Docker image using the provided Dockerfile.
-1. LLM Transformer: Move into the `transformer` directory and build the Docker image using the provided Dockerfile.
-1. LLM Model: Move into the `llm` directory and build the Docker image using the provided Dockerfile.
+1. Vector Store: Move into the `dockerfiles/vectorstore` directory and build the Docker image using the provided Dockerfile.
+1. LLM Transformer: Move into the `dockerfiles/transformer` directory and build the Docker image using the provided Dockerfile.
+1. LLM Model: Move into the `dockerfiles/llm` directory and build the Docker image using the provided Dockerfile.
 
 > For your convenience, you can use the pre-built images we have prepared for you:
-> - Vector Store: `gcr.io/mapr-252711/ezua-demos/vectorstore:v0.1.0`
-> - LLM Predictor: `gcr.io/mapr-252711/ezua-demos/llm-predictor:v0.1.0`
-> - LLM Transformer: `gcr.io/mapr-252711/ezua-demos/llm-transformer:v0.1.0`
+> - Vector Store: `dpoulopoulos/qna-vectorstore:46a578c`
+> - LLM Predictor: `dpoulopoulos/qna-predictor:a6e08d4`
+> - LLM Transformer: `dpoulopoulos/qna-transformer:35e3990`
 
 Once the images are ready, proceed to run the Notebooks. The project consists of four Notebooks. Launch and run each Notebook to explore and execute the experiment end-to-end:
 
