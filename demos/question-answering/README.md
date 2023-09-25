@@ -1,66 +1,112 @@
 # Question Answering
 
-This project utilizes an open-source Large Language Model (LLM) that is capable of answering questions over a corpus of private documentation. To achieve this, the experiment employs a Vector Store that captures and indexes a latent representation for each document. This allows the application to retrieve the relevant context based on the user's questions, enabling accurate and efficient question answering.
+In this tutorial, you build a question-answering system using an open-source Large Language Model (LLM). This system can
+answer questions from a corpus of private documentation. To make this happen, you deploy a Vector Store to capture and
+index a latent representation of each document. This setup lets the application pull the relevant context from the
+user's questions, which enhances the LLM prompt. The result? An accurate and efficient question-answering system.
 
-![llm-high-level](images/LLM-high-level.svg)
+![llm-high-level](images/LLM-high-level.png)
+
+1. [What You'll Need](#what-youll-need)
+1. [Procedure](#procedure)
+1. [How It Works](#how-it-works)
+1. [References](#references)
 
 ## What You'll Need
 
+For this tutorial, ensure you have:
+
+- Access to an HPE Ezmeral Unified Analytics (EzUA) cluster.
+
+## Procedure
+
 To complete the tutorial follow the steps below:
 
-- Login to Ezmeral Unified Analytics cluster.
-- Create a new notebook server using the `jupyter-data-science` image.
-- Clone the repository locally.
-- Create a new conda environment using the specified `environment.yaml` file:
-  ```
-  conda env create -f environment.yaml
-  ```
-- Activate the new conda environment:
-  ```
-  conda activate question-answering
-  ```
-- Add the new conda environment as an ipykernel:
-  ```
-  python -m ipykernel install --user --name=question-answering
-  ```
-- Launch the five Notebooks in order and execute the code cells. Make sure to select the `question-answering` environment kernel for each Notebook.
+1. Login to your EzUA cluster, using your credentials.
+1. Create a new Notebook server using the `jupyter-data-science` image. Request at least `4Gi` of memory for the
+   Notebook server.
+1. Connect to the Notebook server and clone the repository locally.
+1. Lauch a new terminal and navigate to the tutorial's directory (`ezua-tutorials/demos/question-answering`)
+1. Create a new conda environment using the specified `environment.yaml` file:
+   ```
+   conda env create -f environment.yaml
+   ```
+1. Add the new conda environment as an ipykernel:
+   ```
+   python -m ipykernel install --user --name=question-answering
+   ```
+1. Refresh your browser tab to access the updated environment.
+1. Launch the five Notebooks in order and execute the code cells. Make sure to select the `question-answering`
+   environment kernel for each Notebook. For more information on what each Notebook do, refer to the next section "How
+   it Works".
+1. Use the EzUA "Import Framework" wizard to upload the tarball located inside the `application` folder. This creates a
+   user interface for your application. Complete the steps and wait for a new endpoint to become ready.
+1. Connect to the endpoint and submit your questions.
+
+![application-ui](images/application-ui.png)
 
 ## How It Works
 
-This project utilizes a [HuggingFace embedding model](https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2) to map the sentences and paragraphs of a corpus of private documents to a multi-dimensional dense vector space. This enables the use of advanced techniques like semantic search, which can help users find relevant information quickly and accurately. The resulting vectors are stored and indexed in [Chroma](https://www.trychroma.com/), an AI-native, open-source embedding database.
+This project taps into a HuggingFace [embedding model](https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2)
+[1] to translate the sentences and paragraphs from a private document corpus into a multi-dimensional dense vector space
+[2]. By doing so, you can employ sophisticated techniques like semantic search, empowering users to pinpoint relevant
+details swiftly and precisely. The generated vectors are stored and indexed within a local
+[Chroma](https://www.trychroma.com/) instance, a cloud-native, open-source embedding database [3].
 
-Once a question is provided, the application embeds it into the same vector space using the same transformer model. It then retrieves the `4` most relevant documents by applying a certrain algorithm (by default `kNN`). Finally, the application passes the user's question and the retrieved context to an LLM, which can answer the question in a human-like way. By leveraging advanced techniques like vector embeddings and LLMs, the application provides a powerful and intuitive way to search and analyze private documents.
+Once a question is provided, the application embeds it into the previously mentioned vector space using the same
+embedding model. By default, it fetches the 4 top relevant documents, utilizing a particular algorithm (most commonly
+kNN) [4]. Subsequently, the application relays the user's question along with the retrieved context to an LLM, ensuring
+the answer mirrors human-like speech. This tutorial accommodates any GPT4ALL [5] supported architecture, but
+`orca-mini-3b.ggmlv3.q4_0` is the go-to model.
 
-## Usage
+Now, onto the serving details: Using [KServe](https://kserve.github.io/website/0.11/) [6] you can set up an Inference
+Service (ISVC) with custom components. To do this, you need to build and push three images which KServe will use to
+serve both the Vector Store and the LLM. Below are the application directories containing the respective Dockerfiles to
+build these images:
 
-KServe allows you to create an inference service using a custom predictor. Since there's no out-of-the-box support for LLMs yet, you need to create the images that KServe will use to serve the Vector Store and the LLM. As such, you need to create three images and push them to a registry you have access:
-
-1. Vector Store: Move into the `dockerfiles/vectorstore` directory and build the Docker image using the provided Dockerfile.
-1. LLM Transformer: Move into the `dockerfiles/transformer` directory and build the Docker image using the provided Dockerfile.
-1. LLM Model: Move into the `dockerfiles/llm` directory and build the Docker image using the provided Dockerfile.
+- Vector Store: [`dockerfiles/vectorstore`](dockerfiles/vectorstore)
+- LLM Transformer: [`dockerfiles/transformer`](dockerfiles/transformer)
+- LLM Model: [`dockerfiles/llm`](dockerfiles/llm)
 
 > For your convenience, you can use the pre-built images we have prepared for you:
-> - Vector Store: `dpoulopoulos/qna-vectorstore:46a578c`
-> - LLM Predictor: `dpoulopoulos/qna-predictor:a6e08d4`
-> - LLM Transformer: `dpoulopoulos/qna-transformer:35e3990`
+> - Vector Store: `dpoulopoulos/qna-vectorstore:v0.1.0`
+> - LLM Predictor: `dpoulopoulos/qna-predictor:v0.1.0`
+> - LLM Transformer: `dpoulopoulos/qna-transformer:v0.1.0`
 
-Once the images are ready, proceed to run the Notebooks. The project consists of four Notebooks. Launch and run each Notebook to explore and execute the experiment end-to-end:
+Once the images are ready, proceed to run the Notebooks. The project consists of four Notebooks. Launch and run each
+Notebook to explore and execute the experiment end-to-end:
 
-1. `01.create-vectorstore`: Load the documents from your private corpus (e.g., the `documents` folder), process them, and create the Vector Store.
-1. `02.serve-vectorstore`: Create an inference service for the Vector Store.
-1. `03.document-precition`: (optional): Invoke the Vector Store inference service.
-1. `04.serve-llm`: Create an inference service for the LLM.
-1. `05.question-answering`: Invoke the LLM. Post a question to the LLM inference service and get back a human-like answer.
+1. `01.create-vectorstore`: Load the documents from your private corpus (e.g., the `documents` folder), process them,
+    and create the Vector Store.
+1. `02.serve-vectorstore`: Create an ISVC for the Vector Store.
+1. `03.document-precition`: (optional): Invoke the Vector Store ISVC.
+1. `04.serve-llm`: Create an ISVC for the LLM.
+1. `05.question-answering`: Invoke the LLM ISVC. Post a question to the LLM ISVC and get back a human-like answer.
 
 The last Notebook outlines the user's perspective. The application flow is depicted in the following figure:
 
-![flow-chart](images/LLM-flowchart.svg)
+![flow-chart](images/LLM-flowchart.png)
 
-1. User: Create a new request to the LLM inference service with a query.
-1. LLM Transformer: Intercept the request, extract the user's query, and create a new request to the Vector Store inference service passing the user's question in the payload.
-1. Vector Store: Accept the request from the LLM Transformer extract the user's question and based on the user's question retrieve the `4` most relevant documents.
-1. Vector Store: Respond to the LLM Transformer.
-1. LLM Transformer: Get the `4` most relevant documents from the Vector Store response.
-1. LLM Transformer: Create a new request to the LLM Predictor passing the `4` most relevant documents as context and the user's question.
-1. LLM Predictor: Accept the request from the LLM Transformer, extract the user's question as well as the context, and answer the user's question based on the relevant context.
-1. LLM Predictor: Respond to the LLM Transformer with the completion prediction.
+1. User: Transform raw documents into sentence embeddings.
+1. User: Ingest document embeddings, documents data, and metadata in the Vector Store.
+1. User: Ask a new question.
+1. LLM ISVC Transformer: Intercept the request, extract the user's query, and create a new request to the Vector Store
+   ISVC predictor passing the user's question in the payload.
+1. Vector Store ISVC Predictor: Extract the user's question from the request of the LLM ISVC Transformer and ask the
+   Vector Store for the `k` most relevant documents.
+1. Vector Store: Respond to the Vector Store ISVC Predictor with a relevant context.
+1. Vector Store ISVC Predictor: Respond to the LLM ISVC Transformer with the relevant context.
+1. LLM ISVC Transformer: Get the most relevant documents from the Vector Store ISVC predictor response, create a new
+   request to the LLM ISVC predictor passing the context and the user's question.
+1. LLM ISVC Predictor: Extract the user's question as well as the context, and answer the user's question based on the
+   relevant context.
+1. LLM ISVC: Respond to the user with the completion prediction.
+
+## References
+
+1. [Sentence Transformers - A Python framework for state-of-the-art sentence, text and image embeddings](https://www.sbert.net/)
+1. [A High-Level Introduction To Word Embeddings](https://predictivehacks.com/a-high-level-introduction-to-word-embeddings/)
+1. [Chroma Database - The AI-native open-source embedding database](https://docs.trychroma.com/)
+1. [Nearest Neighbor Indexes for Similarity Search](https://www.pinecone.io/learn/series/faiss/vector-indexes/)
+1. [GPT4All- A free-to-use, locally running, privacy-aware chatbot](https://gpt4all.io/index.html)
+1. [KServe - Highly scalable and standards based Model Inference Platform on Kubernetes for Trusted AI](https://kserve.github.io/website/0.11/)
