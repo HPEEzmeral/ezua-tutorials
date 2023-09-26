@@ -61,7 +61,7 @@ data drift. A drift report is generated to highlight discrepancies.
 ### Task Graph:
 ![image](https://github.com/HPEEzmeral/ezua-tutorials/assets/70695037/fe981207-a672-4a78-98aa-fbdb30e20207)
 
-The data proﬁles and the driꢁ summary report are stored in the shared volume and we can
+The data proﬁles and the drift summary report are stored in the shared volume and we can
 download and view it.
 ![image](https://github.com/HPEEzmeral/ezua-tutorials/assets/70695037/f368dae3-9d2f-44cd-b05d-51eb1324b3cc)
 
