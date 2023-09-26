@@ -1,0 +1,42 @@
+name: "\U0001F41B Bug Report"
+description: Submit a bug report to help us improve our tutorials
+labels:
+  - bug
+body:
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: Description & Reproduction
+      description: |
+        Provide a short description of the problem you are facing and a numbered list of steps that one can follow
+        to reproduce this behavior.
+      placeholder: |
+        Provide a short description of the problem.
+
+        Steps to reproduce the behavior:
+          
+          1.
+          2.
+          3.
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected-behavior
+    attributes:
+      label: Expected behavior
+      description: "A clear and concise description of what you would expect to happen."
+      placeholder: "I would expect to..."
+    validations:
+      required: true
+
+  - type: textarea
+    id: system-info
+    attributes:
+      label: System Info
+      description: Please share your system info with us. Always use code blocks to keep everything clean.
+      placeholder: |
+        - EzAF version: `1.0.0`
+        - Notebook image: `gcr.io/mapr-252711/kubeflow/notebooks/jupyter-data-science:ezaf-fy23-q3`
+    validations:
+      required: true
