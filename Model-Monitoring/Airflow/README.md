@@ -1,5 +1,3 @@
-﻿<a name="br1"></a> 
-
 **Whylogs with Airflow**
 
 **Overview**
@@ -8,7 +6,7 @@ This guide explains how to use Whylogs with Apache Airﬂow to ensure data quali
 
 consistency. Whylogs is a data proﬁling library that allows you to monitor and analyze your
 
-data over ꢀme.
+data over time.
 
 In this use case, we will be using Apache Airﬂow to automate tasks related to data quality
 
@@ -28,7 +26,7 @@ consistency.
 
 **DAG workﬂow:**
 
-1\. **Read and Profile the Target Data:**
+**1. Read and Profile the Target Data:**
 
 This task involves reading the target dataset and using Whylogs to create a data profile.
 
@@ -44,7 +42,7 @@ In this step, we perform checks on the data profile of the target dataset to ens
 
 consistency.
 
-4\. **Compare and Generate the Drift Report**:
+**4. Compare and Generate the Drift Report**:
 
 Finally, we compare the data profiles of the target and reference datasets to identify any
 
@@ -52,8 +50,6 @@ data drift. A drift report is generated to highlight discrepancies.
 
 
 
-
-<a name="br2"></a> 
 
 **DAG summary:**
 ![image](https://github.com/HPEEzmeral/ezua-tutorials/assets/70695037/63a16a55-1408-4512-9ed4-e9513eec5afb)
@@ -69,7 +65,6 @@ download and view it.
 ![image](https://github.com/HPEEzmeral/ezua-tutorials/assets/70695037/f368dae3-9d2f-44cd-b05d-51eb1324b3cc)
 
 
-<a name="br3"></a> 
 
 **Drift summary report:**
 ![image](https://github.com/HPEEzmeral/ezua-tutorials/assets/70695037/5f302556-1e56-49f3-856e-5e9cc9a75e0a)
