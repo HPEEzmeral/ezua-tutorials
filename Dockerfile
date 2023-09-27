@@ -10,3 +10,5 @@ COPY /Data-Science /ezua-tutorials/Data-Science
 
 COPY /E2E-Demos /ezua-tutorials/E2E-Demos
 
+copy /Model-Monitoring /ezua-tutorials/Model-Monitoring
+
