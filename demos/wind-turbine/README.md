@@ -34,16 +34,20 @@ To complete this tutorial follow the steps below:
 1. Connect to the Notebook server and clone the repository locally.
 1. Navigate to the tutorial's directory (`ezua-tutorials/demos/wind-turbine`).
 1. Launch a new terminal window and create a new conda environment using the specified `environment.yaml` file:
-   ```
+
+   ```bash
    conda env create -f environment.yaml
    ```
+
 1. Add the new conda environment as an ipykernel:
-   ```
+
+   ```bash
    python -m ipykernel install --user --name=wind-turbine
    ```
+
 1. Refresh your browser tab to access the updated environment.
 1. Launch the `wind-turbine.ipynb` notebook file and follow the instructions. Make sure to select the `wind-turbine`
-   environment kernel. 
+   environment kernel.
 
 ## How it Works
 
