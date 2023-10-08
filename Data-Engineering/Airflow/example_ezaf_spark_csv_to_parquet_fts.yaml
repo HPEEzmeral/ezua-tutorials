@@ -1,16 +1,15 @@
 apiVersion: "sparkoperator.hpe.com/v1beta2"
 kind: SparkApplication
 metadata:
-  name: spark-fts-{{dag_run.conf.get("username", "hpedemo-user01")}}-{{ts_nodash|replace("T", "")}}
-  namespace: spark
+  name: spark-fts-{{ts_nodash|replace("T", "")}}
 spec:
   sparkConf:
     spark.mapr.extraconf.secret: {{dag_run.conf.get("s3_secret_name", "spark-s3-creds")}}
     spark.hadoop.fs.s3a.path.style.access: "true"
     spark.hadoop.fs.s3a.impl: "org.apache.hadoop.fs.s3a.S3AFileSystem"
     spark.hadoop.fs.s3a.connection.ssl.enabled: "true"
-    "spark.driver.extraJavaOptions": "-Dcom.amazonaws.sdk.disableCertChecking=true"
-    "spark.executor.extraJavaOptions": "-Dcom.amazonaws.sdk.disableCertChecking=true"
+    spark.driver.extraJavaOptions: "-Dcom.amazonaws.sdk.disableCertChecking=true"
+    spark.executor.extraJavaOptions: "-Dcom.amazonaws.sdk.disableCertChecking=true"
   type: Scala
   sparkVersion: 3.4.0
   mode: cluster
@@ -21,7 +20,7 @@ spec:
   arguments:
     - s3a://ezaf-demo/data/financial.csv
     - csv
-    - file:///mounts/data/{{dag_run.conf.get("training_path", "financial-processed")}}
+    - file:///mnt/user/{{dag_run.conf.get("training_path", "financial-processed")}}
     - parquet
   restartPolicy:
     type: Never
@@ -33,19 +32,9 @@ spec:
     memory: "512m"
     labels:
       version: 3.4.0
-    volumeMounts:
-      - mountPath: /mounts/data/
-        name: spark-data
   executor:
     cores: 1
     instances: 2
     memory: "512m"
     labels:
       version: 3.4.0
-    volumeMounts:
-      - mountPath: /mounts/data
-        name: spark-data
-  volumes:
-    - name: spark-data
-      persistentVolumeClaim:
-        claimName: {{dag_run.conf.get("username", "hpedemo-user01")}}-spark-pvc

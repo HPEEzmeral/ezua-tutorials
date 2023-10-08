@@ -2,7 +2,6 @@ apiVersion: "sparkoperator.hpe.com/v1beta2"
 kind: SparkApplication
 metadata:
   name: spark-pi-{{ts_nodash|replace("T", "")}}
-  namespace: spark
 spec:
   type: Scala
   sparkVersion: 3.4.0
