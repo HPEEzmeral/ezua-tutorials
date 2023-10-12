@@ -1,4 +1,4 @@
-# Question Answering
+# Question Answering (KServe - MLflow)
 
 In this tutorial, you build a question-answering system using an open-source Large Language Model (LLM). This system can
 answer questions from a corpus of private documentation. To make this happen, you deploy a Vector Store to capture and
@@ -10,6 +10,7 @@ user's questions, which enhances the LLM prompt. The result? An accurate and eff
 1. [What You'll Need](#what-youll-need)
 1. [Procedure](#procedure)
 1. [How It Works](#how-it-works)
+1. [Clean Up](#clean-up)
 1. [References](#references)
 
 ## What You'll Need
@@ -25,8 +26,8 @@ To complete the tutorial follow the steps below:
 1. Login to your EzUA cluster, using your credentials.
 1. Create a new Notebook server using the `jupyter-data-science` image. Request at least `4Gi` of memory for the
    Notebook server.
-1. Connect to the Notebook server and clone the repository locally.
-1. Lauch a new terminal and navigate to the tutorial's directory (`ezua-tutorials/demos/question-answering`)
+1. Connect to the Notebook server, launch a new terminal window, and clone the repository locally.
+1. Navigate to the tutorial's directory (`ezua-tutorials/demos/question-answering`)
 1. Create a new conda environment using the specified `environment.yaml` file:
    ```
    conda env create -f environment.yaml
@@ -37,8 +38,7 @@ To complete the tutorial follow the steps below:
    ```
 1. Refresh your browser tab to access the updated environment.
 1. Launch the five Notebooks in order and execute the code cells. Make sure to select the `question-answering`
-   environment kernel for each Notebook. For more information on what each Notebook do, refer to the next section "How
-   it Works".
+   environment kernel for each Notebook.
 1. Use the EzUA "Import Framework" wizard to upload the tarball located inside the `application` folder. This creates a
    user interface for your application. Complete the steps and wait for a new endpoint to become ready.
 1. Connect to the endpoint and submit your questions.
@@ -54,15 +54,15 @@ details swiftly and precisely. The generated vectors are stored and indexed with
 [Chroma](https://www.trychroma.com/) instance, a cloud-native, open-source embedding database [3].
 
 Once a question is provided, the application embeds it into the previously mentioned vector space using the same
-embedding model. By default, it fetches the 4 top relevant documents, utilizing a particular algorithm (most commonly
+embedding model. By default, it fetches the four top relevant documents, utilizing a particular algorithm (most commonly
 kNN) [4]. Subsequently, the application relays the user's question along with the retrieved context to an LLM, ensuring
 the answer mirrors human-like speech. This tutorial accommodates any GPT4ALL [5] supported architecture, but
 `orca-mini-3b.ggmlv3.q4_0` is the go-to model.
 
 Now, onto the serving details: Using [KServe](https://kserve.github.io/website/0.11/) [6] you can set up an Inference
-Service (ISVC) with custom components. To do this, you need to build and push three images which KServe will use to
-serve both the Vector Store and the LLM. Below are the application directories containing the respective Dockerfiles to
-build these images:
+Service (ISVC) with custom components. To do this, you need to build and push three Docker images which KServe will use
+to serve both the Vector Store and the LLM. Below are the application directories containing the respective Dockerfiles
+to build these images:
 
 - Vector Store: [`dockerfiles/vectorstore`](dockerfiles/vectorstore)
 - LLM Transformer: [`dockerfiles/transformer`](dockerfiles/transformer)
@@ -79,7 +79,7 @@ Notebook to explore and execute the experiment end-to-end:
 1. `01.create-vectorstore`: Load the documents from your private corpus (e.g., the `documents` folder), process them,
     and create the Vector Store.
 1. `02.serve-vectorstore`: Create an ISVC for the Vector Store.
-1. `03.document-precition`: (optional): Invoke the Vector Store ISVC.
+1. `03.document-precition` (optional): Invoke the Vector Store ISVC.
 1. `04.serve-llm`: Create an ISVC for the LLM.
 1. `05.question-answering`: Invoke the LLM ISVC. Post a question to the LLM ISVC and get back a human-like answer.
 
@@ -101,6 +101,15 @@ The last Notebook outlines the user's perspective. The application flow is depic
 1. LLM ISVC Predictor: Extract the user's question as well as the context, and answer the user's question based on the
    relevant context.
 1. LLM ISVC: Respond to the user with the completion prediction.
+
+## Clean Up
+
+To clean up the resources used during this experiment, follow the steps below:
+
+1. Go to the Kubeflow Endpoints UI and delete the ISVCs for the LLM model and the Vector Store.
+1. Go to the EzUA "Import Framework" dashboard and delete the front-end application.
+1. Go into the project directory in the notebook server and delete the `db` directory which houses the vector store
+   artifacts.
 
 ## References
 
