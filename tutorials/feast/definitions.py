@@ -15,7 +15,7 @@ from feast.on_demand_feature_view import on_demand_feature_view
 from feast.types import Float32, Float64, Int64
 
 
-DATA_PATH = Path("data/driver_stats.parquet")
+DATA_PATH = Path("dataset/driver_stats.parquet")
 
 __all__ = ["driver",
            "driver_stats_source",
@@ -52,7 +52,8 @@ driver_stats_feature_view = FeatureView(
     schema=[
         Field(name="conv_rate", dtype=Float32),
         Field(name="acc_rate", dtype=Float32),
-        Field(name="avg_daily_trips", dtype=Int64, description="Average daily trips"),
+        Field(name="avg_daily_trips", dtype=Int64,
+              description="Average daily trips"),
     ],
     online=True,
     source=driver_stats_source,
@@ -81,7 +82,8 @@ def transformed_stats(inputs: pd.DataFrame) -> pd.DataFrame:
     return df
 
 driver_activity = FeatureService(
-    name="driver_activity", features=[driver_stats_feature_view, transformed_stats]
+    name="driver_activity", features=[driver_stats_feature_view,
+                                      transformed_stats]
 )
 
 # Defines a slightly modified version of the feature view from above, where the
