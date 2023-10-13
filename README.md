@@ -35,7 +35,6 @@ The current list of framework-specific tutorials include:
 
 - [FEAST feature store](tutorials/feast/): Ride sharing tutorial
 - [Kubeflow Pipelines](tutorials/kubeflow-pipelines/): Financial time series tutorial
-- [MLflow](tutorials/mlflow): Bike sharing tutorial
 - [RAY](tutorials/ray): News recommendation tutorial
 
 ## Getting Started
