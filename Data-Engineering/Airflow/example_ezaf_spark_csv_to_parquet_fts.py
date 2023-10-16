@@ -21,7 +21,6 @@ dag = DAG(
     schedule_interval=None,
     tags=['e2e example', 'ezaf', 'spark', 'csv', 'parquet', 'fts'],
     params={
-        'username': Param("hpedemo-user01", type="string"),
         'training_path': Param("financial-processed", type="string"),
         's3_secret_name': Param("spark-s3-creds", type="string"),
         'airgap_registry_url': Param("", type=["null", "string"], pattern=r"^$|^\S+/$")
@@ -38,7 +37,6 @@ dag = DAG(
 
 submit = SparkKubernetesOperator(
     task_id='submit',
-    namespace="spark",
     application_file="example_ezaf_spark_csv_to_parquet_fts.yaml",
     do_xcom_push=True,
     dag=dag,
@@ -48,7 +46,6 @@ submit = SparkKubernetesOperator(
 
 sensor = SparkKubernetesSensor(
     task_id='monitor',
-    namespace="spark",
     application_name="{{ task_instance.xcom_pull(task_ids='submit')['metadata']['name'] }}",
     dag=dag,
     api_group="sparkoperator.hpe.com",
