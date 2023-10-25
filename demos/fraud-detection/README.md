@@ -44,6 +44,11 @@ To complete this tutorial follow the steps below:
 1. Wait until the pipeline completes and submits an Inference service (ISVC).
 1. Navigate to the Kubeflow Endpoints UI and make sure that the ISVC is ready to accept requests.
 1. Return to the Notebook and run the `Prediction` section of the Notebook to invoke the inference service.
+1. Use the EzUA "Import Framework" wizard to upload the tarball located inside the `application` folder. This creates a
+   user interface for your application. Complete the steps and wait for a new endpoint to become ready.
+1. Connect to the endpoint and submit your questions.
+
+![application-ui](images/application-ui.png)
 
 ## How it Works
 
