@@ -29,13 +29,13 @@ def toggle_user_context(_context, _num_docs):
         return gr.update(visible=False), gr.update(visible=True)
 
 
-def llm_service(input, system, instruction, temperature, num_docs, max_tokens,
+def llm_service(question, system, instruction, temperature, num_docs, max_tokens,
                 top_k, top_p, user_context, request: gr.Request):
     
     data = {
             "system": system,
             "instruction": instruction,
-            "input": input,
+            "input": question,
             "max_tokens": int(max_tokens),
             "top_k": int(top_k),
             "top_p": top_p,
@@ -58,7 +58,7 @@ if __name__ == "__main__":
     with gr.Blocks(theme=EzmeralTheme()) as app:
         gr.Markdown("![ai-enabled-search](file/app-header.png)")
         with gr.Row():
-            input = gr.Textbox(label="Question", autofocus=True)
+            question = gr.Textbox(label="Question", autofocus=True)
         with gr.Row():
             with gr.Column():
                 submit_btn = gr.Button("Submit", variant="primary")
@@ -118,17 +118,17 @@ if __name__ == "__main__":
 
         output = gr.Textbox(label="Answer")
 
-        examples = gr.Examples(examples=example_questions, inputs=[input])
+        examples = gr.Examples(examples=example_questions, inputs=[question])
                 
         submit_btn.click(fn=llm_service,
-                         inputs=[input, system, instruction, temperature,
+                         inputs=[question, system, instruction, temperature,
                                  num_docs, max_tokens, top_k, top_p,
                                  user_context],
                          outputs=[output])
         clear_btn.click(
             lambda: [None, SYSTEM_MESSAGE, INSTRUCTION, .2, 4, 100, 40, .4,
                      False, None], [],
-            outputs=[input, system, instruction, temperature, num_docs,
+            outputs=[question, system, instruction, temperature, num_docs,
                      max_tokens, top_k, top_p, context_check, output])
 
     app.launch(server_name="0.0.0.0", server_port=8080)
