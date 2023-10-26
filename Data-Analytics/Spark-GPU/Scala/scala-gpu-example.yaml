@@ -18,12 +18,13 @@ spec:
     spark.task.resource.gpu.amount: "1"
     spark.executor.resource.gpu.amount: "1"
     spark.executor.resource.gpu.vendor: "nvidia.com"
-    spark.executor.resource.gpu.discoveryScript: "/opt/mapr/spark/spark-3.3.1/examples/src/main/scripts/getGpusResources.sh"
+    spark.executor.resource.gpu.discoveryScript: "/opt/mapr/spark/spark-3.4.1/examples/src/main/scripts/getGpusResources.sh"
+    spark.rapids.shims-provider-override: "com.nvidia.spark.rapids.shims.spark341.SparkShimServiceProvider"
 
   type: Scala
-  sparkVersion: 3.3.1
+  sparkVersion: 3.4.1
   mode: cluster
-  image: gcr.io/mapr-252711/spark-gpu-3.3.1:202304252229AN
+  image: gcr.io/mapr-252711/spark-gpu-3.4.1:v3.4.1
   imagePullPolicy: Always
   mainApplicationFile: /path/to/examples/jar/file
   mainClass: com.hpe.examples.spark.sql.SqlOnGpuExample
@@ -36,7 +37,7 @@ spec:
     coreLimit: "1000m"
     memory: "512m"
     labels:
-      version: 3.3.1
+      version: 3.4.1
     # Note: You do not need to specify a serviceAccount
     #       it will be auto-generated referencing the pre-existing "hpe-<namespace>"
   #    serviceAccount: hpe-gputest
@@ -49,4 +50,4 @@ spec:
       name: "nvidia.com/gpu"
       quantity: 1
     labels:
-      version: 3.3.1
+      version: 3.4.1

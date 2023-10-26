@@ -1,8 +1,7 @@
 apiVersion: "sparkoperator.hpe.com/v1beta2"
 kind: SparkApplication
 metadata:
-  name:
-spark-gpu-340
+  name: spark-gpu-341
   namespace: spark
 spec:
   sparkConf:
@@ -15,14 +14,13 @@ spec:
     spark.task.resource.gpu.amount: "1"
     spark.executor.resource.gpu.amount: "1"
     spark.executor.resource.gpu.vendor: "nvidia.com"
-    spark.executor.resource.gpu.discoveryScript: "/opt/mapr/spark/spark-3.4.0/examples/src/main/scripts/getGpusResources.sh"
-    spark.rapids.shims-provider-override: "com.nvidia.spark.rapids.shims.spark340.SparkShimServiceProvider"
+    spark.executor.resource.gpu.discoveryScript: "/opt/mapr/spark/spark-3.4.1/examples/src/main/scripts/getGpusResources.sh"
+    spark.rapids.shims-provider-override: "com.nvidia.spark.rapids.shims.spark341.SparkShimServiceProvider"
  
   type: Python
-  sparkVersion:
-3.4.0
+  sparkVersion: 3.4.1
   mode: cluster
-  image: gcr.io/mapr-252711/spark-gpu-3.4.0:v3.4.0
+  image: gcr.io/mapr-252711/spark-gpu-3.4.1:v3.4.1
   imagePullPolicy: Always
   mainApplicationFile: .../path/to/application.py
   restartPolicy:
@@ -34,11 +32,11 @@ spec:
     coreLimit: "1000m"
     memory: "1024m"
     labels:
-      version: 3.4.0
+      version: 3.4.1
   executor:
     cores: 1
     coreLimit: "1000m"
     instances: 1
     memory: "2G"
     labels:
-      version: 3.4.0
+      version: 3.4.1
