@@ -26,7 +26,7 @@ spec:
   arguments:
     -  s3a://ezaf-demo/data/financial.csv       # source path
     - parquet                                          # source format
-    - file:///mnt/shared/financial-processed # destination path
+    - file:///mnt/user/{{dag_run.conf.get("training_path", "financial-processed")}} # destination path
     - parquet                                          # destination format
   restartPolicy:
     type: Never
