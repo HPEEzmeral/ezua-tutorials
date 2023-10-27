@@ -24,7 +24,7 @@ spec:
   mainApplicationFile: "local:///mnt/shared/spark/DataProcessTransfer.jar"
   mainClass: com.mapr.sparkdemo.DataProcessTransfer
   arguments:
-    - s3a://ezua-demo/data/financial-partitioned       # source path
+    -  s3a://ezaf-demo/data/financial.csv       # source path
     - parquet                                          # source format
     - file:///mnt/shared/financial-processed # destination path
     - parquet                                          # destination format
