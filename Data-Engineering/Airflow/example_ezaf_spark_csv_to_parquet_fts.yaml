@@ -36,7 +36,7 @@ spec:
     labels:
       version: 3.4.1
     volumeMounts:
-      - name: qa1-volume
+      - name: dev2-volume
         mountPath: /mnt/user
       - name: shared-volume
         mountPath: /mnt/shared
@@ -44,12 +44,12 @@ spec:
     labels:
       version: 3.4.1
     volumeMounts:
-      - name: qa1-volume
+      - name: dev2-volume
         mountPath: /mnt/user
       - name: shared-volume
         mountPath: /mnt/shared
   volumes:
-  #   - name: qa1-volume
+  #   - name: dev2-volume
   #     persistentVolumeClaim:
   #       claimName: user-pvc
     - name: shared-volume
