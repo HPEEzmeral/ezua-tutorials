@@ -6,7 +6,7 @@ Note: do not allocate GPUs for driver pod, it doesn't have any sense. GPUs are u
 
 To run spark on GPUs, make sure to:
 
-1. Use 'spark-gpu-...' image. As of Q3 timeframe, we provide 2 images: gcr.io/mapr-252711/spark-gpu-3.3.1:v3.3.1 and gcr.io/mapr-252711/spark-gpu-3.4.1:v3.4.1. Depending on the controller, spark image can be set:
+1. Use 'spark-gpu-...' image. As of Q4 timeframe, we provide 2 images: gcr.io/mapr-252711/spark-gpu-3.3.1:v3.3.1 and gcr.io/mapr-252711/spark-gpu-3.4.1:v3.4.1. Depending on the controller, spark image can be set:
    a. Spark operator: via 'image' value in yaml
    b. Livy server: via 'spark.kubernetes.container.image' option in sparkConf.
 2. Add the following spark configuration options to enable RAPIDs plugin and allocate GPU for executors. This part of options is spark-version independent.
