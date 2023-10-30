@@ -21,7 +21,7 @@ spec:
   mode: cluster
   image: gcr.io/mapr-252711/spark-3.4.1:v3.4.1
   imagePullPolicy: Always
-  mainApplicationFile: "local:///mnt/sharedspark/DataProcessTransfer.jar"
+  mainApplicationFile: "local:///mnt/shared/spark/DataProcessTransfer.jar"
   mainClass: com.mapr.sparkdemo.DataProcessTransfer
   arguments:
     - s3a://ezua-demo/data/       # source path
