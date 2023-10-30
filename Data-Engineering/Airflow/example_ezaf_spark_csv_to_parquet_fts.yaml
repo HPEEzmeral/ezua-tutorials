@@ -21,12 +21,12 @@ spec:
   mode: cluster
   image: gcr.io/mapr-252711/spark-3.4.1:v3.4.1
   imagePullPolicy: Always
-  mainApplicationFile: "local:///mounts/shared-volume/spark/DataProcessTransfer.jar"
+  mainApplicationFile: "local:///mnt/sharedspark/DataProcessTransfer.jar"
   mainClass: com.mapr.sparkdemo.DataProcessTransfer
   arguments:
     - s3a://ezua-demo/data/financial-partitioned       # source path
-    - parquet                                          # source format
-    - file:///mounts/shared-volume/financial-processed # destination path
+    - csv                                          # source format
+    - file:///mnt/shared/financial-processed # destination path
     - parquet                                          # destination format
   restartPolicy:
     type: Never
@@ -37,17 +37,17 @@ spec:
       version: 3.4.1
     volumeMounts:
       - name: dev2-volume
-        mountPath: /mounts/dev2-volume
+        mountPath: /mnt/dev2-volume
       - name: shared-volume
-        mountPath: /mounts/shared-volume
+        mountPath: /mnt/shared
   executor:
     labels:
       version: 3.4.1
     volumeMounts:
       - name: dev2-volume
-        mountPath: /mounts/dev2-volume
+        mountPath: /mnt/dev2-volume
       - name: shared-volume
-        mountPath: /mounts/shared-volume
+        mountPath: /mnt/shared
   volumes:
     # - name: dev2-volume
     #   persistentVolumeClaim:
