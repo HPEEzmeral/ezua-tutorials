@@ -21,12 +21,12 @@ spec:
   mode: cluster
   image: gcr.io/mapr-252711/spark-3.4.1:v3.4.1
   imagePullPolicy: Always
-  mainApplicationFile: "local:///mnt/shared/spark/DataProcessTransfer.jar"
+  mainApplicationFile: "local:///mounts/shared-volume/spark/DataProcessTransfer.jar"
   mainClass: com.mapr.sparkdemo.DataProcessTransfer
   arguments:
-    -  s3a://ezua-demo/data/financial.csv       # source path
+    - s3a://ezua-demo/data/financial-partitioned       # source path
     - parquet                                          # source format
-    - file:///mnt/shared/financial-processed # destination path
+    - file:///mounts/shared-volume/financial-processed # destination path
     - parquet                                          # destination format
   restartPolicy:
     type: Never
@@ -37,21 +37,21 @@ spec:
       version: 3.4.1
     volumeMounts:
       - name: dev2-volume
-        mountPath: /mnt/user
+        mountPath: /mounts/dev2-volume
       - name: shared-volume
-        mountPath: /mnt/shared
+        mountPath: /mounts/shared-volume
   executor:
     labels:
       version: 3.4.1
     volumeMounts:
       - name: dev2-volume
-        mountPath: /mnt/user
+        mountPath: /mounts/dev2-volume
       - name: shared-volume
-        mountPath: /mnt/shared
+        mountPath: /mounts/shared-volume
   volumes:
-  #   - name: dev2-volume
-  #     persistentVolumeClaim:
-  #       claimName: user-pvc
+    # - name: dev2-volume
+    #   persistentVolumeClaim:
+    #     claimName: user-pvc
     - name: shared-volume
       persistentVolumeClaim:
         claimName: kubeflow-shared-pvc
