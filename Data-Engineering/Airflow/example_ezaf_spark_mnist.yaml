@@ -4,12 +4,11 @@ metadata:
   name: spark-mnist-{{ts_nodash|replace("T", "")}}
 spec:
   sparkConf:
-    # spark.mapr.extraconf.secret: {{dag_run.conf.get("s3_secret_name", "spark-s3-creds")}}
     spark.hadoop.fs.s3a.path.style.access: "true"
     spark.hadoop.fs.s3a.impl: "org.apache.hadoop.fs.s3a.S3AFileSystem"
     spark.hadoop.fs.s3a.connection.ssl.enabled: "true"
-    spark.hadoop.fs.s3a.access.key: eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICJXZmRkenp4a280YUNRVzd0bWdSSVc2UUMxSUQtR3NKNnJjdWJuTFoxbXV3In0.eyJleHAiOjE2OTg5NTE2MjIsImlhdCI6MTY5ODM0NjgyMywiYXV0aF90aW1lIjoxNjk4MzQ2ODIyLCJqdGkiOiJiYjJhOGY4YS00NzNmLTQ1NTAtYWY5Yi01NzBiYmIzYTRkNTAiLCJpc3MiOiJodHRwczovL2tleWNsb2FrLmhwZS1xYTE1LWV6YWYuY29tL3JlYWxtcy9VQSIsImF1ZCI6InVhIiwic3ViIjoiOTMyMmU0NDQtZTM4My00ZDM4LWIxMWEtMGY5OTA5NzFjNzVkIiwidHlwIjoiSUQiLCJhenAiOiJ1YSIsIm5vbmNlIjoiNWRGRUNOT2JaLWlMYmZxYzk1dE56WEtZQk1CZFM3U3htSzRJMnhBZTlrdyIsInNlc3Npb25fc3RhdGUiOiIyYzBlMTgyMC04ZjFiLTQ1ZjUtYWZiMy1hYjVkZDNmZjNiMjQiLCJhdF9oYXNoIjoiUGc3dGhyTVlMLVhJdWF4b1lDTmdtUSIsImFjciI6IjEiLCJzaWQiOiIyYzBlMTgyMC04ZjFiLTQ1ZjUtYWZiMy1hYjVkZDNmZjNiMjQiLCJ1aWQiOiIxMDAwMiIsImVtYWlsX3ZlcmlmaWVkIjpmYWxzZSwiZ2lkIjoiMTAwMDAiLCJuYW1lIjoiZGV2MiIsImdyb3VwcyI6WyJ1YS1lbmFibGVkIiwib2ZmbGluZV9hY2Nlc3MiLCJ1bWFfYXV0aG9yaXphdGlvbiIsImRlZmF1bHQtcm9sZXMtdWEiXSwicHJlZmVycmVkX3VzZXJuYW1lIjoiZGV2MiIsInBvc2l4X3VzZXJuYW1lIjoiZGV2MiIsImZhbWlseV9uYW1lIjoiZGV2MiIsImVtYWlsIjoiZGV2MiJ9.TLtFcH8m6sW0yn6S0Z27QgH24Pfc2HPs1t5jCJ2FZIkaGo2xQelBUBqUpP-mbUGeAbPvOlSmdgcmP3QTaXoFRP51DIZ9b0Y1S5S9986hxa3jvRt9Fdp05R85ERAEDTEaQ2PDrqXCnOOtiJxoWEmzUuMZIEgZY35PjDNrmtPDP2L8f8CFDQieUuRu8M-ncWDWvbz7DwWWC_xD-_8489wxvzwCdOh5MeuJgwR9m0onz90J_2yhz9QpBlNyQEGHpysRO1ASufebzpc9fTnQUi1ASGDSDH8WuhcreNsrlxVJa1u8rAPXi5U3icdj9jQlqAZT26ZuXHDSd0kB-__BHx_UCA
-    spark.hadoop.fs.s3a.secret.key: s3
+    spark.hadoop.fs.s3a.access.key: <access-token>
+    spark.hadoop.fs.s3a.secret.key: <secret-key>
     spark.hadoop.fs.s3a.s3.client.factory.impl: org.apache.hadoop.fs.s3a.NonChunkedDefaultS3ClientFactory
     spark.driver.extraClassPath: /mnt/shared/spark/disable-chunk-encoding-334.jar
     spark.executor.extraClassPath: /mnt/shared/spark/disable-chunk-encoding-334.jar
@@ -19,7 +18,7 @@ spec:
   type: Scala
   sparkVersion: 3.4.1
   mode: cluster
-  image: gcr.io/mapr-252711/spark-3.4.1:v3.4.1
+  image: {{dag_run.conf["airgap_registry_url"]|default("", True)}}gcr.io/mapr-252711/spark-3.4.1:v3.4.1
   imagePullPolicy: Always
   mainApplicationFile: local:///mnt/shared/DataTransfer.jar
   mainClass: com.mapr.sparkdemo.DataTransfer
@@ -37,10 +36,10 @@ spec:
     coreLimit: "1000m"
     memory: "512m"
     labels:
-      version: 3.4.0
+      version: 3.4.1
   executor:
     cores: 1
     instances: 2
     memory: "512m"
     labels:
-      version: 3.4.0
+      version: 3.4.1
