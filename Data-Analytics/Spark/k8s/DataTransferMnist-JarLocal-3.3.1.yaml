@@ -19,9 +19,9 @@ spec:
   type: Scala
   sparkVersion: 3.3.1
   mode: cluster
-  image: gcr.io/mapr-252711/spark-3.3.1:v3.3.1
+  image: gcr.io/mapr-252711/ezaf-spark-demo-example:fy23-q1-mnist
   imagePullPolicy: Always
-  mainApplicationFile: "local:///mounts/shared-volume/DataTransfer.jar"
+  mainApplicationFile: local:///tmp/DataTransfer.jar
   mainClass: com.mapr.sparkdemo.DataTransfer
   arguments:
     - s3a://ezua-demo/data/mnist

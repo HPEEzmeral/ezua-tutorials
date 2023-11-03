@@ -19,9 +19,9 @@ spec:
   type: Scala
   sparkVersion: 3.3.1
   mode: cluster
-  image: gcr.io/mapr-252711/spark-3.3.1:v3.3.1
+  image: gcr.io/mapr-252711/ezaf-spark-demo-example:fy23-q1
   imagePullPolicy: Always
-  mainApplicationFile: "local:///mounts/shared-volume/spark/DataProcessTransfer.jar"
+  mainApplicationFile: local:///tmp/DataProcessTransfer.jar
   mainClass: com.mapr.sparkdemo.DataProcessTransfer
   arguments:
     - s3a://ezua-demo/data/financial-partitioned       # source path
