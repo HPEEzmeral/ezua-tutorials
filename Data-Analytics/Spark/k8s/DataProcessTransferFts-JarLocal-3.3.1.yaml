@@ -2,20 +2,18 @@ apiVersion: "sparkoperator.hpe.com/v1beta2"
 kind: SparkApplication
 metadata:
   name: data-process-transfer-demo
-  namespace: spark
+  namespace: <username>
 spec:
   sparkConf:
     spark.hadoop.fs.s3a.path.style.access: "true"
     spark.hadoop.fs.s3a.impl: "org.apache.hadoop.fs.s3a.S3AFileSystem"
-    spark.hadoop.fs.s3a.connection.ssl.enabled: "true"
+    spark.hadoop.fs.s3a.connection.ssl.enabled: "false"
     spark.hadoop.fs.s3a.access.key: <access-key>
-    spark.hadoop.fs.s3a.secret.key: <secret-key>
+    spark.hadoop.fs.s3a.secret.key: s3
     spark.hadoop.fs.s3a.s3.client.factory.impl: org.apache.hadoop.fs.s3a.NonChunkedDefaultS3ClientFactory
     spark.driver.extraClassPath: /mounts/shared-volume/spark/disable-chunk-encoding-334.jar
     spark.executor.extraClassPath: /mounts/shared-volume/spark/disable-chunk-encoding-334.jar
     spark.hadoop.fs.s3a.bucket.ezua-demo.endpoint: http://local-s3-service.ezdata-system.svc.cluster.local:30000
-    spark.driver.extraJavaOptions: "-Dcom.amazonaws.sdk.disableCertChecking=true"
-    spark.executor.extraJavaOptions: "-Dcom.amazonaws.sdk.disableCertChecking=true"
   type: Scala
   sparkVersion: 3.3.1
   mode: cluster
@@ -36,22 +34,23 @@ spec:
     labels:
       version: 3.3.1
     volumeMounts:
-      - name: dev2-volume
-        mountPath: /mounts/dev2-volume
+      - name: <username>-volume
+        mountPath: /mounts/<username>-volume
       - name: shared-volume
         mountPath: /mounts/shared-volume
   executor:
     labels:
       version: 3.3.1
     volumeMounts:
-      - name: dev2-volume
-        mountPath: /mounts/dev2-volume
+      - name: <username>-volume
+        mountPath: /mounts/<username>-volume
       - name: shared-volume
         mountPath: /mounts/shared-volume
   volumes:
-    - name: dev2-volume
+    - name: <username>-volume
       persistentVolumeClaim:
         claimName: user-pvc
     - name: shared-volume
       persistentVolumeClaim:
         claimName: kubeflow-shared-pvc
+        
