@@ -2,26 +2,24 @@ apiVersion: "sparkoperator.hpe.com/v1beta2"
 kind: SparkApplication
 metadata:
   name: "spark-etl"
-  namespace: "hpedemo-user01"
+  namespace: <username>
 spec:
   sparkConf:
-    spark.executorEnv.SPARK_USER: hpedemo-user01
-    spark.hadoop.fs.s3a.access.key: <access-key>
-    spark.hadoop.fs.s3a.secret.key: <secret-key>
-    spark.hadoop.fs.s3a.endpoint: "ua01.hpe-minio-ezaf.com:9000"
+    spark.hadoop.fs.s3a.path.style.access: "true"
     spark.hadoop.fs.s3a.impl: "org.apache.hadoop.fs.s3a.S3AFileSystem"
-    spark.driver.extraJavaOptions: "-Dcom.amazonaws.sdk.disableCertChecking=true"
-    spark.executor.extraJavaOptions: "-Dcom.amazonaws.sdk.disableCertChecking=true"
+    spark.hadoop.fs.s3a.connection.ssl.enabled: "false"
+    spark.hadoop.fs.s3a.access.key: <access-key>
+    spark.hadoop.fs.s3a.secret.key: s3
     spark.hadoop.fs.s3a.s3.client.factory.impl: org.apache.hadoop.fs.s3a.NonChunkedDefaultS3ClientFactory
     spark.driver.extraClassPath: /mounts/shared-volume/spark/disable-chunk-encoding-334.jar
     spark.executor.extraClassPath: /mounts/shared-volume/spark/disable-chunk-encoding-334.jar
-    spark.hadoop.fs.s3a.path.style.access: "true"
+    spark.hadoop.fs.s3a.bucket.ezua-demo.endpoint: http://local-s3-service.ezdata-system.svc.cluster.local:30000
   type: Python
   sparkVersion: 3.4.1
   mode: cluster
   image: "gcr.io/mapr-252711/spark-py-3.4.1:v3.4.1"
   imagePullPolicy: Always
-  mainApplicationFile: "local:///mounts/shared-volume/spark/spark_etl_test.py"
+  mainApplicationFile: "local:///mounts/shared-volume/spark/spark_etl_new.py"
   restartPolicy:
     type: Never
   imagePullSecrets:
@@ -30,20 +28,20 @@ spec:
     labels:
       version: 3.4.1
     volumeMounts:
-      - name: hpedemo-user01-volume
-        mountPath: /mounts/hpedemo-user01-volume
+      - name: <username>-volume
+        mountPath: /mounts/<username>-volume
       - name: shared-volume
         mountPath: /mounts/shared-volume
   executor:
     labels:
       version: 3.4.1
     volumeMounts:
-      - name: hpedemo-user01-volume
-        mountPath: /mounts/hpedemo-user01-volume
+      - name: <username>-volume
+        mountPath: /mounts/<username>-volume
       - name: shared-volume
         mountPath: /mounts/shared-volume
   volumes:
-    - name: hpedemo-user01-volume
+    - name: <username>-volume
       persistentVolumeClaim:
         claimName: user-pvc
     - name: shared-volume
