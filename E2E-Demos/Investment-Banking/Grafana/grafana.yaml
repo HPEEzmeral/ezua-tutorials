@@ -7,7 +7,7 @@ spec:
         gateways:
         - istio-system/ezaf-gateway
         host:
-        - grafana.hpe-staging-ezaf.com
+        - grafana.hpe-apps-ezaf.com
         http:
         - match:
                 -uri:
