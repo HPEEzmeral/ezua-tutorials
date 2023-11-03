@@ -27,13 +27,20 @@ with DAG(
     schedule_interval=None,
     tags=['DF', 'S3', 'MySQL'],
     params={
-        's3_bucket_name': Param("bank", type="string"),
+        's3_bucket_name': Param("bank-demo", type="string"),
         's3_files_prefix': Param(f"bank{today}.csv", type="string"),
         'result_path_in_shared_volume': Param("exported_by_airflow", type="string"),
         'result_path_prefix_s3': Param("from_minio", type="string"),
         'mysql_tables_list': Param(f"`bank{today}`", type="string"),
         'result_path_prefix_mysql': Param("from_mysql", type="string")
     },
+    access_control={
+        'All': {
+            'can_read',
+            'can_edit',
+            'can_delete'
+        }
+    }
 ) as dag:
 
     @task
