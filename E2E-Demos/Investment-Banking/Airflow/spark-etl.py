@@ -20,8 +20,14 @@ dag = DAG(
     schedule_interval=None,
     tags=['e2e example','ETL', 'spark'],
     params={
-        'username': Param("hpedemo-user01", type="string"),
-        's3_secret_name': Param("spark-s3-creds", type="string")
+        'username': Param("hpedemo-user01", type="string")
+    },
+    access_control={
+        'All': {
+            'can_read',
+            'can_edit',
+            'can_delete'
+        }
     }
 )
 
@@ -39,7 +45,6 @@ task1 = PythonOperator(
 
 task2=SparkKubernetesOperator(
     task_id='Spark_etl_submit',
-    namespace="spark",
     application_file="spark_etl_new.yaml",
     do_xcom_push=True,
     dag=dag,
