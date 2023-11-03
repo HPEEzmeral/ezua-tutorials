@@ -7,7 +7,7 @@ spec:
     spark.hadoop.fs.s3a.path.style.access: "true"
     spark.hadoop.fs.s3a.impl: "org.apache.hadoop.fs.s3a.S3AFileSystem"
     spark.hadoop.fs.s3a.connection.ssl.enabled: "true"
-    spark.hadoop.fs.s3a.access.key: <access-token>
+    spark.hadoop.fs.s3a.access.key: {{dag_run.conf.get("jwt_token", "")}}
     spark.hadoop.fs.s3a.secret.key: s3
     spark.hadoop.fs.s3a.s3.client.factory.impl: org.apache.hadoop.fs.s3a.NonChunkedDefaultS3ClientFactory
     spark.driver.extraClassPath: /mnt/shared/spark/disable-chunk-encoding-334.jar
