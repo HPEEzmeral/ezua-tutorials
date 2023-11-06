@@ -22,6 +22,7 @@ dag = DAG(
     tags=['e2e example', 'ezaf', 'spark', 'csv', 'parquet', 'fts'],
     params={
         'training_path': Param("financial-processed", type="string"),
+        'jwt_token': Param("", type="string"),
         'airgap_registry_url': Param("", type=["null", "string"], pattern=r"^$|^\S+/$")
     },
     render_template_as_native_obj=True,

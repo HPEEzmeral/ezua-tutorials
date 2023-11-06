@@ -22,6 +22,7 @@ dag = DAG(
     tags=['e2e example', 'ezaf', 'spark', 'parquet', 'mnist'],
     params={
         'training_path': Param("mnist-spark-data", type="string"),
+        'jwt_token': Param("", type="string"),
         'airgap_registry_url': Param("", type=["null", "string"], pattern=r"^$|^\S+/$")
     },
     render_template_as_native_obj=True,
