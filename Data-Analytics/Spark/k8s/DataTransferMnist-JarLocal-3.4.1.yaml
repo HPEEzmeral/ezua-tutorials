@@ -8,8 +8,7 @@ spec:
     spark.hadoop.fs.s3a.path.style.access: "true"
     spark.hadoop.fs.s3a.impl: "org.apache.hadoop.fs.s3a.S3AFileSystem"
     spark.hadoop.fs.s3a.connection.ssl.enabled: "false"
-    spark.hadoop.fs.s3a.access.key: <access-key>
-    spark.hadoop.fs.s3a.secret.key: s3
+    spark.mapr.extraconf.secret: "<k8s-secret-name>" 
     spark.hadoop.fs.s3a.s3.client.factory.impl: org.apache.hadoop.fs.s3a.NonChunkedDefaultS3ClientFactory
     spark.driver.extraClassPath: /mounts/shared-volume/spark/disable-chunk-encoding-334.jar
     spark.executor.extraClassPath: /mounts/shared-volume/spark/disable-chunk-encoding-334.jar
@@ -17,7 +16,7 @@ spec:
   type: Scala
   sparkVersion: 3.4.1
   mode: cluster
-  image: gcr.io/mapr-252711/spark-3.4.1:fy23-q4-mnist
+  image: gcr.io/mapr-252711/ezaf-spark-demo-example:fy23-q4-mnist
   imagePullPolicy: Always
   mainApplicationFile: local:///tmp/DataTransfer.jar
   mainClass: com.mapr.sparkdemo.DataTransfer
@@ -34,22 +33,15 @@ spec:
     labels:
       version: 3.4.1
     volumeMounts:
-      - name: <username>-volume
-        mountPath: /mounts/<username>-volume
       - name: shared-volume
         mountPath: /mounts/shared-volume
   executor:
     labels:
       version: 3.4.1
     volumeMounts:
-      - name: <username>-volume
-        mountPath: /mounts/<username>-volume
       - name: shared-volume
         mountPath: /mounts/shared-volume
   volumes:
-    - name: <username>-volume
-      persistentVolumeClaim:
-        claimName: user-pvc
     - name: shared-volume
       persistentVolumeClaim:
         claimName: kubeflow-shared-pvc
