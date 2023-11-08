@@ -32,8 +32,7 @@ with DAG(
         'result_path_in_shared_volume': Param("exported_by_airflow", type="string"),
         'result_path_prefix_s3': Param("from_minio", type="string"),
         'mysql_tables_list': Param(f"`bank{today}`", type="string"),
-        'result_path_prefix_mysql': Param("from_mysql", type="string"),
-        'jwt_token': Param("", type="string")
+        'result_path_prefix_mysql': Param("from_mysql", type="string")
     },
     access_control={
         'All': {
