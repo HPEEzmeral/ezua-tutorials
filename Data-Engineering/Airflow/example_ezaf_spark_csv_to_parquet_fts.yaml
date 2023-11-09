@@ -17,7 +17,7 @@ spec:
   type: Scala
   sparkVersion: 3.4.1
   mode: cluster
-  image: {{dag_run.conf["airgap_registry_url"]|default("", True)}}gcr.io/mapr-252711/spark-3.4.1:fy23-q4-fts
+  image: {{dag_run.conf["airgap_registry_url"]|default("", True)}}gcr.io/mapr-252711/ezaf-spark-demo-example:fy23-q4-fts
   imagePullPolicy: Always
   mainApplicationFile: "local:///mnt/shared/spark/DataProcessTransfer.jar"
   mainClass: com.mapr.sparkdemo.DataProcessTransfer
