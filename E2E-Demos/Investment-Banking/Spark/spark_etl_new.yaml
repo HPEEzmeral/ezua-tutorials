@@ -2,28 +2,21 @@ apiVersion: "sparkoperator.hpe.com/v1beta2"
 kind: SparkApplication
 metadata:
   name: "spark-etl"
-  namespace: "spark"
+  namespace: <username>
 spec:
   sparkConf:
-    # S3 credentials should be specified below
-    spark.hadoop.fs.s3a.endpoint: "https://objectstore-zone1-svc.dataplatform.svc.cluster.local:9000/"
-    spark.hadoop.fs.s3a.access.key: "minioadmin"
-    spark.hadoop.fs.s3a.secret.key: "minioadmin"
     spark.hadoop.fs.s3a.path.style.access: "true"
     spark.hadoop.fs.s3a.impl: "org.apache.hadoop.fs.s3a.S3AFileSystem"
-    spark.hadoop.fs.s3a.connection.ssl.enabled: "true"
-
-    # Needed if s3 server is behind proxy
-    # spark.hadoop.fs.s3a.proxy.host: "web-proxy.corp.hpecorp.net"
-    # spark.hadoop.fs.s3a.proxy.port: "8080"
-
-    # Needed if s3 server certs are not imported to java truststore used by spark
-    spark.driver.extraJavaOptions: "-Dcom.amazonaws.sdk.disableCertChecking=true"
-    spark.executor.extraJavaOptions: "-Dcom.amazonaws.sdk.disableCertChecking=true"
+    spark.hadoop.fs.s3a.connection.ssl.enabled: "false"
+    spark.mapr.extraconf.secret: "<k8s-secret-name>" 
+    spark.hadoop.fs.s3a.s3.client.factory.impl: org.apache.hadoop.fs.s3a.NonChunkedDefaultS3ClientFactory
+    spark.driver.extraClassPath: /mounts/shared-volume/spark/disable-chunk-encoding-334.jar
+    spark.executor.extraClassPath: /mounts/shared-volume/spark/disable-chunk-encoding-334.jar
+    spark.hadoop.fs.s3a.bucket.ezua-demo.endpoint: http://local-s3-service.ezdata-system.svc.cluster.local:30000
   type: Python
-  sparkVersion: 3.3.1
+  sparkVersion: 3.4.1
   mode: cluster
-  image: "gcr.io/mapr-252711/spark-py-3.3.1:v3.3.1"
+  image: "gcr.io/mapr-252711/spark-py-3.4.1:v3.4.1"
   imagePullPolicy: Always
   mainApplicationFile: "local:///mounts/shared-volume/spark/spark_etl_new.py"
   restartPolicy:
@@ -32,33 +25,17 @@ spec:
     - imagepull
   driver:
     labels:
-      version: 3.3.1
-    cores: 1
-    coreLimit: "1"
-    memory: 1g
-    serviceAccount: hpe-spark
+      version: 3.4.1
     volumeMounts:
-      - name: {{dag_run.conf.get("username")}}-volume
-        mountPath: /mounts/{{dag_run.conf.get("username")}}-volume
       - name: shared-volume
         mountPath: /mounts/shared-volume
   executor:
     labels:
-      version: 3.3.1
-    cores: 1
-    coreLimit: "1"
-    memory: 1g
-    serviceAccount: hpe-spark
+      version: 3.4.1
     volumeMounts:
-      - name: {{dag_run.conf.get("username")}}-volume
-        mountPath: /mounts/{{dag_run.conf.get("username")}}-volume
       - name: shared-volume
         mountPath: /mounts/shared-volume
-    instances: 1
   volumes:
-    - name: {{dag_run.conf.get("username")}}-volume
-      persistentVolumeClaim:
-        claimName: {{dag_run.conf.get("username")}}-spark-pvc
     - name: shared-volume
       persistentVolumeClaim:
         claimName: kubeflow-shared-pvc
