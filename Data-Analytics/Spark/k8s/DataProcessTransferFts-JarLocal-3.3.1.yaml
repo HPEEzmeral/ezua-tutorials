@@ -2,20 +2,17 @@ apiVersion: "sparkoperator.hpe.com/v1beta2"
 kind: SparkApplication
 metadata:
   name: data-process-transfer-demo
-  namespace: spark
+  namespace: <username>
 spec:
   sparkConf:
     spark.hadoop.fs.s3a.path.style.access: "true"
     spark.hadoop.fs.s3a.impl: "org.apache.hadoop.fs.s3a.S3AFileSystem"
-    spark.hadoop.fs.s3a.connection.ssl.enabled: "true"
-
-    # Needed if s3 server is behind proxy
-    # spark.hadoop.fs.s3a.proxy.host: "web-proxy.corp.hpecorp.net"
-    # spark.hadoop.fs.s3a.proxy.port: "8080"
-
-    # Needed if s3 server certs are not imported to java truststore used by spark
-    "spark.driver.extraJavaOptions": "-Dcom.amazonaws.sdk.disableCertChecking=true"
-    "spark.executor.extraJavaOptions": "-Dcom.amazonaws.sdk.disableCertChecking=true"
+    spark.hadoop.fs.s3a.connection.ssl.enabled: "false"
+    spark.mapr.extraconf.secret: "<k8s-secret-name>" 
+    spark.hadoop.fs.s3a.s3.client.factory.impl: org.apache.hadoop.fs.s3a.NonChunkedDefaultS3ClientFactory
+    spark.driver.extraClassPath: /mounts/shared-volume/spark/disable-chunk-encoding-334.jar
+    spark.executor.extraClassPath: /mounts/shared-volume/spark/disable-chunk-encoding-334.jar
+    spark.hadoop.fs.s3a.bucket.ezua-demo.endpoint: http://local-s3-service.ezdata-system.svc.cluster.local:30000
   type: Scala
   sparkVersion: 3.3.1
   mode: cluster
@@ -24,33 +21,28 @@ spec:
   mainApplicationFile: local:///tmp/DataProcessTransfer.jar
   mainClass: com.mapr.sparkdemo.DataProcessTransfer
   arguments:
-    - s3a://ezaf-demo/data/financial-partitioned      # source path
-    - parquet                                         # source format
-    - file:///mounts/data/financial-processed         # destination path
-    - parquet                                         # destination format
+    - s3a://ezua-demo/data/financial-partitioned       # source path
+    - parquet                                          # source format
+    - file:///mounts/shared-volume/financial-processed # destination path
+    - parquet                                          # destination format
   restartPolicy:
     type: Never
   imagePullSecrets:
-    - hpe-imagepull-secrets
+    - imagepull
   driver:
-    cores: 1
-    coreLimit: "1000m"
-    memory: "512m"
     labels:
-      version: 3.3.1
+      version: 3.4.1
     volumeMounts:
-      - mountPath: /mounts/data/
-        name: spark-data
+      - name: shared-volume
+        mountPath: /mounts/shared-volume
   executor:
-    cores: 1
-    instances: 2
-    memory: "512m"
     labels:
-      version: 3.3.1
+      version: 3.4.1
     volumeMounts:
-      - mountPath: /mounts/data
-        name: spark-data
+      - name: shared-volume
+        mountPath: /mounts/shared-volume
   volumes:
-    - name: spark-data
+    - name: shared-volume
       persistentVolumeClaim:
-        claimName: <username>-<namespace>-pvc         # PVC should be specified here
+        claimName: kubeflow-shared-pvc
+        
