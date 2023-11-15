@@ -5,9 +5,9 @@ metadata:
 spec:
   sparkConf:
     spark.mapr.extraconf.secret: {{dag_run.conf.get("s3_secret_name", "spark-s3-creds")}}
-    spark.hadoop.fs.s3a.path.style.access: "c"
+    spark.hadoop.fs.s3a.path.style.access: "true"
     spark.hadoop.fs.s3a.impl: "org.apache.hadoop.fs.s3a.S3AFileSystem"
-    spark.hadoop.fs.s3a.connection.ssl.enabled: "true"
+    spark.hadoop.fs.s3a.connection.ssl.enabled: "false"
     spark.driver.extraJavaOptions: "-Dcom.amazonaws.sdk.disableCertChecking=true"
     spark.executor.extraJavaOptions: "-Dcom.amazonaws.sdk.disableCertChecking=true"
   type: Scala
