@@ -4,22 +4,18 @@ metadata:
   name: spark-mnist-{{ts_nodash|replace("T", "")}}
 spec:
   sparkConf:
-    spark.hadoop.fs.s3a.path.style.access: "true"
+    spark.mapr.extraconf.secret: {{dag_run.conf.get("s3_secret_name", "spark-s3-creds")}}
+    spark.hadoop.fs.s3a.path.style.access: "c"
     spark.hadoop.fs.s3a.impl: "org.apache.hadoop.fs.s3a.S3AFileSystem"
     spark.hadoop.fs.s3a.connection.ssl.enabled: "true"
-    spark.mapr.extraconf.secret: {{dag_run.conf.get("s3_secret_name", "spark-s3-creds")}}  
-    spark.hadoop.fs.s3a.s3.client.factory.impl: org.apache.hadoop.fs.s3a.NonChunkedDefaultS3ClientFactory
-    spark.driver.extraClassPath: /mnt/shared/spark/disable-chunk-encoding-334.jar
-    spark.executor.extraClassPath: /mnt/shared/spark/disable-chunk-encoding-334.jar
-    spark.hadoop.fs.s3a.bucket.ezua-demo.endpoint: http://local-s3-service.ezdata-system.svc.cluster.local:30000
     spark.driver.extraJavaOptions: "-Dcom.amazonaws.sdk.disableCertChecking=true"
     spark.executor.extraJavaOptions: "-Dcom.amazonaws.sdk.disableCertChecking=true"
   type: Scala
-  sparkVersion: 3.4.1
+  sparkVersion: 3.4.0
   mode: cluster
-  image: {{dag_run.conf["airgap_registry_url"]|default("", True)}}gcr.io/mapr-252711/ezaf-spark-demo-example:fy23-q4-mnist
+  image: {{dag_run.conf["airgap_registry_url"]|default("", True)}}gcr.io/mapr-252711/ezaf-spark-demo-example:fy23-q3-mnist
   imagePullPolicy: Always
-  mainApplicationFile: local:///mnt/shared/DataTransfer.jar
+  mainApplicationFile: local:///tmp/DataTransfer.jar
   mainClass: com.mapr.sparkdemo.DataTransfer
   arguments:
     - s3a://ezaf-demo/data/mnist
@@ -35,10 +31,10 @@ spec:
     coreLimit: "1000m"
     memory: "512m"
     labels:
-      version: 3.4.1
+      version: 3.4.0
   executor:
     cores: 1
     instances: 2
     memory: "512m"
     labels:
-      version: 3.4.1
+      version: 3.4.0

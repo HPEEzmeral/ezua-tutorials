@@ -4,35 +4,37 @@ metadata:
   name: spark-fts-{{ts_nodash|replace("T", "")}}
 spec:
   sparkConf:
+    spark.mapr.extraconf.secret: {{dag_run.conf.get("s3_secret_name", "spark-s3-creds")}}
     spark.hadoop.fs.s3a.path.style.access: "true"
     spark.hadoop.fs.s3a.impl: "org.apache.hadoop.fs.s3a.S3AFileSystem"
     spark.hadoop.fs.s3a.connection.ssl.enabled: "true"
-    spark.mapr.extraconf.secret: {{dag_run.conf.get("s3_secret_name", "spark-s3-creds")}}  
-    spark.hadoop.fs.s3a.s3.client.factory.impl: org.apache.hadoop.fs.s3a.NonChunkedDefaultS3ClientFactory
-    spark.driver.extraClassPath: /mnt/shared/spark/disable-chunk-encoding-334.jar
-    spark.executor.extraClassPath: /mnt/shared/spark/disable-chunk-encoding-334.jar
-    spark.hadoop.fs.s3a.bucket.ezua-demo.endpoint: http://local-s3-service.ezdata-system.svc.cluster.local:30000
     spark.driver.extraJavaOptions: "-Dcom.amazonaws.sdk.disableCertChecking=true"
     spark.executor.extraJavaOptions: "-Dcom.amazonaws.sdk.disableCertChecking=true"
   type: Scala
-  sparkVersion: 3.4.1
+  sparkVersion: 3.4.0
   mode: cluster
-  image: {{dag_run.conf["airgap_registry_url"]|default("", True)}}gcr.io/mapr-252711/ezaf-spark-demo-example:fy23-q4-fts
+  image: {{dag_run.conf["airgap_registry_url"]|default("", True)}}gcr.io/mapr-252711/ezaf-spark-demo-example:fy23-q3-fts
   imagePullPolicy: Always
-  mainApplicationFile: "local:///mnt/shared/spark/DataProcessTransfer.jar"
+  mainApplicationFile: local:///tmp/DataProcessTransfer.jar
   mainClass: com.mapr.sparkdemo.DataProcessTransfer
   arguments:
-    - s3a://ezua-demo/data                                                               # source path
-    - csv                                                                                # source format
-    - file:///mnt/shared/{{dag_run.conf.get("training_path", "financial-processed")}}    # destination path
-    - parquet                                                                            # destination format
+    - s3a://ezaf-demo/data/financial.csv
+    - csv
+    - file:///mnt/user/{{dag_run.conf.get("training_path", "financial-processed")}}
+    - parquet
   restartPolicy:
     type: Never
   imagePullSecrets:
     - imagepull
   driver:
+    cores: 1
+    coreLimit: "1000m"
+    memory: "512m"
     labels:
-      version: 3.4.1
+      version: 3.4.0
   executor:
+    cores: 1
+    instances: 2
+    memory: "512m"
     labels:
-      version: 3.4.1
+      version: 3.4.0
