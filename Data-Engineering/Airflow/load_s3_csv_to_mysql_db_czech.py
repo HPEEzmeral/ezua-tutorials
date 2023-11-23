@@ -31,16 +31,16 @@ default_args = {
 # Define the op_kwargs dictionary ADAPT to your EZUA env
 op_kwargs = {
     'bucket_name': 'ezaf-demo',
-    'file_name': 'Switzerland_sales_data_2019_2023.csv',
+    'file_name': 'Czechia_sales_data_2019_2023.csv',
     's3_endpoint': 'https://192.168.141.26:31900',
     'access_key': 'minioadmin',
     'secret_key': 'minioadmin',
-    'db_host': 'mariadb.mariadb.svc.cluster.local',
+    'db_host': 'mysql.msql.svc.cluster.local',
     'db_port': '3306',
     'db_user': 'root',
-    'db_password': 'Hepoc@123',
+    'db_password': 'Hpepoc@123',
     'db_name': 'discover',
-    'table_name': 'swiss'
+    'table_name': 'czech'
 }
 
 def read_csv_from_s3(bucket_name, file_name, s3_endpoint, access_key=None, secret_key=None):
@@ -116,7 +116,7 @@ def run_clean_data_script(db_host=None, db_port=None, db_user=None, db_password=
     
     subprocess.run(command, check=True)
 
-with DAG('load_s3_csv_to_mariadb_swiss', default_args=default_args, schedule_interval='0 7 * * *') as dag:
+with DAG('load_s3_csv_to_mysql_db_czech', default_args=default_args, schedule_interval='0 7 * * *') as dag:
     process_csv = PythonOperator(
     task_id='process_csv',
     python_callable=process_csv_file,

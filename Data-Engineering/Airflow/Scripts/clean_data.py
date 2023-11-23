@@ -122,13 +122,13 @@ def get_database_connection(database_type):
         # Connect to the MySQL database
         print("# Connecting to the MySQL database...")
         try:
-            import MySQLdb
+            import mysql.connector
         except ImportError:
-            print("Error: MySQLdb library not found. Please install it using pip.")
+            print("Error: mysql.connector library not found. Please install it using pip.")
             sys.exit()
 
-        cnx = MySQLdb.Connection(user=user, password=password,
-                                 host=host, port=int(port), database=database)
+        cnx = mysql.connector.connect(user=user, password=password,
+                              host=host, port=port, database=database)
         return cnx
     elif database_type == "postgresql":
         # Define the PostgreSQL database parameters
