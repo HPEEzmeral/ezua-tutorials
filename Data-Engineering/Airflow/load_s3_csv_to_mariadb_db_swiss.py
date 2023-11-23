@@ -38,7 +38,7 @@ op_kwargs = {
     'db_host': 'mariadb.mariadb.svc.cluster.local',
     'db_port': '3306',
     'db_user': 'root',
-    'db_password': 'Hepoc@123',
+    'db_password': 'Hpepoc@123',
     'db_name': 'discover',
     'table_name': 'swiss'
 }
