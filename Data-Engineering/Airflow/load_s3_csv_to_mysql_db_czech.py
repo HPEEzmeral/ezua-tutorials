@@ -56,9 +56,9 @@ def read_csv_from_s3(bucket_name, file_name, s3_endpoint, access_key=None, secre
     return df
 
 def import_csv_to_mariadb(df, db_host, db_port, db_user, db_password, db_name, table_name):
-    conn = MySQLdb.connector.connect(
+    conn = MySQLdb.connect(
         host=db_host,
-        port=db_port,
+        port=int(db_port),
         user=db_user,
         password=db_password,
         database=db_name
