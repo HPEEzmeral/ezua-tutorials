@@ -101,7 +101,7 @@ def process_csv_file(bucket_name, file_name, s3_endpoint, access_key=None, secre
 def run_clean_data_script(db_host=None, db_port=None, db_user=None, db_password=None, db_name=None, table_name=None):
     import subprocess
 
-    script_path = "/usr/local/airflow/dags/gitdags/Scripts/clean_data.py"  # ADAPT with the actual path to clean_data.py
+    script_path = "/usr/local/airflow/dags/gitdags/Data-Engineering/Airflow/Scripts/clean_data.py"  # ADAPT with the actual path to clean_data.py, you need to provide subdir of DAGs again
     command = [
         "python",
         script_path,
