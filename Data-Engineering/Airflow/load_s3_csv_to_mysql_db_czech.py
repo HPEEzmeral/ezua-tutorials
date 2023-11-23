@@ -35,7 +35,7 @@ op_kwargs = {
     's3_endpoint': 'https://192.168.141.26:31900',
     'access_key': 'minioadmin',
     'secret_key': 'minioadmin',
-    'db_host': 'mysql.msql.svc.cluster.local',
+    'db_host': 'mysql.mysql.svc.cluster.local',
     'db_port': '3306',
     'db_user': 'root',
     'db_password': 'Hpepoc@123',
