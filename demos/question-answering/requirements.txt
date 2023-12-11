@@ -1,0 +1,11 @@
+--extra-index-url https://download.pytorch.org/whl/cpu
+torch>=1.6.0
+torchvision==0.15.2
+mlflow==2.1.1
+boto3==1.21.0
+chromadb==0.3.26
+langchain==0.0.194
+sentence-transformers==2.2.2
+tqdm==4.65.0
+jupyter==1.0.0
+ipywidgets==7.7.5
