@@ -36,15 +36,32 @@ To complete the tutorial follow the steps below:
    server.
 1. Connect to the Notebook server, launch a new terminal window, and clone the repository locally.
 1. Navigate to the tutorial's directory (`ezua-tutorials/tutorials/mlflow`)
-1. Create a new conda environment using the specified `environment.yaml` file:
-   ```
-   conda env create -f environment.yaml
-   ```
-1. Add the new conda environment as an ipykernel:
-   ```
-   python -m ipykernel install --user --name=bike-sharing
-   ```
-1. Refresh your browser tab to access the updated environment.
+1. Create your virtual environment:
+    - Deactivate the base conda environment:
+        ```
+        conda deactivate
+        ```
+    - Create a new virtual environment:
+       ```
+       python -m venv bike-sharing
+       ```
+    - Activate the new virtual environment:
+       ```
+       source bike-sharing/bin/activate
+       ```
+    - Upgrade `pip`:
+       ```
+       pip install --upgrade pip
+       ```
+    - Install the dependencies:
+       ```
+       pip install -r requirements.txt
+       ```
+    - Add the new conda environment as an ipykernel:
+       ```
+       python -m ipykernel install --user --name=bike-sharing
+       ```
+    - Refresh your browser tab to access the updated environment.
 1. Launch the two Notebooks in order and execute the code cells. Make sure to select the `bike-sharing` environment
    kernel for each Notebook.
 
