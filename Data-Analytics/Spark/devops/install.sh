@@ -15,12 +15,12 @@ APP_IMAGE_NAME=${APP_IMAGE_NAME:-"gcr.io/mapr-252711/ezaf-spark-demo-example"}
 DOCKERFILE=${DOCKERFILE:-"${SCRIPTPATH}/../dockerfiles/SparkJarLocal-${spark_version}.Dockerfile"}
 
 if [[ $example == "mnist" ]]; then
-     APP_IMAGE_TAG=${APP_IMAGE_TAG:-"fy23-q3-mnist"}
+     APP_IMAGE_TAG=${APP_IMAGE_TAG:-"fy24-q1-mnist"}
      SPARK_APPLICATION=${SPARK_APPLICATION:-"${SCRIPTPATH}/../k8s/DataTransferMnist-JarLocal-${spark_version}.yaml"}
      SRC_SPARK_JAR=${SPARK_JAR:-"${SCRIPTPATH}/../src/DataTransfer/DataTransfer.jar"}
      DEST_SPARK_JAR=${DEST_SPARK_JAR:-"/tmp/DataTransfer.jar"}
 elif [[ $example == "fts" ]]; then
-      APP_IMAGE_TAG=${APP_IMAGE_TAG:-"fy23-q3-fts"}
+      APP_IMAGE_TAG=${APP_IMAGE_TAG:-"fy24-q1-fts"}
       SPARK_APPLICATION=${SPARK_APPLICATION:-"${SCRIPTPATH}/../k8s/DataProcessTransferFts-JarLocal-${spark_version}.yaml"}
       SRC_SPARK_JAR=${SPARK_JAR:-"${SCRIPTPATH}/../src/DataProcessTransfer/DataProcessTransfer.jar"}
       DEST_SPARK_JAR=${DEST_SPARK_JAR:-"/tmp/DataProcessTransfer.jar"}
