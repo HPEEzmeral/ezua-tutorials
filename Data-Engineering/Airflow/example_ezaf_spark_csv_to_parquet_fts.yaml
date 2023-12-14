@@ -11,9 +11,9 @@ spec:
     spark.driver.extraJavaOptions: "-Dcom.amazonaws.sdk.disableCertChecking=true"
     spark.executor.extraJavaOptions: "-Dcom.amazonaws.sdk.disableCertChecking=true"
   type: Scala
-  sparkVersion: 3.4.0
+  sparkVersion: 3.5.0
   mode: cluster
-  image: {{dag_run.conf["airgap_registry_url"]|default("", True)}}gcr.io/mapr-252711/ezaf-spark-demo-example:fy23-q3-fts
+  image: {{dag_run.conf["airgap_registry_url"]|default("", True)}}gcr.io/mapr-252711/ezaf-spark-demo-example:fy24-q1-fts
   imagePullPolicy: Always
   mainApplicationFile: local:///tmp/DataProcessTransfer.jar
   mainClass: com.mapr.sparkdemo.DataProcessTransfer
@@ -31,10 +31,10 @@ spec:
     coreLimit: "1000m"
     memory: "512m"
     labels:
-      version: 3.4.0
+      version: 3.5.0
   executor:
     cores: 1
     instances: 2
     memory: "512m"
     labels:
-      version: 3.4.0
+      version: 3.5.0
