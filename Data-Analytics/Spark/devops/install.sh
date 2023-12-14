@@ -10,7 +10,7 @@ do
 done
 
 SCRIPTPATH=$(dirname "${0}")
-spark_version=${spark_version:=3.4.0}
+spark_version=${spark_version:=3.5.0}
 APP_IMAGE_NAME=${APP_IMAGE_NAME:-"gcr.io/mapr-252711/ezaf-spark-demo-example"}
 DOCKERFILE=${DOCKERFILE:-"${SCRIPTPATH}/../dockerfiles/SparkJarLocal-${spark_version}.Dockerfile"}
 
