@@ -34,8 +34,7 @@ find specialized guides that show you how to leverage EzUA's frameworks and tool
 The current list of framework-specific tutorials include:
 
 - [FEAST feature store](tutorials/feast/): Ride sharing tutorial
-- [Kubeflow Pipelines](tutorials/kubeflow-pipelines/): Financial time series tutorial
-- [RAY](tutorials/ray): News recommendation tutorial
+- [Superset](tutorials/superset/): Data connection and visualization
 
 ## Getting Started
 
