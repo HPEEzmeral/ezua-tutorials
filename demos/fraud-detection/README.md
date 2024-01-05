@@ -1,6 +1,7 @@
-# Fraud Detection (Kubeflow Pipelines - KServe)
+# Fraud Detection
+## HPE Ezmeral Unified Analytics
 
-![fraud-detection-banking](images/artboard.png)
+![fraud-detection-banking](images/workflow.png)
 
 1. [Introduction](#Introduction)
 1. [Procedure](#procedure)
@@ -9,10 +10,7 @@
 1. [References](#references)
 
 ## Introduction
-Fraudulent activity has permeated multiple sectors, from e-commerce and healthcare to banking and payment systems. This
-illicit industry amasses billions every year and is on an upward trajectory. The 2018 global economic crime survey by
-PwC [1] verifies this assertion, revealing that 49 percent of the 7,200 enterprises surveyed had fallen prey to some
-form of fraudulent conduct.
+Fraudulent activity has permeated multiple sectors, from e-commerce and healthcare to banking and payment systems. This illicit industry amasses billions every year and is on an upward trajectory. The 2018 global economic crime survey by PwC [1] verifies this assertion, revealing that 49 percent of the 7,200 enterprises surveyed had fallen prey to some form of fraudulent conduct.
 
 It is therefore crucial that organizations can respond to such threats in a timely manner. With HPE Ezmeral Unified Analytics, fraud detection teams can immediately get started on training enterprise-grade prediction models and deploy them to analytics applications with ease. After all, no organization wants thsir specialist teams spending days or weeks setting up the environments - they should be catching fraudsters! 
 
@@ -22,7 +20,7 @@ activities with high accuracy.
 
 To run this tutorial, **you will need access to a HPE Ezmeral Unified Anaytics** cluster. 
 
-### You will learn to leverage the following tools on HPE Ezmeral Unified Analytis:
+### You will learn to leverage the following tools on HPE Ezmeral Unified Analytics:
 - Minio S3 Buckets
 - Kubeflow Pipelines
 - Kserve
