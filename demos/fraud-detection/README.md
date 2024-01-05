@@ -1,5 +1,4 @@
-### [Demo] HPE Ezmeral Unified Analytics
-# Fraud Detection
+## [Demo] HPE Ezmeral Unified Analytics - Banking Fraud Detection
 
 ![fraud-detection-banking](images/workflow.png)
 
