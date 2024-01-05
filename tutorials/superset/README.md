@@ -23,8 +23,7 @@ To complete the tutorial follow the steps below:
    Notebook server.
 1. Connect to the Notebook server, launch a new terminal window, and clone the repository locally.
 1. Navigate to the tutorial's directory (`ezua-tutorials/tutorials/superset`).
-1. Launch the `ride-sharing.ipynb` Notebook and execute the code cells. Make sure to select the `ride-sharing`
-   environment kernel.
+1. Launch the Notebook files in order. Each Notebook file contains instructions on how to proceed.
 
 ## How it Works
 
