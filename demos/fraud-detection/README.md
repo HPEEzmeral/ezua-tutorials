@@ -1,4 +1,4 @@
-<h1> HPE Ezmeral Unified Analytics - Fraud Detection </h1>
+<h1 style="bottom-border:none;"> HPE Ezmeral Unified Analytics - Fraud Detection </h1>
 
 ![fraud-detection-banking](images/workflow.png)
 
