@@ -1,8 +1,8 @@
-# Fraud Detection
-## HPE Ezmeral Unified Analytics
+# HPE Ezmeral Unified Analytics - Fraud Detection
 
 ![fraud-detection-banking](images/workflow.png)
 
+## Contents
 1. [Introduction](#Introduction)
 1. [Procedure](#procedure)
 1. [How it Works](#How-does-it-work?)
