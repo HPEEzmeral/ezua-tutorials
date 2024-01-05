@@ -35,7 +35,7 @@ To complete the tutorial follow the steps below:
 1. Create a new Notebook server using the `jupyter-data-science` image. Request at least 4Gi of memory for the Notebook
    server.
 1. Connect to the Notebook server, launch a new terminal window, and clone the repository locally.
-1. Navigate to the tutorial's directory (`ezua-tutorials/tutorials/mlflow`)
+1. Navigate to the tutorial's directory (`ezua-tutorials/demos/bike-sharing`)
 1. Create your virtual environment:
     - Deactivate the base conda environment:
         ```
