@@ -7,7 +7,8 @@
 
 ## Validation Steps
 1. **Setup Environment**: Set up the required environment variables. Please make sure you have updated right head node hostport Ip and port.
-    ray_head_ip = "10.224.226.40"
+    ray_head_ip = "10.224.226.40" or 
+    ray_head_ip = "kuberay-head-svc.kuberay.svc.cluster.local"
     ray_head_port = 8265
 
 2. **Validation Script**: Run the validation script.
