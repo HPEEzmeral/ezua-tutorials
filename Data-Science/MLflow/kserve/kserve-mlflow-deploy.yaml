@@ -5,7 +5,7 @@ metadata:
   namespace: user-namespace 
 spec:
   predictor:
-    serviceAccountName: kserve-minio-secret
+    serviceAccountName: kserve-local-s3-sa
     sklearn:
       protocolVersion: "v2"
       storageUri: "s3://mlflow/exp-id/run-id/artifacts/model"
