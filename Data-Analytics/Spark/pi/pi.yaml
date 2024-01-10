@@ -9,7 +9,7 @@ spec:
   mode: cluster
   image: gcr.io/mapr-252711/spark-3.5.0:v3.5.0
   imagePullPolicy: Always
-  mainApplicationFile: "local:///ezua-tutorials/Data-Analytics/Spark/pi/pi.py"
+  mainApplicationFile: "local:///mounts/shared-volume/ezua-tutorials/Data-Analytics/Spark/pi/pi.py"
   restartPolicy:
     type: Never
   imagePullSecrets:

@@ -8,16 +8,14 @@ spec:
     spark.hadoop.fs.s3a.path.style.access: "true"
     spark.hadoop.fs.s3a.impl: "org.apache.hadoop.fs.s3a.S3AFileSystem"
     spark.hadoop.fs.s3a.connection.ssl.enabled: "false"
-    spark.mapr.extraconf.secret: "<k8s-secret-name>"
-    spark.hadoop.fs.s3a.bucket.ezua-demo.endpoint: http://local-s3-service.ezdata-system.svc.cluster.local:30000
-    spark.driver.extraJavaOptions: "-Dcom.amazonaws.sdk.disableCertChecking=true"
-    spark.executor.extraJavaOptions: "-Dcom.amazonaws.sdk.disableCertChecking=true"
+    spark.hadoop.fs.s3a.aws.credentials.provider: "org.apache.spark.s3a.EzSparkAWSCredentialProvider"
+    spark.hadoop.fs.s3a.endpoint: http://local-s3-service.ezdata-system.svc.cluster.local:30000
   type: Scala
   sparkVersion: 3.5.0
   mode: cluster
   image: gcr.io/mapr-252711/spark-3.5.0:v3.5.0
   imagePullPolicy: Always
-  mainApplicationFile: "local:///ezua-tutorials/Data-Analytics/Spark/DataProcessTransfer/DataProcessTransfer.jar"
+  mainApplicationFile: "local:///mounts/shared-volume/ezua-tutorials/Data-Analytics/Spark/DataProcessTransfer/DataProcessTransfer.jar"
   mainClass: com.mapr.sparkdemo.DataProcessTransfer
   arguments:
     - s3a://ezua-demo/data/financial.csv               # source path
