@@ -11,6 +11,7 @@ spec:
     fs.s3a.impl: "org.apache.hadoop.fs.s3a.S3AFileSystem"
     fs.s3a.endpoint: '{{dag_run.conf["s3_endpoint"]}}'
     fs.s3a.connection.ssl.enabled: '{{"true" if dag_run.conf["s3_endpoint_ssl_enabled"] else "false"}}'
+    fs.s3a.aws.credentials.provider: "org.apache.spark.s3a.EzSparkAWSCredentialProvider"
   type: Scala
   sparkVersion: 3.5.0
   mode: cluster
@@ -33,15 +34,9 @@ spec:
     memory: "512m"
     labels:
       version: 3.5.0
-    envFrom:
-      - secretRef:
-          name: '{{dag_run.conf["s3_secret_name"]}}'
   executor:
     cores: 1
     instances: 2
     memory: "512m"
     labels:
       version: 3.5.0
-    envFrom:
-      - secretRef:
-          name: '{{dag_run.conf["s3_secret_name"]}}'

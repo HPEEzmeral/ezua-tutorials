@@ -38,11 +38,6 @@ dag = DAG(
         "s3_endpoint_ssl_enabled": Param(
             False, type="boolean", description="Whether to use SSL for S3 endpoint"
         ),
-        "s3_secret_name": Param(
-            "access-token",
-            type="string",
-            description="Name of secret with S3 access token",
-        ),
         "s3_bucket": Param(
             "ezaf-demo", type="string", description="S3 bucket to pull binary data from"
         ),
