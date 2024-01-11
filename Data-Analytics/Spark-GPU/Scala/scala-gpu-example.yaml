@@ -56,4 +56,3 @@ spec:
     - name: shared-volume
       persistentVolumeClaim:
         claimName: kubeflow-shared-pvc
-  
