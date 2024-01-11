@@ -49,7 +49,7 @@ pipeline = Pipeline([
     ("vect", CountVectorizer()),
     ("clf", SGDClassifier(loss="hinge", penalty="l2",
                           alpha=0.001,
-                          max_iter=100, tol=1e-3,
+                          max_iter=5, tol=1e-3,
                           warm_start=True))])
 result = pipeline.fit(train_0.data, train_0.target)
 
@@ -69,7 +69,7 @@ def train_func(config):
     ("vect", CountVectorizer()),
     ("clf", SGDClassifier(loss="hinge", penalty="l2",
                           alpha=config["alpha"],
-                          max_iter=100, tol=1e-3,
+                          max_iter=5, tol=1e-3,
                           warm_start=True))])
     train_1 = ray.get(train_id)
     test = ray.get(test_id)
