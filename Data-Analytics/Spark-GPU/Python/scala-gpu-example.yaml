@@ -1,8 +1,8 @@
 apiVersion: "sparkoperator.hpe.com/v1beta2"
 kind: SparkApplication
 metadata:
-  name: spark-gpu-341
-  namespace: spark
+  name: spark-gpu-py
+  namespace: <username>
 spec:
   sparkConf:
     # Enabling RAPIDs plugin
@@ -14,15 +14,15 @@ spec:
     spark.task.resource.gpu.amount: "1"
     spark.executor.resource.gpu.amount: "1"
     spark.executor.resource.gpu.vendor: "nvidia.com"
-    spark.executor.resource.gpu.discoveryScript: "/opt/mapr/spark/spark-3.4.1/examples/src/main/scripts/getGpusResources.sh"
-    spark.rapids.shims-provider-override: "com.nvidia.spark.rapids.shims.spark341.SparkShimServiceProvider"
+    spark.executor.resource.gpu.discoveryScript: "/opt/mapr/spark/spark-3.5.0/examples/src/main/scripts/getGpusResources.sh"
+    spark.rapids.shims-provider-override: "com.nvidia.spark.rapids.shims.spark350.SparkShimServiceProvider"
  
   type: Python
-  sparkVersion: 3.4.1
+  sparkVersion: 3.5.0
   mode: cluster
-  image: gcr.io/mapr-252711/spark-gpu-3.4.1:v3.4.1
+  image: gcr.io/mapr-252711/spark-gpu-3.5.0:v3.5.0
   imagePullPolicy: Always
-  mainApplicationFile: .../path/to/application.py
+  mainApplicationFile: "local:///mounts/shared-volume/ezua-tutorials/Data-Analytics/Spark-GPU/Python/SqlOnGpuExample.py"
   restartPolicy:
     type: Never
   imagePullSecrets:
@@ -32,11 +32,24 @@ spec:
     coreLimit: "1000m"
     memory: "1024m"
     labels:
-      version: 3.4.1
+      version: 3.5.0
+    volumeMounts:
+      - name: shared-volume
+        mountPath: /mounts/shared-volume
   executor:
     cores: 1
     coreLimit: "1000m"
     instances: 1
     memory: "2G"
+    gpu:
+      name: "nvidia.com/gpu"
+      quantity: 1
     labels:
-      version: 3.4.1
+      version: 3.5.0
+    volumeMounts:
+      - name: shared-volume
+        mountPath: /mounts/shared-volume
+  volumes:
+    - name: shared-volume
+      persistentVolumeClaim:
+        claimName: kubeflow-shared-pvc
