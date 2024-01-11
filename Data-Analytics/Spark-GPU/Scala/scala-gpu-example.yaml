@@ -31,7 +31,7 @@ spec:
   driver:
     cores: 1
     coreLimit: "1000m"
-    memory: "512m"
+    memory: "1024m"
     labels:
       version: 3.5.0
     volumeMounts:
@@ -42,16 +42,14 @@ spec:
     coreLimit: "1000m"
     instances: 1
     memory: "2G"
-    labels:
-      version: 3.5.0
-    volumeMounts:
-      - name: shared-volume
-        mountPath: /mounts/shared-volume
     gpu:
       name: "nvidia.com/gpu"
       quantity: 1
     labels:
       version: 3.5.0
+    volumeMounts:
+      - name: shared-volume
+        mountPath: /mounts/shared-volume
   volumes:
     - name: shared-volume
       persistentVolumeClaim:
