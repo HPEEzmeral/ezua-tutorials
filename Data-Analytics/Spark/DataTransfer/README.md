@@ -9,9 +9,7 @@ To setup this example the following steps are requried:
 
 2. Place the mnist folder to this path `s3a://ezua-demo/data/mnist`.
 
-3. Create Spark s3 secret.
-
-4. Update the Username in the namespace and populate the `spark.mapr.extraconf.secret` in sparkConf with the secret name.
+3. Update the `spark.hadoop.fs.s3a.aws.credentials.provider` and populate with `org.apache.spark.s3a.EzSparkAWSCredentialProvider` in sparkConf.
 
 #### Usage
 By default, the workflow consists of these steps:
