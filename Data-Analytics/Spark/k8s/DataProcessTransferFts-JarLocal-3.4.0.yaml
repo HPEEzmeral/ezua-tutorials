@@ -1,0 +1,50 @@
+apiVersion: "sparkoperator.hpe.com/v1beta2"
+kind: SparkApplication
+metadata:
+  name: data-process-transfer-demo
+  namespace: spark
+spec:
+  sparkConf:
+    spark.hadoop.fs.s3a.path.style.access: "true"
+    spark.hadoop.fs.s3a.impl: "org.apache.hadoop.fs.s3a.S3AFileSystem"
+    spark.hadoop.fs.s3a.connection.ssl.enabled: "true"
+    "spark.driver.extraJavaOptions": "-Dcom.amazonaws.sdk.disableCertChecking=true"
+    "spark.executor.extraJavaOptions": "-Dcom.amazonaws.sdk.disableCertChecking=true"
+  type: Scala
+  sparkVersion: 3.4.0
+  mode: cluster
+  image: gcr.io/mapr-252711/ezaf-spark-demo-example:fy23-q3-fts
+  imagePullPolicy: Always
+  mainApplicationFile: local:///tmp/DataProcessTransfer.jar
+  mainClass: com.mapr.sparkdemo.DataProcessTransfer
+  arguments:
+    - s3a://ezaf-demo/data/financial.csv              # source path
+    - csv                                             # source format
+    - file:///mounts/data/financial-processed         # destination path
+    - parquet                                         # destination format
+  restartPolicy:
+    type: Never
+  imagePullSecrets:
+    - hpe-imagepull-secrets
+  driver:
+    cores: 1
+    coreLimit: "1000m"
+    memory: "512m"
+    labels:
+      version: 3.4.0
+    volumeMounts:
+      - mountPath: /mounts/data/
+        name: spark-data
+  executor:
+    cores: 1
+    instances: 2
+    memory: "512m"
+    labels:
+      version: 3.4.0
+    volumeMounts:
+      - mountPath: /mounts/data
+        name: spark-data
+  volumes:
+    - name: spark-data
+      persistentVolumeClaim:
+        claimName: <username>-<namespace>-pvc         # PVC should be specified here
