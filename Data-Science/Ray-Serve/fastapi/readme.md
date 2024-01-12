@@ -22,7 +22,7 @@
 5. run the notebook.
 6. Note: Once you run the example the after ray part completed, it will print the following kind of log on top of kernel, just copy the IP and PORT, follwoing below kernel request, it will work as expected. Because every individual environment RAY cluster Head Node IP will be different.
 
-(HTTPProxyActor pid=347, ip=10.224.105.197) INFO 2024-01-12 14:42:25,224 http_proxy 10.224.105.197 http_proxy.py:1612 - Starting HTTP server on node: fc309c118aba26f569f7ba411dbaae25f86a43ef96156f43a4332fd4 listening on port 9000
+(HTTPProxyActor pid=469, ip=10.224.105.180) INFO 2024-01-12 15:17:14,451 http_proxy 10.224.105.180 http_proxy.py:1612 - Starting HTTP server on node: 133cfac4a7f41cb932e513e7e649cc8995e49ac405052b9721df197d listening on port 8000
 
 10. Reference and Conclusion I have updated the real-world statistics and survey details, have a look.
 
