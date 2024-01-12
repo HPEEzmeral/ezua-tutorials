@@ -4,14 +4,14 @@ metadata:
   name: spark-pi-{{ts_nodash|replace("T", "")}}
 spec:
   type: Scala
-  sparkVersion: 3.4.0
+  sparkVersion: 3.5.0
   mode: cluster
-  image: {{dag_run.conf["airgap_registry_url"]|default("", True)}}gcr.io/mapr-252711/spark-3.4.0:v3.4.0
+  image: '{{dag_run.conf["airgap_registry_url"]|default("", True)}}gcr.io/mapr-252711/spark-3.5.0:v3.5.0'
   imagePullPolicy: Always
   imagePullSecrets:
   - imagepull
   mainClass: org.apache.spark.examples.SparkPi
-  mainApplicationFile: "local:///opt/mapr/spark/spark-3.4.0/examples/jars/spark-examples_2.12-3.4.0.0-eep.jar"
+  mainApplicationFile: "local:///opt/mapr/spark/spark-3.5.0/examples/jars/spark-examples_2.12-3.5.0.0-eep.jar"
   restartPolicy:
     type: Never
   driver:
@@ -19,11 +19,11 @@ spec:
     coreLimit: "1000m"
     memory: "512m"
     labels:
-      version: 3.4.0
+      version: 3.5.0
   executor:
     cores: 1
     instances: 2
     coreLimit: "1000m"
     memory: "512m"
     labels:
-      version: 3.4.0
+      version: 3.5.0
