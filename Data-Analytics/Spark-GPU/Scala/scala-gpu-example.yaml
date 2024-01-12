@@ -2,9 +2,13 @@ apiVersion: "sparkoperator.hpe.com/v1beta2"
 kind: SparkApplication
 metadata:
   name: scala-sql-on-gpu
-  namespace: <username>
+  namespace: sampletenant
 spec:
   sparkConf:
+    # Note: If you are executing the application as a K8 user that MapR can verify,
+#           you do not need to specify a spark.mapr.user.secret
+#    spark.mapr.user.secret: mapr-secret
+
     # Enabling RAPIDs plugin
     spark.plugins: "com.nvidia.spark.SQLPlugin"
     spark.rapids.sql.enabled: "true"
@@ -14,15 +18,15 @@ spec:
     spark.task.resource.gpu.amount: "1"
     spark.executor.resource.gpu.amount: "1"
     spark.executor.resource.gpu.vendor: "nvidia.com"
-    spark.executor.resource.gpu.discoveryScript: "/opt/mapr/spark/spark-3.5.0/examples/src/main/scripts/getGpusResources.sh"
-    spark.rapids.shims-provider-override: "com.nvidia.spark.rapids.shims.spark350.SparkShimServiceProvider"
+    spark.executor.resource.gpu.discoveryScript: "/opt/mapr/spark/spark-3.4.1/examples/src/main/scripts/getGpusResources.sh"
+    spark.rapids.shims-provider-override: "com.nvidia.spark.rapids.shims.spark341.SparkShimServiceProvider"
 
   type: Scala
-  sparkVersion: 3.5.0
+  sparkVersion: 3.4.1
   mode: cluster
-  image: gcr.io/mapr-252711/spark-gpu-3.5.0:v3.5.0
+  image: gcr.io/mapr-252711/spark-gpu-3.4.1:v3.4.1
   imagePullPolicy: Always
-  mainApplicationFile: "local:///mounts/shared-volume/ezua-tutorials/Data-Analytics/Spark-GPU/Scala/SparkExamples.jar"
+  mainApplicationFile: /path/to/examples/jar/file
   mainClass: com.hpe.examples.spark.sql.SqlOnGpuExample
   restartPolicy:
     type: Never
@@ -31,12 +35,12 @@ spec:
   driver:
     cores: 1
     coreLimit: "1000m"
-    memory: "1024m"
+    memory: "512m"
     labels:
-      version: 3.5.0
-    volumeMounts:
-      - name: shared-volume
-        mountPath: /mounts/shared-volume
+      version: 3.4.1
+    # Note: You do not need to specify a serviceAccount
+    #       it will be auto-generated referencing the pre-existing "hpe-<namespace>"
+  #    serviceAccount: hpe-gputest
   executor:
     cores: 1
     coreLimit: "1000m"
@@ -46,11 +50,4 @@ spec:
       name: "nvidia.com/gpu"
       quantity: 1
     labels:
-      version: 3.5.0
-    volumeMounts:
-      - name: shared-volume
-        mountPath: /mounts/shared-volume
-  volumes:
-    - name: shared-volume
-      persistentVolumeClaim:
-        claimName: kubeflow-shared-pvc
+      version: 3.4.1
