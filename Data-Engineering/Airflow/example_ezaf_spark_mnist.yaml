@@ -15,9 +15,9 @@ spec:
   type: Scala
   sparkVersion: 3.5.0
   mode: cluster
-  image: '{{dag_run.conf["airgap_registry_url"]|default("", True)}}gcr.io/mapr-252711/ezaf-spark-demo-example:fy24-q1-mnist'
+  image: '{{dag_run.conf["airgap_registry_url"]|default("", True)}}gcr.io/mapr-252711/spark-3.5.0:v3.5.0'
   imagePullPolicy: Always
-  mainApplicationFile: local:///tmp/DataTransfer.jar
+  mainApplicationFile: local:///mnt/shared/ezua-tutorials/Data-Analytics/Spark/src/DataTransfer/DataTransfer.jar
   mainClass: com.mapr.sparkdemo.DataTransfer
   arguments:
     - s3a://{{dag_run.conf["s3_bucket"]}}/{{dag_run.conf["s3_path"]}}
