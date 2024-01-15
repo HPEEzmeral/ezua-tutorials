@@ -9,6 +9,7 @@ user's questions, which enhances the LLM prompt. The result? An accurate and eff
 
 1. [What You'll Need](#what-youll-need)
 1. [Procedure](#procedure)
+1. [Troubleshooting](#troubleshooting)
 1. [How It Works](#how-it-works)
 1. [Clean Up](#clean-up)
 1. [References](#references)
@@ -24,9 +25,10 @@ For this tutorial, ensure you have:
 To complete the tutorial follow the steps below:
 
 1. Login to your EzUA cluster, using your credentials.
-1. Create a new Notebook server using the `jupyter-data-science` image. Request at least `4Gi` of memory for the
-   Notebook server.
+1. Create a new Notebook server using the `jupyter-data-science` image. Request at least `4Gi` of
+   memory for the Notebook server.
 1. Connect to the Notebook server, launch a new terminal window, and clone the repository locally.
+   See the troubleshooting section if this step fails.
 1. Navigate to the tutorial's directory (`ezua-tutorials/demos/question-answering`)
 1. Create your virtual environment:
     - Deactivate the base conda environment:
@@ -61,6 +63,26 @@ To complete the tutorial follow the steps below:
 1. Connect to the endpoint and submit your questions.
 
 ![application-ui](images/application-ui.png)
+
+## Troubleshooting
+
+If you're operating behind a proxy, you'll need to configure several environment variables to
+successfully clone the `ezua-tutorials` repository to your local machine, install its dependencies
+using `pip`, and download the necessary Machine Learning (ML) models from external sources. 
+
+To clone the repository and install the necessary Python libraries using `pip`, launch a terminal
+window and execute the following commands:
+
+- `export http_proxy=<your http proxy URL>`
+- `export https_proxy=<your https proxy URL>`
+
+To download the transformer model, which converts documents into vectors, you must set an
+environment variable in the first Notebook. Do this as follows:
+
+![proxy](images/proxy.png)
+
+To allow KServe to download the transformer model and the LLM uncomment the lines that add the
+necessary environment variables to the KServe CRs defined in Notebooks `2` and `4`.
 
 ## How It Works
 
