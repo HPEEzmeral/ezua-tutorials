@@ -11,6 +11,22 @@ To setup this example the following steps are requried:
 
 3. Update the `spark.hadoop.fs.s3a.aws.credentials.provider` and populate with `org.apache.spark.s3a.EzSparkAWSCredentialProvider` in sparkConf.
 
+Note: To access local-s3 from OSS Spark you need to explicitly specify Access Key and Secret Key as OSS Spark can not utilize our implementation of EzSparkAWSCredentialProvider.
+
+To do this you need to add the following configuration to Spark Application:
+
+spark.hadoop.fs.s3a.access.key <ACCESS_KEY>
+spark.hadoop.fs.s3a.secret.key <SECRET_KEY>
+
+Alternatively, you can set Access Key and Secret Key as environment variables:
+
+spark.kubernetes.driverEnv.AWS_ACCESS_KEY_ID: <ACCESS_KEY>
+spark.kubernetes.driverEnv.AWS_ACCESS_KEY_ID: <SECRET_KEY>
+spark.kubernetes.executorEnv.AWS_ACCESS_KEY_ID: <ACCESS_KEY>
+spark.kubernetes.executorEnv.AWS_SECRET_ACCESS_KEY: <SECRET_KEY>
+
+However, using this options user wont be able to automatically refresh those tokens from the Secret mounted into Pod.
+
 #### Usage
 By default, the workflow consists of these steps:
 
