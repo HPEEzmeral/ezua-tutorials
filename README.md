@@ -13,6 +13,15 @@ capabilities.
 
 ![ezua-tutorials](images/ezua-tutorials.jpg)
 
+## Branching Model
+
+This repository adheres to the versioning scheme of the EzUA platform. The `develop` branch serves
+as the hub for active development. Release branches are derived from the develop branch, aligning
+closely with EzUA versions. For instance, `release-x.y.z` is designed to seamlessly woth with EzUA
+version `x.y.z`. It's worth noting that when you clone this repository, the default branch aligns
+with the most recent EzUA version. Therefore, if you're working with the latest EzUA iteration, you
+can clone it and proceed without the need to switch branches.
+
 ## Repository Structure
 
 This repository is organized into two main directories:
