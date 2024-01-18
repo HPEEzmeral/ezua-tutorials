@@ -17,7 +17,7 @@ spec:
   mode: cluster
   image: '{{dag_run.conf["airgap_registry_url"]|default("", True)}}gcr.io/mapr-252711/spark-3.5.0:v3.5.0'
   imagePullPolicy: Always
-  mainApplicationFile: local:///mnt/shared/ezua-tutorials/Data-Analytics/Spark/src/DataProcessTransfer/DataProcessTransfer.jar
+  mainApplicationFile: local:///mnt/shared/ezua-tutorials/Data-Analytics/Spark/DataProcessTransfer/DataProcessTransfer.jar
   mainClass: com.mapr.sparkdemo.DataProcessTransfer
   arguments:
     - s3a://{{dag_run.conf["s3_bucket"]}}/{{dag_run.conf["s3_path"]}}
@@ -29,8 +29,14 @@ spec:
   imagePullSecrets:
     - imagepull
   driver:
+    cores: 1
+    coreLimit: "1000m"
+    memory: "512m"
     labels:
       version: 3.5.0
   executor:
+    cores: 1
+    instances: 2
+    memory: "512m"
     labels:
       version: 3.5.0
