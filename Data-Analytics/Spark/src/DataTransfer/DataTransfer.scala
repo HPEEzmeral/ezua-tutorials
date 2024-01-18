@@ -27,15 +27,34 @@ object DataTransfer {
     val session = SparkSession.builder().getOrCreate()
 
     println(s"Reading from $srcPath; src format is $srcFormat")
-    val sourceDF = session.read.format(srcFormat).load(srcPath)
+    var sourceDF: DataFrame = null
+    try {
+      sourceDF = session.read.format(srcFormat).load(srcPath)
+
+      if (sourceDF == null || sourceDF.count() == 0) {
+        throw new Exception("sourceDF is null after reading or has no rows")
+      }
+    } catch {
+      case e: Exception => {
+        println(s"Can not read from $srcPath: ${e.getMessage}")
+        System.exit(1)
+      }
+    }
     println("Read complete")
 
     println(s"Writing to $destPath; dest format is $destFormat")
-    sourceDF.write
-      .format(destFormat)
-      .mode(SaveMode.Overwrite)
-      .save(destPath)
-    println("Write complete")
+    try {
+      sourceDF.write
+        .format(destFormat)
+        .mode(SaveMode.Overwrite)
+        .save(destPath)
+      println("Write complete")
+    } catch {
+      case e: Exception => {
+        println(s"Can not write to $destPath: ${e.getMessage}")
+        System.exit(1)
+      }
+    }
 
     session.stop()
   }

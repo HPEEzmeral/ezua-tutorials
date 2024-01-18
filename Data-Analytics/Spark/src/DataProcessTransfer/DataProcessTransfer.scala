@@ -27,17 +27,48 @@ object DataProcessTransfer {
     val session = SparkSession.builder().getOrCreate()
 
     println(s"Reading from $srcPath; src format is $srcFormat")
-    val sourceDF = session.read.option("header", "true").format(srcFormat).load(srcPath)
+
+    var sourceDF: DataFrame = null
+    try {
+      sourceDF = session.read.option("header", "true").format(srcFormat).load(srcPath)
+
+      if (sourceDF == null || sourceDF.count() == 0) {
+        throw new Exception("sourceDF is null after reading or has no rows")
+      }
+    } catch {
+      case e: Exception => {
+        println(s"Can not read from $srcPath: ${e.getMessage}")
+        System.exit(1)
+      }
+    }
     println("Read complete")
 
-    val processedDf = processData(sourceDF)
+    println("Processing data")
+    var processedDf: DataFrame = null
+    try {
+      processedDf = processData(sourceDF)
+    } catch {
+      case e: Throwable => {
+        e.printStackTrace()
+        println(s"Can not process data: ${e.getMessage}")
+        System.exit(1)
+      }
+    }
+    println("Processing complete")
 
     println(s"Writing to $destPath; dest format is $destFormat")
-    processedDf.write
-      .format(destFormat)
-      .option("header", "true")
-      .mode(SaveMode.Overwrite)
-      .save(destPath)
+    try{
+      processedDf.write
+        .format(destFormat)
+        .option("header", "true")
+        .mode(SaveMode.Overwrite)
+        .save(destPath)
+    } catch {
+      case e: Exception => {
+        println(s"Can not write to $destPath: ${e.getMessage}")
+        System.exit(1)
+      }
+    }
     println("Write complete")
 
     session.stop()
