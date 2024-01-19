@@ -36,7 +36,7 @@ To complete this tutorial follow the steps below:
 1. Connect to the Notebook server, launch a new terminal window, and clone the repository locally.
 1. Navigate to the tutorial's directory (`ezua-tutorials/demos/wind-turbine`).
 1. Launch the `wind-turbine.ipynb` notebook file and follow the instructions. Make sure to select
-   the `wind-turbine` environment kernel. 
+   the `Python 3` kernel.
 
 ## How it Works
 
