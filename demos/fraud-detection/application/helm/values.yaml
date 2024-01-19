@@ -8,7 +8,7 @@ image:
   repository: dpoulopoulos/fraud-detection-app
   pullPolicy: Always
   # Overrides the image tag whose default is the chart appVersion.
-  tag: "v0.1.0"
+  tag: "v0.2.1"
 
 imagePullSecrets: []
 nameOverride: ""
@@ -75,10 +75,10 @@ ingress:
 resources:
   limits:
     cpu: 100m
-    memory: 128Mi
+    memory: 1Gi
   requests:
     cpu: 100m
-    memory: 128Mi
+    memory: 1Gi
 
 autoscaling:
   enabled: false
