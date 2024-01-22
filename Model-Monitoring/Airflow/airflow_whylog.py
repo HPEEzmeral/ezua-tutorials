@@ -39,6 +39,13 @@ with DAG(
     start_date=datetime.now(),
     max_active_runs=1,
     tags=['responsible', 'data_transformation'],
+    access_control={
+        'All': {
+            'can_read',
+            'can_edit',
+            'can_delete'
+        }
+    }
 ) as dag:
 
 

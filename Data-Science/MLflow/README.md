@@ -5,7 +5,7 @@
 This tutorial provides a detailed walkthrough of a comprehensive data science
 workflow, encompassing data preprocessing, model training and evaluation,
 hyperparameter tuning, experiment tracking via MLFlow, and model deployment
-using Seldon and KServe. The use case under consideration is the well-known
+using KServe. The use case under consideration is the well-known
 bike sharing dataset, sourced from the UCI Machine Learning Repository.
 
 
