@@ -1,0 +1,7 @@
+ray[client]==2.7.0
+ray[default]==2.7.0
+time
+warnings
+tensorrt
+tensorflow
+nvidia-tensorrt==99.0.0
