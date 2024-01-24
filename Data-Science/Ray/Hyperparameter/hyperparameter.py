@@ -83,6 +83,7 @@ def train_func(config):
         print("=========2", test.target)
         print("=========3", test.data)
         train.report({'mean_accuracy': np.mean(pipeline.predict(test.data))})
+        
 analysis = tune.run(
                 train_func,
                 config={"alpha": tune.grid_search([1e-3, 1e-4, 1e-5, 1e-6])},
