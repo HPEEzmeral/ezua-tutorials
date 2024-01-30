@@ -1,0 +1,57 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: logrotate-spark-history
+  namespace: spark
+  labels:
+    hpe-ezua/app: spark
+    hpe-ezua/type: app-service-core
+    module: history-server
+spec:
+  selector:
+    matchLabels:
+      module: history-server
+  template:
+    metadata:
+      labels:
+        hpe-ezua/app: spark
+        hpe-ezua/type: app-service-core
+        module: history-server
+    spec:
+      serviceAccount: hpe-spark
+      serviceAccountName: hpe-spark
+      volumes:
+      - name: sparkhs-eventlog-storage
+        persistentVolumeClaim:
+          claimName: sparkhs-pvc
+      containers:
+        - name: "logrotate-containerd"
+          env:
+          - name: LOGROTATE_SIZE
+            value: 1G
+          - name: BACKUP_SIZE
+            value: 1M
+          - name: CRON_SCHEDULE
+            value: "0 * * * *"
+          - name: LOGROTATE_PATTERN
+            value: "/var/log/sparkhs-eventlog-storage/*"
+          - name: BACKUP_DIR
+            value: "/tmp/"
+          - name: LOGROTATE_ROTATE
+            value: "0"
+          - name: LOGROTATE_MODE
+            value: copytruncate
+          - name: BACKUP_MAXAGE
+            value: "0"
+          image: "lr1-bd-harbor-registry.mip.storage.hpecorp.net/develop/ezkf/logrotate:base"
+          imagePullPolicy: Always
+          volumeMounts:
+          - mountPath: /var/log/sparkhs-eventlog-storage
+            name: sparkhs-eventlog-storage
+          resources:
+            requests:
+              cpu: 30m
+              memory: 100Mi
+            limits:
+              cpu: 500m
+              memory: 512Mi
