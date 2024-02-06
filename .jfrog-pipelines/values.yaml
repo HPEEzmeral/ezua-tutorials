@@ -1,0 +1,57 @@
+#Integrations
+
+GitRepo:
+  name: ezuaTutorialsRepo
+  gitProvider: hpegithub
+  path: hpe/ezua-tutorials
+
+component: ezua_tutorials
+pipelineName: ezua_tutorials
+nodePoolName: NodePool-Prod
+
+xrayIntegration: xray
+smtpIntegration: notifySMTP
+jenkinsIntegration: hpecp_jenkins_github
+
+#Jfrog
+jfrogProject: "develop"
+jfrogRegistry: "lr1-bd-jfrog-artifactory.mip.storage.hpecorp.net:80"
+jfrogHttpUrl: "http://lr1-bd-jfrog-artifactory.mip.storage.hpecorp.net"
+pubProductionRegistry: "lr1-bd-harbor-registry.mip.storage.hpecorp.net/devops-test"
+
+#Harbor
+harborProject: "develop"
+harborSaasEzProject: "ezmeral"
+harborSaasProject: "develop"
+harborSaasAirgapProject: "develop"
+harborSaasRegistry: "marketplace.us1.greenlake-hpe.com"
+harborRegistry: "lr1-bd-harbor-registry.mip.storage.hpecorp.net"
+
+#generic
+
+ezStoreBuildArtifactsRepo: ezkf/ezua_tutorials
+jfrogBuildUploadPath: '{{gitBranch}}/${run_number}/'
+jfrogBuildUploadProperties: '--target-props "branch=${pipeline_branchName};commit=${pipeline_commitSha}" --fail-no-op=true'
+
+
+#github
+githubStatusUpdateBuildStart: '--message "started..." --context "${step_name}"'
+githubStatusUpdateBuildFailed: '--message "failed.." --context "${step_name}"'
+githubStatusUpdateBuildSuccess: '--message "successful.." --context "${step_name}"'
+
+
+#EMAIL
+ezDevOpsEmail: ez-devops@hpe.com
+ezAdminEmail: ez-devops@hpe.com
+
+emailNotificationSuccess: '--body "<b>$pipeline_name pipeline successful </b> <br><br> <b>branch - </b> ${pipeline_branchName} <br><br> <b>commit - </b>${pipeline_commitSha} <br><br> <b>changed files - </b><ul>$changed_files_html_list</ul>"'
+emailNotificationFailed: '--body "<b>$pipeline_name pipeline failed at stage - ${step_name} </b> <br><br> <b>branch - </b> ${pipeline_branchName} <br><br> <b>commit - </b>${pipeline_commitSha} <br><br> <b>changed files - </b><ul>$changed_files_html_list</ul>" --attach-logs --show-failing-commands'
+
+
+buildRunTimeImageName: "lr1-bd-harbor-registry.mip.storage.hpecorp.net/build/ezkf-builder"
+buildRunTimeImageTag: "0.4"
+
+airgapRunTimeImageName: "lr1-bd-harbor-registry.mip.storage.hpecorp.net/build/ez-pipeline"
+airgapRunTimeImageTag: "0.1.7"
+
+RunTimeImageOptions: "-v /root/.docker/config.json:/root/.docker/config.json -v /usr/bin/jf:/usr/bin/jf -v /root/.ssh:/root/.ssh:ro"

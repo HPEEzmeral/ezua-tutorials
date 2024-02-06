@@ -1,0 +1,3 @@
+valuesFilePath: ./values.yaml
+include:
+  template: ezmeral/pipelineTemplate/0.0.3
