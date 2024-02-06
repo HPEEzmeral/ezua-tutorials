@@ -52,6 +52,6 @@ buildRunTimeImageName: "lr1-bd-harbor-registry.mip.storage.hpecorp.net/build/ezk
 buildRunTimeImageTag: "0.4"
 
 airgapRunTimeImageName: "lr1-bd-harbor-registry.mip.storage.hpecorp.net/build/ez-pipeline"
-airgapRunTimeImageTag: "0.1.7"
+airgapRunTimeImageTag: "0.1.8"
 
 RunTimeImageOptions: "-v /root/.docker/config.json:/root/.docker/config.json -v /usr/bin/jf:/usr/bin/jf -v /root/.ssh:/root/.ssh:ro"
