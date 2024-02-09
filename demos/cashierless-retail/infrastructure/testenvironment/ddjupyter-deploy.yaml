@@ -1,0 +1,48 @@
+
+## Deploy a Pod
+
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: hpecp-tutorialbox
+  labels:
+    apps: hpecp-tutorialbox
+spec:
+  selector:
+    matchLabels:
+      apps: hpecp-tutorialbox
+  template:
+    metadata:
+      labels:
+        apps: hpecp-tutorialbox
+    spec:
+      containers:
+      - args:
+        - --no-browser
+        - --ip 
+        - "0.0.0.0"
+        - --port
+        - "8888"
+        - "--NotebookApp.password=argon2:$argon2id$v=19$m=10240,t=10,p=8$ggUGDlPL80t/aJQ0t1Ys/A$TB5I1woSkCacdFH4IPlLnpdoL2SKZW7mQQKKlBOntyc"
+        - --NotebookApp.notebook_dir=/home/dderichswei/notebooks
+        command:
+        - jupyter-lab
+
+        image: registry.mydirk.de/dderichswei/ddjupyter
+        name: hpecp-tutorialbox
+        ports:
+        - containerPort: 8888
+          name: jupyterlab
+        - containerPort: 8889
+          name: jupyter
+        volumeMounts:
+        - mountPath: /home/dderichswei/notebooks
+          name: storage
+      
+      volumes:
+      - hostPath:
+          path: /srv/jupyter
+          type: DirectoryOrCreate
+        name: storage
+     

@@ -1,0 +1,16 @@
+apiVersion: kyverno.io/v1
+kind: ClusterPolicy
+metadata:
+  name: allow-everything
+spec:
+  validationFailureAction: audit
+  background: false
+  rules:
+    - name: allow-everything-rule
+      match:
+        resources:
+          kinds:
+            - "*"
+      validate:
+        message: "Allowing all resources in the namespace"
+        pattern: {}

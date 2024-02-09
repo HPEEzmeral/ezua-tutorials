@@ -1,0 +1,5 @@
+{
+	"domain": "kafka-ua-demo.ezmeral.de",
+	"certUrl": "https://acme-v02.api.letsencrypt.org/acme/cert/0426c9531a5700dad2aa7549b1c175cc7bac",
+	"certStableUrl": "https://acme-v02.api.letsencrypt.org/acme/cert/0426c9531a5700dad2aa7549b1c175cc7bac"
+}

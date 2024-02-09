@@ -1,0 +1,901 @@
+PRODUCTID,PRODUCT,TYPE,UNITPRICE,UNIT,QTY,TOTALSALES,CURRENCY,STORE,COUNTRY,YEAR
+1,banana,fruits,11.78,kg,5219,61479.82,CZK,Store A,Czech Republic,2019
+2,apple,fruits,16.491999999999997,kg,2492,102577.88,CZK,Store A,Czech Republic,2019
+3,pear,fruits,14.136,kg,1182,119286.64,CZK,Store A,Czech Republic,2019
+4,grapes,fruits,28.272,kg,244,126185.0,CZK,Store A,Czech Republic,2019
+5,orange,fruits,18.848,kg,237,130651.98,CZK,Store A,Czech Republic,2019
+6,kiwi,fruits,21.204,piece,1051,152937.38,CZK,Store A,Czech Republic,2019
+7,watermelon,fruits,117.8,kg,918,261077.78,CZK,Store A,Czech Republic,2019
+8,pomegranate,fruits,58.9,kg,4977,554223.08,CZK,Store A,Czech Republic,2019
+9,pineapple,fruits,35.339999999999996,piece,2414,639533.84,CZK,Store A,Czech Republic,2019
+10,mango,fruits,47.12,piece,1122,692402.48,CZK,Store A,Czech Republic,2019
+11,cucumber,vegetables,9.424,piece,3303,723529.96,CZK,Store A,Czech Republic,2019
+12,carrot,vegetables,7.068,kg,5558,762813.9,CZK,Store A,Czech Republic,2019
+13,capsicum,vegetables,11.78,kg,1482,780271.86,CZK,Store A,Czech Republic,2019
+14,onion,vegetables,4.712,kg,1152,785700.08,CZK,Store A,Czech Republic,2019
+15,potato,vegetables,7.068,kg,244,787424.68,CZK,Store A,Czech Republic,2019
+16,lemon,vegetables,9.424,kg,2777,813595.12,CZK,Store A,Czech Republic,2019
+17,tomato,vegetables,14.136,kg,1551,835520.06,CZK,Store A,Czech Republic,2019
+18,raddish,vegetables,7.068,kg,1630,847040.9,CZK,Store A,Czech Republic,2019
+19,beetroot,vegetables,9.424,kg,1888,864833.41,CZK,Store A,Czech Republic,2019
+20,cabbage,vegetables,11.78,piece,3746,908961.29,CZK,Store A,Czech Republic,2019
+21,lettuce,vegetables,14.136,piece,2540,944866.73,CZK,Store A,Czech Republic,2019
+22,spinach,vegetables,16.491999999999997,kg,773,957615.05,CZK,Store A,Czech Republic,2019
+23,soy bean,vegetables,18.848,kg,535,967698.73,CZK,Store A,Czech Republic,2019
+24,cauliflower,vegetables,14.136,piece,839,979558.83,CZK,Store A,Czech Republic,2019
+25,bell pepper,vegetables,16.491999999999997,kg,4530,1054267.59,CZK,Store A,Czech Republic,2019
+26,chilli pepper,vegetables,11.78,kg,4370,1105746.19,CZK,Store A,Czech Republic,2019
+27,turnip,vegetables,9.424,kg,1870,1123369.07,CZK,Store A,Czech Republic,2019
+28,corn,vegetables,7.068,kg,5320,1160970.83,CZK,Store A,Czech Republic,2019
+29,sweetcorn,vegetables,9.424,kg,3760,1196405.07,CZK,Store A,Czech Republic,2019
+30,sweet potato,vegetables,11.78,kg,857,1206500.53,CZK,Store A,Czech Republic,2019
+31,paprika,vegetables,47.12,kg,2918,1343996.69,CZK,Store A,Czech Republic,2019
+32,jalepeno,vegetables,47.12,kg,1082,1394980.53,CZK,Store A,Czech Republic,2019
+33,ginger,vegetables,35.339999999999996,kg,1411,1444845.27,CZK,Store A,Czech Republic,2019
+34,garlic,vegetables,35.339999999999996,kg,658,1468098.99,CZK,Store A,Czech Republic,2019
+35,peas,vegetables,70.67999999999999,kg,1832,1597584.75,CZK,Store A,Czech Republic,2019
+36,eggplant,vegetables,35.339999999999996,kg,3723,1729155.57,CZK,Store A,Czech Republic,2019
+1,banana,fruits,11.78,kg,791,9317.98,CZK,Store B,Czech Republic,2019
+2,apple,fruits,16.491999999999997,kg,1711,37535.79,CZK,Store B,Czech Republic,2019
+3,pear,fruits,14.136,kg,1120,53368.11,CZK,Store B,Czech Republic,2019
+4,grapes,fruits,28.272,kg,1112,84806.58,CZK,Store B,Czech Republic,2019
+5,orange,fruits,18.848,kg,3513,151019.6,CZK,Store B,Czech Republic,2019
+6,kiwi,fruits,21.204,piece,1882,190925.53,CZK,Store B,Czech Republic,2019
+7,watermelon,fruits,117.8,kg,3495,602636.53,CZK,Store B,Czech Republic,2019
+8,pomegranate,fruits,58.9,kg,3243,793649.23,CZK,Store B,Czech Republic,2019
+9,pineapple,fruits,35.339999999999996,piece,1368,841994.35,CZK,Store B,Czech Republic,2019
+10,mango,fruits,47.12,piece,1239,900376.03,CZK,Store B,Czech Republic,2019
+11,cucumber,vegetables,9.424,piece,1778,917131.9,CZK,Store B,Czech Republic,2019
+12,carrot,vegetables,7.068,kg,62,917570.12,CZK,Store B,Czech Republic,2019
+13,capsicum,vegetables,11.78,kg,3911,963641.7,CZK,Store B,Czech Republic,2019
+14,onion,vegetables,4.712,kg,1310,969814.42,CZK,Store B,Czech Republic,2019
+15,potato,vegetables,7.068,kg,5442,1008278.47,CZK,Store B,Czech Republic,2019
+16,lemon,vegetables,9.424,kg,379,1011850.17,CZK,Store B,Czech Republic,2019
+17,tomato,vegetables,14.136,kg,1782,1037040.52,CZK,Store B,Czech Republic,2019
+18,raddish,vegetables,7.068,kg,3348,1060704.18,CZK,Store B,Czech Republic,2019
+19,beetroot,vegetables,9.424,kg,2856,1087619.13,CZK,Store B,Czech Republic,2019
+20,cabbage,vegetables,11.78,piece,413,1092484.27,CZK,Store B,Czech Republic,2019
+21,lettuce,vegetables,14.136,piece,1224,1109786.73,CZK,Store B,Czech Republic,2019
+22,spinach,vegetables,16.491999999999997,kg,137,1112046.14,CZK,Store B,Czech Republic,2019
+23,soy bean,vegetables,18.848,kg,2079,1151231.13,CZK,Store B,Czech Republic,2019
+24,cauliflower,vegetables,14.136,piece,105,1152715.41,CZK,Store B,Czech Republic,2019
+25,bell pepper,vegetables,16.491999999999997,kg,1160,1171846.13,CZK,Store B,Czech Republic,2019
+26,chilli pepper,vegetables,11.78,kg,1637,1191129.99,CZK,Store B,Czech Republic,2019
+27,turnip,vegetables,9.424,kg,879,1199413.68,CZK,Store B,Czech Republic,2019
+28,corn,vegetables,7.068,kg,1257,1208298.16,CZK,Store B,Czech Republic,2019
+29,sweetcorn,vegetables,9.424,kg,1328,1220813.23,CZK,Store B,Czech Republic,2019
+30,sweet potato,vegetables,11.78,kg,236,1223593.31,CZK,Store B,Czech Republic,2019
+31,paprika,vegetables,47.12,kg,1286,1284189.63,CZK,Store B,Czech Republic,2019
+32,jalepeno,vegetables,47.12,kg,1178,1339696.99,CZK,Store B,Czech Republic,2019
+33,ginger,vegetables,35.339999999999996,kg,4941,1514311.93,CZK,Store B,Czech Republic,2019
+34,garlic,vegetables,35.339999999999996,kg,2554,1604570.29,CZK,Store B,Czech Republic,2019
+35,peas,vegetables,70.67999999999999,kg,1276,1694757.97,CZK,Store B,Czech Republic,2019
+36,eggplant,vegetables,35.339999999999996,kg,1302,1740770.65,CZK,Store B,Czech Republic,2019
+1,banana,fruits,11.78,kg,910,10719.8,CZK,Store C,Czech Republic,2019
+2,apple,fruits,16.491999999999997,kg,658,21571.54,CZK,Store C,Czech Republic,2019
+3,pear,fruits,14.136,kg,1191,38407.51,CZK,Store C,Czech Republic,2019
+4,grapes,fruits,28.272,kg,1271,74341.22,CZK,Store C,Czech Republic,2019
+5,orange,fruits,18.848,kg,1451,101689.67,CZK,Store C,Czech Republic,2019
+6,kiwi,fruits,21.204,piece,664,115769.13,CZK,Store C,Czech Republic,2019
+7,watermelon,fruits,117.8,kg,122,130140.73,CZK,Store C,Czech Republic,2019
+8,pomegranate,fruits,58.9,kg,1560,222024.73,CZK,Store C,Czech Republic,2019
+9,pineapple,fruits,35.339999999999996,piece,1070,259838.53,CZK,Store C,Czech Republic,2019
+10,mango,fruits,47.12,piece,2301,368261.65,CZK,Store C,Czech Republic,2019
+11,cucumber,vegetables,9.424,piece,1569,383047.9,CZK,Store C,Czech Republic,2019
+12,carrot,vegetables,7.068,kg,3842,410203.16,CZK,Store C,Czech Republic,2019
+13,capsicum,vegetables,11.78,kg,1358,426200.4,CZK,Store C,Czech Republic,2019
+14,onion,vegetables,4.712,kg,5196,450683.95,CZK,Store C,Czech Republic,2019
+15,potato,vegetables,7.068,kg,2368,467420.98,CZK,Store C,Czech Republic,2019
+16,lemon,vegetables,9.424,kg,1916,485477.36,CZK,Store C,Czech Republic,2019
+17,tomato,vegetables,14.136,kg,3892,540494.67,CZK,Store C,Czech Republic,2019
+18,raddish,vegetables,7.068,kg,5121,576689.9,CZK,Store C,Czech Republic,2019
+19,beetroot,vegetables,9.424,kg,720,583475.18,CZK,Store C,Czech Republic,2019
+20,cabbage,vegetables,11.78,piece,1158,597116.42,CZK,Store C,Czech Republic,2019
+21,lettuce,vegetables,14.136,piece,5486,674666.52,CZK,Store C,Czech Republic,2019
+22,spinach,vegetables,16.491999999999997,kg,1922,706364.14,CZK,Store C,Czech Republic,2019
+23,soy bean,vegetables,18.848,kg,2226,748319.79,CZK,Store C,Czech Republic,2019
+24,cauliflower,vegetables,14.136,piece,1687,772167.22,CZK,Store C,Czech Republic,2019
+25,bell pepper,vegetables,16.491999999999997,kg,1307,793722.26,CZK,Store C,Czech Republic,2019
+26,chilli pepper,vegetables,11.78,kg,1388,810072.9,CZK,Store C,Czech Republic,2019
+27,turnip,vegetables,9.424,kg,3289,841068.44,CZK,Store C,Czech Republic,2019
+28,corn,vegetables,7.068,kg,5879,882621.21,CZK,Store C,Czech Republic,2019
+29,sweetcorn,vegetables,9.424,kg,1645,898123.69,CZK,Store C,Czech Republic,2019
+30,sweet potato,vegetables,11.78,kg,4551,951734.47,CZK,Store C,Czech Republic,2019
+31,paprika,vegetables,47.12,kg,115,957153.27,CZK,Store C,Czech Republic,2019
+32,jalepeno,vegetables,47.12,kg,1908,1047058.23,CZK,Store C,Czech Republic,2019
+33,ginger,vegetables,35.339999999999996,kg,1886,1113709.47,CZK,Store C,Czech Republic,2019
+34,garlic,vegetables,35.339999999999996,kg,1693,1173540.09,CZK,Store C,Czech Republic,2019
+35,peas,vegetables,70.67999999999999,kg,3517,1422121.65,CZK,Store C,Czech Republic,2019
+36,eggplant,vegetables,35.339999999999996,kg,1987,1492342.23,CZK,Store C,Czech Republic,2019
+1,banana,fruits,11.78,kg,1580,18612.4,CZK,Store D,Czech Republic,2019
+2,apple,fruits,16.491999999999997,kg,2519,60155.75,CZK,Store D,Czech Republic,2019
+3,pear,fruits,14.136,kg,2558,96315.64,CZK,Store D,Czech Republic,2019
+4,grapes,fruits,28.272,kg,3428,193232.05,CZK,Store D,Czech Republic,2019
+5,orange,fruits,18.848,kg,2093,232680.92,CZK,Store D,Czech Republic,2019
+6,kiwi,fruits,21.204,piece,1286,259949.26,CZK,Store D,Czech Republic,2019
+7,watermelon,fruits,117.8,kg,650,336519.26,CZK,Store D,Czech Republic,2019
+8,pomegranate,fruits,58.9,kg,2420,479057.26,CZK,Store D,Czech Republic,2019
+9,pineapple,fruits,35.339999999999996,piece,1357,527013.64,CZK,Store D,Czech Republic,2019
+10,mango,fruits,47.12,piece,2170,629264.04,CZK,Store D,Czech Republic,2019
+11,cucumber,vegetables,9.424,piece,2497,652795.77,CZK,Store D,Czech Republic,2019
+12,carrot,vegetables,7.068,kg,3779,679505.74,CZK,Store D,Czech Republic,2019
+13,capsicum,vegetables,11.78,kg,4734,735272.26,CZK,Store D,Czech Republic,2019
+14,onion,vegetables,4.712,kg,1921,744324.01,CZK,Store D,Czech Republic,2019
+15,potato,vegetables,7.068,kg,1124,752268.44,CZK,Store D,Czech Republic,2019
+16,lemon,vegetables,9.424,kg,686,758733.31,CZK,Store D,Czech Republic,2019
+17,tomato,vegetables,14.136,kg,2996,801084.76,CZK,Store D,Czech Republic,2019
+18,raddish,vegetables,7.068,kg,1747,813432.56,CZK,Store D,Czech Republic,2019
+19,beetroot,vegetables,9.424,kg,2425,836285.76,CZK,Store D,Czech Republic,2019
+20,cabbage,vegetables,11.78,piece,2435,864970.06,CZK,Store D,Czech Republic,2019
+21,lettuce,vegetables,14.136,piece,238,868334.43,CZK,Store D,Czech Republic,2019
+22,spinach,vegetables,16.491999999999997,kg,1755,897277.89,CZK,Store D,Czech Republic,2019
+23,soy bean,vegetables,18.848,kg,5390,998868.61,CZK,Store D,Czech Republic,2019
+24,cauliflower,vegetables,14.136,piece,644,1007972.19,CZK,Store D,Czech Republic,2019
+25,bell pepper,vegetables,16.491999999999997,kg,782,1020868.94,CZK,Store D,Czech Republic,2019
+26,chilli pepper,vegetables,11.78,kg,905,1031529.84,CZK,Store D,Czech Republic,2019
+27,turnip,vegetables,9.424,kg,393,1035233.47,CZK,Store D,Czech Republic,2019
+28,corn,vegetables,7.068,kg,981,1042167.18,CZK,Store D,Czech Republic,2019
+29,sweetcorn,vegetables,9.424,kg,1413,1055483.29,CZK,Store D,Czech Republic,2019
+30,sweet potato,vegetables,11.78,kg,2919,1089869.11,CZK,Store D,Czech Republic,2019
+31,paprika,vegetables,47.12,kg,3865,1271987.91,CZK,Store D,Czech Republic,2019
+32,jalepeno,vegetables,47.12,kg,1807,1357133.75,CZK,Store D,Czech Republic,2019
+33,ginger,vegetables,35.339999999999996,kg,636,1379609.99,CZK,Store D,Czech Republic,2019
+34,garlic,vegetables,35.339999999999996,kg,1255,1423961.69,CZK,Store D,Czech Republic,2019
+35,peas,vegetables,70.67999999999999,kg,2619,1609072.61,CZK,Store D,Czech Republic,2019
+36,eggplant,vegetables,35.339999999999996,kg,1419,1659220.07,CZK,Store D,Czech Republic,2019
+1,banana,fruits,11.78,kg,3055,35987.9,CZK,Store E,Czech Republic,2019
+2,apple,fruits,16.491999999999997,kg,1423,59456.02,CZK,Store E,Czech Republic,2019
+3,pear,fruits,14.136,kg,1420,79529.14,CZK,Store E,Czech Republic,2019
+4,grapes,fruits,28.272,kg,2130,139748.5,CZK,Store E,Czech Republic,2019
+5,orange,fruits,18.848,kg,3862,212539.47,CZK,Store E,Czech Republic,2019
+6,kiwi,fruits,21.204,piece,4815,314636.73,CZK,Store E,Czech Republic,2019
+7,watermelon,fruits,117.8,kg,1766,522671.53,CZK,Store E,Czech Republic,2019
+8,pomegranate,fruits,58.9,kg,2441,666446.43,CZK,Store E,Czech Republic,2019
+9,pineapple,fruits,35.339999999999996,piece,5436,858554.67,CZK,Store E,Czech Republic,2019
+10,mango,fruits,47.12,piece,775,895072.67,CZK,Store E,Czech Republic,2019
+11,cucumber,vegetables,9.424,piece,343,898305.1,CZK,Store E,Czech Republic,2019
+12,carrot,vegetables,7.068,kg,258,900128.65,CZK,Store E,Czech Republic,2019
+13,capsicum,vegetables,11.78,kg,2796,933065.53,CZK,Store E,Czech Republic,2019
+14,onion,vegetables,4.712,kg,4375,953680.53,CZK,Store E,Czech Republic,2019
+15,potato,vegetables,7.068,kg,1703,965717.33,CZK,Store E,Czech Republic,2019
+16,lemon,vegetables,9.424,kg,5666,1019113.72,CZK,Store E,Czech Republic,2019
+17,tomato,vegetables,14.136,kg,5294,1093949.7,CZK,Store E,Czech Republic,2019
+18,raddish,vegetables,7.068,kg,314,1096169.05,CZK,Store E,Czech Republic,2019
+19,beetroot,vegetables,9.424,kg,294,1098939.71,CZK,Store E,Czech Republic,2019
+20,cabbage,vegetables,11.78,piece,3810,1143821.51,CZK,Store E,Czech Republic,2019
+21,lettuce,vegetables,14.136,piece,1260,1161632.87,CZK,Store E,Czech Republic,2019
+22,spinach,vegetables,16.491999999999997,kg,2616,1204775.94,CZK,Store E,Czech Republic,2019
+23,soy bean,vegetables,18.848,kg,2434,1250651.97,CZK,Store E,Czech Republic,2019
+24,cauliflower,vegetables,14.136,piece,950,1264081.17,CZK,Store E,Czech Republic,2019
+25,bell pepper,vegetables,16.491999999999997,kg,4339,1335639.96,CZK,Store E,Czech Republic,2019
+26,chilli pepper,vegetables,11.78,kg,486,1341365.04,CZK,Store E,Czech Republic,2019
+27,turnip,vegetables,9.424,kg,820,1349092.72,CZK,Store E,Czech Republic,2019
+28,corn,vegetables,7.068,kg,107,1349849.0,CZK,Store E,Czech Republic,2019
+29,sweetcorn,vegetables,9.424,kg,2390,1372372.36,CZK,Store E,Czech Republic,2019
+30,sweet potato,vegetables,11.78,kg,1819,1393800.18,CZK,Store E,Czech Republic,2019
+31,paprika,vegetables,47.12,kg,1319,1455951.46,CZK,Store E,Czech Republic,2019
+32,jalepeno,vegetables,47.12,kg,1975,1549013.46,CZK,Store E,Czech Republic,2019
+33,ginger,vegetables,35.339999999999996,kg,447,1564810.44,CZK,Store E,Czech Republic,2019
+34,garlic,vegetables,35.339999999999996,kg,5733,1767414.66,CZK,Store E,Czech Republic,2019
+35,peas,vegetables,70.67999999999999,kg,3050,1982988.66,CZK,Store E,Czech Republic,2019
+36,eggplant,vegetables,35.339999999999996,kg,516,2001224.1,CZK,Store E,Czech Republic,2019
+1,banana,fruits,11.78,kg,790,9306.2,CZK,Store A,Czech Republic,2020
+2,apple,fruits,16.491999999999997,kg,855,23406.86,CZK,Store A,Czech Republic,2020
+3,pear,fruits,14.136,kg,5964,107713.96,CZK,Store A,Czech Republic,2020
+4,grapes,fruits,28.272,kg,210,113651.08,CZK,Store A,Czech Republic,2020
+5,orange,fruits,18.848,kg,3169,173380.4,CZK,Store A,Czech Republic,2020
+6,kiwi,fruits,21.204,piece,938,193269.75,CZK,Store A,Czech Republic,2020
+7,watermelon,fruits,117.8,kg,352,234735.35,CZK,Store A,Czech Republic,2020
+8,pomegranate,fruits,58.9,kg,5659,568050.45,CZK,Store A,Czech Republic,2020
+9,pineapple,fruits,35.339999999999996,piece,4227,717432.63,CZK,Store A,Czech Republic,2020
+10,mango,fruits,47.12,piece,3331,874389.35,CZK,Store A,Czech Republic,2020
+11,cucumber,vegetables,9.424,piece,1038,884171.46,CZK,Store A,Czech Republic,2020
+12,carrot,vegetables,7.068,kg,1938,897869.24,CZK,Store A,Czech Republic,2020
+13,capsicum,vegetables,11.78,kg,420,902816.84,CZK,Store A,Czech Republic,2020
+14,onion,vegetables,4.712,kg,504,905191.69,CZK,Store A,Czech Republic,2020
+15,potato,vegetables,7.068,kg,5337,942913.61,CZK,Store A,Czech Republic,2020
+16,lemon,vegetables,9.424,kg,3649,977301.78,CZK,Store A,Czech Republic,2020
+17,tomato,vegetables,14.136,kg,1737,1001856.02,CZK,Store A,Czech Republic,2020
+18,raddish,vegetables,7.068,kg,947,1008549.41,CZK,Store A,Czech Republic,2020
+19,beetroot,vegetables,9.424,kg,1644,1024042.47,CZK,Store A,Czech Republic,2020
+20,cabbage,vegetables,11.78,piece,394,1028683.79,CZK,Store A,Czech Republic,2020
+21,lettuce,vegetables,14.136,piece,420,1034620.91,CZK,Store A,Czech Republic,2020
+22,spinach,vegetables,16.491999999999997,kg,1417,1057990.07,CZK,Store A,Czech Republic,2020
+23,soy bean,vegetables,18.848,kg,3619,1126200.98,CZK,Store A,Czech Republic,2020
+24,cauliflower,vegetables,14.136,piece,1521,1147701.84,CZK,Store A,Czech Republic,2020
+25,bell pepper,vegetables,16.491999999999997,kg,1447,1171565.76,CZK,Store A,Czech Republic,2020
+26,chilli pepper,vegetables,11.78,kg,730,1180165.16,CZK,Store A,Czech Republic,2020
+27,turnip,vegetables,9.424,kg,2232,1201199.53,CZK,Store A,Czech Republic,2020
+28,corn,vegetables,7.068,kg,1694,1213172.72,CZK,Store A,Czech Republic,2020
+29,sweetcorn,vegetables,9.424,kg,2581,1237496.07,CZK,Store A,Czech Republic,2020
+30,sweet potato,vegetables,11.78,kg,2190,1263294.27,CZK,Store A,Czech Republic,2020
+31,paprika,vegetables,47.12,kg,400,1282142.27,CZK,Store A,Czech Republic,2020
+32,jalepeno,vegetables,47.12,kg,2083,1380293.23,CZK,Store A,Czech Republic,2020
+33,ginger,vegetables,35.339999999999996,kg,75,1382943.73,CZK,Store A,Czech Republic,2020
+34,garlic,vegetables,35.339999999999996,kg,536,1401885.97,CZK,Store A,Czech Republic,2020
+35,peas,vegetables,70.67999999999999,kg,5596,1797411.25,CZK,Store A,Czech Republic,2020
+36,eggplant,vegetables,35.339999999999996,kg,1176,1838971.09,CZK,Store A,Czech Republic,2020
+1,banana,fruits,11.78,kg,738,8693.64,CZK,Store B,Czech Republic,2020
+2,apple,fruits,16.491999999999997,kg,1641,35757.01,CZK,Store B,Czech Republic,2020
+3,pear,fruits,14.136,kg,3908,91000.5,CZK,Store B,Czech Republic,2020
+4,grapes,fruits,28.272,kg,1446,131881.81,CZK,Store B,Czech Republic,2020
+5,orange,fruits,18.848,kg,870,148279.57,CZK,Store B,Czech Republic,2020
+6,kiwi,fruits,21.204,piece,1498,180043.16,CZK,Store B,Czech Republic,2020
+7,watermelon,fruits,117.8,kg,406,227869.96,CZK,Store B,Czech Republic,2020
+8,pomegranate,fruits,58.9,kg,2725,388372.46,CZK,Store B,Czech Republic,2020
+9,pineapple,fruits,35.339999999999996,piece,635,410813.36,CZK,Store B,Czech Republic,2020
+10,mango,fruits,47.12,piece,3633,582000.32,CZK,Store B,Czech Republic,2020
+11,cucumber,vegetables,9.424,piece,3265,612769.68,CZK,Store B,Czech Republic,2020
+12,carrot,vegetables,7.068,kg,825,618600.78,CZK,Store B,Czech Republic,2020
+13,capsicum,vegetables,11.78,kg,3697,662151.44,CZK,Store B,Czech Republic,2020
+14,onion,vegetables,4.712,kg,2678,674770.18,CZK,Store B,Czech Republic,2020
+15,potato,vegetables,7.068,kg,551,678664.65,CZK,Store B,Czech Republic,2020
+16,lemon,vegetables,9.424,kg,2802,705070.7,CZK,Store B,Czech Republic,2020
+17,tomato,vegetables,14.136,kg,1795,730444.82,CZK,Store B,Czech Republic,2020
+18,raddish,vegetables,7.068,kg,3577,755727.05,CZK,Store B,Czech Republic,2020
+19,beetroot,vegetables,9.424,kg,1996,774537.36,CZK,Store B,Czech Republic,2020
+20,cabbage,vegetables,11.78,piece,181,776669.54,CZK,Store B,Czech Republic,2020
+21,lettuce,vegetables,14.136,piece,3579,827262.28,CZK,Store B,Czech Republic,2020
+22,spinach,vegetables,16.491999999999997,kg,1975,859833.98,CZK,Store B,Czech Republic,2020
+23,soy bean,vegetables,18.848,kg,1061,879831.71,CZK,Store B,Czech Republic,2020
+24,cauliflower,vegetables,14.136,piece,1789,905121.01,CZK,Store B,Czech Republic,2020
+25,bell pepper,vegetables,16.491999999999997,kg,1812,935004.52,CZK,Store B,Czech Republic,2020
+26,chilli pepper,vegetables,11.78,kg,670,942897.12,CZK,Store B,Czech Republic,2020
+27,turnip,vegetables,9.424,kg,1722,959125.24,CZK,Store B,Czech Republic,2020
+28,corn,vegetables,7.068,kg,838,965048.23,CZK,Store B,Czech Republic,2020
+29,sweetcorn,vegetables,9.424,kg,1254,976865.92,CZK,Store B,Czech Republic,2020
+30,sweet potato,vegetables,11.78,kg,2040,1000897.12,CZK,Store B,Czech Republic,2020
+31,paprika,vegetables,47.12,kg,2731,1129581.84,CZK,Store B,Czech Republic,2020
+32,jalepeno,vegetables,47.12,kg,3058,1273674.8,CZK,Store B,Czech Republic,2020
+33,ginger,vegetables,35.339999999999996,kg,3598,1400828.12,CZK,Store B,Czech Republic,2020
+34,garlic,vegetables,35.339999999999996,kg,5514,1595692.88,CZK,Store B,Czech Republic,2020
+35,peas,vegetables,70.67999999999999,kg,1010,1667079.68,CZK,Store B,Czech Republic,2020
+36,eggplant,vegetables,35.339999999999996,kg,1861,1732847.42,CZK,Store B,Czech Republic,2020
+1,banana,fruits,11.78,kg,1185,13959.3,CZK,Store C,Czech Republic,2020
+2,apple,fruits,16.491999999999997,kg,2949,62594.21,CZK,Store C,Czech Republic,2020
+3,pear,fruits,14.136,kg,3772,115915.2,CZK,Store C,Czech Republic,2020
+4,grapes,fruits,28.272,kg,2110,175569.12,CZK,Store C,Czech Republic,2020
+5,orange,fruits,18.848,kg,3764,246512.99,CZK,Store C,Czech Republic,2020
+6,kiwi,fruits,21.204,piece,4109,333640.23,CZK,Store C,Czech Republic,2020
+7,watermelon,fruits,117.8,kg,437,385118.83,CZK,Store C,Czech Republic,2020
+8,pomegranate,fruits,58.9,kg,1744,487840.43,CZK,Store C,Czech Republic,2020
+9,pineapple,fruits,35.339999999999996,piece,723,513391.25,CZK,Store C,Czech Republic,2020
+10,mango,fruits,47.12,piece,1230,571348.85,CZK,Store C,Czech Republic,2020
+11,cucumber,vegetables,9.424,piece,1574,586182.22,CZK,Store C,Czech Republic,2020
+12,carrot,vegetables,7.068,kg,1327,595561.46,CZK,Store C,Czech Republic,2020
+13,capsicum,vegetables,11.78,kg,773,604667.4,CZK,Store C,Czech Republic,2020
+14,onion,vegetables,4.712,kg,1170,610180.44,CZK,Store C,Czech Republic,2020
+15,potato,vegetables,7.068,kg,3614,635724.19,CZK,Store C,Czech Republic,2020
+16,lemon,vegetables,9.424,kg,1524,650086.37,CZK,Store C,Czech Republic,2020
+17,tomato,vegetables,14.136,kg,1580,672421.25,CZK,Store C,Czech Republic,2020
+18,raddish,vegetables,7.068,kg,406,675290.86,CZK,Store C,Czech Republic,2020
+19,beetroot,vegetables,9.424,kg,5422,726387.78,CZK,Store C,Czech Republic,2020
+20,cabbage,vegetables,11.78,piece,3269,764896.6,CZK,Store C,Czech Republic,2020
+21,lettuce,vegetables,14.136,piece,212,767893.44,CZK,Store C,Czech Republic,2020
+22,spinach,vegetables,16.491999999999997,kg,2702,812454.82,CZK,Store C,Czech Republic,2020
+23,soy bean,vegetables,18.848,kg,1929,848812.61,CZK,Store C,Czech Republic,2020
+24,cauliflower,vegetables,14.136,piece,3727,901497.48,CZK,Store C,Czech Republic,2020
+25,bell pepper,vegetables,16.491999999999997,kg,3454,958460.85,CZK,Store C,Czech Republic,2020
+26,chilli pepper,vegetables,11.78,kg,1443,975459.39,CZK,Store C,Czech Republic,2020
+27,turnip,vegetables,9.424,kg,4113,1014220.3,CZK,Store C,Czech Republic,2020
+28,corn,vegetables,7.068,kg,1230,1022913.94,CZK,Store C,Czech Republic,2020
+29,sweetcorn,vegetables,9.424,kg,96,1023818.65,CZK,Store C,Czech Republic,2020
+30,sweet potato,vegetables,11.78,kg,5593,1089704.19,CZK,Store C,Czech Republic,2020
+31,paprika,vegetables,47.12,kg,1884,1178478.27,CZK,Store C,Czech Republic,2020
+32,jalepeno,vegetables,47.12,kg,1572,1252550.91,CZK,Store C,Czech Republic,2020
+33,ginger,vegetables,35.339999999999996,kg,1775,1315279.41,CZK,Store C,Czech Republic,2020
+34,garlic,vegetables,35.339999999999996,kg,5840,1521665.01,CZK,Store C,Czech Republic,2020
+35,peas,vegetables,70.67999999999999,kg,3055,1737592.41,CZK,Store C,Czech Republic,2020
+36,eggplant,vegetables,35.339999999999996,kg,2352,1820712.09,CZK,Store C,Czech Republic,2020
+1,banana,fruits,11.78,kg,5587,65814.86,CZK,Store D,Czech Republic,2020
+2,apple,fruits,16.491999999999997,kg,3348,121030.08,CZK,Store D,Czech Republic,2020
+3,pear,fruits,14.136,kg,1812,146644.51,CZK,Store D,Czech Republic,2020
+4,grapes,fruits,28.272,kg,1668,193802.2,CZK,Store D,Czech Republic,2020
+5,orange,fruits,18.848,kg,2166,234626.97,CZK,Store D,Czech Republic,2020
+6,kiwi,fruits,21.204,piece,4481,329642.1,CZK,Store D,Czech Republic,2020
+7,watermelon,fruits,117.8,kg,1491,505281.9,CZK,Store D,Czech Republic,2020
+8,pomegranate,fruits,58.9,kg,1508,594103.1,CZK,Store D,Czech Republic,2020
+9,pineapple,fruits,35.339999999999996,piece,2326,676303.94,CZK,Store D,Czech Republic,2020
+10,mango,fruits,47.12,piece,1354,740104.42,CZK,Store D,Czech Republic,2020
+11,cucumber,vegetables,9.424,piece,3642,774426.62,CZK,Store D,Czech Republic,2020
+12,carrot,vegetables,7.068,kg,1447,784654.02,CZK,Store D,Czech Republic,2020
+13,capsicum,vegetables,11.78,kg,3869,830230.84,CZK,Store D,Czech Republic,2020
+14,onion,vegetables,4.712,kg,4188,849964.7,CZK,Store D,Czech Republic,2020
+15,potato,vegetables,7.068,kg,4090,878872.82,CZK,Store D,Czech Republic,2020
+16,lemon,vegetables,9.424,kg,1429,892339.71,CZK,Store D,Czech Republic,2020
+17,tomato,vegetables,14.136,kg,3220,937857.63,CZK,Store D,Czech Republic,2020
+18,raddish,vegetables,7.068,kg,1953,951661.44,CZK,Store D,Czech Republic,2020
+19,beetroot,vegetables,9.424,kg,1662,967324.12,CZK,Store D,Czech Republic,2020
+20,cabbage,vegetables,11.78,piece,1668,986973.16,CZK,Store D,Czech Republic,2020
+21,lettuce,vegetables,14.136,piece,240,990365.8,CZK,Store D,Czech Republic,2020
+22,spinach,vegetables,16.491999999999997,kg,1890,1021535.68,CZK,Store D,Czech Republic,2020
+23,soy bean,vegetables,18.848,kg,1380,1047545.92,CZK,Store D,Czech Republic,2020
+24,cauliflower,vegetables,14.136,piece,3103,1091409.93,CZK,Store D,Czech Republic,2020
+25,bell pepper,vegetables,16.491999999999997,kg,1748,1120237.95,CZK,Store D,Czech Republic,2020
+26,chilli pepper,vegetables,11.78,kg,3553,1162092.29,CZK,Store D,Czech Republic,2020
+27,turnip,vegetables,9.424,kg,1370,1175003.17,CZK,Store D,Czech Republic,2020
+28,corn,vegetables,7.068,kg,3306,1198369.98,CZK,Store D,Czech Republic,2020
+29,sweetcorn,vegetables,9.424,kg,1786,1215201.24,CZK,Store D,Czech Republic,2020
+30,sweet potato,vegetables,11.78,kg,1030,1227334.64,CZK,Store D,Czech Republic,2020
+31,paprika,vegetables,47.12,kg,3126,1374631.76,CZK,Store D,Czech Republic,2020
+32,jalepeno,vegetables,47.12,kg,1952,1466610.0,CZK,Store D,Czech Republic,2020
+33,ginger,vegetables,35.339999999999996,kg,3214,1580192.76,CZK,Store D,Czech Republic,2020
+34,garlic,vegetables,35.339999999999996,kg,5641,1779545.7,CZK,Store D,Czech Republic,2020
+35,peas,vegetables,70.67999999999999,kg,897,1842945.66,CZK,Store D,Czech Republic,2020
+36,eggplant,vegetables,35.339999999999996,kg,5065,2021942.76,CZK,Store D,Czech Republic,2020
+1,banana,fruits,11.78,kg,1168,13759.04,CZK,Store E,Czech Republic,2020
+2,apple,fruits,16.491999999999997,kg,1229,34027.71,CZK,Store E,Czech Republic,2020
+3,pear,fruits,14.136,kg,1670,57634.83,CZK,Store E,Czech Republic,2020
+4,grapes,fruits,28.272,kg,1514,100438.64,CZK,Store E,Czech Republic,2020
+5,orange,fruits,18.848,kg,1256,124111.72,CZK,Store E,Czech Republic,2020
+6,kiwi,fruits,21.204,piece,1485,155599.66,CZK,Store E,Czech Republic,2020
+7,watermelon,fruits,117.8,kg,1837,371998.26,CZK,Store E,Czech Republic,2020
+8,pomegranate,fruits,58.9,kg,1062,434550.06,CZK,Store E,Czech Republic,2020
+9,pineapple,fruits,35.339999999999996,piece,2522,523677.54,CZK,Store E,Czech Republic,2020
+10,mango,fruits,47.12,piece,1118,576357.7,CZK,Store E,Czech Republic,2020
+11,cucumber,vegetables,9.424,piece,824,584123.08,CZK,Store E,Czech Republic,2020
+12,carrot,vegetables,7.068,kg,231,585755.79,CZK,Store E,Czech Republic,2020
+13,capsicum,vegetables,11.78,kg,1746,606323.67,CZK,Store E,Czech Republic,2020
+14,onion,vegetables,4.712,kg,1459,613198.48,CZK,Store E,Czech Republic,2020
+15,potato,vegetables,7.068,kg,1997,627313.27,CZK,Store E,Czech Republic,2020
+16,lemon,vegetables,9.424,kg,2641,652202.06,CZK,Store E,Czech Republic,2020
+17,tomato,vegetables,14.136,kg,826,663878.39,CZK,Store E,Czech Republic,2020
+18,raddish,vegetables,7.068,kg,2251,679788.46,CZK,Store E,Czech Republic,2020
+19,beetroot,vegetables,9.424,kg,5331,730027.8,CZK,Store E,Czech Republic,2020
+20,cabbage,vegetables,11.78,piece,1903,752445.14,CZK,Store E,Czech Republic,2020
+21,lettuce,vegetables,14.136,piece,742,762934.06,CZK,Store E,Czech Republic,2020
+22,spinach,vegetables,16.491999999999997,kg,2816,809375.53,CZK,Store E,Czech Republic,2020
+23,soy bean,vegetables,18.848,kg,214,813409.0,CZK,Store E,Czech Republic,2020
+24,cauliflower,vegetables,14.136,piece,1881,839998.82,CZK,Store E,Czech Republic,2020
+25,bell pepper,vegetables,16.491999999999997,kg,746,852301.85,CZK,Store E,Czech Republic,2020
+26,chilli pepper,vegetables,11.78,kg,1038,864529.49,CZK,Store E,Czech Republic,2020
+27,turnip,vegetables,9.424,kg,3446,897004.59,CZK,Store E,Czech Republic,2020
+28,corn,vegetables,7.068,kg,2109,911911.0,CZK,Store E,Czech Republic,2020
+29,sweetcorn,vegetables,9.424,kg,1467,925736.01,CZK,Store E,Czech Republic,2020
+30,sweet potato,vegetables,11.78,kg,840,935631.21,CZK,Store E,Czech Republic,2020
+31,paprika,vegetables,47.12,kg,1878,1024122.57,CZK,Store E,Czech Republic,2020
+32,jalepeno,vegetables,47.12,kg,571,1051028.09,CZK,Store E,Czech Republic,2020
+33,ginger,vegetables,35.339999999999996,kg,1096,1089760.73,CZK,Store E,Czech Republic,2020
+34,garlic,vegetables,35.339999999999996,kg,794,1117820.69,CZK,Store E,Czech Republic,2020
+35,peas,vegetables,70.67999999999999,kg,3786,1385415.17,CZK,Store E,Czech Republic,2020
+36,eggplant,vegetables,35.339999999999996,kg,3925,1524124.67,CZK,Store E,Czech Republic,2020
+1,banana,fruits,11.78,kg,776,9141.28,CZK,Store A,Czech Republic,2021
+2,apple,fruits,16.491999999999997,kg,3816,72074.75,CZK,Store A,Czech Republic,2021
+3,pear,fruits,14.136,kg,2142,102354.06,CZK,Store A,Czech Republic,2021
+4,grapes,fruits,28.272,kg,176,107329.94,CZK,Store A,Czech Republic,2021
+5,orange,fruits,18.848,kg,568,118035.6,CZK,Store A,Czech Republic,2021
+6,kiwi,fruits,21.204,piece,542,129528.17,CZK,Store A,Czech Republic,2021
+7,watermelon,fruits,117.8,kg,2607,436632.77,CZK,Store A,Czech Republic,2021
+8,pomegranate,fruits,58.9,kg,855,486992.27,CZK,Store A,Czech Republic,2021
+9,pineapple,fruits,35.339999999999996,piece,3127,597500.45,CZK,Store A,Czech Republic,2021
+10,mango,fruits,47.12,piece,1525,669358.45,CZK,Store A,Czech Republic,2021
+11,cucumber,vegetables,9.424,piece,5077,717204.1,CZK,Store A,Czech Republic,2021
+12,carrot,vegetables,7.068,kg,5801,758205.56,CZK,Store A,Czech Republic,2021
+13,capsicum,vegetables,11.78,kg,1972,781435.72,CZK,Store A,Czech Republic,2021
+14,onion,vegetables,4.712,kg,1344,787768.65,CZK,Store A,Czech Republic,2021
+15,potato,vegetables,7.068,kg,1053,795211.26,CZK,Store A,Czech Republic,2021
+16,lemon,vegetables,9.424,kg,325,798274.06,CZK,Store A,Czech Republic,2021
+17,tomato,vegetables,14.136,kg,4907,867639.41,CZK,Store A,Czech Republic,2021
+18,raddish,vegetables,7.068,kg,1084,875301.12,CZK,Store A,Czech Republic,2021
+19,beetroot,vegetables,9.424,kg,2560,899426.56,CZK,Store A,Czech Republic,2021
+20,cabbage,vegetables,11.78,piece,3421,939725.94,CZK,Store A,Czech Republic,2021
+21,lettuce,vegetables,14.136,piece,2895,980649.66,CZK,Store A,Czech Republic,2021
+22,spinach,vegetables,16.491999999999997,kg,2697,1025128.58,CZK,Store A,Czech Republic,2021
+23,soy bean,vegetables,18.848,kg,306,1030896.07,CZK,Store A,Czech Republic,2021
+24,cauliflower,vegetables,14.136,piece,1433,1051152.96,CZK,Store A,Czech Republic,2021
+25,bell pepper,vegetables,16.491999999999997,kg,1925,1082900.06,CZK,Store A,Czech Republic,2021
+26,chilli pepper,vegetables,11.78,kg,3778,1127404.9,CZK,Store A,Czech Republic,2021
+27,turnip,vegetables,9.424,kg,437,1131523.19,CZK,Store A,Czech Republic,2021
+28,corn,vegetables,7.068,kg,509,1135120.8,CZK,Store A,Czech Republic,2021
+29,sweetcorn,vegetables,9.424,kg,1126,1145732.22,CZK,Store A,Czech Republic,2021
+30,sweet potato,vegetables,11.78,kg,780,1154920.62,CZK,Store A,Czech Republic,2021
+31,paprika,vegetables,47.12,kg,1379,1219899.1,CZK,Store A,Czech Republic,2021
+32,jalepeno,vegetables,47.12,kg,3844,1401028.38,CZK,Store A,Czech Republic,2021
+33,ginger,vegetables,35.339999999999996,kg,572,1421242.86,CZK,Store A,Czech Republic,2021
+34,garlic,vegetables,35.339999999999996,kg,1615,1478316.96,CZK,Store A,Czech Republic,2021
+35,peas,vegetables,70.67999999999999,kg,450,1510122.96,CZK,Store A,Czech Republic,2021
+36,eggplant,vegetables,35.339999999999996,kg,1796,1573593.6,CZK,Store A,Czech Republic,2021
+1,banana,fruits,11.78,kg,2165,25503.7,CZK,Store B,Czech Republic,2021
+2,apple,fruits,16.491999999999997,kg,687,36833.7,CZK,Store B,Czech Republic,2021
+3,pear,fruits,14.136,kg,367,42021.62,CZK,Store B,Czech Republic,2021
+4,grapes,fruits,28.272,kg,1173,75184.67,CZK,Store B,Czech Republic,2021
+5,orange,fruits,18.848,kg,336,81517.6,CZK,Store B,Czech Republic,2021
+6,kiwi,fruits,21.204,piece,3204,149455.22,CZK,Store B,Czech Republic,2021
+7,watermelon,fruits,117.8,kg,167,169127.82,CZK,Store B,Czech Republic,2021
+8,pomegranate,fruits,58.9,kg,3671,385349.72,CZK,Store B,Czech Republic,2021
+9,pineapple,fruits,35.339999999999996,piece,1393,434578.34,CZK,Store B,Czech Republic,2021
+10,mango,fruits,47.12,piece,158,442023.3,CZK,Store B,Czech Republic,2021
+11,cucumber,vegetables,9.424,piece,5719,495919.15,CZK,Store B,Czech Republic,2021
+12,carrot,vegetables,7.068,kg,1732,508160.93,CZK,Store B,Czech Republic,2021
+13,capsicum,vegetables,11.78,kg,684,516218.45,CZK,Store B,Czech Republic,2021
+14,onion,vegetables,4.712,kg,635,519210.57,CZK,Store B,Czech Republic,2021
+15,potato,vegetables,7.068,kg,2059,533763.58,CZK,Store B,Czech Republic,2021
+16,lemon,vegetables,9.424,kg,1500,547899.58,CZK,Store B,Czech Republic,2021
+17,tomato,vegetables,14.136,kg,3053,591056.79,CZK,Store B,Czech Republic,2021
+18,raddish,vegetables,7.068,kg,2366,607779.68,CZK,Store B,Czech Republic,2021
+19,beetroot,vegetables,9.424,kg,1980,626439.2,CZK,Store B,Czech Republic,2021
+20,cabbage,vegetables,11.78,piece,3232,664512.16,CZK,Store B,Czech Republic,2021
+21,lettuce,vegetables,14.136,piece,3787,718045.19,CZK,Store B,Czech Republic,2021
+22,spinach,vegetables,16.491999999999997,kg,456,725565.54,CZK,Store B,Czech Republic,2021
+23,soy bean,vegetables,18.848,kg,504,735064.93,CZK,Store B,Czech Republic,2021
+24,cauliflower,vegetables,14.136,piece,3407,783226.28,CZK,Store B,Czech Republic,2021
+25,bell pepper,vegetables,16.491999999999997,kg,1792,812779.95,CZK,Store B,Czech Republic,2021
+26,chilli pepper,vegetables,11.78,kg,428,817821.79,CZK,Store B,Czech Republic,2021
+27,turnip,vegetables,9.424,kg,5070,865601.47,CZK,Store B,Czech Republic,2021
+28,corn,vegetables,7.068,kg,3720,891894.43,CZK,Store B,Czech Republic,2021
+29,sweetcorn,vegetables,9.424,kg,257,894316.4,CZK,Store B,Czech Republic,2021
+30,sweet potato,vegetables,11.78,kg,121,895741.78,CZK,Store B,Czech Republic,2021
+31,paprika,vegetables,47.12,kg,1680,974903.38,CZK,Store B,Czech Republic,2021
+32,jalepeno,vegetables,47.12,kg,443,995777.54,CZK,Store B,Czech Republic,2021
+33,ginger,vegetables,35.339999999999996,kg,2677,1090382.72,CZK,Store B,Czech Republic,2021
+34,garlic,vegetables,35.339999999999996,kg,1186,1132295.96,CZK,Store B,Czech Republic,2021
+35,peas,vegetables,70.67999999999999,kg,3833,1403212.4,CZK,Store B,Czech Republic,2021
+36,eggplant,vegetables,35.339999999999996,kg,1372,1451698.88,CZK,Store B,Czech Republic,2021
+1,banana,fruits,11.78,kg,363,4276.14,CZK,Store C,Czech Republic,2021
+2,apple,fruits,16.491999999999997,kg,1627,31108.62,CZK,Store C,Czech Republic,2021
+3,pear,fruits,14.136,kg,508,38289.71,CZK,Store C,Czech Republic,2021
+4,grapes,fruits,28.272,kg,2387,105774.98,CZK,Store C,Czech Republic,2021
+5,orange,fruits,18.848,kg,695,118874.34,CZK,Store C,Czech Republic,2021
+6,kiwi,fruits,21.204,piece,1359,147690.57,CZK,Store C,Czech Republic,2021
+7,watermelon,fruits,117.8,kg,1211,290346.37,CZK,Store C,Czech Republic,2021
+8,pomegranate,fruits,58.9,kg,1916,403198.77,CZK,Store C,Czech Republic,2021
+9,pineapple,fruits,35.339999999999996,piece,829,432495.63,CZK,Store C,Czech Republic,2021
+10,mango,fruits,47.12,piece,328,447950.99,CZK,Store C,Czech Republic,2021
+11,cucumber,vegetables,9.424,piece,1219,459438.85,CZK,Store C,Czech Republic,2021
+12,carrot,vegetables,7.068,kg,221,461000.88,CZK,Store C,Czech Republic,2021
+13,capsicum,vegetables,11.78,kg,1095,473899.98,CZK,Store C,Czech Republic,2021
+14,onion,vegetables,4.712,kg,1339,480209.34,CZK,Store C,Czech Republic,2021
+15,potato,vegetables,7.068,kg,4917,514962.7,CZK,Store C,Czech Republic,2021
+16,lemon,vegetables,9.424,kg,2480,538334.22,CZK,Store C,Czech Republic,2021
+17,tomato,vegetables,14.136,kg,5328,613650.83,CZK,Store C,Czech Republic,2021
+18,raddish,vegetables,7.068,kg,378,616322.53,CZK,Store C,Czech Republic,2021
+19,beetroot,vegetables,9.424,kg,2250,637526.53,CZK,Store C,Czech Republic,2021
+20,cabbage,vegetables,11.78,piece,1309,652946.55,CZK,Store C,Czech Republic,2021
+21,lettuce,vegetables,14.136,piece,257,656579.5,CZK,Store C,Czech Republic,2021
+22,spinach,vegetables,16.491999999999997,kg,1087,674506.31,CZK,Store C,Czech Republic,2021
+23,soy bean,vegetables,18.848,kg,1572,704135.36,CZK,Store C,Czech Republic,2021
+24,cauliflower,vegetables,14.136,piece,407,709888.72,CZK,Store C,Czech Republic,2021
+25,bell pepper,vegetables,16.491999999999997,kg,541,718810.89,CZK,Store C,Czech Republic,2021
+26,chilli pepper,vegetables,11.78,kg,989,730461.31,CZK,Store C,Czech Republic,2021
+27,turnip,vegetables,9.424,kg,3800,766272.51,CZK,Store C,Czech Republic,2021
+28,corn,vegetables,7.068,kg,830,772138.95,CZK,Store C,Czech Republic,2021
+29,sweetcorn,vegetables,9.424,kg,1538,786633.06,CZK,Store C,Czech Republic,2021
+30,sweet potato,vegetables,11.78,kg,1676,806376.34,CZK,Store C,Czech Republic,2021
+31,paprika,vegetables,47.12,kg,523,831020.1,CZK,Store C,Czech Republic,2021
+32,jalepeno,vegetables,47.12,kg,2802,963050.34,CZK,Store C,Czech Republic,2021
+33,ginger,vegetables,35.339999999999996,kg,4875,1135332.84,CZK,Store C,Czech Republic,2021
+34,garlic,vegetables,35.339999999999996,kg,3646,1264182.48,CZK,Store C,Czech Republic,2021
+35,peas,vegetables,70.67999999999999,kg,1554,1374019.2,CZK,Store C,Czech Republic,2021
+36,eggplant,vegetables,35.339999999999996,kg,221,1381829.34,CZK,Store C,Czech Republic,2021
+1,banana,fruits,11.78,kg,226,2662.28,CZK,Store D,Czech Republic,2021
+2,apple,fruits,16.491999999999997,kg,76,3915.67,CZK,Store D,Czech Republic,2021
+3,pear,fruits,14.136,kg,5813,86088.24,CZK,Store D,Czech Republic,2021
+4,grapes,fruits,28.272,kg,67,87982.46,CZK,Store D,Czech Republic,2021
+5,orange,fruits,18.848,kg,1427,114878.56,CZK,Store D,Czech Republic,2021
+6,kiwi,fruits,21.204,piece,389,123126.92,CZK,Store D,Czech Republic,2021
+7,watermelon,fruits,117.8,kg,3158,495139.32,CZK,Store D,Czech Republic,2021
+8,pomegranate,fruits,58.9,kg,1457,580956.62,CZK,Store D,Czech Republic,2021
+9,pineapple,fruits,35.339999999999996,piece,826,610147.46,CZK,Store D,Czech Republic,2021
+10,mango,fruits,47.12,piece,1954,702219.94,CZK,Store D,Czech Republic,2021
+11,cucumber,vegetables,9.424,piece,1820,719371.62,CZK,Store D,Czech Republic,2021
+12,carrot,vegetables,7.068,kg,5434,757779.13,CZK,Store D,Czech Republic,2021
+13,capsicum,vegetables,11.78,kg,1477,775178.19,CZK,Store D,Czech Republic,2021
+14,onion,vegetables,4.712,kg,1272,781171.85,CZK,Store D,Czech Republic,2021
+15,potato,vegetables,7.068,kg,1166,789413.14,CZK,Store D,Czech Republic,2021
+16,lemon,vegetables,9.424,kg,3971,826835.84,CZK,Store D,Czech Republic,2021
+17,tomato,vegetables,14.136,kg,1565,848958.68,CZK,Store D,Czech Republic,2021
+18,raddish,vegetables,7.068,kg,118,849792.71,CZK,Store D,Czech Republic,2021
+19,beetroot,vegetables,9.424,kg,2700,875237.51,CZK,Store D,Czech Republic,2021
+20,cabbage,vegetables,11.78,piece,2469,904322.33,CZK,Store D,Czech Republic,2021
+21,lettuce,vegetables,14.136,piece,3460,953232.89,CZK,Store D,Czech Republic,2021
+22,spinach,vegetables,16.491999999999997,kg,782,966129.63,CZK,Store D,Czech Republic,2021
+23,soy bean,vegetables,18.848,kg,1780,999679.07,CZK,Store D,Czech Republic,2021
+24,cauliflower,vegetables,14.136,piece,3552,1049890.14,CZK,Store D,Czech Republic,2021
+25,bell pepper,vegetables,16.491999999999997,kg,3770,1112064.98,CZK,Store D,Czech Republic,2021
+26,chilli pepper,vegetables,11.78,kg,4454,1164533.1,CZK,Store D,Czech Republic,2021
+27,turnip,vegetables,9.424,kg,1245,1176265.98,CZK,Store D,Czech Republic,2021
+28,corn,vegetables,7.068,kg,4026,1204721.75,CZK,Store D,Czech Republic,2021
+29,sweetcorn,vegetables,9.424,kg,1670,1220459.83,CZK,Store D,Czech Republic,2021
+30,sweet potato,vegetables,11.78,kg,1459,1237646.85,CZK,Store D,Czech Republic,2021
+31,paprika,vegetables,47.12,kg,1371,1302248.37,CZK,Store D,Czech Republic,2021
+32,jalepeno,vegetables,47.12,kg,1279,1362514.85,CZK,Store D,Czech Republic,2021
+33,ginger,vegetables,35.339999999999996,kg,658,1385768.57,CZK,Store D,Czech Republic,2021
+34,garlic,vegetables,35.339999999999996,kg,159,1391387.63,CZK,Store D,Czech Republic,2021
+35,peas,vegetables,70.67999999999999,kg,889,1454222.15,CZK,Store D,Czech Republic,2021
+36,eggplant,vegetables,35.339999999999996,kg,1252,1498467.83,CZK,Store D,Czech Republic,2021
+1,banana,fruits,11.78,kg,3413,40205.14,CZK,Store E,Czech Republic,2021
+2,apple,fruits,16.491999999999997,kg,5559,131884.17,CZK,Store E,Czech Republic,2021
+3,pear,fruits,14.136,kg,3427,180328.24,CZK,Store E,Czech Republic,2021
+4,grapes,fruits,28.272,kg,138,184229.78,CZK,Store E,Czech Republic,2021
+5,orange,fruits,18.848,kg,2399,229446.13,CZK,Store E,Czech Republic,2021
+6,kiwi,fruits,21.204,piece,980,250226.05,CZK,Store E,Czech Republic,2021
+7,watermelon,fruits,117.8,kg,5587,908374.65,CZK,Store E,Czech Republic,2021
+8,pomegranate,fruits,58.9,kg,302,926162.45,CZK,Store E,Czech Republic,2021
+9,pineapple,fruits,35.339999999999996,piece,3901,1064023.79,CZK,Store E,Czech Republic,2021
+10,mango,fruits,47.12,piece,2540,1183708.59,CZK,Store E,Czech Republic,2021
+11,cucumber,vegetables,9.424,piece,1035,1193462.43,CZK,Store E,Czech Republic,2021
+12,carrot,vegetables,7.068,kg,1991,1207534.82,CZK,Store E,Czech Republic,2021
+13,capsicum,vegetables,11.78,kg,1117,1220693.08,CZK,Store E,Czech Republic,2021
+14,onion,vegetables,4.712,kg,2567,1232788.78,CZK,Store E,Czech Republic,2021
+15,potato,vegetables,7.068,kg,4307,1263230.66,CZK,Store E,Czech Republic,2021
+16,lemon,vegetables,9.424,kg,5616,1316155.84,CZK,Store E,Czech Republic,2021
+17,tomato,vegetables,14.136,kg,103,1317611.85,CZK,Store E,Czech Republic,2021
+18,raddish,vegetables,7.068,kg,1882,1330913.82,CZK,Store E,Czech Republic,2021
+19,beetroot,vegetables,9.424,kg,1113,1341402.74,CZK,Store E,Czech Republic,2021
+20,cabbage,vegetables,11.78,piece,762,1350379.1,CZK,Store E,Czech Republic,2021
+21,lettuce,vegetables,14.136,piece,1154,1366692.04,CZK,Store E,Czech Republic,2021
+22,spinach,vegetables,16.491999999999997,kg,423,1373668.16,CZK,Store E,Czech Republic,2021
+23,soy bean,vegetables,18.848,kg,3360,1436997.44,CZK,Store E,Czech Republic,2021
+24,cauliflower,vegetables,14.136,piece,157,1439216.79,CZK,Store E,Czech Republic,2021
+25,bell pepper,vegetables,16.491999999999997,kg,2248,1476290.8,CZK,Store E,Czech Republic,2021
+26,chilli pepper,vegetables,11.78,kg,3936,1522656.88,CZK,Store E,Czech Republic,2021
+27,turnip,vegetables,9.424,kg,1062,1532665.17,CZK,Store E,Czech Republic,2021
+28,corn,vegetables,7.068,kg,3264,1555735.12,CZK,Store E,Czech Republic,2021
+29,sweetcorn,vegetables,9.424,kg,1033,1565470.12,CZK,Store E,Czech Republic,2021
+30,sweet potato,vegetables,11.78,kg,787,1574740.98,CZK,Store E,Czech Republic,2021
+31,paprika,vegetables,47.12,kg,2910,1711860.18,CZK,Store E,Czech Republic,2021
+32,jalepeno,vegetables,47.12,kg,700,1744844.18,CZK,Store E,Czech Republic,2021
+33,ginger,vegetables,35.339999999999996,kg,738,1770925.1,CZK,Store E,Czech Republic,2021
+34,garlic,vegetables,35.339999999999996,kg,1722,1831780.58,CZK,Store E,Czech Republic,2021
+35,peas,vegetables,70.67999999999999,kg,1933,1968405.02,CZK,Store E,Czech Republic,2021
+36,eggplant,vegetables,35.339999999999996,kg,3082,2077322.9,CZK,Store E,Czech Republic,2021
+1,banana,fruits,11.78,kg,3301,38885.78,CZK,Store A,Czech Republic,2022
+2,apple,fruits,16.491999999999997,kg,1099,57010.49,CZK,Store A,Czech Republic,2022
+3,pear,fruits,14.136,kg,5745,138221.81,CZK,Store A,Czech Republic,2022
+4,grapes,fruits,28.272,kg,3099,225836.74,CZK,Store A,Czech Republic,2022
+5,orange,fruits,18.848,kg,1718,258217.6,CZK,Store A,Czech Republic,2022
+6,kiwi,fruits,21.204,piece,3453,331435.01,CZK,Store A,Czech Republic,2022
+7,watermelon,fruits,117.8,kg,2729,652911.21,CZK,Store A,Czech Republic,2022
+8,pomegranate,fruits,58.9,kg,2986,828786.61,CZK,Store A,Czech Republic,2022
+9,pineapple,fruits,35.339999999999996,piece,3123,939153.43,CZK,Store A,Czech Republic,2022
+10,mango,fruits,47.12,piece,53,941650.79,CZK,Store A,Czech Republic,2022
+11,cucumber,vegetables,9.424,piece,4799,986876.57,CZK,Store A,Czech Republic,2022
+12,carrot,vegetables,7.068,kg,2764,1006412.52,CZK,Store A,Czech Republic,2022
+13,capsicum,vegetables,11.78,kg,5100,1066490.52,CZK,Store A,Czech Republic,2022
+14,onion,vegetables,4.712,kg,3499,1082977.81,CZK,Store A,Czech Republic,2022
+15,potato,vegetables,7.068,kg,248,1084730.67,CZK,Store A,Czech Republic,2022
+16,lemon,vegetables,9.424,kg,1269,1096689.73,CZK,Store A,Czech Republic,2022
+17,tomato,vegetables,14.136,kg,1921,1123844.98,CZK,Store A,Czech Republic,2022
+18,raddish,vegetables,7.068,kg,1868,1137048.01,CZK,Store A,Czech Republic,2022
+19,beetroot,vegetables,9.424,kg,1470,1150901.29,CZK,Store A,Czech Republic,2022
+20,cabbage,vegetables,11.78,piece,1548,1169136.73,CZK,Store A,Czech Republic,2022
+21,lettuce,vegetables,14.136,piece,2523,1204801.86,CZK,Store A,Czech Republic,2022
+22,spinach,vegetables,16.491999999999997,kg,2191,1240935.83,CZK,Store A,Czech Republic,2022
+23,soy bean,vegetables,18.848,kg,116,1243122.2,CZK,Store A,Czech Republic,2022
+24,cauliflower,vegetables,14.136,piece,167,1245482.91,CZK,Store A,Czech Republic,2022
+25,bell pepper,vegetables,16.491999999999997,kg,502,1253761.89,CZK,Store A,Czech Republic,2022
+26,chilli pepper,vegetables,11.78,kg,144,1255458.21,CZK,Store A,Czech Republic,2022
+27,turnip,vegetables,9.424,kg,383,1259067.6,CZK,Store A,Czech Republic,2022
+28,corn,vegetables,7.068,kg,646,1263633.53,CZK,Store A,Czech Republic,2022
+29,sweetcorn,vegetables,9.424,kg,1298,1275865.88,CZK,Store A,Czech Republic,2022
+30,sweet potato,vegetables,11.78,kg,2931,1310393.06,CZK,Store A,Czech Republic,2022
+31,paprika,vegetables,47.12,kg,5398,1564746.82,CZK,Store A,Czech Republic,2022
+32,jalepeno,vegetables,47.12,kg,686,1597071.14,CZK,Store A,Czech Republic,2022
+33,ginger,vegetables,35.339999999999996,kg,4960,1772357.54,CZK,Store A,Czech Republic,2022
+34,garlic,vegetables,35.339999999999996,kg,3904,1910324.9,CZK,Store A,Czech Republic,2022
+35,peas,vegetables,70.67999999999999,kg,2200,2065820.9,CZK,Store A,Czech Republic,2022
+36,eggplant,vegetables,35.339999999999996,kg,686,2090064.14,CZK,Store A,Czech Republic,2022
+1,banana,fruits,11.78,kg,1723,20296.94,CZK,Store B,Czech Republic,2022
+2,apple,fruits,16.491999999999997,kg,294,25145.59,CZK,Store B,Czech Republic,2022
+3,pear,fruits,14.136,kg,3698,77420.52,CZK,Store B,Czech Republic,2022
+4,grapes,fruits,28.272,kg,2910,159692.04,CZK,Store B,Czech Republic,2022
+5,orange,fruits,18.848,kg,655,172037.48,CZK,Store B,Czech Republic,2022
+6,kiwi,fruits,21.204,piece,677,186392.58,CZK,Store B,Czech Republic,2022
+7,watermelon,fruits,117.8,kg,956,299009.38,CZK,Store B,Czech Republic,2022
+8,pomegranate,fruits,58.9,kg,2345,437129.88,CZK,Store B,Czech Republic,2022
+9,pineapple,fruits,35.339999999999996,piece,619,459005.34,CZK,Store B,Czech Republic,2022
+10,mango,fruits,47.12,piece,2370,570679.74,CZK,Store B,Czech Republic,2022
+11,cucumber,vegetables,9.424,piece,2320,592543.42,CZK,Store B,Czech Republic,2022
+12,carrot,vegetables,7.068,kg,941,599194.41,CZK,Store B,Czech Republic,2022
+13,capsicum,vegetables,11.78,kg,3477,640153.47,CZK,Store B,Czech Republic,2022
+14,onion,vegetables,4.712,kg,3022,654393.14,CZK,Store B,Czech Republic,2022
+15,potato,vegetables,7.068,kg,1792,667058.99,CZK,Store B,Czech Republic,2022
+16,lemon,vegetables,9.424,kg,5984,723452.21,CZK,Store B,Czech Republic,2022
+17,tomato,vegetables,14.136,kg,121,725162.66,CZK,Store B,Czech Republic,2022
+18,raddish,vegetables,7.068,kg,697,730089.06,CZK,Store B,Czech Republic,2022
+19,beetroot,vegetables,9.424,kg,2109,749964.28,CZK,Store B,Czech Republic,2022
+20,cabbage,vegetables,11.78,piece,827,759706.34,CZK,Store B,Czech Republic,2022
+21,lettuce,vegetables,14.136,piece,3468,808729.98,CZK,Store B,Czech Republic,2022
+22,spinach,vegetables,16.491999999999997,kg,1464,832874.27,CZK,Store B,Czech Republic,2022
+23,soy bean,vegetables,18.848,kg,1919,869043.58,CZK,Store B,Czech Republic,2022
+24,cauliflower,vegetables,14.136,piece,1228,886402.59,CZK,Store B,Czech Republic,2022
+25,bell pepper,vegetables,16.491999999999997,kg,732,898474.74,CZK,Store B,Czech Republic,2022
+26,chilli pepper,vegetables,11.78,kg,1209,912716.76,CZK,Store B,Czech Republic,2022
+27,turnip,vegetables,9.424,kg,238,914959.67,CZK,Store B,Czech Republic,2022
+28,corn,vegetables,7.068,kg,3884,942411.78,CZK,Store B,Czech Republic,2022
+29,sweetcorn,vegetables,9.424,kg,1466,956227.36,CZK,Store B,Czech Republic,2022
+30,sweet potato,vegetables,11.78,kg,3819,1001215.18,CZK,Store B,Czech Republic,2022
+31,paprika,vegetables,47.12,kg,4054,1192239.66,CZK,Store B,Czech Republic,2022
+32,jalepeno,vegetables,47.12,kg,3531,1358620.38,CZK,Store B,Czech Republic,2022
+33,ginger,vegetables,35.339999999999996,kg,1861,1424388.12,CZK,Store B,Czech Republic,2022
+34,garlic,vegetables,35.339999999999996,kg,1632,1482063.0,CZK,Store B,Czech Republic,2022
+35,peas,vegetables,70.67999999999999,kg,3967,1762450.56,CZK,Store B,Czech Republic,2022
+36,eggplant,vegetables,35.339999999999996,kg,366,1775385.0,CZK,Store B,Czech Republic,2022
+1,banana,fruits,11.78,kg,2819,33207.82,CZK,Store C,Czech Republic,2022
+2,apple,fruits,16.491999999999997,kg,443,40513.78,CZK,Store C,Czech Republic,2022
+3,pear,fruits,14.136,kg,2547,76518.17,CZK,Store C,Czech Republic,2022
+4,grapes,fruits,28.272,kg,1247,111773.35,CZK,Store C,Czech Republic,2022
+5,orange,fruits,18.848,kg,3725,181982.15,CZK,Store C,Czech Republic,2022
+6,kiwi,fruits,21.204,piece,1777,219661.66,CZK,Store C,Czech Republic,2022
+7,watermelon,fruits,117.8,kg,3135,588964.66,CZK,Store C,Czech Republic,2022
+8,pomegranate,fruits,58.9,kg,1238,661882.86,CZK,Store C,Czech Republic,2022
+9,pineapple,fruits,35.339999999999996,piece,252,670788.54,CZK,Store C,Czech Republic,2022
+10,mango,fruits,47.12,piece,2316,779918.46,CZK,Store C,Czech Republic,2022
+11,cucumber,vegetables,9.424,piece,1785,796740.3,CZK,Store C,Czech Republic,2022
+12,carrot,vegetables,7.068,kg,1817,809582.86,CZK,Store C,Czech Republic,2022
+13,capsicum,vegetables,11.78,kg,4904,867351.98,CZK,Store C,Czech Republic,2022
+14,onion,vegetables,4.712,kg,3611,884367.01,CZK,Store C,Czech Republic,2022
+15,potato,vegetables,7.068,kg,2588,902658.99,CZK,Store C,Czech Republic,2022
+16,lemon,vegetables,9.424,kg,698,909236.94,CZK,Store C,Czech Republic,2022
+17,tomato,vegetables,14.136,kg,3157,953864.3,CZK,Store C,Czech Republic,2022
+18,raddish,vegetables,7.068,kg,5622,993600.59,CZK,Store C,Czech Republic,2022
+19,beetroot,vegetables,9.424,kg,965,1002694.75,CZK,Store C,Czech Republic,2022
+20,cabbage,vegetables,11.78,piece,377,1007135.81,CZK,Store C,Czech Republic,2022
+21,lettuce,vegetables,14.136,piece,1524,1028679.08,CZK,Store C,Czech Republic,2022
+22,spinach,vegetables,16.491999999999997,kg,3141,1080480.45,CZK,Store C,Czech Republic,2022
+23,soy bean,vegetables,18.848,kg,1912,1116517.82,CZK,Store C,Czech Republic,2022
+24,cauliflower,vegetables,14.136,piece,2843,1156706.47,CZK,Store C,Czech Republic,2022
+25,bell pepper,vegetables,16.491999999999997,kg,547,1165727.6,CZK,Store C,Czech Republic,2022
+26,chilli pepper,vegetables,11.78,kg,3113,1202398.74,CZK,Store C,Czech Republic,2022
+27,turnip,vegetables,9.424,kg,1715,1218560.9,CZK,Store C,Czech Republic,2022
+28,corn,vegetables,7.068,kg,3711,1244790.24,CZK,Store C,Czech Republic,2022
+29,sweetcorn,vegetables,9.424,kg,4357,1285850.61,CZK,Store C,Czech Republic,2022
+30,sweet potato,vegetables,11.78,kg,4235,1335738.91,CZK,Store C,Czech Republic,2022
+31,paprika,vegetables,47.12,kg,3613,1505983.47,CZK,Store C,Czech Republic,2022
+32,jalepeno,vegetables,47.12,kg,2950,1644987.47,CZK,Store C,Czech Republic,2022
+33,ginger,vegetables,35.339999999999996,kg,806,1673471.51,CZK,Store C,Czech Republic,2022
+34,garlic,vegetables,35.339999999999996,kg,737,1699517.09,CZK,Store C,Czech Republic,2022
+35,peas,vegetables,70.67999999999999,kg,1461,1802780.57,CZK,Store C,Czech Republic,2022
+36,eggplant,vegetables,35.339999999999996,kg,1268,1847591.69,CZK,Store C,Czech Republic,2022
+1,banana,fruits,11.78,kg,145,1708.1,CZK,Store D,Czech Republic,2022
+2,apple,fruits,16.491999999999997,kg,5710,95877.42,CZK,Store D,Czech Republic,2022
+3,pear,fruits,14.136,kg,544,103567.4,CZK,Store D,Czech Republic,2022
+4,grapes,fruits,28.272,kg,2203,165850.62,CZK,Store D,Czech Republic,2022
+5,orange,fruits,18.848,kg,207,169752.16,CZK,Store D,Czech Republic,2022
+6,kiwi,fruits,21.204,piece,1232,195875.48,CZK,Store D,Czech Republic,2022
+7,watermelon,fruits,117.8,kg,5820,881471.48,CZK,Store D,Czech Republic,2022
+8,pomegranate,fruits,58.9,kg,3147,1066829.78,CZK,Store D,Czech Republic,2022
+9,pineapple,fruits,35.339999999999996,piece,1650,1125140.78,CZK,Store D,Czech Republic,2022
+10,mango,fruits,47.12,piece,175,1133386.78,CZK,Store D,Czech Republic,2022
+11,cucumber,vegetables,9.424,piece,3464,1166031.52,CZK,Store D,Czech Republic,2022
+12,carrot,vegetables,7.068,kg,5638,1205880.9,CZK,Store D,Czech Republic,2022
+13,capsicum,vegetables,11.78,kg,279,1209167.52,CZK,Store D,Czech Republic,2022
+14,onion,vegetables,4.712,kg,1763,1217474.78,CZK,Store D,Czech Republic,2022
+15,potato,vegetables,7.068,kg,67,1217948.34,CZK,Store D,Czech Republic,2022
+16,lemon,vegetables,9.424,kg,2364,1240226.67,CZK,Store D,Czech Republic,2022
+17,tomato,vegetables,14.136,kg,216,1243280.05,CZK,Store D,Czech Republic,2022
+18,raddish,vegetables,7.068,kg,275,1245223.75,CZK,Store D,Czech Republic,2022
+19,beetroot,vegetables,9.424,kg,128,1246430.02,CZK,Store D,Czech Republic,2022
+20,cabbage,vegetables,11.78,piece,82,1247395.98,CZK,Store D,Czech Republic,2022
+21,lettuce,vegetables,14.136,piece,1015,1261744.02,CZK,Store D,Czech Republic,2022
+22,spinach,vegetables,16.491999999999997,kg,2644,1305348.87,CZK,Store D,Czech Republic,2022
+23,soy bean,vegetables,18.848,kg,2111,1345137.0,CZK,Store D,Czech Republic,2022
+24,cauliflower,vegetables,14.136,piece,546,1352855.25,CZK,Store D,Czech Republic,2022
+25,bell pepper,vegetables,16.491999999999997,kg,651,1363591.54,CZK,Store D,Czech Republic,2022
+26,chilli pepper,vegetables,11.78,kg,1452,1380696.1,CZK,Store D,Czech Republic,2022
+27,turnip,vegetables,9.424,kg,2373,1403059.26,CZK,Store D,Czech Republic,2022
+28,corn,vegetables,7.068,kg,5631,1442859.16,CZK,Store D,Czech Republic,2022
+29,sweetcorn,vegetables,9.424,kg,1637,1458286.25,CZK,Store D,Czech Republic,2022
+30,sweet potato,vegetables,11.78,kg,3364,1497914.17,CZK,Store D,Czech Republic,2022
+31,paprika,vegetables,47.12,kg,2234,1603180.25,CZK,Store D,Czech Republic,2022
+32,jalepeno,vegetables,47.12,kg,5034,1840382.33,CZK,Store D,Czech Republic,2022
+33,ginger,vegetables,35.339999999999996,kg,1231,1883885.87,CZK,Store D,Czech Republic,2022
+34,garlic,vegetables,35.339999999999996,kg,669,1907528.33,CZK,Store D,Czech Republic,2022
+35,peas,vegetables,70.67999999999999,kg,2881,2111157.41,CZK,Store D,Czech Republic,2022
+36,eggplant,vegetables,35.339999999999996,kg,2844,2211664.37,CZK,Store D,Czech Republic,2022
+1,banana,fruits,11.78,kg,617,7268.26,CZK,Store E,Czech Republic,2022
+2,apple,fruits,16.491999999999997,kg,1301,28724.35,CZK,Store E,Czech Republic,2022
+3,pear,fruits,14.136,kg,1483,49688.04,CZK,Store E,Czech Republic,2022
+4,grapes,fruits,28.272,kg,472,63032.42,CZK,Store E,Czech Republic,2022
+5,orange,fruits,18.848,kg,4749,152541.58,CZK,Store E,Czech Republic,2022
+6,kiwi,fruits,21.204,piece,2440,204279.34,CZK,Store E,Czech Republic,2022
+7,watermelon,fruits,117.8,kg,3040,562391.34,CZK,Store E,Czech Republic,2022
+8,pomegranate,fruits,58.9,kg,1059,624766.44,CZK,Store E,Czech Republic,2022
+9,pineapple,fruits,35.339999999999996,piece,1777,687565.62,CZK,Store E,Czech Republic,2022
+10,mango,fruits,47.12,piece,655,718429.22,CZK,Store E,Czech Republic,2022
+11,cucumber,vegetables,9.424,piece,4868,764305.25,CZK,Store E,Czech Republic,2022
+12,carrot,vegetables,7.068,kg,4175,793814.15,CZK,Store E,Czech Republic,2022
+13,capsicum,vegetables,11.78,kg,1695,813781.25,CZK,Store E,Czech Republic,2022
+14,onion,vegetables,4.712,kg,5662,840460.59,CZK,Store E,Czech Republic,2022
+15,potato,vegetables,7.068,kg,1714,852575.14,CZK,Store E,Czech Republic,2022
+16,lemon,vegetables,9.424,kg,3912,889441.83,CZK,Store E,Czech Republic,2022
+17,tomato,vegetables,14.136,kg,1149,905684.1,CZK,Store E,Czech Republic,2022
+18,raddish,vegetables,7.068,kg,3420,929856.66,CZK,Store E,Czech Republic,2022
+19,beetroot,vegetables,9.424,kg,356,933211.6,CZK,Store E,Czech Republic,2022
+20,cabbage,vegetables,11.78,piece,176,935284.88,CZK,Store E,Czech Republic,2022
+21,lettuce,vegetables,14.136,piece,1699,959301.94,CZK,Store E,Czech Republic,2022
+22,spinach,vegetables,16.491999999999997,kg,924,974540.55,CZK,Store E,Czech Republic,2022
+23,soy bean,vegetables,18.848,kg,1083,994952.94,CZK,Store E,Czech Republic,2022
+24,cauliflower,vegetables,14.136,piece,1731,1019422.35,CZK,Store E,Czech Republic,2022
+25,bell pepper,vegetables,16.491999999999997,kg,841,1033292.12,CZK,Store E,Czech Republic,2022
+26,chilli pepper,vegetables,11.78,kg,1125,1046544.62,CZK,Store E,Czech Republic,2022
+27,turnip,vegetables,9.424,kg,4636,1090234.29,CZK,Store E,Czech Republic,2022
+28,corn,vegetables,7.068,kg,2534,1108144.6,CZK,Store E,Czech Republic,2022
+29,sweetcorn,vegetables,9.424,kg,1064,1118171.74,CZK,Store E,Czech Republic,2022
+30,sweet potato,vegetables,11.78,kg,1413,1134816.88,CZK,Store E,Czech Republic,2022
+31,paprika,vegetables,47.12,kg,5995,1417301.28,CZK,Store E,Czech Republic,2022
+32,jalepeno,vegetables,47.12,kg,3509,1582645.36,CZK,Store E,Czech Republic,2022
+33,ginger,vegetables,35.339999999999996,kg,1692,1642440.64,CZK,Store E,Czech Republic,2022
+34,garlic,vegetables,35.339999999999996,kg,819,1671384.1,CZK,Store E,Czech Republic,2022
+35,peas,vegetables,70.67999999999999,kg,434,1702059.22,CZK,Store E,Czech Republic,2022
+36,eggplant,vegetables,35.339999999999996,kg,1840,1767084.82,CZK,Store E,Czech Republic,2022
+1,banana,fruits,11.78,kg,2787,32830.86,CZK,Store A,Czech Republic,2023
+2,apple,fruits,16.491999999999997,kg,1032,49850.6,CZK,Store A,Czech Republic,2023
+3,pear,fruits,14.136,kg,1532,71506.96,CZK,Store A,Czech Republic,2023
+4,grapes,fruits,28.272,kg,1983,127570.33,CZK,Store A,Czech Republic,2023
+5,orange,fruits,18.848,kg,3455,192690.17,CZK,Store A,Czech Republic,2023
+6,kiwi,fruits,21.204,piece,2096,237133.76,CZK,Store A,Czech Republic,2023
+7,watermelon,fruits,117.8,kg,2838,571450.16,CZK,Store A,Czech Republic,2023
+8,pomegranate,fruits,58.9,kg,2038,691488.36,CZK,Store A,Czech Republic,2023
+9,pineapple,fruits,35.339999999999996,piece,3445,813234.66,CZK,Store A,Czech Republic,2023
+10,mango,fruits,47.12,piece,5951,1093645.78,CZK,Store A,Czech Republic,2023
+11,cucumber,vegetables,9.424,piece,4253,1133726.05,CZK,Store A,Czech Republic,2023
+12,carrot,vegetables,7.068,kg,4616,1166351.94,CZK,Store A,Czech Republic,2023
+13,capsicum,vegetables,11.78,kg,5692,1233403.7,CZK,Store A,Czech Republic,2023
+14,onion,vegetables,4.712,kg,2005,1242851.26,CZK,Store A,Czech Republic,2023
+15,potato,vegetables,7.068,kg,1744,1255177.85,CZK,Store A,Czech Republic,2023
+16,lemon,vegetables,9.424,kg,1146,1265977.75,CZK,Store A,Czech Republic,2023
+17,tomato,vegetables,14.136,kg,3968,1322069.4,CZK,Store A,Czech Republic,2023
+18,raddish,vegetables,7.068,kg,568,1326084.02,CZK,Store A,Czech Republic,2023
+19,beetroot,vegetables,9.424,kg,2675,1351293.22,CZK,Store A,Czech Republic,2023
+20,cabbage,vegetables,11.78,piece,2028,1375183.06,CZK,Store A,Czech Republic,2023
+21,lettuce,vegetables,14.136,piece,176,1377671.0,CZK,Store A,Czech Republic,2023
+22,spinach,vegetables,16.491999999999997,kg,1500,1402409.0,CZK,Store A,Czech Republic,2023
+23,soy bean,vegetables,18.848,kg,2490,1449340.52,CZK,Store A,Czech Republic,2023
+24,cauliflower,vegetables,14.136,piece,1590,1471816.76,CZK,Store A,Czech Republic,2023
+25,bell pepper,vegetables,16.491999999999997,kg,3293,1526124.92,CZK,Store A,Czech Republic,2023
+26,chilli pepper,vegetables,11.78,kg,962,1537457.28,CZK,Store A,Czech Republic,2023
+27,turnip,vegetables,9.424,kg,1274,1549463.45,CZK,Store A,Czech Republic,2023
+28,corn,vegetables,7.068,kg,3030,1570879.49,CZK,Store A,Czech Republic,2023
+29,sweetcorn,vegetables,9.424,kg,4078,1609310.56,CZK,Store A,Czech Republic,2023
+30,sweet potato,vegetables,11.78,kg,1992,1632776.32,CZK,Store A,Czech Republic,2023
+31,paprika,vegetables,47.12,kg,808,1670849.28,CZK,Store A,Czech Republic,2023
+32,jalepeno,vegetables,47.12,kg,1059,1720749.36,CZK,Store A,Czech Republic,2023
+33,ginger,vegetables,35.339999999999996,kg,1159,1761708.42,CZK,Store A,Czech Republic,2023
+34,garlic,vegetables,35.339999999999996,kg,1552,1816556.1,CZK,Store A,Czech Republic,2023
+35,peas,vegetables,70.67999999999999,kg,1277,1906814.46,CZK,Store A,Czech Republic,2023
+36,eggplant,vegetables,35.339999999999996,kg,1357,1954770.84,CZK,Store A,Czech Republic,2023
+1,banana,fruits,11.78,kg,2138,25185.64,CZK,Store B,Czech Republic,2023
+2,apple,fruits,16.491999999999997,kg,782,38082.38,CZK,Store B,Czech Republic,2023
+3,pear,fruits,14.136,kg,1990,66213.02,CZK,Store B,Czech Republic,2023
+4,grapes,fruits,28.272,kg,69,68163.79,CZK,Store B,Czech Republic,2023
+5,orange,fruits,18.848,kg,409,75872.62,CZK,Store B,Czech Republic,2023
+6,kiwi,fruits,21.204,piece,348,83251.62,CZK,Store B,Czech Republic,2023
+7,watermelon,fruits,117.8,kg,1993,318027.02,CZK,Store B,Czech Republic,2023
+8,pomegranate,fruits,58.9,kg,294,335343.62,CZK,Store B,Czech Republic,2023
+9,pineapple,fruits,35.339999999999996,piece,3997,476597.6,CZK,Store B,Czech Republic,2023
+10,mango,fruits,47.12,piece,5205,721857.2,CZK,Store B,Czech Republic,2023
+11,cucumber,vegetables,9.424,piece,1165,732836.16,CZK,Store B,Czech Republic,2023
+12,carrot,vegetables,7.068,kg,1705,744887.1,CZK,Store B,Czech Republic,2023
+13,capsicum,vegetables,11.78,kg,4738,800700.74,CZK,Store B,Czech Republic,2023
+14,onion,vegetables,4.712,kg,3278,816146.67,CZK,Store B,Czech Republic,2023
+15,potato,vegetables,7.068,kg,3086,837958.52,CZK,Store B,Czech Republic,2023
+16,lemon,vegetables,9.424,kg,327,841040.17,CZK,Store B,Czech Republic,2023
+17,tomato,vegetables,14.136,kg,521,848405.02,CZK,Store B,Czech Republic,2023
+18,raddish,vegetables,7.068,kg,1489,858929.28,CZK,Store B,Czech Republic,2023
+19,beetroot,vegetables,9.424,kg,3000,887201.28,CZK,Store B,Czech Republic,2023
+20,cabbage,vegetables,11.78,piece,3348,926640.72,CZK,Store B,Czech Republic,2023
+21,lettuce,vegetables,14.136,piece,94,927969.5,CZK,Store B,Czech Republic,2023
+22,spinach,vegetables,16.491999999999997,kg,2358,966857.64,CZK,Store B,Czech Republic,2023
+23,soy bean,vegetables,18.848,kg,429,974943.43,CZK,Store B,Czech Republic,2023
+24,cauliflower,vegetables,14.136,piece,326,979551.76,CZK,Store B,Czech Republic,2023
+25,bell pepper,vegetables,16.491999999999997,kg,4650,1056239.56,CZK,Store B,Czech Republic,2023
+26,chilli pepper,vegetables,11.78,kg,690,1064367.76,CZK,Store B,Czech Republic,2023
+27,turnip,vegetables,9.424,kg,2131,1084450.31,CZK,Store B,Czech Republic,2023
+28,corn,vegetables,7.068,kg,3886,1111916.56,CZK,Store B,Czech Republic,2023
+29,sweetcorn,vegetables,9.424,kg,3390,1143863.92,CZK,Store B,Czech Republic,2023
+30,sweet potato,vegetables,11.78,kg,2003,1167459.26,CZK,Store B,Czech Republic,2023
+31,paprika,vegetables,47.12,kg,1647,1245065.9,CZK,Store B,Czech Republic,2023
+32,jalepeno,vegetables,47.12,kg,4425,1453571.9,CZK,Store B,Czech Republic,2023
+33,ginger,vegetables,35.339999999999996,kg,1919,1521389.36,CZK,Store B,Czech Republic,2023
+34,garlic,vegetables,35.339999999999996,kg,3680,1651440.56,CZK,Store B,Czech Republic,2023
+35,peas,vegetables,70.67999999999999,kg,2071,1797818.84,CZK,Store B,Czech Republic,2023
+36,eggplant,vegetables,35.339999999999996,kg,1170,1839166.64,CZK,Store B,Czech Republic,2023
+1,banana,fruits,11.78,kg,1669,19660.82,CZK,Store C,Czech Republic,2023
+2,apple,fruits,16.491999999999997,kg,1518,44695.68,CZK,Store C,Czech Republic,2023
+3,pear,fruits,14.136,kg,867,56951.59,CZK,Store C,Czech Republic,2023
+4,grapes,fruits,28.272,kg,5776,220250.66,CZK,Store C,Czech Republic,2023
+5,orange,fruits,18.848,kg,726,233934.31,CZK,Store C,Czech Republic,2023
+6,kiwi,fruits,21.204,piece,2038,277148.06,CZK,Store C,Czech Republic,2023
+7,watermelon,fruits,117.8,kg,1579,463154.26,CZK,Store C,Czech Republic,2023
+8,pomegranate,fruits,58.9,kg,2178,591438.46,CZK,Store C,Czech Republic,2023
+9,pineapple,fruits,35.339999999999996,piece,593,612395.08,CZK,Store C,Czech Republic,2023
+10,mango,fruits,47.12,piece,399,631195.96,CZK,Store C,Czech Republic,2023
+11,cucumber,vegetables,9.424,piece,1979,649846.06,CZK,Store C,Czech Republic,2023
+12,carrot,vegetables,7.068,kg,1957,663678.13,CZK,Store C,Czech Republic,2023
+13,capsicum,vegetables,11.78,kg,1793,684799.67,CZK,Store C,Czech Republic,2023
+14,onion,vegetables,4.712,kg,1035,689676.59,CZK,Store C,Czech Republic,2023
+15,potato,vegetables,7.068,kg,5769,730451.88,CZK,Store C,Czech Republic,2023
+16,lemon,vegetables,9.424,kg,608,736181.68,CZK,Store C,Czech Republic,2023
+17,tomato,vegetables,14.136,kg,1348,755237.0,CZK,Store C,Czech Republic,2023
+18,raddish,vegetables,7.068,kg,2043,769676.93,CZK,Store C,Czech Republic,2023
+19,beetroot,vegetables,9.424,kg,702,776292.58,CZK,Store C,Czech Republic,2023
+20,cabbage,vegetables,11.78,piece,2351,803987.36,CZK,Store C,Czech Republic,2023
+21,lettuce,vegetables,14.136,piece,1523,825516.48,CZK,Store C,Czech Republic,2023
+22,spinach,vegetables,16.491999999999997,kg,854,839600.65,CZK,Store C,Czech Republic,2023
+23,soy bean,vegetables,18.848,kg,3222,900328.91,CZK,Store C,Czech Republic,2023
+24,cauliflower,vegetables,14.136,piece,4455,963304.79,CZK,Store C,Czech Republic,2023
+25,bell pepper,vegetables,16.491999999999997,kg,420,970231.43,CZK,Store C,Czech Republic,2023
+26,chilli pepper,vegetables,11.78,kg,540,976592.63,CZK,Store C,Czech Republic,2023
+27,turnip,vegetables,9.424,kg,5494,1028368.08,CZK,Store C,Czech Republic,2023
+28,corn,vegetables,7.068,kg,2803,1048179.69,CZK,Store C,Czech Republic,2023
+29,sweetcorn,vegetables,9.424,kg,5172,1096920.62,CZK,Store C,Czech Republic,2023
+30,sweet potato,vegetables,11.78,kg,3122,1133697.78,CZK,Store C,Czech Republic,2023
+31,paprika,vegetables,47.12,kg,4721,1356151.3,CZK,Store C,Czech Republic,2023
+32,jalepeno,vegetables,47.12,kg,276,1369156.42,CZK,Store C,Czech Republic,2023
+33,ginger,vegetables,35.339999999999996,kg,2076,1442522.26,CZK,Store C,Czech Republic,2023
+34,garlic,vegetables,35.339999999999996,kg,3173,1554656.08,CZK,Store C,Czech Republic,2023
+35,peas,vegetables,70.67999999999999,kg,3751,1819776.76,CZK,Store C,Czech Republic,2023
+36,eggplant,vegetables,35.339999999999996,kg,1211,1862573.5,CZK,Store C,Czech Republic,2023
+1,banana,fruits,11.78,kg,1682,19813.96,CZK,Store D,Czech Republic,2023
+2,apple,fruits,16.491999999999997,kg,1339,41896.75,CZK,Store D,Czech Republic,2023
+3,pear,fruits,14.136,kg,2159,72416.37,CZK,Store D,Czech Republic,2023
+4,grapes,fruits,28.272,kg,482,86043.48,CZK,Store D,Czech Republic,2023
+5,orange,fruits,18.848,kg,3804,157741.27,CZK,Store D,Czech Republic,2023
+6,kiwi,fruits,21.204,piece,5887,282569.22,CZK,Store D,Czech Republic,2023
+7,watermelon,fruits,117.8,kg,1864,502148.42,CZK,Store D,Czech Republic,2023
+8,pomegranate,fruits,58.9,kg,1197,572651.72,CZK,Store D,Czech Republic,2023
+9,pineapple,fruits,35.339999999999996,piece,717,597990.5,CZK,Store D,Czech Republic,2023
+10,mango,fruits,47.12,piece,2083,696141.46,CZK,Store D,Czech Republic,2023
+11,cucumber,vegetables,9.424,piece,1813,713227.17,CZK,Store D,Czech Republic,2023
+12,carrot,vegetables,7.068,kg,1895,726621.03,CZK,Store D,Czech Republic,2023
+13,capsicum,vegetables,11.78,kg,334,730555.55,CZK,Store D,Czech Republic,2023
+14,onion,vegetables,4.712,kg,996,735248.7,CZK,Store D,Czech Republic,2023
+15,potato,vegetables,7.068,kg,1516,745963.79,CZK,Store D,Czech Republic,2023
+16,lemon,vegetables,9.424,kg,187,747726.08,CZK,Store D,Czech Republic,2023
+17,tomato,vegetables,14.136,kg,973,761480.4,CZK,Store D,Czech Republic,2023
+18,raddish,vegetables,7.068,kg,1788,774117.99,CZK,Store D,Czech Republic,2023
+19,beetroot,vegetables,9.424,kg,972,783278.12,CZK,Store D,Czech Republic,2023
+20,cabbage,vegetables,11.78,piece,130,784809.52,CZK,Store D,Czech Republic,2023
+21,lettuce,vegetables,14.136,piece,2109,814622.34,CZK,Store D,Czech Republic,2023
+22,spinach,vegetables,16.491999999999997,kg,3135,866324.76,CZK,Store D,Czech Republic,2023
+23,soy bean,vegetables,18.848,kg,1460,893842.84,CZK,Store D,Czech Republic,2023
+24,cauliflower,vegetables,14.136,piece,4763,961172.61,CZK,Store D,Czech Republic,2023
+25,bell pepper,vegetables,16.491999999999997,kg,2593,1003936.36,CZK,Store D,Czech Republic,2023
+26,chilli pepper,vegetables,11.78,kg,253,1006916.7,CZK,Store D,Czech Republic,2023
+27,turnip,vegetables,9.424,kg,4513,1049447.22,CZK,Store D,Czech Republic,2023
+28,corn,vegetables,7.068,kg,1106,1057264.42,CZK,Store D,Czech Republic,2023
+29,sweetcorn,vegetables,9.424,kg,2241,1078383.61,CZK,Store D,Czech Republic,2023
+30,sweet potato,vegetables,11.78,kg,4919,1136329.43,CZK,Store D,Czech Republic,2023
+31,paprika,vegetables,47.12,kg,190,1145282.23,CZK,Store D,Czech Republic,2023
+32,jalepeno,vegetables,47.12,kg,2390,1257899.03,CZK,Store D,Czech Republic,2023
+33,ginger,vegetables,35.339999999999996,kg,5367,1447568.81,CZK,Store D,Czech Republic,2023
+34,garlic,vegetables,35.339999999999996,kg,698,1472236.13,CZK,Store D,Czech Republic,2023
+35,peas,vegetables,70.67999999999999,kg,1152,1553659.49,CZK,Store D,Czech Republic,2023
+36,eggplant,vegetables,35.339999999999996,kg,641,1576312.43,CZK,Store D,Czech Republic,2023
+1,banana,fruits,11.78,kg,425,5006.5,CZK,Store E,Czech Republic,2023
+2,apple,fruits,16.491999999999997,kg,2250,42113.5,CZK,Store E,Czech Republic,2023
+3,pear,fruits,14.136,kg,1436,62412.8,CZK,Store E,Czech Republic,2023
+4,grapes,fruits,28.272,kg,402,73778.14,CZK,Store E,Czech Republic,2023
+5,orange,fruits,18.848,kg,1107,94642.88,CZK,Store E,Czech Republic,2023
+6,kiwi,fruits,21.204,piece,5183,204543.21,CZK,Store E,Czech Republic,2023
+7,watermelon,fruits,117.8,kg,2696,522132.01,CZK,Store E,Czech Republic,2023
+8,pomegranate,fruits,58.9,kg,1748,625089.21,CZK,Store E,Czech Republic,2023
+9,pineapple,fruits,35.339999999999996,piece,1612,682057.29,CZK,Store E,Czech Republic,2023
+10,mango,fruits,47.12,piece,129,688135.77,CZK,Store E,Czech Republic,2023
+11,cucumber,vegetables,9.424,piece,533,693158.76,CZK,Store E,Czech Republic,2023
+12,carrot,vegetables,7.068,kg,1513,703852.64,CZK,Store E,Czech Republic,2023
+13,capsicum,vegetables,11.78,kg,1266,718766.12,CZK,Store E,Czech Republic,2023
+14,onion,vegetables,4.712,kg,4027,737741.35,CZK,Store E,Czech Republic,2023
+15,potato,vegetables,7.068,kg,960,744526.63,CZK,Store E,Czech Republic,2023
+16,lemon,vegetables,9.424,kg,521,749436.53,CZK,Store E,Czech Republic,2023
+17,tomato,vegetables,14.136,kg,458,755910.82,CZK,Store E,Czech Republic,2023
+18,raddish,vegetables,7.068,kg,1136,763940.07,CZK,Store E,Czech Republic,2023
+19,beetroot,vegetables,9.424,kg,5373,814575.22,CZK,Store E,Czech Republic,2023
+20,cabbage,vegetables,11.78,piece,395,819228.32,CZK,Store E,Czech Republic,2023
+21,lettuce,vegetables,14.136,piece,3911,874514.22,CZK,Store E,Czech Republic,2023
+22,spinach,vegetables,16.491999999999997,kg,1666,901989.89,CZK,Store E,Czech Republic,2023
+23,soy bean,vegetables,18.848,kg,2789,954556.96,CZK,Store E,Czech Republic,2023
+24,cauliflower,vegetables,14.136,piece,3619,1005715.14,CZK,Store E,Czech Republic,2023
+25,bell pepper,vegetables,16.491999999999997,kg,3334,1060699.47,CZK,Store E,Czech Republic,2023
+26,chilli pepper,vegetables,11.78,kg,835,1070535.77,CZK,Store E,Czech Republic,2023
+27,turnip,vegetables,9.424,kg,2480,1093907.29,CZK,Store E,Czech Republic,2023
+28,corn,vegetables,7.068,kg,537,1097702.81,CZK,Store E,Czech Republic,2023
+29,sweetcorn,vegetables,9.424,kg,1460,1111461.85,CZK,Store E,Czech Republic,2023
+30,sweet potato,vegetables,11.78,kg,4655,1166297.75,CZK,Store E,Czech Republic,2023
+31,paprika,vegetables,47.12,kg,197,1175580.39,CZK,Store E,Czech Republic,2023
+32,jalepeno,vegetables,47.12,kg,1000,1222700.39,CZK,Store E,Czech Republic,2023
+33,ginger,vegetables,35.339999999999996,kg,3204,1335929.75,CZK,Store E,Czech Republic,2023
+34,garlic,vegetables,35.339999999999996,kg,2498,1424209.07,CZK,Store E,Czech Republic,2023
+35,peas,vegetables,70.67999999999999,kg,662,1470999.23,CZK,Store E,Czech Republic,2023
+36,eggplant,vegetables,35.339999999999996,kg,1257,1515421.61,CZK,Store E,Czech Republic,2023

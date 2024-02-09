@@ -1,0 +1,2701 @@
+PRODUCTID,PRODUCT,TYPE,UNITPRICE,UNIT,QTY,TOTALSALES,CURRENCY,STORE,COUNTRY,YEAR
+1,banana,fruits,0.5,kg,14711,7355.5,EUR,Store A,Germany,2019
+2,apple,fruits,0.7,kg,2993,9450.6,EUR,Store A,Germany,2019
+3,pear,fruits,0.6,kg,43633,35630.4,EUR,Store A,Germany,2019
+4,grapes,fruits,1.2,kg,2719,38893.2,EUR,Store A,Germany,2019
+5,orange,fruits,0.8,kg,10941,47646.0,EUR,Store A,Germany,2019
+6,kiwi,fruits,0.9,piece,8459,55259.1,EUR,Store A,Germany,2019
+7,watermelon,fruits,5.0,kg,4729,78904.1,EUR,Store A,Germany,2019
+8,pomegranate,fruits,2.5,kg,53039,211501.6,EUR,Store A,Germany,2019
+9,pineapple,fruits,1.5,piece,68150,313726.6,EUR,Store A,Germany,2019
+10,mango,fruits,2.0,piece,20085,353896.6,EUR,Store A,Germany,2019
+11,cucumber,vegetables,0.4,piece,38766,369403.0,EUR,Store A,Germany,2019
+12,carrot,vegetables,0.3,kg,13001,373303.3,EUR,Store A,Germany,2019
+13,capsicum,vegetables,0.5,kg,1861,374233.8,EUR,Store A,Germany,2019
+14,onion,vegetables,0.2,kg,38209,381875.6,EUR,Store A,Germany,2019
+15,potato,vegetables,0.3,kg,7062,383994.2,EUR,Store A,Germany,2019
+16,lemon,vegetables,0.4,kg,12456,388976.6,EUR,Store A,Germany,2019
+17,tomato,vegetables,0.6,kg,70560,431312.6,EUR,Store A,Germany,2019
+18,raddish,vegetables,0.3,kg,21001,437612.9,EUR,Store A,Germany,2019
+19,beetroot,vegetables,0.4,kg,17464,444598.5,EUR,Store A,Germany,2019
+20,cabbage,vegetables,0.5,piece,33974,461585.5,EUR,Store A,Germany,2019
+21,lettuce,vegetables,0.6,piece,2213,462913.3,EUR,Store A,Germany,2019
+22,spinach,vegetables,0.7,kg,23658,479473.9,EUR,Store A,Germany,2019
+23,soy bean,vegetables,0.8,kg,84299,546913.1,EUR,Store A,Germany,2019
+24,cauliflower,vegetables,0.6,piece,89180,600421.1,EUR,Store A,Germany,2019
+25,bell pepper,vegetables,0.7,kg,17728,612830.7,EUR,Store A,Germany,2019
+26,chilli pepper,vegetables,0.5,kg,74390,650025.7,EUR,Store A,Germany,2019
+27,turnip,vegetables,0.4,kg,16934,656799.3,EUR,Store A,Germany,2019
+28,corn,vegetables,0.3,kg,74040,679011.3,EUR,Store A,Germany,2019
+29,sweetcorn,vegetables,0.4,kg,19467,686798.1,EUR,Store A,Germany,2019
+30,sweet potato,vegetables,0.5,kg,73926,723761.1,EUR,Store A,Germany,2019
+31,paprika,vegetables,2.0,kg,7013,737787.1,EUR,Store A,Germany,2019
+32,jalepeno,vegetables,2.0,kg,2294,742375.1,EUR,Store A,Germany,2019
+33,ginger,vegetables,1.5,kg,23601,777776.6,EUR,Store A,Germany,2019
+34,garlic,vegetables,1.5,kg,34841,830038.1,EUR,Store A,Germany,2019
+35,peas,vegetables,3.0,kg,23840,901558.1,EUR,Store A,Germany,2019
+36,eggplant,vegetables,1.5,kg,3441,906719.6,EUR,Store A,Germany,2019
+1,banana,fruits,0.5,kg,75834,37917.0,EUR,Store B,Germany,2019
+2,apple,fruits,0.7,kg,16065,49162.5,EUR,Store B,Germany,2019
+3,pear,fruits,0.6,kg,34581,69911.1,EUR,Store B,Germany,2019
+4,grapes,fruits,1.2,kg,13059,85581.9,EUR,Store B,Germany,2019
+5,orange,fruits,0.8,kg,60446,133938.7,EUR,Store B,Germany,2019
+6,kiwi,fruits,0.9,piece,12928,145573.9,EUR,Store B,Germany,2019
+7,watermelon,fruits,5.0,kg,47052,380833.9,EUR,Store B,Germany,2019
+8,pomegranate,fruits,2.5,kg,29710,455108.9,EUR,Store B,Germany,2019
+9,pineapple,fruits,1.5,piece,43653,520588.4,EUR,Store B,Germany,2019
+10,mango,fruits,2.0,piece,59321,639230.4,EUR,Store B,Germany,2019
+11,cucumber,vegetables,0.4,piece,25842,649567.2,EUR,Store B,Germany,2019
+12,carrot,vegetables,0.3,kg,3972,650758.8,EUR,Store B,Germany,2019
+13,capsicum,vegetables,0.5,kg,25982,663749.8,EUR,Store B,Germany,2019
+14,onion,vegetables,0.2,kg,914,663932.6,EUR,Store B,Germany,2019
+15,potato,vegetables,0.3,kg,70765,685162.1,EUR,Store B,Germany,2019
+16,lemon,vegetables,0.4,kg,2727,686252.9,EUR,Store B,Germany,2019
+17,tomato,vegetables,0.6,kg,26534,702173.3,EUR,Store B,Germany,2019
+18,raddish,vegetables,0.3,kg,27261,710351.6,EUR,Store B,Germany,2019
+19,beetroot,vegetables,0.4,kg,74718,740238.8,EUR,Store B,Germany,2019
+20,cabbage,vegetables,0.5,piece,11904,746190.8,EUR,Store B,Germany,2019
+21,lettuce,vegetables,0.6,piece,3034,748011.2,EUR,Store B,Germany,2019
+22,spinach,vegetables,0.7,kg,38883,775229.3,EUR,Store B,Germany,2019
+23,soy bean,vegetables,0.8,kg,10017,783242.9,EUR,Store B,Germany,2019
+24,cauliflower,vegetables,0.6,piece,5832,786742.1,EUR,Store B,Germany,2019
+25,bell pepper,vegetables,0.7,kg,43227,817001.0,EUR,Store B,Germany,2019
+26,chilli pepper,vegetables,0.5,kg,28859,831430.5,EUR,Store B,Germany,2019
+27,turnip,vegetables,0.4,kg,30213,843515.7,EUR,Store B,Germany,2019
+28,corn,vegetables,0.3,kg,85482,869160.3,EUR,Store B,Germany,2019
+29,sweetcorn,vegetables,0.4,kg,2306,870082.7,EUR,Store B,Germany,2019
+30,sweet potato,vegetables,0.5,kg,13756,876960.7,EUR,Store B,Germany,2019
+31,paprika,vegetables,2.0,kg,25429,927818.7,EUR,Store B,Germany,2019
+32,jalepeno,vegetables,2.0,kg,14619,957056.7,EUR,Store B,Germany,2019
+33,ginger,vegetables,1.5,kg,85506,1085315.7,EUR,Store B,Germany,2019
+34,garlic,vegetables,1.5,kg,23877,1121131.2,EUR,Store B,Germany,2019
+35,peas,vegetables,3.0,kg,2901,1129834.2,EUR,Store B,Germany,2019
+36,eggplant,vegetables,1.5,kg,7478,1141051.2,EUR,Store B,Germany,2019
+1,banana,fruits,0.5,kg,17965,8982.5,EUR,Store C,Germany,2019
+2,apple,fruits,0.7,kg,19647,22735.4,EUR,Store C,Germany,2019
+3,pear,fruits,0.6,kg,49068,52176.2,EUR,Store C,Germany,2019
+4,grapes,fruits,1.2,kg,72903,139659.8,EUR,Store C,Germany,2019
+5,orange,fruits,0.8,kg,9290,147091.8,EUR,Store C,Germany,2019
+6,kiwi,fruits,0.9,piece,54144,195821.4,EUR,Store C,Germany,2019
+7,watermelon,fruits,5.0,kg,24329,317466.4,EUR,Store C,Germany,2019
+8,pomegranate,fruits,2.5,kg,57583,461423.9,EUR,Store C,Germany,2019
+9,pineapple,fruits,1.5,piece,49817,536149.4,EUR,Store C,Germany,2019
+10,mango,fruits,2.0,piece,24819,585787.4,EUR,Store C,Germany,2019
+11,cucumber,vegetables,0.4,piece,43024,602997.0,EUR,Store C,Germany,2019
+12,carrot,vegetables,0.3,kg,48843,617649.9,EUR,Store C,Germany,2019
+13,capsicum,vegetables,0.5,kg,46422,640860.9,EUR,Store C,Germany,2019
+14,onion,vegetables,0.2,kg,53958,651652.5,EUR,Store C,Germany,2019
+15,potato,vegetables,0.3,kg,3016,652557.3,EUR,Store C,Germany,2019
+16,lemon,vegetables,0.4,kg,7235,655451.3,EUR,Store C,Germany,2019
+17,tomato,vegetables,0.6,kg,16777,665517.5,EUR,Store C,Germany,2019
+18,raddish,vegetables,0.3,kg,16288,670403.9,EUR,Store C,Germany,2019
+19,beetroot,vegetables,0.4,kg,39805,686325.9,EUR,Store C,Germany,2019
+20,cabbage,vegetables,0.5,piece,29669,701160.4,EUR,Store C,Germany,2019
+21,lettuce,vegetables,0.6,piece,40425,725415.4,EUR,Store C,Germany,2019
+22,spinach,vegetables,0.7,kg,24050,742250.4,EUR,Store C,Germany,2019
+23,soy bean,vegetables,0.8,kg,2196,744007.2,EUR,Store C,Germany,2019
+24,cauliflower,vegetables,0.6,piece,15688,753420.0,EUR,Store C,Germany,2019
+25,bell pepper,vegetables,0.7,kg,22358,769070.6,EUR,Store C,Germany,2019
+26,chilli pepper,vegetables,0.5,kg,1733,769937.1,EUR,Store C,Germany,2019
+27,turnip,vegetables,0.4,kg,45651,788197.5,EUR,Store C,Germany,2019
+28,corn,vegetables,0.3,kg,10908,791469.9,EUR,Store C,Germany,2019
+29,sweetcorn,vegetables,0.4,kg,56576,814100.3,EUR,Store C,Germany,2019
+30,sweet potato,vegetables,0.5,kg,50507,839353.8,EUR,Store C,Germany,2019
+31,paprika,vegetables,2.0,kg,773,840899.8,EUR,Store C,Germany,2019
+32,jalepeno,vegetables,2.0,kg,2713,846325.8,EUR,Store C,Germany,2019
+33,ginger,vegetables,1.5,kg,11653,863805.3,EUR,Store C,Germany,2019
+34,garlic,vegetables,1.5,kg,45265,931702.8,EUR,Store C,Germany,2019
+35,peas,vegetables,3.0,kg,48365,1076797.8,EUR,Store C,Germany,2019
+36,eggplant,vegetables,1.5,kg,20333,1107297.3,EUR,Store C,Germany,2019
+1,banana,fruits,0.5,kg,21989,10994.5,EUR,Store D,Germany,2019
+2,apple,fruits,0.7,kg,66049,57228.8,EUR,Store D,Germany,2019
+3,pear,fruits,0.6,kg,65219,96360.2,EUR,Store D,Germany,2019
+4,grapes,fruits,1.2,kg,25657,127148.6,EUR,Store D,Germany,2019
+5,orange,fruits,0.8,kg,73271,185765.4,EUR,Store D,Germany,2019
+6,kiwi,fruits,0.9,piece,18820,202703.4,EUR,Store D,Germany,2019
+7,watermelon,fruits,5.0,kg,26350,334453.4,EUR,Store D,Germany,2019
+8,pomegranate,fruits,2.5,kg,26722,401258.4,EUR,Store D,Germany,2019
+9,pineapple,fruits,1.5,piece,29416,445382.4,EUR,Store D,Germany,2019
+10,mango,fruits,2.0,piece,21581,488544.4,EUR,Store D,Germany,2019
+11,cucumber,vegetables,0.4,piece,4596,490382.8,EUR,Store D,Germany,2019
+12,carrot,vegetables,0.3,kg,3794,491521.0,EUR,Store D,Germany,2019
+13,capsicum,vegetables,0.5,kg,14332,498687.0,EUR,Store D,Germany,2019
+14,onion,vegetables,0.2,kg,1754,499037.8,EUR,Store D,Germany,2019
+15,potato,vegetables,0.3,kg,35538,509699.2,EUR,Store D,Germany,2019
+16,lemon,vegetables,0.4,kg,25356,519841.6,EUR,Store D,Germany,2019
+17,tomato,vegetables,0.6,kg,17528,530358.4,EUR,Store D,Germany,2019
+18,raddish,vegetables,0.3,kg,59575,548230.9,EUR,Store D,Germany,2019
+19,beetroot,vegetables,0.4,kg,12038,553046.1,EUR,Store D,Germany,2019
+20,cabbage,vegetables,0.5,piece,14714,560403.1,EUR,Store D,Germany,2019
+21,lettuce,vegetables,0.6,piece,10033,566422.9,EUR,Store D,Germany,2019
+22,spinach,vegetables,0.7,kg,19064,579767.7,EUR,Store D,Germany,2019
+23,soy bean,vegetables,0.8,kg,22080,597431.7,EUR,Store D,Germany,2019
+24,cauliflower,vegetables,0.6,piece,18925,608786.7,EUR,Store D,Germany,2019
+25,bell pepper,vegetables,0.7,kg,42856,638785.9,EUR,Store D,Germany,2019
+26,chilli pepper,vegetables,0.5,kg,55149,666360.4,EUR,Store D,Germany,2019
+27,turnip,vegetables,0.4,kg,7678,669431.6,EUR,Store D,Germany,2019
+28,corn,vegetables,0.3,kg,27642,677724.2,EUR,Store D,Germany,2019
+29,sweetcorn,vegetables,0.4,kg,63755,703226.2,EUR,Store D,Germany,2019
+30,sweet potato,vegetables,0.5,kg,30077,718264.7,EUR,Store D,Germany,2019
+31,paprika,vegetables,2.0,kg,24466,767196.7,EUR,Store D,Germany,2019
+32,jalepeno,vegetables,2.0,kg,61,767318.7,EUR,Store D,Germany,2019
+33,ginger,vegetables,1.5,kg,12709,786382.2,EUR,Store D,Germany,2019
+34,garlic,vegetables,1.5,kg,18362,813925.2,EUR,Store D,Germany,2019
+35,peas,vegetables,3.0,kg,17509,866452.2,EUR,Store D,Germany,2019
+36,eggplant,vegetables,1.5,kg,23009,900965.7,EUR,Store D,Germany,2019
+1,banana,fruits,0.5,kg,21511,10755.5,EUR,Store E,Germany,2019
+2,apple,fruits,0.7,kg,71699,60944.8,EUR,Store E,Germany,2019
+3,pear,fruits,0.6,kg,58330,95942.8,EUR,Store E,Germany,2019
+4,grapes,fruits,1.2,kg,23371,123988.0,EUR,Store E,Germany,2019
+5,orange,fruits,0.8,kg,42211,157756.8,EUR,Store E,Germany,2019
+6,kiwi,fruits,0.9,piece,59461,211271.7,EUR,Store E,Germany,2019
+7,watermelon,fruits,5.0,kg,48911,455826.7,EUR,Store E,Germany,2019
+8,pomegranate,fruits,2.5,kg,17912,500606.7,EUR,Store E,Germany,2019
+9,pineapple,fruits,1.5,piece,17670,527111.7,EUR,Store E,Germany,2019
+10,mango,fruits,2.0,piece,10173,547457.7,EUR,Store E,Germany,2019
+11,cucumber,vegetables,0.4,piece,25547,557676.5,EUR,Store E,Germany,2019
+12,carrot,vegetables,0.3,kg,12664,561475.7,EUR,Store E,Germany,2019
+13,capsicum,vegetables,0.5,kg,49144,586047.7,EUR,Store E,Germany,2019
+14,onion,vegetables,0.2,kg,42080,594463.7,EUR,Store E,Germany,2019
+15,potato,vegetables,0.3,kg,8660,597061.7,EUR,Store E,Germany,2019
+16,lemon,vegetables,0.4,kg,48704,616543.3,EUR,Store E,Germany,2019
+17,tomato,vegetables,0.6,kg,46396,644380.9,EUR,Store E,Germany,2019
+18,raddish,vegetables,0.3,kg,22434,651111.1,EUR,Store E,Germany,2019
+19,beetroot,vegetables,0.4,kg,13623,656560.3,EUR,Store E,Germany,2019
+20,cabbage,vegetables,0.5,piece,22445,667782.8,EUR,Store E,Germany,2019
+21,lettuce,vegetables,0.6,piece,57850,702492.8,EUR,Store E,Germany,2019
+22,spinach,vegetables,0.7,kg,16326,713921.0,EUR,Store E,Germany,2019
+23,soy bean,vegetables,0.8,kg,29971,737897.8,EUR,Store E,Germany,2019
+24,cauliflower,vegetables,0.6,piece,24706,752721.4,EUR,Store E,Germany,2019
+25,bell pepper,vegetables,0.7,kg,34789,777073.7,EUR,Store E,Germany,2019
+26,chilli pepper,vegetables,0.5,kg,26717,790432.2,EUR,Store E,Germany,2019
+27,turnip,vegetables,0.4,kg,42617,807479.0,EUR,Store E,Germany,2019
+28,corn,vegetables,0.3,kg,23711,814592.3,EUR,Store E,Germany,2019
+29,sweetcorn,vegetables,0.4,kg,71638,843247.5,EUR,Store E,Germany,2019
+30,sweet potato,vegetables,0.5,kg,1810,844152.5,EUR,Store E,Germany,2019
+31,paprika,vegetables,2.0,kg,2902,849956.5,EUR,Store E,Germany,2019
+32,jalepeno,vegetables,2.0,kg,8258,866472.5,EUR,Store E,Germany,2019
+33,ginger,vegetables,1.5,kg,75894,980313.5,EUR,Store E,Germany,2019
+34,garlic,vegetables,1.5,kg,22963,1014758.0,EUR,Store E,Germany,2019
+35,peas,vegetables,3.0,kg,78601,1250561.0,EUR,Store E,Germany,2019
+36,eggplant,vegetables,1.5,kg,71567,1357911.5,EUR,Store E,Germany,2019
+1,banana,fruits,0.5,kg,14281,7140.5,EUR,Store F,Germany,2019
+2,apple,fruits,0.7,kg,67809,54606.8,EUR,Store F,Germany,2019
+3,pear,fruits,0.6,kg,56437,88469.0,EUR,Store F,Germany,2019
+4,grapes,fruits,1.2,kg,48261,146382.2,EUR,Store F,Germany,2019
+5,orange,fruits,0.8,kg,59332,193847.8,EUR,Store F,Germany,2019
+6,kiwi,fruits,0.9,piece,11700,204377.8,EUR,Store F,Germany,2019
+7,watermelon,fruits,5.0,kg,26290,335827.8,EUR,Store F,Germany,2019
+8,pomegranate,fruits,2.5,kg,17632,379907.8,EUR,Store F,Germany,2019
+9,pineapple,fruits,1.5,piece,26106,419066.8,EUR,Store F,Germany,2019
+10,mango,fruits,2.0,piece,13432,445930.8,EUR,Store F,Germany,2019
+11,cucumber,vegetables,0.4,piece,17381,452883.2,EUR,Store F,Germany,2019
+12,carrot,vegetables,0.3,kg,47334,467083.4,EUR,Store F,Germany,2019
+13,capsicum,vegetables,0.5,kg,19506,476836.4,EUR,Store F,Germany,2019
+14,onion,vegetables,0.2,kg,42781,485392.6,EUR,Store F,Germany,2019
+15,potato,vegetables,0.3,kg,20190,491449.6,EUR,Store F,Germany,2019
+16,lemon,vegetables,0.4,kg,40989,507845.2,EUR,Store F,Germany,2019
+17,tomato,vegetables,0.6,kg,46937,536007.4,EUR,Store F,Germany,2019
+18,raddish,vegetables,0.3,kg,9177,538760.5,EUR,Store F,Germany,2019
+19,beetroot,vegetables,0.4,kg,6580,541392.5,EUR,Store F,Germany,2019
+20,cabbage,vegetables,0.5,piece,1838,542311.5,EUR,Store F,Germany,2019
+21,lettuce,vegetables,0.6,piece,10542,548636.7,EUR,Store F,Germany,2019
+22,spinach,vegetables,0.7,kg,24243,565606.8,EUR,Store F,Germany,2019
+23,soy bean,vegetables,0.8,kg,26369,586702.0,EUR,Store F,Germany,2019
+24,cauliflower,vegetables,0.6,piece,9298,592280.8,EUR,Store F,Germany,2019
+25,bell pepper,vegetables,0.7,kg,44851,623676.5,EUR,Store F,Germany,2019
+26,chilli pepper,vegetables,0.5,kg,55490,651421.5,EUR,Store F,Germany,2019
+27,turnip,vegetables,0.4,kg,57707,674504.3,EUR,Store F,Germany,2019
+28,corn,vegetables,0.3,kg,19450,680339.3,EUR,Store F,Germany,2019
+29,sweetcorn,vegetables,0.4,kg,67807,707462.1,EUR,Store F,Germany,2019
+30,sweet potato,vegetables,0.5,kg,33599,724261.6,EUR,Store F,Germany,2019
+31,paprika,vegetables,2.0,kg,14105,752471.6,EUR,Store F,Germany,2019
+32,jalepeno,vegetables,2.0,kg,5094,762659.6,EUR,Store F,Germany,2019
+33,ginger,vegetables,1.5,kg,64774,859820.6,EUR,Store F,Germany,2019
+34,garlic,vegetables,1.5,kg,65878,958637.6,EUR,Store F,Germany,2019
+35,peas,vegetables,3.0,kg,8734,984839.6,EUR,Store F,Germany,2019
+36,eggplant,vegetables,1.5,kg,22333,1018339.1,EUR,Store F,Germany,2019
+1,banana,fruits,0.5,kg,35755,17877.5,EUR,Store G,Germany,2019
+2,apple,fruits,0.7,kg,38896,45104.7,EUR,Store G,Germany,2019
+3,pear,fruits,0.6,kg,13696,53322.3,EUR,Store G,Germany,2019
+4,grapes,fruits,1.2,kg,10662,66116.7,EUR,Store G,Germany,2019
+5,orange,fruits,0.8,kg,11988,75707.1,EUR,Store G,Germany,2019
+6,kiwi,fruits,0.9,piece,64009,133315.2,EUR,Store G,Germany,2019
+7,watermelon,fruits,5.0,kg,24115,253890.2,EUR,Store G,Germany,2019
+8,pomegranate,fruits,2.5,kg,64788,415860.2,EUR,Store G,Germany,2019
+9,pineapple,fruits,1.5,piece,40072,475968.2,EUR,Store G,Germany,2019
+10,mango,fruits,2.0,piece,27928,531824.2,EUR,Store G,Germany,2019
+11,cucumber,vegetables,0.4,piece,26471,542412.6,EUR,Store G,Germany,2019
+12,carrot,vegetables,0.3,kg,29580,551286.6,EUR,Store G,Germany,2019
+13,capsicum,vegetables,0.5,kg,85026,593799.6,EUR,Store G,Germany,2019
+14,onion,vegetables,0.2,kg,25364,598872.4,EUR,Store G,Germany,2019
+15,potato,vegetables,0.3,kg,57590,616149.4,EUR,Store G,Germany,2019
+16,lemon,vegetables,0.4,kg,3149,617409.0,EUR,Store G,Germany,2019
+17,tomato,vegetables,0.6,kg,17393,627844.8,EUR,Store G,Germany,2019
+18,raddish,vegetables,0.3,kg,2417,628569.9,EUR,Store G,Germany,2019
+19,beetroot,vegetables,0.4,kg,41374,645119.5,EUR,Store G,Germany,2019
+20,cabbage,vegetables,0.5,piece,4233,647236.0,EUR,Store G,Germany,2019
+21,lettuce,vegetables,0.6,piece,48714,676464.4,EUR,Store G,Germany,2019
+22,spinach,vegetables,0.7,kg,33906,700198.6,EUR,Store G,Germany,2019
+23,soy bean,vegetables,0.8,kg,31767,725612.2,EUR,Store G,Germany,2019
+24,cauliflower,vegetables,0.6,piece,33789,745885.6,EUR,Store G,Germany,2019
+25,bell pepper,vegetables,0.7,kg,4872,749296.0,EUR,Store G,Germany,2019
+26,chilli pepper,vegetables,0.5,kg,25434,762013.0,EUR,Store G,Germany,2019
+27,turnip,vegetables,0.4,kg,58409,785376.6,EUR,Store G,Germany,2019
+28,corn,vegetables,0.3,kg,34174,795628.8,EUR,Store G,Germany,2019
+29,sweetcorn,vegetables,0.4,kg,17205,802510.8,EUR,Store G,Germany,2019
+30,sweet potato,vegetables,0.5,kg,640,802830.8,EUR,Store G,Germany,2019
+31,paprika,vegetables,2.0,kg,24505,851840.8,EUR,Store G,Germany,2019
+32,jalepeno,vegetables,2.0,kg,7618,867076.8,EUR,Store G,Germany,2019
+33,ginger,vegetables,1.5,kg,20112,897244.8,EUR,Store G,Germany,2019
+34,garlic,vegetables,1.5,kg,40167,957495.3,EUR,Store G,Germany,2019
+35,peas,vegetables,3.0,kg,21399,1021692.3,EUR,Store G,Germany,2019
+36,eggplant,vegetables,1.5,kg,20025,1051729.8,EUR,Store G,Germany,2019
+1,banana,fruits,0.5,kg,17206,8603.0,EUR,Store H,Germany,2019
+2,apple,fruits,0.7,kg,8115,14283.5,EUR,Store H,Germany,2019
+3,pear,fruits,0.6,kg,49542,44008.7,EUR,Store H,Germany,2019
+4,grapes,fruits,1.2,kg,35160,86200.7,EUR,Store H,Germany,2019
+5,orange,fruits,0.8,kg,24028,105423.1,EUR,Store H,Germany,2019
+6,kiwi,fruits,0.9,piece,19808,123250.3,EUR,Store H,Germany,2019
+7,watermelon,fruits,5.0,kg,55425,400375.3,EUR,Store H,Germany,2019
+8,pomegranate,fruits,2.5,kg,57622,544430.3,EUR,Store H,Germany,2019
+9,pineapple,fruits,1.5,piece,9131,558126.8,EUR,Store H,Germany,2019
+10,mango,fruits,2.0,piece,18606,595338.8,EUR,Store H,Germany,2019
+11,cucumber,vegetables,0.4,piece,5387,597493.6,EUR,Store H,Germany,2019
+12,carrot,vegetables,0.3,kg,47859,611851.3,EUR,Store H,Germany,2019
+13,capsicum,vegetables,0.5,kg,53234,638468.3,EUR,Store H,Germany,2019
+14,onion,vegetables,0.2,kg,26781,643824.5,EUR,Store H,Germany,2019
+15,potato,vegetables,0.3,kg,14744,648247.7,EUR,Store H,Germany,2019
+16,lemon,vegetables,0.4,kg,21456,656830.1,EUR,Store H,Germany,2019
+17,tomato,vegetables,0.6,kg,5945,660397.1,EUR,Store H,Germany,2019
+18,raddish,vegetables,0.3,kg,14551,664762.4,EUR,Store H,Germany,2019
+19,beetroot,vegetables,0.4,kg,58793,688279.6,EUR,Store H,Germany,2019
+20,cabbage,vegetables,0.5,piece,10490,693524.6,EUR,Store H,Germany,2019
+21,lettuce,vegetables,0.6,piece,24103,707986.4,EUR,Store H,Germany,2019
+22,spinach,vegetables,0.7,kg,57128,747976.0,EUR,Store H,Germany,2019
+23,soy bean,vegetables,0.8,kg,17982,762361.6,EUR,Store H,Germany,2019
+24,cauliflower,vegetables,0.6,piece,11534,769282.0,EUR,Store H,Germany,2019
+25,bell pepper,vegetables,0.7,kg,59056,810621.2,EUR,Store H,Germany,2019
+26,chilli pepper,vegetables,0.5,kg,14964,818103.2,EUR,Store H,Germany,2019
+27,turnip,vegetables,0.4,kg,63432,843476.0,EUR,Store H,Germany,2019
+28,corn,vegetables,0.3,kg,14752,847901.6,EUR,Store H,Germany,2019
+29,sweetcorn,vegetables,0.4,kg,17226,854792.0,EUR,Store H,Germany,2019
+30,sweet potato,vegetables,0.5,kg,39813,874698.5,EUR,Store H,Germany,2019
+31,paprika,vegetables,2.0,kg,2722,880142.5,EUR,Store H,Germany,2019
+32,jalepeno,vegetables,2.0,kg,50371,980884.5,EUR,Store H,Germany,2019
+33,ginger,vegetables,1.5,kg,30757,1027020.0,EUR,Store H,Germany,2019
+34,garlic,vegetables,1.5,kg,33481,1077241.5,EUR,Store H,Germany,2019
+35,peas,vegetables,3.0,kg,4037,1089352.5,EUR,Store H,Germany,2019
+36,eggplant,vegetables,1.5,kg,18985,1117830.0,EUR,Store H,Germany,2019
+1,banana,fruits,0.5,kg,12086,6043.0,EUR,Store I,Germany,2019
+2,apple,fruits,0.7,kg,30371,27302.7,EUR,Store I,Germany,2019
+3,pear,fruits,0.6,kg,56974,61487.1,EUR,Store I,Germany,2019
+4,grapes,fruits,1.2,kg,12108,76016.7,EUR,Store I,Germany,2019
+5,orange,fruits,0.8,kg,7126,81717.5,EUR,Store I,Germany,2019
+6,kiwi,fruits,0.9,piece,3364,84745.1,EUR,Store I,Germany,2019
+7,watermelon,fruits,5.0,kg,15719,163340.1,EUR,Store I,Germany,2019
+8,pomegranate,fruits,2.5,kg,59063,310997.6,EUR,Store I,Germany,2019
+9,pineapple,fruits,1.5,piece,57131,396694.1,EUR,Store I,Germany,2019
+10,mango,fruits,2.0,piece,42396,481486.1,EUR,Store I,Germany,2019
+11,cucumber,vegetables,0.4,piece,25273,491595.3,EUR,Store I,Germany,2019
+12,carrot,vegetables,0.3,kg,19973,497587.2,EUR,Store I,Germany,2019
+13,capsicum,vegetables,0.5,kg,6819,500996.7,EUR,Store I,Germany,2019
+14,onion,vegetables,0.2,kg,26993,506395.3,EUR,Store I,Germany,2019
+15,potato,vegetables,0.3,kg,20724,512612.5,EUR,Store I,Germany,2019
+16,lemon,vegetables,0.4,kg,21477,521203.3,EUR,Store I,Germany,2019
+17,tomato,vegetables,0.6,kg,81424,570057.7,EUR,Store I,Germany,2019
+18,raddish,vegetables,0.3,kg,24556,577424.5,EUR,Store I,Germany,2019
+19,beetroot,vegetables,0.4,kg,9787,581339.3,EUR,Store I,Germany,2019
+20,cabbage,vegetables,0.5,piece,6809,584743.8,EUR,Store I,Germany,2019
+21,lettuce,vegetables,0.6,piece,28487,601836.0,EUR,Store I,Germany,2019
+22,spinach,vegetables,0.7,kg,6847,606628.9,EUR,Store I,Germany,2019
+23,soy bean,vegetables,0.8,kg,10949,615388.1,EUR,Store I,Germany,2019
+24,cauliflower,vegetables,0.6,piece,4488,618080.9,EUR,Store I,Germany,2019
+25,bell pepper,vegetables,0.7,kg,75572,670981.3,EUR,Store I,Germany,2019
+26,chilli pepper,vegetables,0.5,kg,38551,690256.8,EUR,Store I,Germany,2019
+27,turnip,vegetables,0.4,kg,22533,699270.0,EUR,Store I,Germany,2019
+28,corn,vegetables,0.3,kg,16556,704236.8,EUR,Store I,Germany,2019
+29,sweetcorn,vegetables,0.4,kg,24002,713837.6,EUR,Store I,Germany,2019
+30,sweet potato,vegetables,0.5,kg,18784,723229.6,EUR,Store I,Germany,2019
+31,paprika,vegetables,2.0,kg,16888,757005.6,EUR,Store I,Germany,2019
+32,jalepeno,vegetables,2.0,kg,75212,907429.6,EUR,Store I,Germany,2019
+33,ginger,vegetables,1.5,kg,27869,949233.1,EUR,Store I,Germany,2019
+34,garlic,vegetables,1.5,kg,9967,964183.6,EUR,Store I,Germany,2019
+35,peas,vegetables,3.0,kg,648,966127.6,EUR,Store I,Germany,2019
+36,eggplant,vegetables,1.5,kg,16203,990432.1,EUR,Store I,Germany,2019
+1,banana,fruits,0.5,kg,25275,12637.5,EUR,Store J,Germany,2019
+2,apple,fruits,0.7,kg,18545,25619.0,EUR,Store J,Germany,2019
+3,pear,fruits,0.6,kg,14207,34143.2,EUR,Store J,Germany,2019
+4,grapes,fruits,1.2,kg,4877,39995.6,EUR,Store J,Germany,2019
+5,orange,fruits,0.8,kg,2018,41610.0,EUR,Store J,Germany,2019
+6,kiwi,fruits,0.9,piece,9489,50150.1,EUR,Store J,Germany,2019
+7,watermelon,fruits,5.0,kg,275,51525.1,EUR,Store J,Germany,2019
+8,pomegranate,fruits,2.5,kg,21425,105087.6,EUR,Store J,Germany,2019
+9,pineapple,fruits,1.5,piece,27791,146774.1,EUR,Store J,Germany,2019
+10,mango,fruits,2.0,piece,6818,160410.1,EUR,Store J,Germany,2019
+11,cucumber,vegetables,0.4,piece,27177,171280.9,EUR,Store J,Germany,2019
+12,carrot,vegetables,0.3,kg,31753,180806.8,EUR,Store J,Germany,2019
+13,capsicum,vegetables,0.5,kg,48437,205025.3,EUR,Store J,Germany,2019
+14,onion,vegetables,0.2,kg,7889,206603.1,EUR,Store J,Germany,2019
+15,potato,vegetables,0.3,kg,9216,209367.9,EUR,Store J,Germany,2019
+16,lemon,vegetables,0.4,kg,11005,213769.9,EUR,Store J,Germany,2019
+17,tomato,vegetables,0.6,kg,52686,245381.5,EUR,Store J,Germany,2019
+18,raddish,vegetables,0.3,kg,17868,250741.9,EUR,Store J,Germany,2019
+19,beetroot,vegetables,0.4,kg,63953,276323.1,EUR,Store J,Germany,2019
+20,cabbage,vegetables,0.5,piece,22309,287477.6,EUR,Store J,Germany,2019
+21,lettuce,vegetables,0.6,piece,62740,325121.6,EUR,Store J,Germany,2019
+22,spinach,vegetables,0.7,kg,20632,339564.0,EUR,Store J,Germany,2019
+23,soy bean,vegetables,0.8,kg,25194,359719.2,EUR,Store J,Germany,2019
+24,cauliflower,vegetables,0.6,piece,49728,389556.0,EUR,Store J,Germany,2019
+25,bell pepper,vegetables,0.7,kg,1777,390799.9,EUR,Store J,Germany,2019
+26,chilli pepper,vegetables,0.5,kg,20262,400930.9,EUR,Store J,Germany,2019
+27,turnip,vegetables,0.4,kg,21191,409407.3,EUR,Store J,Germany,2019
+28,corn,vegetables,0.3,kg,41163,421756.2,EUR,Store J,Germany,2019
+29,sweetcorn,vegetables,0.4,kg,18431,429128.6,EUR,Store J,Germany,2019
+30,sweet potato,vegetables,0.5,kg,53359,455808.1,EUR,Store J,Germany,2019
+31,paprika,vegetables,2.0,kg,40119,536046.1,EUR,Store J,Germany,2019
+32,jalepeno,vegetables,2.0,kg,89019,714084.1,EUR,Store J,Germany,2019
+33,ginger,vegetables,1.5,kg,89053,847663.6,EUR,Store J,Germany,2019
+34,garlic,vegetables,1.5,kg,44129,913857.1,EUR,Store J,Germany,2019
+35,peas,vegetables,3.0,kg,34628,1017741.1,EUR,Store J,Germany,2019
+36,eggplant,vegetables,1.5,kg,12486,1036470.1,EUR,Store J,Germany,2019
+1,banana,fruits,0.5,kg,20130,10065.0,EUR,Store K,Germany,2019
+2,apple,fruits,0.7,kg,46678,42739.6,EUR,Store K,Germany,2019
+3,pear,fruits,0.6,kg,45899,70279.0,EUR,Store K,Germany,2019
+4,grapes,fruits,1.2,kg,48452,128421.4,EUR,Store K,Germany,2019
+5,orange,fruits,0.8,kg,22575,146481.4,EUR,Store K,Germany,2019
+6,kiwi,fruits,0.9,piece,27669,171383.5,EUR,Store K,Germany,2019
+7,watermelon,fruits,5.0,kg,37141,357088.5,EUR,Store K,Germany,2019
+8,pomegranate,fruits,2.5,kg,12642,388693.5,EUR,Store K,Germany,2019
+9,pineapple,fruits,1.5,piece,49904,463549.5,EUR,Store K,Germany,2019
+10,mango,fruits,2.0,piece,7079,477707.5,EUR,Store K,Germany,2019
+11,cucumber,vegetables,0.4,piece,46999,496507.1,EUR,Store K,Germany,2019
+12,carrot,vegetables,0.3,kg,56677,513510.2,EUR,Store K,Germany,2019
+13,capsicum,vegetables,0.5,kg,53369,540194.7,EUR,Store K,Germany,2019
+14,onion,vegetables,0.2,kg,61789,552552.5,EUR,Store K,Germany,2019
+15,potato,vegetables,0.3,kg,19528,558410.9,EUR,Store K,Germany,2019
+16,lemon,vegetables,0.4,kg,62968,583598.1,EUR,Store K,Germany,2019
+17,tomato,vegetables,0.6,kg,35585,604949.1,EUR,Store K,Germany,2019
+18,raddish,vegetables,0.3,kg,13628,609037.5,EUR,Store K,Germany,2019
+19,beetroot,vegetables,0.4,kg,8062,612262.3,EUR,Store K,Germany,2019
+20,cabbage,vegetables,0.5,piece,22751,623637.8,EUR,Store K,Germany,2019
+21,lettuce,vegetables,0.6,piece,42928,649394.6,EUR,Store K,Germany,2019
+22,spinach,vegetables,0.7,kg,58332,690227.0,EUR,Store K,Germany,2019
+23,soy bean,vegetables,0.8,kg,63711,741195.8,EUR,Store K,Germany,2019
+24,cauliflower,vegetables,0.6,piece,13857,749510.0,EUR,Store K,Germany,2019
+25,bell pepper,vegetables,0.7,kg,7413,754699.1,EUR,Store K,Germany,2019
+26,chilli pepper,vegetables,0.5,kg,15700,762549.1,EUR,Store K,Germany,2019
+27,turnip,vegetables,0.4,kg,74967,792535.9,EUR,Store K,Germany,2019
+28,corn,vegetables,0.3,kg,26063,800354.8,EUR,Store K,Germany,2019
+29,sweetcorn,vegetables,0.4,kg,67546,827373.2,EUR,Store K,Germany,2019
+30,sweet potato,vegetables,0.5,kg,30084,842415.2,EUR,Store K,Germany,2019
+31,paprika,vegetables,2.0,kg,45202,932819.2,EUR,Store K,Germany,2019
+32,jalepeno,vegetables,2.0,kg,13445,959709.2,EUR,Store K,Germany,2019
+33,ginger,vegetables,1.5,kg,2644,963675.2,EUR,Store K,Germany,2019
+34,garlic,vegetables,1.5,kg,10984,980151.2,EUR,Store K,Germany,2019
+35,peas,vegetables,3.0,kg,23250,1049901.2,EUR,Store K,Germany,2019
+36,eggplant,vegetables,1.5,kg,89083,1183525.7,EUR,Store K,Germany,2019
+1,banana,fruits,0.5,kg,6143,3071.5,EUR,Store L,Germany,2019
+2,apple,fruits,0.7,kg,38255,29850.0,EUR,Store L,Germany,2019
+3,pear,fruits,0.6,kg,74632,74629.2,EUR,Store L,Germany,2019
+4,grapes,fruits,1.2,kg,31853,112852.8,EUR,Store L,Germany,2019
+5,orange,fruits,0.8,kg,18938,128003.2,EUR,Store L,Germany,2019
+6,kiwi,fruits,0.9,piece,12362,139129.0,EUR,Store L,Germany,2019
+7,watermelon,fruits,5.0,kg,59949,438874.0,EUR,Store L,Germany,2019
+8,pomegranate,fruits,2.5,kg,12331,469701.5,EUR,Store L,Germany,2019
+9,pineapple,fruits,1.5,piece,23634,505152.5,EUR,Store L,Germany,2019
+10,mango,fruits,2.0,piece,83391,671934.5,EUR,Store L,Germany,2019
+11,cucumber,vegetables,0.4,piece,20969,680322.1,EUR,Store L,Germany,2019
+12,carrot,vegetables,0.3,kg,1867,680882.2,EUR,Store L,Germany,2019
+13,capsicum,vegetables,0.5,kg,12783,687273.7,EUR,Store L,Germany,2019
+14,onion,vegetables,0.2,kg,10132,689300.1,EUR,Store L,Germany,2019
+15,potato,vegetables,0.3,kg,6882,691364.7,EUR,Store L,Germany,2019
+16,lemon,vegetables,0.4,kg,44461,709149.1,EUR,Store L,Germany,2019
+17,tomato,vegetables,0.6,kg,57649,743738.5,EUR,Store L,Germany,2019
+18,raddish,vegetables,0.3,kg,66238,763609.9,EUR,Store L,Germany,2019
+19,beetroot,vegetables,0.4,kg,43769,781117.5,EUR,Store L,Germany,2019
+20,cabbage,vegetables,0.5,piece,9200,785717.5,EUR,Store L,Germany,2019
+21,lettuce,vegetables,0.6,piece,2021,786930.1,EUR,Store L,Germany,2019
+22,spinach,vegetables,0.7,kg,26053,805167.2,EUR,Store L,Germany,2019
+23,soy bean,vegetables,0.8,kg,17521,819184.0,EUR,Store L,Germany,2019
+24,cauliflower,vegetables,0.6,piece,36317,840974.2,EUR,Store L,Germany,2019
+25,bell pepper,vegetables,0.7,kg,50565,876369.7,EUR,Store L,Germany,2019
+26,chilli pepper,vegetables,0.5,kg,47767,900253.2,EUR,Store L,Germany,2019
+27,turnip,vegetables,0.4,kg,35645,914511.2,EUR,Store L,Germany,2019
+28,corn,vegetables,0.3,kg,14233,918781.1,EUR,Store L,Germany,2019
+29,sweetcorn,vegetables,0.4,kg,68533,946194.3,EUR,Store L,Germany,2019
+30,sweet potato,vegetables,0.5,kg,4621,948504.8,EUR,Store L,Germany,2019
+31,paprika,vegetables,2.0,kg,21447,991398.8,EUR,Store L,Germany,2019
+32,jalepeno,vegetables,2.0,kg,86928,1165254.8,EUR,Store L,Germany,2019
+33,ginger,vegetables,1.5,kg,40536,1226058.8,EUR,Store L,Germany,2019
+34,garlic,vegetables,1.5,kg,26342,1265571.8,EUR,Store L,Germany,2019
+35,peas,vegetables,3.0,kg,12424,1302843.8,EUR,Store L,Germany,2019
+36,eggplant,vegetables,1.5,kg,22093,1335983.3,EUR,Store L,Germany,2019
+1,banana,fruits,0.5,kg,26286,13143.0,EUR,Store M,Germany,2019
+2,apple,fruits,0.7,kg,838,13729.6,EUR,Store M,Germany,2019
+3,pear,fruits,0.6,kg,19725,25564.6,EUR,Store M,Germany,2019
+4,grapes,fruits,1.2,kg,8462,35719.0,EUR,Store M,Germany,2019
+5,orange,fruits,0.8,kg,17784,49946.2,EUR,Store M,Germany,2019
+6,kiwi,fruits,0.9,piece,10101,59037.1,EUR,Store M,Germany,2019
+7,watermelon,fruits,5.0,kg,90,59487.1,EUR,Store M,Germany,2019
+8,pomegranate,fruits,2.5,kg,21564,113397.1,EUR,Store M,Germany,2019
+9,pineapple,fruits,1.5,piece,77573,229756.6,EUR,Store M,Germany,2019
+10,mango,fruits,2.0,piece,33391,296538.6,EUR,Store M,Germany,2019
+11,cucumber,vegetables,0.4,piece,20718,304825.8,EUR,Store M,Germany,2019
+12,carrot,vegetables,0.3,kg,85467,330465.9,EUR,Store M,Germany,2019
+13,capsicum,vegetables,0.5,kg,25297,343114.4,EUR,Store M,Germany,2019
+14,onion,vegetables,0.2,kg,24153,347945.0,EUR,Store M,Germany,2019
+15,potato,vegetables,0.3,kg,47162,362093.6,EUR,Store M,Germany,2019
+16,lemon,vegetables,0.4,kg,10692,366370.4,EUR,Store M,Germany,2019
+17,tomato,vegetables,0.6,kg,11902,373511.6,EUR,Store M,Germany,2019
+18,raddish,vegetables,0.3,kg,8159,375959.3,EUR,Store M,Germany,2019
+19,beetroot,vegetables,0.4,kg,84418,409726.5,EUR,Store M,Germany,2019
+20,cabbage,vegetables,0.5,piece,27091,423272.0,EUR,Store M,Germany,2019
+21,lettuce,vegetables,0.6,piece,51432,454131.2,EUR,Store M,Germany,2019
+22,spinach,vegetables,0.7,kg,25311,471848.9,EUR,Store M,Germany,2019
+23,soy bean,vegetables,0.8,kg,84500,539448.9,EUR,Store M,Germany,2019
+24,cauliflower,vegetables,0.6,piece,22267,552809.1,EUR,Store M,Germany,2019
+25,bell pepper,vegetables,0.7,kg,37311,578926.8,EUR,Store M,Germany,2019
+26,chilli pepper,vegetables,0.5,kg,76724,617288.8,EUR,Store M,Germany,2019
+27,turnip,vegetables,0.4,kg,83986,650883.2,EUR,Store M,Germany,2019
+28,corn,vegetables,0.3,kg,3847,652037.3,EUR,Store M,Germany,2019
+29,sweetcorn,vegetables,0.4,kg,28789,663552.9,EUR,Store M,Germany,2019
+30,sweet potato,vegetables,0.5,kg,25594,676349.9,EUR,Store M,Germany,2019
+31,paprika,vegetables,2.0,kg,68856,814061.9,EUR,Store M,Germany,2019
+32,jalepeno,vegetables,2.0,kg,14223,842507.9,EUR,Store M,Germany,2019
+33,ginger,vegetables,1.5,kg,38529,900301.4,EUR,Store M,Germany,2019
+34,garlic,vegetables,1.5,kg,2337,903806.9,EUR,Store M,Germany,2019
+35,peas,vegetables,3.0,kg,44948,1038650.9,EUR,Store M,Germany,2019
+36,eggplant,vegetables,1.5,kg,45658,1107137.9,EUR,Store M,Germany,2019
+1,banana,fruits,0.5,kg,30478,15239.0,EUR,Store N,Germany,2019
+2,apple,fruits,0.7,kg,54704,53531.8,EUR,Store N,Germany,2019
+3,pear,fruits,0.6,kg,48470,82613.8,EUR,Store N,Germany,2019
+4,grapes,fruits,1.2,kg,5115,88751.8,EUR,Store N,Germany,2019
+5,orange,fruits,0.8,kg,35800,117391.8,EUR,Store N,Germany,2019
+6,kiwi,fruits,0.9,piece,67286,177949.2,EUR,Store N,Germany,2019
+7,watermelon,fruits,5.0,kg,15348,254689.2,EUR,Store N,Germany,2019
+8,pomegranate,fruits,2.5,kg,54494,390924.2,EUR,Store N,Germany,2019
+9,pineapple,fruits,1.5,piece,79504,510180.2,EUR,Store N,Germany,2019
+10,mango,fruits,2.0,piece,7223,524626.2,EUR,Store N,Germany,2019
+11,cucumber,vegetables,0.4,piece,80767,556933.0,EUR,Store N,Germany,2019
+12,carrot,vegetables,0.3,kg,26117,564768.1,EUR,Store N,Germany,2019
+13,capsicum,vegetables,0.5,kg,14767,572151.6,EUR,Store N,Germany,2019
+14,onion,vegetables,0.2,kg,32463,578644.2,EUR,Store N,Germany,2019
+15,potato,vegetables,0.3,kg,870,578905.2,EUR,Store N,Germany,2019
+16,lemon,vegetables,0.4,kg,87286,613819.6,EUR,Store N,Germany,2019
+17,tomato,vegetables,0.6,kg,14195,622336.6,EUR,Store N,Germany,2019
+18,raddish,vegetables,0.3,kg,5668,624037.0,EUR,Store N,Germany,2019
+19,beetroot,vegetables,0.4,kg,68585,651471.0,EUR,Store N,Germany,2019
+20,cabbage,vegetables,0.5,piece,31331,667136.5,EUR,Store N,Germany,2019
+21,lettuce,vegetables,0.6,piece,51032,697755.7,EUR,Store N,Germany,2019
+22,spinach,vegetables,0.7,kg,23501,714206.4,EUR,Store N,Germany,2019
+23,soy bean,vegetables,0.8,kg,10927,722948.0,EUR,Store N,Germany,2019
+24,cauliflower,vegetables,0.6,piece,7612,727515.2,EUR,Store N,Germany,2019
+25,bell pepper,vegetables,0.7,kg,32327,750144.1,EUR,Store N,Germany,2019
+26,chilli pepper,vegetables,0.5,kg,10072,755180.1,EUR,Store N,Germany,2019
+27,turnip,vegetables,0.4,kg,4944,757157.7,EUR,Store N,Germany,2019
+28,corn,vegetables,0.3,kg,24450,764492.7,EUR,Store N,Germany,2019
+29,sweetcorn,vegetables,0.4,kg,5109,766536.3,EUR,Store N,Germany,2019
+30,sweet potato,vegetables,0.5,kg,7768,770420.3,EUR,Store N,Germany,2019
+31,paprika,vegetables,2.0,kg,5390,781200.3,EUR,Store N,Germany,2019
+32,jalepeno,vegetables,2.0,kg,47996,877192.3,EUR,Store N,Germany,2019
+33,ginger,vegetables,1.5,kg,31025,923729.8,EUR,Store N,Germany,2019
+34,garlic,vegetables,1.5,kg,35019,976258.3,EUR,Store N,Germany,2019
+35,peas,vegetables,3.0,kg,52816,1134706.3,EUR,Store N,Germany,2019
+36,eggplant,vegetables,1.5,kg,33706,1185265.3,EUR,Store N,Germany,2019
+1,banana,fruits,0.5,kg,16781,8390.5,EUR,Store O,Germany,2019
+2,apple,fruits,0.7,kg,38306,35204.7,EUR,Store O,Germany,2019
+3,pear,fruits,0.6,kg,14469,43886.1,EUR,Store O,Germany,2019
+4,grapes,fruits,1.2,kg,12628,59039.7,EUR,Store O,Germany,2019
+5,orange,fruits,0.8,kg,77662,121169.3,EUR,Store O,Germany,2019
+6,kiwi,fruits,0.9,piece,10583,130694.0,EUR,Store O,Germany,2019
+7,watermelon,fruits,5.0,kg,21987,240629.0,EUR,Store O,Germany,2019
+8,pomegranate,fruits,2.5,kg,4323,251436.5,EUR,Store O,Germany,2019
+9,pineapple,fruits,1.5,piece,12418,270063.5,EUR,Store O,Germany,2019
+10,mango,fruits,2.0,piece,15528,301119.5,EUR,Store O,Germany,2019
+11,cucumber,vegetables,0.4,piece,44615,318965.5,EUR,Store O,Germany,2019
+12,carrot,vegetables,0.3,kg,19947,324949.6,EUR,Store O,Germany,2019
+13,capsicum,vegetables,0.5,kg,45208,347553.6,EUR,Store O,Germany,2019
+14,onion,vegetables,0.2,kg,37101,354973.8,EUR,Store O,Germany,2019
+15,potato,vegetables,0.3,kg,17136,360114.6,EUR,Store O,Germany,2019
+16,lemon,vegetables,0.4,kg,69792,388031.4,EUR,Store O,Germany,2019
+17,tomato,vegetables,0.6,kg,4965,391010.4,EUR,Store O,Germany,2019
+18,raddish,vegetables,0.3,kg,484,391155.6,EUR,Store O,Germany,2019
+19,beetroot,vegetables,0.4,kg,4101,392796.0,EUR,Store O,Germany,2019
+20,cabbage,vegetables,0.5,piece,64685,425138.5,EUR,Store O,Germany,2019
+21,lettuce,vegetables,0.6,piece,23320,439130.5,EUR,Store O,Germany,2019
+22,spinach,vegetables,0.7,kg,22508,454886.1,EUR,Store O,Germany,2019
+23,soy bean,vegetables,0.8,kg,18074,469345.3,EUR,Store O,Germany,2019
+24,cauliflower,vegetables,0.6,piece,52531,500863.9,EUR,Store O,Germany,2019
+25,bell pepper,vegetables,0.7,kg,32802,523825.3,EUR,Store O,Germany,2019
+26,chilli pepper,vegetables,0.5,kg,10336,528993.3,EUR,Store O,Germany,2019
+27,turnip,vegetables,0.4,kg,12039,533808.9,EUR,Store O,Germany,2019
+28,corn,vegetables,0.3,kg,6952,535894.5,EUR,Store O,Germany,2019
+29,sweetcorn,vegetables,0.4,kg,36617,550541.3,EUR,Store O,Germany,2019
+30,sweet potato,vegetables,0.5,kg,71793,586437.8,EUR,Store O,Germany,2019
+31,paprika,vegetables,2.0,kg,4874,596185.8,EUR,Store O,Germany,2019
+32,jalepeno,vegetables,2.0,kg,17111,630407.8,EUR,Store O,Germany,2019
+33,ginger,vegetables,1.5,kg,139,630616.3,EUR,Store O,Germany,2019
+34,garlic,vegetables,1.5,kg,10032,645664.3,EUR,Store O,Germany,2019
+35,peas,vegetables,3.0,kg,9760,674944.3,EUR,Store O,Germany,2019
+36,eggplant,vegetables,1.5,kg,21887,707774.8,EUR,Store O,Germany,2019
+1,banana,fruits,0.5,kg,46272,23136.0,EUR,Store A,Germany,2020
+2,apple,fruits,0.7,kg,28723,43242.1,EUR,Store A,Germany,2020
+3,pear,fruits,0.6,kg,11864,50360.5,EUR,Store A,Germany,2020
+4,grapes,fruits,1.2,kg,26691,82389.7,EUR,Store A,Germany,2020
+5,orange,fruits,0.8,kg,38996,113586.5,EUR,Store A,Germany,2020
+6,kiwi,fruits,0.9,piece,12551,124882.4,EUR,Store A,Germany,2020
+7,watermelon,fruits,5.0,kg,7441,162087.4,EUR,Store A,Germany,2020
+8,pomegranate,fruits,2.5,kg,75661,351239.9,EUR,Store A,Germany,2020
+9,pineapple,fruits,1.5,piece,29275,395152.4,EUR,Store A,Germany,2020
+10,mango,fruits,2.0,piece,70613,536378.4,EUR,Store A,Germany,2020
+11,cucumber,vegetables,0.4,piece,34365,550124.4,EUR,Store A,Germany,2020
+12,carrot,vegetables,0.3,kg,19949,556109.1,EUR,Store A,Germany,2020
+13,capsicum,vegetables,0.5,kg,4357,558287.6,EUR,Store A,Germany,2020
+14,onion,vegetables,0.2,kg,11113,560510.2,EUR,Store A,Germany,2020
+15,potato,vegetables,0.3,kg,15072,565031.8,EUR,Store A,Germany,2020
+16,lemon,vegetables,0.4,kg,16483,571625.0,EUR,Store A,Germany,2020
+17,tomato,vegetables,0.6,kg,26705,587648.0,EUR,Store A,Germany,2020
+18,raddish,vegetables,0.3,kg,47336,601848.8,EUR,Store A,Germany,2020
+19,beetroot,vegetables,0.4,kg,24506,611651.2,EUR,Store A,Germany,2020
+20,cabbage,vegetables,0.5,piece,27800,625551.2,EUR,Store A,Germany,2020
+21,lettuce,vegetables,0.6,piece,76067,671191.4,EUR,Store A,Germany,2020
+22,spinach,vegetables,0.7,kg,28665,691256.9,EUR,Store A,Germany,2020
+23,soy bean,vegetables,0.8,kg,25321,711513.7,EUR,Store A,Germany,2020
+24,cauliflower,vegetables,0.6,piece,25720,726945.7,EUR,Store A,Germany,2020
+25,bell pepper,vegetables,0.7,kg,20887,741566.6,EUR,Store A,Germany,2020
+26,chilli pepper,vegetables,0.5,kg,29498,756315.6,EUR,Store A,Germany,2020
+27,turnip,vegetables,0.4,kg,12950,761495.6,EUR,Store A,Germany,2020
+28,corn,vegetables,0.3,kg,18669,767096.3,EUR,Store A,Germany,2020
+29,sweetcorn,vegetables,0.4,kg,20031,775108.7,EUR,Store A,Germany,2020
+30,sweet potato,vegetables,0.5,kg,16016,783116.7,EUR,Store A,Germany,2020
+31,paprika,vegetables,2.0,kg,9224,801564.7,EUR,Store A,Germany,2020
+32,jalepeno,vegetables,2.0,kg,29424,860412.7,EUR,Store A,Germany,2020
+33,ginger,vegetables,1.5,kg,28744,903528.7,EUR,Store A,Germany,2020
+34,garlic,vegetables,1.5,kg,15249,926402.2,EUR,Store A,Germany,2020
+35,peas,vegetables,3.0,kg,23176,995930.2,EUR,Store A,Germany,2020
+36,eggplant,vegetables,1.5,kg,37977,1052895.7,EUR,Store A,Germany,2020
+1,banana,fruits,0.5,kg,14304,7152.0,EUR,Store B,Germany,2020
+2,apple,fruits,0.7,kg,24745,24473.5,EUR,Store B,Germany,2020
+3,pear,fruits,0.6,kg,3583,26623.3,EUR,Store B,Germany,2020
+4,grapes,fruits,1.2,kg,21761,52736.5,EUR,Store B,Germany,2020
+5,orange,fruits,0.8,kg,75198,112894.9,EUR,Store B,Germany,2020
+6,kiwi,fruits,0.9,piece,33534,143075.5,EUR,Store B,Germany,2020
+7,watermelon,fruits,5.0,kg,76961,527880.5,EUR,Store B,Germany,2020
+8,pomegranate,fruits,2.5,kg,47545,646743.0,EUR,Store B,Germany,2020
+9,pineapple,fruits,1.5,piece,47401,717844.5,EUR,Store B,Germany,2020
+10,mango,fruits,2.0,piece,20454,758752.5,EUR,Store B,Germany,2020
+11,cucumber,vegetables,0.4,piece,27998,769951.7,EUR,Store B,Germany,2020
+12,carrot,vegetables,0.3,kg,52763,785780.6,EUR,Store B,Germany,2020
+13,capsicum,vegetables,0.5,kg,917,786239.1,EUR,Store B,Germany,2020
+14,onion,vegetables,0.2,kg,28430,791925.1,EUR,Store B,Germany,2020
+15,potato,vegetables,0.3,kg,59702,809835.7,EUR,Store B,Germany,2020
+16,lemon,vegetables,0.4,kg,490,810031.7,EUR,Store B,Germany,2020
+17,tomato,vegetables,0.6,kg,14719,818863.1,EUR,Store B,Germany,2020
+18,raddish,vegetables,0.3,kg,52015,834467.6,EUR,Store B,Germany,2020
+19,beetroot,vegetables,0.4,kg,12623,839516.8,EUR,Store B,Germany,2020
+20,cabbage,vegetables,0.5,piece,22352,850692.8,EUR,Store B,Germany,2020
+21,lettuce,vegetables,0.6,piece,43035,876513.8,EUR,Store B,Germany,2020
+22,spinach,vegetables,0.7,kg,290,876716.8,EUR,Store B,Germany,2020
+23,soy bean,vegetables,0.8,kg,52065,918368.8,EUR,Store B,Germany,2020
+24,cauliflower,vegetables,0.6,piece,14613,927136.6,EUR,Store B,Germany,2020
+25,bell pepper,vegetables,0.7,kg,53303,964448.7,EUR,Store B,Germany,2020
+26,chilli pepper,vegetables,0.5,kg,7941,968419.2,EUR,Store B,Germany,2020
+27,turnip,vegetables,0.4,kg,32476,981409.6,EUR,Store B,Germany,2020
+28,corn,vegetables,0.3,kg,49974,996401.8,EUR,Store B,Germany,2020
+29,sweetcorn,vegetables,0.4,kg,29422,1008170.6,EUR,Store B,Germany,2020
+30,sweet potato,vegetables,0.5,kg,46879,1031610.1,EUR,Store B,Germany,2020
+31,paprika,vegetables,2.0,kg,14082,1059774.1,EUR,Store B,Germany,2020
+32,jalepeno,vegetables,2.0,kg,15635,1091044.1,EUR,Store B,Germany,2020
+33,ginger,vegetables,1.5,kg,62597,1184939.6,EUR,Store B,Germany,2020
+34,garlic,vegetables,1.5,kg,36835,1240192.1,EUR,Store B,Germany,2020
+35,peas,vegetables,3.0,kg,26986,1321150.1,EUR,Store B,Germany,2020
+36,eggplant,vegetables,1.5,kg,16877,1346465.6,EUR,Store B,Germany,2020
+1,banana,fruits,0.5,kg,17130,8565.0,EUR,Store C,Germany,2020
+2,apple,fruits,0.7,kg,19162,21978.4,EUR,Store C,Germany,2020
+3,pear,fruits,0.6,kg,44910,48924.4,EUR,Store C,Germany,2020
+4,grapes,fruits,1.2,kg,24844,78737.2,EUR,Store C,Germany,2020
+5,orange,fruits,0.8,kg,57236,124526.0,EUR,Store C,Germany,2020
+6,kiwi,fruits,0.9,piece,76254,193154.6,EUR,Store C,Germany,2020
+7,watermelon,fruits,5.0,kg,17187,279089.6,EUR,Store C,Germany,2020
+8,pomegranate,fruits,2.5,kg,68252,449719.6,EUR,Store C,Germany,2020
+9,pineapple,fruits,1.5,piece,4445,456387.1,EUR,Store C,Germany,2020
+10,mango,fruits,2.0,piece,28398,513183.1,EUR,Store C,Germany,2020
+11,cucumber,vegetables,0.4,piece,20997,521581.9,EUR,Store C,Germany,2020
+12,carrot,vegetables,0.3,kg,70774,542814.1,EUR,Store C,Germany,2020
+13,capsicum,vegetables,0.5,kg,78572,582100.1,EUR,Store C,Germany,2020
+14,onion,vegetables,0.2,kg,7265,583553.1,EUR,Store C,Germany,2020
+15,potato,vegetables,0.3,kg,22960,590441.1,EUR,Store C,Germany,2020
+16,lemon,vegetables,0.4,kg,3907,592003.9,EUR,Store C,Germany,2020
+17,tomato,vegetables,0.6,kg,1304,592786.3,EUR,Store C,Germany,2020
+18,raddish,vegetables,0.3,kg,727,593004.4,EUR,Store C,Germany,2020
+19,beetroot,vegetables,0.4,kg,46068,611431.6,EUR,Store C,Germany,2020
+20,cabbage,vegetables,0.5,piece,46649,634756.1,EUR,Store C,Germany,2020
+21,lettuce,vegetables,0.6,piece,21916,647905.7,EUR,Store C,Germany,2020
+22,spinach,vegetables,0.7,kg,86343,708345.8,EUR,Store C,Germany,2020
+23,soy bean,vegetables,0.8,kg,89293,779780.2,EUR,Store C,Germany,2020
+24,cauliflower,vegetables,0.6,piece,55328,812977.0,EUR,Store C,Germany,2020
+25,bell pepper,vegetables,0.7,kg,27359,832128.3,EUR,Store C,Germany,2020
+26,chilli pepper,vegetables,0.5,kg,51292,857774.3,EUR,Store C,Germany,2020
+27,turnip,vegetables,0.4,kg,20796,866092.7,EUR,Store C,Germany,2020
+28,corn,vegetables,0.3,kg,32877,875955.8,EUR,Store C,Germany,2020
+29,sweetcorn,vegetables,0.4,kg,77580,906987.8,EUR,Store C,Germany,2020
+30,sweet potato,vegetables,0.5,kg,21760,917867.8,EUR,Store C,Germany,2020
+31,paprika,vegetables,2.0,kg,55421,1028709.8,EUR,Store C,Germany,2020
+32,jalepeno,vegetables,2.0,kg,59193,1147095.8,EUR,Store C,Germany,2020
+33,ginger,vegetables,1.5,kg,19625,1176533.3,EUR,Store C,Germany,2020
+34,garlic,vegetables,1.5,kg,49276,1250447.3,EUR,Store C,Germany,2020
+35,peas,vegetables,3.0,kg,24667,1324448.3,EUR,Store C,Germany,2020
+36,eggplant,vegetables,1.5,kg,6989,1334931.8,EUR,Store C,Germany,2020
+1,banana,fruits,0.5,kg,72530,36265.0,EUR,Store D,Germany,2020
+2,apple,fruits,0.7,kg,7324,41391.8,EUR,Store D,Germany,2020
+3,pear,fruits,0.6,kg,11884,48522.2,EUR,Store D,Germany,2020
+4,grapes,fruits,1.2,kg,2019,50945.0,EUR,Store D,Germany,2020
+5,orange,fruits,0.8,kg,14781,62769.8,EUR,Store D,Germany,2020
+6,kiwi,fruits,0.9,piece,56156,113310.2,EUR,Store D,Germany,2020
+7,watermelon,fruits,5.0,kg,13697,181795.2,EUR,Store D,Germany,2020
+8,pomegranate,fruits,2.5,kg,31953,261677.7,EUR,Store D,Germany,2020
+9,pineapple,fruits,1.5,piece,14842,283940.7,EUR,Store D,Germany,2020
+10,mango,fruits,2.0,piece,60984,405908.7,EUR,Store D,Germany,2020
+11,cucumber,vegetables,0.4,piece,5541,408125.1,EUR,Store D,Germany,2020
+12,carrot,vegetables,0.3,kg,7365,410334.6,EUR,Store D,Germany,2020
+13,capsicum,vegetables,0.5,kg,8474,414571.6,EUR,Store D,Germany,2020
+14,onion,vegetables,0.2,kg,35192,421610.0,EUR,Store D,Germany,2020
+15,potato,vegetables,0.3,kg,3890,422777.0,EUR,Store D,Germany,2020
+16,lemon,vegetables,0.4,kg,32357,435719.8,EUR,Store D,Germany,2020
+17,tomato,vegetables,0.6,kg,8096,440577.4,EUR,Store D,Germany,2020
+18,raddish,vegetables,0.3,kg,58921,458253.7,EUR,Store D,Germany,2020
+19,beetroot,vegetables,0.4,kg,25202,468334.5,EUR,Store D,Germany,2020
+20,cabbage,vegetables,0.5,piece,55810,496239.5,EUR,Store D,Germany,2020
+21,lettuce,vegetables,0.6,piece,73322,540232.7,EUR,Store D,Germany,2020
+22,spinach,vegetables,0.7,kg,2342,541872.1,EUR,Store D,Germany,2020
+23,soy bean,vegetables,0.8,kg,9334,549339.3,EUR,Store D,Germany,2020
+24,cauliflower,vegetables,0.6,piece,51942,580504.5,EUR,Store D,Germany,2020
+25,bell pepper,vegetables,0.7,kg,13185,589734.0,EUR,Store D,Germany,2020
+26,chilli pepper,vegetables,0.5,kg,29069,604268.5,EUR,Store D,Germany,2020
+27,turnip,vegetables,0.4,kg,16507,610871.3,EUR,Store D,Germany,2020
+28,corn,vegetables,0.3,kg,73625,632958.8,EUR,Store D,Germany,2020
+29,sweetcorn,vegetables,0.4,kg,25911,643323.2,EUR,Store D,Germany,2020
+30,sweet potato,vegetables,0.5,kg,17235,651940.7,EUR,Store D,Germany,2020
+31,paprika,vegetables,2.0,kg,4277,660494.7,EUR,Store D,Germany,2020
+32,jalepeno,vegetables,2.0,kg,79525,819544.7,EUR,Store D,Germany,2020
+33,ginger,vegetables,1.5,kg,34403,871149.2,EUR,Store D,Germany,2020
+34,garlic,vegetables,1.5,kg,3987,877129.7,EUR,Store D,Germany,2020
+35,peas,vegetables,3.0,kg,38418,992383.7,EUR,Store D,Germany,2020
+36,eggplant,vegetables,1.5,kg,17734,1018984.7,EUR,Store D,Germany,2020
+1,banana,fruits,0.5,kg,16872,8436.0,EUR,Store E,Germany,2020
+2,apple,fruits,0.7,kg,5563,12330.1,EUR,Store E,Germany,2020
+3,pear,fruits,0.6,kg,28833,29629.9,EUR,Store E,Germany,2020
+4,grapes,fruits,1.2,kg,15779,48564.7,EUR,Store E,Germany,2020
+5,orange,fruits,0.8,kg,31589,73835.9,EUR,Store E,Germany,2020
+6,kiwi,fruits,0.9,piece,22282,93889.7,EUR,Store E,Germany,2020
+7,watermelon,fruits,5.0,kg,47008,328929.7,EUR,Store E,Germany,2020
+8,pomegranate,fruits,2.5,kg,50496,455169.7,EUR,Store E,Germany,2020
+9,pineapple,fruits,1.5,piece,33555,505502.2,EUR,Store E,Germany,2020
+10,mango,fruits,2.0,piece,15210,535922.2,EUR,Store E,Germany,2020
+11,cucumber,vegetables,0.4,piece,9919,539889.8,EUR,Store E,Germany,2020
+12,carrot,vegetables,0.3,kg,12065,543509.3,EUR,Store E,Germany,2020
+13,capsicum,vegetables,0.5,kg,10998,549008.3,EUR,Store E,Germany,2020
+14,onion,vegetables,0.2,kg,3147,549637.7,EUR,Store E,Germany,2020
+15,potato,vegetables,0.3,kg,58566,567207.5,EUR,Store E,Germany,2020
+16,lemon,vegetables,0.4,kg,40758,583510.7,EUR,Store E,Germany,2020
+17,tomato,vegetables,0.6,kg,21646,596498.3,EUR,Store E,Germany,2020
+18,raddish,vegetables,0.3,kg,31842,606050.9,EUR,Store E,Germany,2020
+19,beetroot,vegetables,0.4,kg,13132,611303.7,EUR,Store E,Germany,2020
+20,cabbage,vegetables,0.5,piece,4740,613673.7,EUR,Store E,Germany,2020
+21,lettuce,vegetables,0.6,piece,58915,649022.7,EUR,Store E,Germany,2020
+22,spinach,vegetables,0.7,kg,5981,653209.4,EUR,Store E,Germany,2020
+23,soy bean,vegetables,0.8,kg,52666,695342.2,EUR,Store E,Germany,2020
+24,cauliflower,vegetables,0.6,piece,24211,709868.8,EUR,Store E,Germany,2020
+25,bell pepper,vegetables,0.7,kg,48833,744051.9,EUR,Store E,Germany,2020
+26,chilli pepper,vegetables,0.5,kg,7159,747631.4,EUR,Store E,Germany,2020
+27,turnip,vegetables,0.4,kg,15090,753667.4,EUR,Store E,Germany,2020
+28,corn,vegetables,0.3,kg,10872,756929.0,EUR,Store E,Germany,2020
+29,sweetcorn,vegetables,0.4,kg,57752,780029.8,EUR,Store E,Germany,2020
+30,sweet potato,vegetables,0.5,kg,22448,791253.8,EUR,Store E,Germany,2020
+31,paprika,vegetables,2.0,kg,77295,945843.8,EUR,Store E,Germany,2020
+32,jalepeno,vegetables,2.0,kg,13714,973271.8,EUR,Store E,Germany,2020
+33,ginger,vegetables,1.5,kg,2469,976975.3,EUR,Store E,Germany,2020
+34,garlic,vegetables,1.5,kg,34274,1028386.3,EUR,Store E,Germany,2020
+35,peas,vegetables,3.0,kg,27612,1111222.3,EUR,Store E,Germany,2020
+36,eggplant,vegetables,1.5,kg,26789,1151405.8,EUR,Store E,Germany,2020
+1,banana,fruits,0.5,kg,12803,6401.5,EUR,Store F,Germany,2020
+2,apple,fruits,0.7,kg,2854,8399.3,EUR,Store F,Germany,2020
+3,pear,fruits,0.6,kg,68349,49408.7,EUR,Store F,Germany,2020
+4,grapes,fruits,1.2,kg,10012,61423.1,EUR,Store F,Germany,2020
+5,orange,fruits,0.8,kg,19960,77391.1,EUR,Store F,Germany,2020
+6,kiwi,fruits,0.9,piece,26019,100808.2,EUR,Store F,Germany,2020
+7,watermelon,fruits,5.0,kg,52357,362593.2,EUR,Store F,Germany,2020
+8,pomegranate,fruits,2.5,kg,19710,411868.2,EUR,Store F,Germany,2020
+9,pineapple,fruits,1.5,piece,69872,516676.2,EUR,Store F,Germany,2020
+10,mango,fruits,2.0,piece,43533,603742.2,EUR,Store F,Germany,2020
+11,cucumber,vegetables,0.4,piece,28132,614995.0,EUR,Store F,Germany,2020
+12,carrot,vegetables,0.3,kg,44307,628287.1,EUR,Store F,Germany,2020
+13,capsicum,vegetables,0.5,kg,13760,635167.1,EUR,Store F,Germany,2020
+14,onion,vegetables,0.2,kg,23789,639924.9,EUR,Store F,Germany,2020
+15,potato,vegetables,0.3,kg,56908,656997.3,EUR,Store F,Germany,2020
+16,lemon,vegetables,0.4,kg,68627,684448.1,EUR,Store F,Germany,2020
+17,tomato,vegetables,0.6,kg,87498,736946.9,EUR,Store F,Germany,2020
+18,raddish,vegetables,0.3,kg,22133,743586.8,EUR,Store F,Germany,2020
+19,beetroot,vegetables,0.4,kg,21360,752130.8,EUR,Store F,Germany,2020
+20,cabbage,vegetables,0.5,piece,14290,759275.8,EUR,Store F,Germany,2020
+21,lettuce,vegetables,0.6,piece,58104,794138.2,EUR,Store F,Germany,2020
+22,spinach,vegetables,0.7,kg,52261,830720.9,EUR,Store F,Germany,2020
+23,soy bean,vegetables,0.8,kg,29206,854085.7,EUR,Store F,Germany,2020
+24,cauliflower,vegetables,0.6,piece,14311,862672.3,EUR,Store F,Germany,2020
+25,bell pepper,vegetables,0.7,kg,3724,865279.1,EUR,Store F,Germany,2020
+26,chilli pepper,vegetables,0.5,kg,27149,878853.6,EUR,Store F,Germany,2020
+27,turnip,vegetables,0.4,kg,46194,897331.2,EUR,Store F,Germany,2020
+28,corn,vegetables,0.3,kg,8167,899781.3,EUR,Store F,Germany,2020
+29,sweetcorn,vegetables,0.4,kg,27939,910956.9,EUR,Store F,Germany,2020
+30,sweet potato,vegetables,0.5,kg,17805,919859.4,EUR,Store F,Germany,2020
+31,paprika,vegetables,2.0,kg,3630,927119.4,EUR,Store F,Germany,2020
+32,jalepeno,vegetables,2.0,kg,50605,1028329.4,EUR,Store F,Germany,2020
+33,ginger,vegetables,1.5,kg,21877,1061144.9,EUR,Store F,Germany,2020
+34,garlic,vegetables,1.5,kg,18225,1088482.4,EUR,Store F,Germany,2020
+35,peas,vegetables,3.0,kg,29405,1176697.4,EUR,Store F,Germany,2020
+36,eggplant,vegetables,1.5,kg,19034,1205248.4,EUR,Store F,Germany,2020
+1,banana,fruits,0.5,kg,2543,1271.5,EUR,Store G,Germany,2020
+2,apple,fruits,0.7,kg,7168,6289.1,EUR,Store G,Germany,2020
+3,pear,fruits,0.6,kg,72624,49863.5,EUR,Store G,Germany,2020
+4,grapes,fruits,1.2,kg,37780,95199.5,EUR,Store G,Germany,2020
+5,orange,fruits,0.8,kg,17485,109187.5,EUR,Store G,Germany,2020
+6,kiwi,fruits,0.9,piece,26296,132853.9,EUR,Store G,Germany,2020
+7,watermelon,fruits,5.0,kg,71949,492598.9,EUR,Store G,Germany,2020
+8,pomegranate,fruits,2.5,kg,20139,542946.4,EUR,Store G,Germany,2020
+9,pineapple,fruits,1.5,piece,31661,590437.9,EUR,Store G,Germany,2020
+10,mango,fruits,2.0,piece,5512,601461.9,EUR,Store G,Germany,2020
+11,cucumber,vegetables,0.4,piece,22102,610302.7,EUR,Store G,Germany,2020
+12,carrot,vegetables,0.3,kg,62918,629178.1,EUR,Store G,Germany,2020
+13,capsicum,vegetables,0.5,kg,13864,636110.1,EUR,Store G,Germany,2020
+14,onion,vegetables,0.2,kg,47555,645621.1,EUR,Store G,Germany,2020
+15,potato,vegetables,0.3,kg,25257,653198.2,EUR,Store G,Germany,2020
+16,lemon,vegetables,0.4,kg,10209,657281.8,EUR,Store G,Germany,2020
+17,tomato,vegetables,0.6,kg,15054,666314.2,EUR,Store G,Germany,2020
+18,raddish,vegetables,0.3,kg,14580,670688.2,EUR,Store G,Germany,2020
+19,beetroot,vegetables,0.4,kg,40869,687035.8,EUR,Store G,Germany,2020
+20,cabbage,vegetables,0.5,piece,14416,694243.8,EUR,Store G,Germany,2020
+21,lettuce,vegetables,0.6,piece,3336,696245.4,EUR,Store G,Germany,2020
+22,spinach,vegetables,0.7,kg,6085,700504.9,EUR,Store G,Germany,2020
+23,soy bean,vegetables,0.8,kg,32491,726497.7,EUR,Store G,Germany,2020
+24,cauliflower,vegetables,0.6,piece,10313,732685.5,EUR,Store G,Germany,2020
+25,bell pepper,vegetables,0.7,kg,49779,767530.8,EUR,Store G,Germany,2020
+26,chilli pepper,vegetables,0.5,kg,47366,791213.8,EUR,Store G,Germany,2020
+27,turnip,vegetables,0.4,kg,26147,801672.6,EUR,Store G,Germany,2020
+28,corn,vegetables,0.3,kg,20572,807844.2,EUR,Store G,Germany,2020
+29,sweetcorn,vegetables,0.4,kg,25179,817915.8,EUR,Store G,Germany,2020
+30,sweet potato,vegetables,0.5,kg,3607,819719.3,EUR,Store G,Germany,2020
+31,paprika,vegetables,2.0,kg,8644,837007.3,EUR,Store G,Germany,2020
+32,jalepeno,vegetables,2.0,kg,17195,871397.3,EUR,Store G,Germany,2020
+33,ginger,vegetables,1.5,kg,48513,944166.8,EUR,Store G,Germany,2020
+34,garlic,vegetables,1.5,kg,6391,953753.3,EUR,Store G,Germany,2020
+35,peas,vegetables,3.0,kg,64187,1146314.3,EUR,Store G,Germany,2020
+36,eggplant,vegetables,1.5,kg,21499,1178562.8,EUR,Store G,Germany,2020
+1,banana,fruits,0.5,kg,83385,41692.5,EUR,Store H,Germany,2020
+2,apple,fruits,0.7,kg,21889,57014.8,EUR,Store H,Germany,2020
+3,pear,fruits,0.6,kg,43329,83012.2,EUR,Store H,Germany,2020
+4,grapes,fruits,1.2,kg,6131,90369.4,EUR,Store H,Germany,2020
+5,orange,fruits,0.8,kg,467,90743.0,EUR,Store H,Germany,2020
+6,kiwi,fruits,0.9,piece,56749,141817.1,EUR,Store H,Germany,2020
+7,watermelon,fruits,5.0,kg,10507,194352.1,EUR,Store H,Germany,2020
+8,pomegranate,fruits,2.5,kg,28392,265332.1,EUR,Store H,Germany,2020
+9,pineapple,fruits,1.5,piece,461,266023.6,EUR,Store H,Germany,2020
+10,mango,fruits,2.0,piece,12067,290157.6,EUR,Store H,Germany,2020
+11,cucumber,vegetables,0.4,piece,14761,296062.0,EUR,Store H,Germany,2020
+12,carrot,vegetables,0.3,kg,7827,298410.1,EUR,Store H,Germany,2020
+13,capsicum,vegetables,0.5,kg,21790,309305.1,EUR,Store H,Germany,2020
+14,onion,vegetables,0.2,kg,13547,312014.5,EUR,Store H,Germany,2020
+15,potato,vegetables,0.3,kg,16415,316939.0,EUR,Store H,Germany,2020
+16,lemon,vegetables,0.4,kg,3271,318247.4,EUR,Store H,Germany,2020
+17,tomato,vegetables,0.6,kg,14132,326726.6,EUR,Store H,Germany,2020
+18,raddish,vegetables,0.3,kg,6607,328708.7,EUR,Store H,Germany,2020
+19,beetroot,vegetables,0.4,kg,186,328783.1,EUR,Store H,Germany,2020
+20,cabbage,vegetables,0.5,piece,6806,332186.1,EUR,Store H,Germany,2020
+21,lettuce,vegetables,0.6,piece,47739,360829.5,EUR,Store H,Germany,2020
+22,spinach,vegetables,0.7,kg,29376,381392.7,EUR,Store H,Germany,2020
+23,soy bean,vegetables,0.8,kg,2502,383394.3,EUR,Store H,Germany,2020
+24,cauliflower,vegetables,0.6,piece,14977,392380.5,EUR,Store H,Germany,2020
+25,bell pepper,vegetables,0.7,kg,21032,407102.9,EUR,Store H,Germany,2020
+26,chilli pepper,vegetables,0.5,kg,191,407198.4,EUR,Store H,Germany,2020
+27,turnip,vegetables,0.4,kg,57385,430152.4,EUR,Store H,Germany,2020
+28,corn,vegetables,0.3,kg,36112,440986.0,EUR,Store H,Germany,2020
+29,sweetcorn,vegetables,0.4,kg,59732,464878.8,EUR,Store H,Germany,2020
+30,sweet potato,vegetables,0.5,kg,20098,474927.8,EUR,Store H,Germany,2020
+31,paprika,vegetables,2.0,kg,84038,643003.8,EUR,Store H,Germany,2020
+32,jalepeno,vegetables,2.0,kg,52049,747101.8,EUR,Store H,Germany,2020
+33,ginger,vegetables,1.5,kg,2204,750407.8,EUR,Store H,Germany,2020
+34,garlic,vegetables,1.5,kg,58535,838210.3,EUR,Store H,Germany,2020
+35,peas,vegetables,3.0,kg,23417,908461.3,EUR,Store H,Germany,2020
+36,eggplant,vegetables,1.5,kg,9484,922687.3,EUR,Store H,Germany,2020
+1,banana,fruits,0.5,kg,18862,9431.0,EUR,Store I,Germany,2020
+2,apple,fruits,0.7,kg,8603,15453.1,EUR,Store I,Germany,2020
+3,pear,fruits,0.6,kg,28785,32724.1,EUR,Store I,Germany,2020
+4,grapes,fruits,1.2,kg,29994,68716.9,EUR,Store I,Germany,2020
+5,orange,fruits,0.8,kg,45902,105438.5,EUR,Store I,Germany,2020
+6,kiwi,fruits,0.9,piece,16873,120624.2,EUR,Store I,Germany,2020
+7,watermelon,fruits,5.0,kg,9923,170239.2,EUR,Store I,Germany,2020
+8,pomegranate,fruits,2.5,kg,5651,184366.7,EUR,Store I,Germany,2020
+9,pineapple,fruits,1.5,piece,45660,252856.7,EUR,Store I,Germany,2020
+10,mango,fruits,2.0,piece,23548,299952.7,EUR,Store I,Germany,2020
+11,cucumber,vegetables,0.4,piece,17655,307014.7,EUR,Store I,Germany,2020
+12,carrot,vegetables,0.3,kg,8474,309556.9,EUR,Store I,Germany,2020
+13,capsicum,vegetables,0.5,kg,1954,310533.9,EUR,Store I,Germany,2020
+14,onion,vegetables,0.2,kg,8293,312192.5,EUR,Store I,Germany,2020
+15,potato,vegetables,0.3,kg,79557,336059.6,EUR,Store I,Germany,2020
+16,lemon,vegetables,0.4,kg,34713,349944.8,EUR,Store I,Germany,2020
+17,tomato,vegetables,0.6,kg,18708,361169.6,EUR,Store I,Germany,2020
+18,raddish,vegetables,0.3,kg,25616,368854.4,EUR,Store I,Germany,2020
+19,beetroot,vegetables,0.4,kg,24300,378574.4,EUR,Store I,Germany,2020
+20,cabbage,vegetables,0.5,piece,52653,404900.9,EUR,Store I,Germany,2020
+21,lettuce,vegetables,0.6,piece,78119,451772.3,EUR,Store I,Germany,2020
+22,spinach,vegetables,0.7,kg,26336,470207.5,EUR,Store I,Germany,2020
+23,soy bean,vegetables,0.8,kg,9669,477942.7,EUR,Store I,Germany,2020
+24,cauliflower,vegetables,0.6,piece,13359,485958.1,EUR,Store I,Germany,2020
+25,bell pepper,vegetables,0.7,kg,51228,521817.7,EUR,Store I,Germany,2020
+26,chilli pepper,vegetables,0.5,kg,29570,536602.7,EUR,Store I,Germany,2020
+27,turnip,vegetables,0.4,kg,7507,539605.5,EUR,Store I,Germany,2020
+28,corn,vegetables,0.3,kg,16995,544704.0,EUR,Store I,Germany,2020
+29,sweetcorn,vegetables,0.4,kg,5185,546778.0,EUR,Store I,Germany,2020
+30,sweet potato,vegetables,0.5,kg,23202,558379.0,EUR,Store I,Germany,2020
+31,paprika,vegetables,2.0,kg,27004,612387.0,EUR,Store I,Germany,2020
+32,jalepeno,vegetables,2.0,kg,21950,656287.0,EUR,Store I,Germany,2020
+33,ginger,vegetables,1.5,kg,15718,679864.0,EUR,Store I,Germany,2020
+34,garlic,vegetables,1.5,kg,24689,716897.5,EUR,Store I,Germany,2020
+35,peas,vegetables,3.0,kg,84721,971060.5,EUR,Store I,Germany,2020
+36,eggplant,vegetables,1.5,kg,42653,1035040.0,EUR,Store I,Germany,2020
+1,banana,fruits,0.5,kg,14902,7451.0,EUR,Store J,Germany,2020
+2,apple,fruits,0.7,kg,74720,59755.0,EUR,Store J,Germany,2020
+3,pear,fruits,0.6,kg,12130,67033.0,EUR,Store J,Germany,2020
+4,grapes,fruits,1.2,kg,41483,116812.6,EUR,Store J,Germany,2020
+5,orange,fruits,0.8,kg,38560,147660.6,EUR,Store J,Germany,2020
+6,kiwi,fruits,0.9,piece,3430,150747.6,EUR,Store J,Germany,2020
+7,watermelon,fruits,5.0,kg,23416,267827.6,EUR,Store J,Germany,2020
+8,pomegranate,fruits,2.5,kg,27836,337417.6,EUR,Store J,Germany,2020
+9,pineapple,fruits,1.5,piece,24777,374583.1,EUR,Store J,Germany,2020
+10,mango,fruits,2.0,piece,84563,543709.1,EUR,Store J,Germany,2020
+11,cucumber,vegetables,0.4,piece,10642,547965.9,EUR,Store J,Germany,2020
+12,carrot,vegetables,0.3,kg,30132,557005.5,EUR,Store J,Germany,2020
+13,capsicum,vegetables,0.5,kg,47704,580857.5,EUR,Store J,Germany,2020
+14,onion,vegetables,0.2,kg,2242,581305.9,EUR,Store J,Germany,2020
+15,potato,vegetables,0.3,kg,9905,584277.4,EUR,Store J,Germany,2020
+16,lemon,vegetables,0.4,kg,47847,603416.2,EUR,Store J,Germany,2020
+17,tomato,vegetables,0.6,kg,66336,643217.8,EUR,Store J,Germany,2020
+18,raddish,vegetables,0.3,kg,1813,643761.7,EUR,Store J,Germany,2020
+19,beetroot,vegetables,0.4,kg,364,643907.3,EUR,Store J,Germany,2020
+20,cabbage,vegetables,0.5,piece,38347,663080.8,EUR,Store J,Germany,2020
+21,lettuce,vegetables,0.6,piece,19605,674843.8,EUR,Store J,Germany,2020
+22,spinach,vegetables,0.7,kg,13850,684538.8,EUR,Store J,Germany,2020
+23,soy bean,vegetables,0.8,kg,7553,690581.2,EUR,Store J,Germany,2020
+24,cauliflower,vegetables,0.6,piece,79900,738521.2,EUR,Store J,Germany,2020
+25,bell pepper,vegetables,0.7,kg,23449,754935.5,EUR,Store J,Germany,2020
+26,chilli pepper,vegetables,0.5,kg,7200,758535.5,EUR,Store J,Germany,2020
+27,turnip,vegetables,0.4,kg,23197,767814.3,EUR,Store J,Germany,2020
+28,corn,vegetables,0.3,kg,26018,775619.7,EUR,Store J,Germany,2020
+29,sweetcorn,vegetables,0.4,kg,19719,783507.3,EUR,Store J,Germany,2020
+30,sweet potato,vegetables,0.5,kg,22665,794839.8,EUR,Store J,Germany,2020
+31,paprika,vegetables,2.0,kg,36383,867605.8,EUR,Store J,Germany,2020
+32,jalepeno,vegetables,2.0,kg,21312,910229.8,EUR,Store J,Germany,2020
+33,ginger,vegetables,1.5,kg,68350,1012754.8,EUR,Store J,Germany,2020
+34,garlic,vegetables,1.5,kg,11524,1030040.8,EUR,Store J,Germany,2020
+35,peas,vegetables,3.0,kg,49177,1177571.8,EUR,Store J,Germany,2020
+36,eggplant,vegetables,1.5,kg,3465,1182769.3,EUR,Store J,Germany,2020
+1,banana,fruits,0.5,kg,12718,6359.0,EUR,Store K,Germany,2020
+2,apple,fruits,0.7,kg,49839,41246.3,EUR,Store K,Germany,2020
+3,pear,fruits,0.6,kg,85283,92416.1,EUR,Store K,Germany,2020
+4,grapes,fruits,1.2,kg,89100,199336.1,EUR,Store K,Germany,2020
+5,orange,fruits,0.8,kg,58403,246058.5,EUR,Store K,Germany,2020
+6,kiwi,fruits,0.9,piece,39558,281660.7,EUR,Store K,Germany,2020
+7,watermelon,fruits,5.0,kg,54298,553150.7,EUR,Store K,Germany,2020
+8,pomegranate,fruits,2.5,kg,5536,566990.7,EUR,Store K,Germany,2020
+9,pineapple,fruits,1.5,piece,11065,583588.2,EUR,Store K,Germany,2020
+10,mango,fruits,2.0,piece,16168,615924.2,EUR,Store K,Germany,2020
+11,cucumber,vegetables,0.4,piece,26395,626482.2,EUR,Store K,Germany,2020
+12,carrot,vegetables,0.3,kg,17995,631880.7,EUR,Store K,Germany,2020
+13,capsicum,vegetables,0.5,kg,4479,634120.2,EUR,Store K,Germany,2020
+14,onion,vegetables,0.2,kg,7093,635538.8,EUR,Store K,Germany,2020
+15,potato,vegetables,0.3,kg,54359,651846.5,EUR,Store K,Germany,2020
+16,lemon,vegetables,0.4,kg,29582,663679.3,EUR,Store K,Germany,2020
+17,tomato,vegetables,0.6,kg,833,664179.1,EUR,Store K,Germany,2020
+18,raddish,vegetables,0.3,kg,27627,672467.2,EUR,Store K,Germany,2020
+19,beetroot,vegetables,0.4,kg,42566,689493.6,EUR,Store K,Germany,2020
+20,cabbage,vegetables,0.5,piece,6873,692930.1,EUR,Store K,Germany,2020
+21,lettuce,vegetables,0.6,piece,4265,695489.1,EUR,Store K,Germany,2020
+22,spinach,vegetables,0.7,kg,25819,713562.4,EUR,Store K,Germany,2020
+23,soy bean,vegetables,0.8,kg,28014,735973.6,EUR,Store K,Germany,2020
+24,cauliflower,vegetables,0.6,piece,28723,753207.4,EUR,Store K,Germany,2020
+25,bell pepper,vegetables,0.7,kg,19241,766676.1,EUR,Store K,Germany,2020
+26,chilli pepper,vegetables,0.5,kg,13838,773595.1,EUR,Store K,Germany,2020
+27,turnip,vegetables,0.4,kg,14823,779524.3,EUR,Store K,Germany,2020
+28,corn,vegetables,0.3,kg,30450,788659.3,EUR,Store K,Germany,2020
+29,sweetcorn,vegetables,0.4,kg,9595,792497.3,EUR,Store K,Germany,2020
+30,sweet potato,vegetables,0.5,kg,12761,798877.8,EUR,Store K,Germany,2020
+31,paprika,vegetables,2.0,kg,41002,880881.8,EUR,Store K,Germany,2020
+32,jalepeno,vegetables,2.0,kg,22966,926813.8,EUR,Store K,Germany,2020
+33,ginger,vegetables,1.5,kg,38803,985018.3,EUR,Store K,Germany,2020
+34,garlic,vegetables,1.5,kg,26166,1024267.3,EUR,Store K,Germany,2020
+35,peas,vegetables,3.0,kg,29594,1113049.3,EUR,Store K,Germany,2020
+36,eggplant,vegetables,1.5,kg,4923,1120433.8,EUR,Store K,Germany,2020
+1,banana,fruits,0.5,kg,24583,12291.5,EUR,Store L,Germany,2020
+2,apple,fruits,0.7,kg,25487,30132.4,EUR,Store L,Germany,2020
+3,pear,fruits,0.6,kg,18856,41446.0,EUR,Store L,Germany,2020
+4,grapes,fruits,1.2,kg,12834,56846.8,EUR,Store L,Germany,2020
+5,orange,fruits,0.8,kg,56987,102436.4,EUR,Store L,Germany,2020
+6,kiwi,fruits,0.9,piece,6129,107952.5,EUR,Store L,Germany,2020
+7,watermelon,fruits,5.0,kg,58540,400652.5,EUR,Store L,Germany,2020
+8,pomegranate,fruits,2.5,kg,45188,513622.5,EUR,Store L,Germany,2020
+9,pineapple,fruits,1.5,piece,36205,567930.0,EUR,Store L,Germany,2020
+10,mango,fruits,2.0,piece,14976,597882.0,EUR,Store L,Germany,2020
+11,cucumber,vegetables,0.4,piece,19030,605494.0,EUR,Store L,Germany,2020
+12,carrot,vegetables,0.3,kg,82992,630391.6,EUR,Store L,Germany,2020
+13,capsicum,vegetables,0.5,kg,89821,675302.1,EUR,Store L,Germany,2020
+14,onion,vegetables,0.2,kg,5480,676398.1,EUR,Store L,Germany,2020
+15,potato,vegetables,0.3,kg,43932,689577.7,EUR,Store L,Germany,2020
+16,lemon,vegetables,0.4,kg,13485,694971.7,EUR,Store L,Germany,2020
+17,tomato,vegetables,0.6,kg,27709,711597.1,EUR,Store L,Germany,2020
+18,raddish,vegetables,0.3,kg,30567,720767.2,EUR,Store L,Germany,2020
+19,beetroot,vegetables,0.4,kg,81886,753521.6,EUR,Store L,Germany,2020
+20,cabbage,vegetables,0.5,piece,6715,756879.1,EUR,Store L,Germany,2020
+21,lettuce,vegetables,0.6,piece,34398,777517.9,EUR,Store L,Germany,2020
+22,spinach,vegetables,0.7,kg,46166,809834.1,EUR,Store L,Germany,2020
+23,soy bean,vegetables,0.8,kg,54773,853652.5,EUR,Store L,Germany,2020
+24,cauliflower,vegetables,0.6,piece,12525,861167.5,EUR,Store L,Germany,2020
+25,bell pepper,vegetables,0.7,kg,21147,875970.4,EUR,Store L,Germany,2020
+26,chilli pepper,vegetables,0.5,kg,16480,884210.4,EUR,Store L,Germany,2020
+27,turnip,vegetables,0.4,kg,5828,886541.6,EUR,Store L,Germany,2020
+28,corn,vegetables,0.3,kg,26201,894401.9,EUR,Store L,Germany,2020
+29,sweetcorn,vegetables,0.4,kg,45586,912636.3,EUR,Store L,Germany,2020
+30,sweet potato,vegetables,0.5,kg,13497,919384.8,EUR,Store L,Germany,2020
+31,paprika,vegetables,2.0,kg,32537,984458.8,EUR,Store L,Germany,2020
+32,jalepeno,vegetables,2.0,kg,25411,1035280.8,EUR,Store L,Germany,2020
+33,ginger,vegetables,1.5,kg,32792,1084468.8,EUR,Store L,Germany,2020
+34,garlic,vegetables,1.5,kg,69945,1189386.3,EUR,Store L,Germany,2020
+35,peas,vegetables,3.0,kg,20712,1251522.3,EUR,Store L,Germany,2020
+36,eggplant,vegetables,1.5,kg,21612,1283940.3,EUR,Store L,Germany,2020
+1,banana,fruits,0.5,kg,7187,3593.5,EUR,Store M,Germany,2020
+2,apple,fruits,0.7,kg,29428,24193.1,EUR,Store M,Germany,2020
+3,pear,fruits,0.6,kg,21551,37123.7,EUR,Store M,Germany,2020
+4,grapes,fruits,1.2,kg,25042,67174.1,EUR,Store M,Germany,2020
+5,orange,fruits,0.8,kg,60962,115943.7,EUR,Store M,Germany,2020
+6,kiwi,fruits,0.9,piece,33021,145662.6,EUR,Store M,Germany,2020
+7,watermelon,fruits,5.0,kg,85212,571722.6,EUR,Store M,Germany,2020
+8,pomegranate,fruits,2.5,kg,8963,594130.1,EUR,Store M,Germany,2020
+9,pineapple,fruits,1.5,piece,38563,651974.6,EUR,Store M,Germany,2020
+10,mango,fruits,2.0,piece,82859,817692.6,EUR,Store M,Germany,2020
+11,cucumber,vegetables,0.4,piece,2779,818804.2,EUR,Store M,Germany,2020
+12,carrot,vegetables,0.3,kg,50791,834041.5,EUR,Store M,Germany,2020
+13,capsicum,vegetables,0.5,kg,36726,852404.5,EUR,Store M,Germany,2020
+14,onion,vegetables,0.2,kg,24166,857237.7,EUR,Store M,Germany,2020
+15,potato,vegetables,0.3,kg,2364,857946.9,EUR,Store M,Germany,2020
+16,lemon,vegetables,0.4,kg,62967,883133.7,EUR,Store M,Germany,2020
+17,tomato,vegetables,0.6,kg,25868,898654.5,EUR,Store M,Germany,2020
+18,raddish,vegetables,0.3,kg,33824,908801.7,EUR,Store M,Germany,2020
+19,beetroot,vegetables,0.4,kg,70944,937179.3,EUR,Store M,Germany,2020
+20,cabbage,vegetables,0.5,piece,19008,946683.3,EUR,Store M,Germany,2020
+21,lettuce,vegetables,0.6,piece,4122,949156.5,EUR,Store M,Germany,2020
+22,spinach,vegetables,0.7,kg,29007,969461.4,EUR,Store M,Germany,2020
+23,soy bean,vegetables,0.8,kg,5473,973839.8,EUR,Store M,Germany,2020
+24,cauliflower,vegetables,0.6,piece,22059,987075.2,EUR,Store M,Germany,2020
+25,bell pepper,vegetables,0.7,kg,41714,1016275.0,EUR,Store M,Germany,2020
+26,chilli pepper,vegetables,0.5,kg,7939,1020244.5,EUR,Store M,Germany,2020
+27,turnip,vegetables,0.4,kg,24166,1029910.9,EUR,Store M,Germany,2020
+28,corn,vegetables,0.3,kg,17801,1035251.2,EUR,Store M,Germany,2020
+29,sweetcorn,vegetables,0.4,kg,13708,1040734.4,EUR,Store M,Germany,2020
+30,sweet potato,vegetables,0.5,kg,28909,1055188.9,EUR,Store M,Germany,2020
+31,paprika,vegetables,2.0,kg,11723,1078634.9,EUR,Store M,Germany,2020
+32,jalepeno,vegetables,2.0,kg,7334,1093302.9,EUR,Store M,Germany,2020
+33,ginger,vegetables,1.5,kg,10703,1109357.4,EUR,Store M,Germany,2020
+34,garlic,vegetables,1.5,kg,64736,1206461.4,EUR,Store M,Germany,2020
+35,peas,vegetables,3.0,kg,33823,1307930.4,EUR,Store M,Germany,2020
+36,eggplant,vegetables,1.5,kg,58409,1395543.9,EUR,Store M,Germany,2020
+1,banana,fruits,0.5,kg,14353,7176.5,EUR,Store N,Germany,2020
+2,apple,fruits,0.7,kg,19332,20708.9,EUR,Store N,Germany,2020
+3,pear,fruits,0.6,kg,209,20834.3,EUR,Store N,Germany,2020
+4,grapes,fruits,1.2,kg,51994,83227.1,EUR,Store N,Germany,2020
+5,orange,fruits,0.8,kg,5432,87572.7,EUR,Store N,Germany,2020
+6,kiwi,fruits,0.9,piece,477,88002.0,EUR,Store N,Germany,2020
+7,watermelon,fruits,5.0,kg,695,91477.0,EUR,Store N,Germany,2020
+8,pomegranate,fruits,2.5,kg,37647,185594.5,EUR,Store N,Germany,2020
+9,pineapple,fruits,1.5,piece,41089,247228.0,EUR,Store N,Germany,2020
+10,mango,fruits,2.0,piece,26360,299948.0,EUR,Store N,Germany,2020
+11,cucumber,vegetables,0.4,piece,57292,322864.8,EUR,Store N,Germany,2020
+12,carrot,vegetables,0.3,kg,33797,333003.9,EUR,Store N,Germany,2020
+13,capsicum,vegetables,0.5,kg,5159,335583.4,EUR,Store N,Germany,2020
+14,onion,vegetables,0.2,kg,25672,340717.8,EUR,Store N,Germany,2020
+15,potato,vegetables,0.3,kg,38898,352387.2,EUR,Store N,Germany,2020
+16,lemon,vegetables,0.4,kg,51069,372814.8,EUR,Store N,Germany,2020
+17,tomato,vegetables,0.6,kg,36095,394471.8,EUR,Store N,Germany,2020
+18,raddish,vegetables,0.3,kg,3199,395431.5,EUR,Store N,Germany,2020
+19,beetroot,vegetables,0.4,kg,80227,427522.3,EUR,Store N,Germany,2020
+20,cabbage,vegetables,0.5,piece,46165,450604.8,EUR,Store N,Germany,2020
+21,lettuce,vegetables,0.6,piece,6586,454556.4,EUR,Store N,Germany,2020
+22,spinach,vegetables,0.7,kg,9257,461036.3,EUR,Store N,Germany,2020
+23,soy bean,vegetables,0.8,kg,23781,480061.1,EUR,Store N,Germany,2020
+24,cauliflower,vegetables,0.6,piece,32678,499667.9,EUR,Store N,Germany,2020
+25,bell pepper,vegetables,0.7,kg,26063,517912.0,EUR,Store N,Germany,2020
+26,chilli pepper,vegetables,0.5,kg,22378,529101.0,EUR,Store N,Germany,2020
+27,turnip,vegetables,0.4,kg,36187,543575.8,EUR,Store N,Germany,2020
+28,corn,vegetables,0.3,kg,37133,554715.7,EUR,Store N,Germany,2020
+29,sweetcorn,vegetables,0.4,kg,30711,567000.1,EUR,Store N,Germany,2020
+30,sweet potato,vegetables,0.5,kg,2112,568056.1,EUR,Store N,Germany,2020
+31,paprika,vegetables,2.0,kg,11188,590432.1,EUR,Store N,Germany,2020
+32,jalepeno,vegetables,2.0,kg,22622,635676.1,EUR,Store N,Germany,2020
+33,ginger,vegetables,1.5,kg,15509,658939.6,EUR,Store N,Germany,2020
+34,garlic,vegetables,1.5,kg,7202,669742.6,EUR,Store N,Germany,2020
+35,peas,vegetables,3.0,kg,27861,753325.6,EUR,Store N,Germany,2020
+36,eggplant,vegetables,1.5,kg,12656,772309.6,EUR,Store N,Germany,2020
+1,banana,fruits,0.5,kg,16812,8406.0,EUR,Store O,Germany,2020
+2,apple,fruits,0.7,kg,19667,22172.9,EUR,Store O,Germany,2020
+3,pear,fruits,0.6,kg,6195,25889.9,EUR,Store O,Germany,2020
+4,grapes,fruits,1.2,kg,11931,40207.1,EUR,Store O,Germany,2020
+5,orange,fruits,0.8,kg,7313,46057.5,EUR,Store O,Germany,2020
+6,kiwi,fruits,0.9,piece,59116,99261.9,EUR,Store O,Germany,2020
+7,watermelon,fruits,5.0,kg,18534,191931.9,EUR,Store O,Germany,2020
+8,pomegranate,fruits,2.5,kg,41281,295134.4,EUR,Store O,Germany,2020
+9,pineapple,fruits,1.5,piece,89682,429657.4,EUR,Store O,Germany,2020
+10,mango,fruits,2.0,piece,29194,488045.4,EUR,Store O,Germany,2020
+11,cucumber,vegetables,0.4,piece,20577,496276.2,EUR,Store O,Germany,2020
+12,carrot,vegetables,0.3,kg,4117,497511.3,EUR,Store O,Germany,2020
+13,capsicum,vegetables,0.5,kg,34401,514711.8,EUR,Store O,Germany,2020
+14,onion,vegetables,0.2,kg,35878,521887.4,EUR,Store O,Germany,2020
+15,potato,vegetables,0.3,kg,65749,541612.1,EUR,Store O,Germany,2020
+16,lemon,vegetables,0.4,kg,70545,569830.1,EUR,Store O,Germany,2020
+17,tomato,vegetables,0.6,kg,20834,582330.5,EUR,Store O,Germany,2020
+18,raddish,vegetables,0.3,kg,2417,583055.6,EUR,Store O,Germany,2020
+19,beetroot,vegetables,0.4,kg,57472,606044.4,EUR,Store O,Germany,2020
+20,cabbage,vegetables,0.5,piece,1307,606697.9,EUR,Store O,Germany,2020
+21,lettuce,vegetables,0.6,piece,13853,615009.7,EUR,Store O,Germany,2020
+22,spinach,vegetables,0.7,kg,51510,651066.7,EUR,Store O,Germany,2020
+23,soy bean,vegetables,0.8,kg,22431,669011.5,EUR,Store O,Germany,2020
+24,cauliflower,vegetables,0.6,piece,16962,679188.7,EUR,Store O,Germany,2020
+25,bell pepper,vegetables,0.7,kg,56361,718641.4,EUR,Store O,Germany,2020
+26,chilli pepper,vegetables,0.5,kg,26164,731723.4,EUR,Store O,Germany,2020
+27,turnip,vegetables,0.4,kg,37113,746568.6,EUR,Store O,Germany,2020
+28,corn,vegetables,0.3,kg,28526,755126.4,EUR,Store O,Germany,2020
+29,sweetcorn,vegetables,0.4,kg,59808,779049.6,EUR,Store O,Germany,2020
+30,sweet potato,vegetables,0.5,kg,51010,804554.6,EUR,Store O,Germany,2020
+31,paprika,vegetables,2.0,kg,40205,884964.6,EUR,Store O,Germany,2020
+32,jalepeno,vegetables,2.0,kg,260,885484.6,EUR,Store O,Germany,2020
+33,ginger,vegetables,1.5,kg,27212,926302.6,EUR,Store O,Germany,2020
+34,garlic,vegetables,1.5,kg,16231,950649.1,EUR,Store O,Germany,2020
+35,peas,vegetables,3.0,kg,26212,1029285.1,EUR,Store O,Germany,2020
+36,eggplant,vegetables,1.5,kg,55273,1112194.6,EUR,Store O,Germany,2020
+1,banana,fruits,0.5,kg,8072,4036.0,EUR,Store A,Germany,2021
+2,apple,fruits,0.7,kg,4449,7150.3,EUR,Store A,Germany,2021
+3,pear,fruits,0.6,kg,2380,8578.3,EUR,Store A,Germany,2021
+4,grapes,fruits,1.2,kg,51625,70528.3,EUR,Store A,Germany,2021
+5,orange,fruits,0.8,kg,66684,123875.5,EUR,Store A,Germany,2021
+6,kiwi,fruits,0.9,piece,27343,148484.2,EUR,Store A,Germany,2021
+7,watermelon,fruits,5.0,kg,23894,267954.2,EUR,Store A,Germany,2021
+8,pomegranate,fruits,2.5,kg,48400,388954.2,EUR,Store A,Germany,2021
+9,pineapple,fruits,1.5,piece,41404,451060.2,EUR,Store A,Germany,2021
+10,mango,fruits,2.0,piece,60101,571262.2,EUR,Store A,Germany,2021
+11,cucumber,vegetables,0.4,piece,17576,578292.6,EUR,Store A,Germany,2021
+12,carrot,vegetables,0.3,kg,50976,593585.4,EUR,Store A,Germany,2021
+13,capsicum,vegetables,0.5,kg,16061,601615.9,EUR,Store A,Germany,2021
+14,onion,vegetables,0.2,kg,41377,609891.3,EUR,Store A,Germany,2021
+15,potato,vegetables,0.3,kg,88,609917.7,EUR,Store A,Germany,2021
+16,lemon,vegetables,0.4,kg,13610,615361.7,EUR,Store A,Germany,2021
+17,tomato,vegetables,0.6,kg,50857,645875.9,EUR,Store A,Germany,2021
+18,raddish,vegetables,0.3,kg,24607,653258.0,EUR,Store A,Germany,2021
+19,beetroot,vegetables,0.4,kg,86288,687773.2,EUR,Store A,Germany,2021
+20,cabbage,vegetables,0.5,piece,11182,693364.2,EUR,Store A,Germany,2021
+21,lettuce,vegetables,0.6,piece,1310,694150.2,EUR,Store A,Germany,2021
+22,spinach,vegetables,0.7,kg,3557,696640.1,EUR,Store A,Germany,2021
+23,soy bean,vegetables,0.8,kg,15895,709356.1,EUR,Store A,Germany,2021
+24,cauliflower,vegetables,0.6,piece,51319,740147.5,EUR,Store A,Germany,2021
+25,bell pepper,vegetables,0.7,kg,26773,758888.6,EUR,Store A,Germany,2021
+26,chilli pepper,vegetables,0.5,kg,1383,759580.1,EUR,Store A,Germany,2021
+27,turnip,vegetables,0.4,kg,13436,764954.5,EUR,Store A,Germany,2021
+28,corn,vegetables,0.3,kg,1664,765453.7,EUR,Store A,Germany,2021
+29,sweetcorn,vegetables,0.4,kg,5992,767850.5,EUR,Store A,Germany,2021
+30,sweet potato,vegetables,0.5,kg,55147,795424.0,EUR,Store A,Germany,2021
+31,paprika,vegetables,2.0,kg,45329,886082.0,EUR,Store A,Germany,2021
+32,jalepeno,vegetables,2.0,kg,12282,910646.0,EUR,Store A,Germany,2021
+33,ginger,vegetables,1.5,kg,48560,983486.0,EUR,Store A,Germany,2021
+34,garlic,vegetables,1.5,kg,24074,1019597.0,EUR,Store A,Germany,2021
+35,peas,vegetables,3.0,kg,28158,1104071.0,EUR,Store A,Germany,2021
+36,eggplant,vegetables,1.5,kg,20628,1135013.0,EUR,Store A,Germany,2021
+1,banana,fruits,0.5,kg,9676,4838.0,EUR,Store B,Germany,2021
+2,apple,fruits,0.7,kg,44970,36317.0,EUR,Store B,Germany,2021
+3,pear,fruits,0.6,kg,24413,50964.8,EUR,Store B,Germany,2021
+4,grapes,fruits,1.2,kg,18452,73107.2,EUR,Store B,Germany,2021
+5,orange,fruits,0.8,kg,71423,130245.6,EUR,Store B,Germany,2021
+6,kiwi,fruits,0.9,piece,33182,160109.4,EUR,Store B,Germany,2021
+7,watermelon,fruits,5.0,kg,8645,203334.4,EUR,Store B,Germany,2021
+8,pomegranate,fruits,2.5,kg,24066,263499.4,EUR,Store B,Germany,2021
+9,pineapple,fruits,1.5,piece,48329,335992.9,EUR,Store B,Germany,2021
+10,mango,fruits,2.0,piece,35646,407284.9,EUR,Store B,Germany,2021
+11,cucumber,vegetables,0.4,piece,25065,417310.9,EUR,Store B,Germany,2021
+12,carrot,vegetables,0.3,kg,16190,422167.9,EUR,Store B,Germany,2021
+13,capsicum,vegetables,0.5,kg,19101,431718.4,EUR,Store B,Germany,2021
+14,onion,vegetables,0.2,kg,47903,441299.0,EUR,Store B,Germany,2021
+15,potato,vegetables,0.3,kg,15516,445953.8,EUR,Store B,Germany,2021
+16,lemon,vegetables,0.4,kg,48891,465510.2,EUR,Store B,Germany,2021
+17,tomato,vegetables,0.6,kg,7176,469815.8,EUR,Store B,Germany,2021
+18,raddish,vegetables,0.3,kg,12282,473500.4,EUR,Store B,Germany,2021
+19,beetroot,vegetables,0.4,kg,57823,496629.6,EUR,Store B,Germany,2021
+20,cabbage,vegetables,0.5,piece,7001,500130.1,EUR,Store B,Germany,2021
+21,lettuce,vegetables,0.6,piece,19174,511634.5,EUR,Store B,Germany,2021
+22,spinach,vegetables,0.7,kg,51047,547367.4,EUR,Store B,Germany,2021
+23,soy bean,vegetables,0.8,kg,10679,555910.6,EUR,Store B,Germany,2021
+24,cauliflower,vegetables,0.6,piece,24537,570632.8,EUR,Store B,Germany,2021
+25,bell pepper,vegetables,0.7,kg,11059,578374.1,EUR,Store B,Germany,2021
+26,chilli pepper,vegetables,0.5,kg,19447,588097.6,EUR,Store B,Germany,2021
+27,turnip,vegetables,0.4,kg,2174,588967.2,EUR,Store B,Germany,2021
+28,corn,vegetables,0.3,kg,3211,589930.5,EUR,Store B,Germany,2021
+29,sweetcorn,vegetables,0.4,kg,13952,595511.3,EUR,Store B,Germany,2021
+30,sweet potato,vegetables,0.5,kg,30460,610741.3,EUR,Store B,Germany,2021
+31,paprika,vegetables,2.0,kg,75831,762403.3,EUR,Store B,Germany,2021
+32,jalepeno,vegetables,2.0,kg,9965,782333.3,EUR,Store B,Germany,2021
+33,ginger,vegetables,1.5,kg,1401,784434.8,EUR,Store B,Germany,2021
+34,garlic,vegetables,1.5,kg,17143,810149.3,EUR,Store B,Germany,2021
+35,peas,vegetables,3.0,kg,8245,834884.3,EUR,Store B,Germany,2021
+36,eggplant,vegetables,1.5,kg,17284,860810.3,EUR,Store B,Germany,2021
+1,banana,fruits,0.5,kg,22722,11361.0,EUR,Store C,Germany,2021
+2,apple,fruits,0.7,kg,14442,21470.4,EUR,Store C,Germany,2021
+3,pear,fruits,0.6,kg,5309,24655.8,EUR,Store C,Germany,2021
+4,grapes,fruits,1.2,kg,55750,91555.8,EUR,Store C,Germany,2021
+5,orange,fruits,0.8,kg,18861,106644.6,EUR,Store C,Germany,2021
+6,kiwi,fruits,0.9,piece,12254,117673.2,EUR,Store C,Germany,2021
+7,watermelon,fruits,5.0,kg,29985,267598.2,EUR,Store C,Germany,2021
+8,pomegranate,fruits,2.5,kg,53287,400815.7,EUR,Store C,Germany,2021
+9,pineapple,fruits,1.5,piece,18768,428967.7,EUR,Store C,Germany,2021
+10,mango,fruits,2.0,piece,15439,459845.7,EUR,Store C,Germany,2021
+11,cucumber,vegetables,0.4,piece,87330,494777.7,EUR,Store C,Germany,2021
+12,carrot,vegetables,0.3,kg,36527,505735.8,EUR,Store C,Germany,2021
+13,capsicum,vegetables,0.5,kg,25857,518664.3,EUR,Store C,Germany,2021
+14,onion,vegetables,0.2,kg,4641,519592.5,EUR,Store C,Germany,2021
+15,potato,vegetables,0.3,kg,6275,521475.0,EUR,Store C,Germany,2021
+16,lemon,vegetables,0.4,kg,25081,531507.4,EUR,Store C,Germany,2021
+17,tomato,vegetables,0.6,kg,10047,537535.6,EUR,Store C,Germany,2021
+18,raddish,vegetables,0.3,kg,25144,545078.8,EUR,Store C,Germany,2021
+19,beetroot,vegetables,0.4,kg,57543,568096.0,EUR,Store C,Germany,2021
+20,cabbage,vegetables,0.5,piece,72514,604353.0,EUR,Store C,Germany,2021
+21,lettuce,vegetables,0.6,piece,37905,627096.0,EUR,Store C,Germany,2021
+22,spinach,vegetables,0.7,kg,8868,633303.6,EUR,Store C,Germany,2021
+23,soy bean,vegetables,0.8,kg,72737,691493.2,EUR,Store C,Germany,2021
+24,cauliflower,vegetables,0.6,piece,37065,713732.2,EUR,Store C,Germany,2021
+25,bell pepper,vegetables,0.7,kg,32277,736326.1,EUR,Store C,Germany,2021
+26,chilli pepper,vegetables,0.5,kg,23039,747845.6,EUR,Store C,Germany,2021
+27,turnip,vegetables,0.4,kg,5263,749950.8,EUR,Store C,Germany,2021
+28,corn,vegetables,0.3,kg,14318,754246.2,EUR,Store C,Germany,2021
+29,sweetcorn,vegetables,0.4,kg,42534,771259.8,EUR,Store C,Germany,2021
+30,sweet potato,vegetables,0.5,kg,17990,780254.8,EUR,Store C,Germany,2021
+31,paprika,vegetables,2.0,kg,20876,822006.8,EUR,Store C,Germany,2021
+32,jalepeno,vegetables,2.0,kg,33517,889040.8,EUR,Store C,Germany,2021
+33,ginger,vegetables,1.5,kg,28678,932057.8,EUR,Store C,Germany,2021
+34,garlic,vegetables,1.5,kg,23491,967294.3,EUR,Store C,Germany,2021
+35,peas,vegetables,3.0,kg,79546,1205932.3,EUR,Store C,Germany,2021
+36,eggplant,vegetables,1.5,kg,28500,1248682.3,EUR,Store C,Germany,2021
+1,banana,fruits,0.5,kg,35736,17868.0,EUR,Store D,Germany,2021
+2,apple,fruits,0.7,kg,28234,37631.8,EUR,Store D,Germany,2021
+3,pear,fruits,0.6,kg,12743,45277.6,EUR,Store D,Germany,2021
+4,grapes,fruits,1.2,kg,17355,66103.6,EUR,Store D,Germany,2021
+5,orange,fruits,0.8,kg,55783,110730.0,EUR,Store D,Germany,2021
+6,kiwi,fruits,0.9,piece,16631,125697.9,EUR,Store D,Germany,2021
+7,watermelon,fruits,5.0,kg,22315,237272.9,EUR,Store D,Germany,2021
+8,pomegranate,fruits,2.5,kg,14700,274022.9,EUR,Store D,Germany,2021
+9,pineapple,fruits,1.5,piece,49216,347846.9,EUR,Store D,Germany,2021
+10,mango,fruits,2.0,piece,42438,432722.9,EUR,Store D,Germany,2021
+11,cucumber,vegetables,0.4,piece,12695,437800.9,EUR,Store D,Germany,2021
+12,carrot,vegetables,0.3,kg,43769,450931.6,EUR,Store D,Germany,2021
+13,capsicum,vegetables,0.5,kg,20670,461266.6,EUR,Store D,Germany,2021
+14,onion,vegetables,0.2,kg,38383,468943.2,EUR,Store D,Germany,2021
+15,potato,vegetables,0.3,kg,15999,473742.9,EUR,Store D,Germany,2021
+16,lemon,vegetables,0.4,kg,11118,478190.1,EUR,Store D,Germany,2021
+17,tomato,vegetables,0.6,kg,20968,490770.9,EUR,Store D,Germany,2021
+18,raddish,vegetables,0.3,kg,24094,497999.1,EUR,Store D,Germany,2021
+19,beetroot,vegetables,0.4,kg,46582,516631.9,EUR,Store D,Germany,2021
+20,cabbage,vegetables,0.5,piece,27267,530265.4,EUR,Store D,Germany,2021
+21,lettuce,vegetables,0.6,piece,3264,532223.8,EUR,Store D,Germany,2021
+22,spinach,vegetables,0.7,kg,3203,534465.9,EUR,Store D,Germany,2021
+23,soy bean,vegetables,0.8,kg,38511,565274.7,EUR,Store D,Germany,2021
+24,cauliflower,vegetables,0.6,piece,9188,570787.5,EUR,Store D,Germany,2021
+25,bell pepper,vegetables,0.7,kg,11390,578760.5,EUR,Store D,Germany,2021
+26,chilli pepper,vegetables,0.5,kg,30562,594041.5,EUR,Store D,Germany,2021
+27,turnip,vegetables,0.4,kg,43083,611274.7,EUR,Store D,Germany,2021
+28,corn,vegetables,0.3,kg,43452,624310.3,EUR,Store D,Germany,2021
+29,sweetcorn,vegetables,0.4,kg,7004,627111.9,EUR,Store D,Germany,2021
+30,sweet potato,vegetables,0.5,kg,20497,637360.4,EUR,Store D,Germany,2021
+31,paprika,vegetables,2.0,kg,55868,749096.4,EUR,Store D,Germany,2021
+32,jalepeno,vegetables,2.0,kg,72139,893374.4,EUR,Store D,Germany,2021
+33,ginger,vegetables,1.5,kg,23913,929243.9,EUR,Store D,Germany,2021
+34,garlic,vegetables,1.5,kg,61053,1020823.4,EUR,Store D,Germany,2021
+35,peas,vegetables,3.0,kg,15897,1068514.4,EUR,Store D,Germany,2021
+36,eggplant,vegetables,1.5,kg,27906,1110373.4,EUR,Store D,Germany,2021
+1,banana,fruits,0.5,kg,33884,16942.0,EUR,Store E,Germany,2021
+2,apple,fruits,0.7,kg,5776,20985.2,EUR,Store E,Germany,2021
+3,pear,fruits,0.6,kg,7054,25217.6,EUR,Store E,Germany,2021
+4,grapes,fruits,1.2,kg,12524,40246.4,EUR,Store E,Germany,2021
+5,orange,fruits,0.8,kg,59380,87750.4,EUR,Store E,Germany,2021
+6,kiwi,fruits,0.9,piece,29595,114385.9,EUR,Store E,Germany,2021
+7,watermelon,fruits,5.0,kg,49256,360665.9,EUR,Store E,Germany,2021
+8,pomegranate,fruits,2.5,kg,9089,383388.4,EUR,Store E,Germany,2021
+9,pineapple,fruits,1.5,piece,1670,385893.4,EUR,Store E,Germany,2021
+10,mango,fruits,2.0,piece,28106,442105.4,EUR,Store E,Germany,2021
+11,cucumber,vegetables,0.4,piece,28137,453360.2,EUR,Store E,Germany,2021
+12,carrot,vegetables,0.3,kg,2739,454181.9,EUR,Store E,Germany,2021
+13,capsicum,vegetables,0.5,kg,29338,468850.9,EUR,Store E,Germany,2021
+14,onion,vegetables,0.2,kg,14486,471748.1,EUR,Store E,Germany,2021
+15,potato,vegetables,0.3,kg,76568,494718.5,EUR,Store E,Germany,2021
+16,lemon,vegetables,0.4,kg,19645,502576.5,EUR,Store E,Germany,2021
+17,tomato,vegetables,0.6,kg,58563,537714.3,EUR,Store E,Germany,2021
+18,raddish,vegetables,0.3,kg,41548,550178.7,EUR,Store E,Germany,2021
+19,beetroot,vegetables,0.4,kg,20035,558192.7,EUR,Store E,Germany,2021
+20,cabbage,vegetables,0.5,piece,71489,593937.2,EUR,Store E,Germany,2021
+21,lettuce,vegetables,0.6,piece,32807,613621.4,EUR,Store E,Germany,2021
+22,spinach,vegetables,0.7,kg,21014,628331.2,EUR,Store E,Germany,2021
+23,soy bean,vegetables,0.8,kg,27210,650099.2,EUR,Store E,Germany,2021
+24,cauliflower,vegetables,0.6,piece,47601,678659.8,EUR,Store E,Germany,2021
+25,bell pepper,vegetables,0.7,kg,29648,699413.4,EUR,Store E,Germany,2021
+26,chilli pepper,vegetables,0.5,kg,31320,715073.4,EUR,Store E,Germany,2021
+27,turnip,vegetables,0.4,kg,38268,730380.6,EUR,Store E,Germany,2021
+28,corn,vegetables,0.3,kg,735,730601.1,EUR,Store E,Germany,2021
+29,sweetcorn,vegetables,0.4,kg,11396,735159.5,EUR,Store E,Germany,2021
+30,sweet potato,vegetables,0.5,kg,21277,745798.0,EUR,Store E,Germany,2021
+31,paprika,vegetables,2.0,kg,64668,875134.0,EUR,Store E,Germany,2021
+32,jalepeno,vegetables,2.0,kg,19279,913692.0,EUR,Store E,Germany,2021
+33,ginger,vegetables,1.5,kg,30917,960067.5,EUR,Store E,Germany,2021
+34,garlic,vegetables,1.5,kg,8043,972132.0,EUR,Store E,Germany,2021
+35,peas,vegetables,3.0,kg,46557,1111803.0,EUR,Store E,Germany,2021
+36,eggplant,vegetables,1.5,kg,2877,1116118.5,EUR,Store E,Germany,2021
+1,banana,fruits,0.5,kg,18978,9489.0,EUR,Store F,Germany,2021
+2,apple,fruits,0.7,kg,12483,18227.1,EUR,Store F,Germany,2021
+3,pear,fruits,0.6,kg,80408,66471.9,EUR,Store F,Germany,2021
+4,grapes,fruits,1.2,kg,55979,133646.7,EUR,Store F,Germany,2021
+5,orange,fruits,0.8,kg,18159,148173.9,EUR,Store F,Germany,2021
+6,kiwi,fruits,0.9,piece,47994,191368.5,EUR,Store F,Germany,2021
+7,watermelon,fruits,5.0,kg,10790,245318.5,EUR,Store F,Germany,2021
+8,pomegranate,fruits,2.5,kg,43387,353786.0,EUR,Store F,Germany,2021
+9,pineapple,fruits,1.5,piece,28237,396141.5,EUR,Store F,Germany,2021
+10,mango,fruits,2.0,piece,55408,506957.5,EUR,Store F,Germany,2021
+11,cucumber,vegetables,0.4,piece,9350,510697.5,EUR,Store F,Germany,2021
+12,carrot,vegetables,0.3,kg,24864,518156.7,EUR,Store F,Germany,2021
+13,capsicum,vegetables,0.5,kg,3183,519748.2,EUR,Store F,Germany,2021
+14,onion,vegetables,0.2,kg,7735,521295.2,EUR,Store F,Germany,2021
+15,potato,vegetables,0.3,kg,6063,523114.1,EUR,Store F,Germany,2021
+16,lemon,vegetables,0.4,kg,16965,529900.1,EUR,Store F,Germany,2021
+17,tomato,vegetables,0.6,kg,10070,535942.1,EUR,Store F,Germany,2021
+18,raddish,vegetables,0.3,kg,6203,537803.0,EUR,Store F,Germany,2021
+19,beetroot,vegetables,0.4,kg,69116,565449.4,EUR,Store F,Germany,2021
+20,cabbage,vegetables,0.5,piece,44885,587891.9,EUR,Store F,Germany,2021
+21,lettuce,vegetables,0.6,piece,778,588358.7,EUR,Store F,Germany,2021
+22,spinach,vegetables,0.7,kg,14857,598758.6,EUR,Store F,Germany,2021
+23,soy bean,vegetables,0.8,kg,4254,602161.8,EUR,Store F,Germany,2021
+24,cauliflower,vegetables,0.6,piece,89702,655983.0,EUR,Store F,Germany,2021
+25,bell pepper,vegetables,0.7,kg,37292,682087.4,EUR,Store F,Germany,2021
+26,chilli pepper,vegetables,0.5,kg,39659,701916.9,EUR,Store F,Germany,2021
+27,turnip,vegetables,0.4,kg,2731,703009.3,EUR,Store F,Germany,2021
+28,corn,vegetables,0.3,kg,38902,714679.9,EUR,Store F,Germany,2021
+29,sweetcorn,vegetables,0.4,kg,749,714979.5,EUR,Store F,Germany,2021
+30,sweet potato,vegetables,0.5,kg,41988,735973.5,EUR,Store F,Germany,2021
+31,paprika,vegetables,2.0,kg,17311,770595.5,EUR,Store F,Germany,2021
+32,jalepeno,vegetables,2.0,kg,24168,818931.5,EUR,Store F,Germany,2021
+33,ginger,vegetables,1.5,kg,80908,940293.5,EUR,Store F,Germany,2021
+34,garlic,vegetables,1.5,kg,44498,1007040.5,EUR,Store F,Germany,2021
+35,peas,vegetables,3.0,kg,15771,1054353.5,EUR,Store F,Germany,2021
+36,eggplant,vegetables,1.5,kg,9738,1068960.5,EUR,Store F,Germany,2021
+1,banana,fruits,0.5,kg,34219,17109.5,EUR,Store G,Germany,2021
+2,apple,fruits,0.7,kg,3717,19711.4,EUR,Store G,Germany,2021
+3,pear,fruits,0.6,kg,54096,52169.0,EUR,Store G,Germany,2021
+4,grapes,fruits,1.2,kg,55341,118578.2,EUR,Store G,Germany,2021
+5,orange,fruits,0.8,kg,7036,124207.0,EUR,Store G,Germany,2021
+6,kiwi,fruits,0.9,piece,14301,137077.9,EUR,Store G,Germany,2021
+7,watermelon,fruits,5.0,kg,86853,571342.9,EUR,Store G,Germany,2021
+8,pomegranate,fruits,2.5,kg,41164,674252.9,EUR,Store G,Germany,2021
+9,pineapple,fruits,1.5,piece,35329,727246.4,EUR,Store G,Germany,2021
+10,mango,fruits,2.0,piece,52181,831608.4,EUR,Store G,Germany,2021
+11,cucumber,vegetables,0.4,piece,30215,843694.4,EUR,Store G,Germany,2021
+12,carrot,vegetables,0.3,kg,58565,861263.9,EUR,Store G,Germany,2021
+13,capsicum,vegetables,0.5,kg,6514,864520.9,EUR,Store G,Germany,2021
+14,onion,vegetables,0.2,kg,3546,865230.1,EUR,Store G,Germany,2021
+15,potato,vegetables,0.3,kg,34876,875692.9,EUR,Store G,Germany,2021
+16,lemon,vegetables,0.4,kg,35607,889935.7,EUR,Store G,Germany,2021
+17,tomato,vegetables,0.6,kg,3798,892214.5,EUR,Store G,Germany,2021
+18,raddish,vegetables,0.3,kg,5371,893825.8,EUR,Store G,Germany,2021
+19,beetroot,vegetables,0.4,kg,40254,909927.4,EUR,Store G,Germany,2021
+20,cabbage,vegetables,0.5,piece,2457,911155.9,EUR,Store G,Germany,2021
+21,lettuce,vegetables,0.6,piece,81164,959854.3,EUR,Store G,Germany,2021
+22,spinach,vegetables,0.7,kg,26307,978269.2,EUR,Store G,Germany,2021
+23,soy bean,vegetables,0.8,kg,30918,1003003.6,EUR,Store G,Germany,2021
+24,cauliflower,vegetables,0.6,piece,26676,1019009.2,EUR,Store G,Germany,2021
+25,bell pepper,vegetables,0.7,kg,3432,1021411.6,EUR,Store G,Germany,2021
+26,chilli pepper,vegetables,0.5,kg,65616,1054219.6,EUR,Store G,Germany,2021
+27,turnip,vegetables,0.4,kg,8594,1057657.2,EUR,Store G,Germany,2021
+28,corn,vegetables,0.3,kg,8196,1060116.0,EUR,Store G,Germany,2021
+29,sweetcorn,vegetables,0.4,kg,63793,1085633.2,EUR,Store G,Germany,2021
+30,sweet potato,vegetables,0.5,kg,28373,1099819.7,EUR,Store G,Germany,2021
+31,paprika,vegetables,2.0,kg,36702,1173223.7,EUR,Store G,Germany,2021
+32,jalepeno,vegetables,2.0,kg,30299,1233821.7,EUR,Store G,Germany,2021
+33,ginger,vegetables,1.5,kg,29972,1278779.7,EUR,Store G,Germany,2021
+34,garlic,vegetables,1.5,kg,21413,1310899.2,EUR,Store G,Germany,2021
+35,peas,vegetables,3.0,kg,11375,1345024.2,EUR,Store G,Germany,2021
+36,eggplant,vegetables,1.5,kg,9609,1359437.7,EUR,Store G,Germany,2021
+1,banana,fruits,0.5,kg,15704,7852.0,EUR,Store H,Germany,2021
+2,apple,fruits,0.7,kg,81192,64686.4,EUR,Store H,Germany,2021
+3,pear,fruits,0.6,kg,8117,69556.6,EUR,Store H,Germany,2021
+4,grapes,fruits,1.2,kg,17972,91123.0,EUR,Store H,Germany,2021
+5,orange,fruits,0.8,kg,55064,135174.2,EUR,Store H,Germany,2021
+6,kiwi,fruits,0.9,piece,3560,138378.2,EUR,Store H,Germany,2021
+7,watermelon,fruits,5.0,kg,36050,318628.2,EUR,Store H,Germany,2021
+8,pomegranate,fruits,2.5,kg,13633,352710.7,EUR,Store H,Germany,2021
+9,pineapple,fruits,1.5,piece,8831,365957.2,EUR,Store H,Germany,2021
+10,mango,fruits,2.0,piece,33077,432111.2,EUR,Store H,Germany,2021
+11,cucumber,vegetables,0.4,piece,17173,438980.4,EUR,Store H,Germany,2021
+12,carrot,vegetables,0.3,kg,24543,446343.3,EUR,Store H,Germany,2021
+13,capsicum,vegetables,0.5,kg,53025,472855.8,EUR,Store H,Germany,2021
+14,onion,vegetables,0.2,kg,19956,476847.0,EUR,Store H,Germany,2021
+15,potato,vegetables,0.3,kg,14569,481217.7,EUR,Store H,Germany,2021
+16,lemon,vegetables,0.4,kg,31336,493752.1,EUR,Store H,Germany,2021
+17,tomato,vegetables,0.6,kg,48348,522760.9,EUR,Store H,Germany,2021
+18,raddish,vegetables,0.3,kg,3827,523909.0,EUR,Store H,Germany,2021
+19,beetroot,vegetables,0.4,kg,3979,525500.6,EUR,Store H,Germany,2021
+20,cabbage,vegetables,0.5,piece,1402,526201.6,EUR,Store H,Germany,2021
+21,lettuce,vegetables,0.6,piece,19494,537898.0,EUR,Store H,Germany,2021
+22,spinach,vegetables,0.7,kg,52455,574616.5,EUR,Store H,Germany,2021
+23,soy bean,vegetables,0.8,kg,57125,620316.5,EUR,Store H,Germany,2021
+24,cauliflower,vegetables,0.6,piece,23470,634398.5,EUR,Store H,Germany,2021
+25,bell pepper,vegetables,0.7,kg,6607,639023.4,EUR,Store H,Germany,2021
+26,chilli pepper,vegetables,0.5,kg,25271,651658.9,EUR,Store H,Germany,2021
+27,turnip,vegetables,0.4,kg,4431,653431.3,EUR,Store H,Germany,2021
+28,corn,vegetables,0.3,kg,36627,664419.4,EUR,Store H,Germany,2021
+29,sweetcorn,vegetables,0.4,kg,14537,670234.2,EUR,Store H,Germany,2021
+30,sweet potato,vegetables,0.5,kg,45545,693006.7,EUR,Store H,Germany,2021
+31,paprika,vegetables,2.0,kg,459,693924.7,EUR,Store H,Germany,2021
+32,jalepeno,vegetables,2.0,kg,86845,867614.7,EUR,Store H,Germany,2021
+33,ginger,vegetables,1.5,kg,42088,930746.7,EUR,Store H,Germany,2021
+34,garlic,vegetables,1.5,kg,2337,934252.2,EUR,Store H,Germany,2021
+35,peas,vegetables,3.0,kg,8950,961102.2,EUR,Store H,Germany,2021
+36,eggplant,vegetables,1.5,kg,61029,1052645.7,EUR,Store H,Germany,2021
+1,banana,fruits,0.5,kg,6786,3393.0,EUR,Store I,Germany,2021
+2,apple,fruits,0.7,kg,4179,6318.3,EUR,Store I,Germany,2021
+3,pear,fruits,0.6,kg,32217,25648.5,EUR,Store I,Germany,2021
+4,grapes,fruits,1.2,kg,30952,62790.9,EUR,Store I,Germany,2021
+5,orange,fruits,0.8,kg,8370,69486.9,EUR,Store I,Germany,2021
+6,kiwi,fruits,0.9,piece,56954,120745.5,EUR,Store I,Germany,2021
+7,watermelon,fruits,5.0,kg,1233,126910.5,EUR,Store I,Germany,2021
+8,pomegranate,fruits,2.5,kg,45129,239733.0,EUR,Store I,Germany,2021
+9,pineapple,fruits,1.5,piece,4096,245877.0,EUR,Store I,Germany,2021
+10,mango,fruits,2.0,piece,16354,278585.0,EUR,Store I,Germany,2021
+11,cucumber,vegetables,0.4,piece,50780,298897.0,EUR,Store I,Germany,2021
+12,carrot,vegetables,0.3,kg,25512,306550.6,EUR,Store I,Germany,2021
+13,capsicum,vegetables,0.5,kg,20504,316802.6,EUR,Store I,Germany,2021
+14,onion,vegetables,0.2,kg,43420,325486.6,EUR,Store I,Germany,2021
+15,potato,vegetables,0.3,kg,54395,341805.1,EUR,Store I,Germany,2021
+16,lemon,vegetables,0.4,kg,69648,369664.3,EUR,Store I,Germany,2021
+17,tomato,vegetables,0.6,kg,23176,383569.9,EUR,Store I,Germany,2021
+18,raddish,vegetables,0.3,kg,64797,403009.0,EUR,Store I,Germany,2021
+19,beetroot,vegetables,0.4,kg,27673,414078.2,EUR,Store I,Germany,2021
+20,cabbage,vegetables,0.5,piece,45801,436978.7,EUR,Store I,Germany,2021
+21,lettuce,vegetables,0.6,piece,16666,446978.3,EUR,Store I,Germany,2021
+22,spinach,vegetables,0.7,kg,49966,481954.5,EUR,Store I,Germany,2021
+23,soy bean,vegetables,0.8,kg,86302,550996.1,EUR,Store I,Germany,2021
+24,cauliflower,vegetables,0.6,piece,603,551357.9,EUR,Store I,Germany,2021
+25,bell pepper,vegetables,0.7,kg,28764,571492.7,EUR,Store I,Germany,2021
+26,chilli pepper,vegetables,0.5,kg,53223,598104.2,EUR,Store I,Germany,2021
+27,turnip,vegetables,0.4,kg,20607,606347.0,EUR,Store I,Germany,2021
+28,corn,vegetables,0.3,kg,18635,611937.5,EUR,Store I,Germany,2021
+29,sweetcorn,vegetables,0.4,kg,25968,622324.7,EUR,Store I,Germany,2021
+30,sweet potato,vegetables,0.5,kg,31030,637839.7,EUR,Store I,Germany,2021
+31,paprika,vegetables,2.0,kg,62670,763179.7,EUR,Store I,Germany,2021
+32,jalepeno,vegetables,2.0,kg,23219,809617.7,EUR,Store I,Germany,2021
+33,ginger,vegetables,1.5,kg,26049,848691.2,EUR,Store I,Germany,2021
+34,garlic,vegetables,1.5,kg,28830,891936.2,EUR,Store I,Germany,2021
+35,peas,vegetables,3.0,kg,476,893364.2,EUR,Store I,Germany,2021
+36,eggplant,vegetables,1.5,kg,22593,927253.7,EUR,Store I,Germany,2021
+1,banana,fruits,0.5,kg,17584,8792.0,EUR,Store J,Germany,2021
+2,apple,fruits,0.7,kg,1274,9683.8,EUR,Store J,Germany,2021
+3,pear,fruits,0.6,kg,21655,22676.8,EUR,Store J,Germany,2021
+4,grapes,fruits,1.2,kg,22469,49639.6,EUR,Store J,Germany,2021
+5,orange,fruits,0.8,kg,13683,60586.0,EUR,Store J,Germany,2021
+6,kiwi,fruits,0.9,piece,22209,80574.1,EUR,Store J,Germany,2021
+7,watermelon,fruits,5.0,kg,88694,524044.1,EUR,Store J,Germany,2021
+8,pomegranate,fruits,2.5,kg,22934,581379.1,EUR,Store J,Germany,2021
+9,pineapple,fruits,1.5,piece,29809,626092.6,EUR,Store J,Germany,2021
+10,mango,fruits,2.0,piece,50098,726288.6,EUR,Store J,Germany,2021
+11,cucumber,vegetables,0.4,piece,27446,737267.0,EUR,Store J,Germany,2021
+12,carrot,vegetables,0.3,kg,775,737499.5,EUR,Store J,Germany,2021
+13,capsicum,vegetables,0.5,kg,43083,759041.0,EUR,Store J,Germany,2021
+14,onion,vegetables,0.2,kg,1412,759323.4,EUR,Store J,Germany,2021
+15,potato,vegetables,0.3,kg,12754,763149.6,EUR,Store J,Germany,2021
+16,lemon,vegetables,0.4,kg,9242,766846.4,EUR,Store J,Germany,2021
+17,tomato,vegetables,0.6,kg,5146,769934.0,EUR,Store J,Germany,2021
+18,raddish,vegetables,0.3,kg,27533,778193.9,EUR,Store J,Germany,2021
+19,beetroot,vegetables,0.4,kg,59101,801834.3,EUR,Store J,Germany,2021
+20,cabbage,vegetables,0.5,piece,20994,812331.3,EUR,Store J,Germany,2021
+21,lettuce,vegetables,0.6,piece,42990,838125.3,EUR,Store J,Germany,2021
+22,spinach,vegetables,0.7,kg,8518,844087.9,EUR,Store J,Germany,2021
+23,soy bean,vegetables,0.8,kg,12825,854347.9,EUR,Store J,Germany,2021
+24,cauliflower,vegetables,0.6,piece,6764,858406.3,EUR,Store J,Germany,2021
+25,bell pepper,vegetables,0.7,kg,4983,861894.4,EUR,Store J,Germany,2021
+26,chilli pepper,vegetables,0.5,kg,12715,868251.9,EUR,Store J,Germany,2021
+27,turnip,vegetables,0.4,kg,27324,879181.5,EUR,Store J,Germany,2021
+28,corn,vegetables,0.3,kg,21535,885642.0,EUR,Store J,Germany,2021
+29,sweetcorn,vegetables,0.4,kg,31855,898384.0,EUR,Store J,Germany,2021
+30,sweet potato,vegetables,0.5,kg,21765,909266.5,EUR,Store J,Germany,2021
+31,paprika,vegetables,2.0,kg,48434,1006134.5,EUR,Store J,Germany,2021
+32,jalepeno,vegetables,2.0,kg,27868,1061870.5,EUR,Store J,Germany,2021
+33,ginger,vegetables,1.5,kg,82559,1185709.0,EUR,Store J,Germany,2021
+34,garlic,vegetables,1.5,kg,61839,1278467.5,EUR,Store J,Germany,2021
+35,peas,vegetables,3.0,kg,12304,1315379.5,EUR,Store J,Germany,2021
+36,eggplant,vegetables,1.5,kg,30475,1361092.0,EUR,Store J,Germany,2021
+1,banana,fruits,0.5,kg,4782,2391.0,EUR,Store K,Germany,2021
+2,apple,fruits,0.7,kg,25428,20190.6,EUR,Store K,Germany,2021
+3,pear,fruits,0.6,kg,9542,25915.8,EUR,Store K,Germany,2021
+4,grapes,fruits,1.2,kg,27064,58392.6,EUR,Store K,Germany,2021
+5,orange,fruits,0.8,kg,10251,66593.4,EUR,Store K,Germany,2021
+6,kiwi,fruits,0.9,piece,27970,91766.4,EUR,Store K,Germany,2021
+7,watermelon,fruits,5.0,kg,53236,357946.4,EUR,Store K,Germany,2021
+8,pomegranate,fruits,2.5,kg,13518,391741.4,EUR,Store K,Germany,2021
+9,pineapple,fruits,1.5,piece,23484,426967.4,EUR,Store K,Germany,2021
+10,mango,fruits,2.0,piece,11678,450323.4,EUR,Store K,Germany,2021
+11,cucumber,vegetables,0.4,piece,9390,454079.4,EUR,Store K,Germany,2021
+12,carrot,vegetables,0.3,kg,51381,469493.7,EUR,Store K,Germany,2021
+13,capsicum,vegetables,0.5,kg,38471,488729.2,EUR,Store K,Germany,2021
+14,onion,vegetables,0.2,kg,1119,488953.0,EUR,Store K,Germany,2021
+15,potato,vegetables,0.3,kg,24085,496178.5,EUR,Store K,Germany,2021
+16,lemon,vegetables,0.4,kg,3832,497711.3,EUR,Store K,Germany,2021
+17,tomato,vegetables,0.6,kg,63375,535736.3,EUR,Store K,Germany,2021
+18,raddish,vegetables,0.3,kg,28005,544137.8,EUR,Store K,Germany,2021
+19,beetroot,vegetables,0.4,kg,52271,565046.2,EUR,Store K,Germany,2021
+20,cabbage,vegetables,0.5,piece,84198,607145.2,EUR,Store K,Germany,2021
+21,lettuce,vegetables,0.6,piece,20028,619162.0,EUR,Store K,Germany,2021
+22,spinach,vegetables,0.7,kg,13297,628469.9,EUR,Store K,Germany,2021
+23,soy bean,vegetables,0.8,kg,22645,646585.9,EUR,Store K,Germany,2021
+24,cauliflower,vegetables,0.6,piece,8952,651957.1,EUR,Store K,Germany,2021
+25,bell pepper,vegetables,0.7,kg,4785,655306.6,EUR,Store K,Germany,2021
+26,chilli pepper,vegetables,0.5,kg,53890,682251.6,EUR,Store K,Germany,2021
+27,turnip,vegetables,0.4,kg,10224,686341.2,EUR,Store K,Germany,2021
+28,corn,vegetables,0.3,kg,25948,694125.6,EUR,Store K,Germany,2021
+29,sweetcorn,vegetables,0.4,kg,59541,717942.0,EUR,Store K,Germany,2021
+30,sweet potato,vegetables,0.5,kg,56251,746067.5,EUR,Store K,Germany,2021
+31,paprika,vegetables,2.0,kg,18601,783269.5,EUR,Store K,Germany,2021
+32,jalepeno,vegetables,2.0,kg,21887,827043.5,EUR,Store K,Germany,2021
+33,ginger,vegetables,1.5,kg,50845,903311.0,EUR,Store K,Germany,2021
+34,garlic,vegetables,1.5,kg,38338,960818.0,EUR,Store K,Germany,2021
+35,peas,vegetables,3.0,kg,15605,1007633.0,EUR,Store K,Germany,2021
+36,eggplant,vegetables,1.5,kg,41114,1069304.0,EUR,Store K,Germany,2021
+1,banana,fruits,0.5,kg,78759,39379.5,EUR,Store L,Germany,2021
+2,apple,fruits,0.7,kg,75119,91962.8,EUR,Store L,Germany,2021
+3,pear,fruits,0.6,kg,2534,93483.2,EUR,Store L,Germany,2021
+4,grapes,fruits,1.2,kg,13667,109883.6,EUR,Store L,Germany,2021
+5,orange,fruits,0.8,kg,28635,132791.6,EUR,Store L,Germany,2021
+6,kiwi,fruits,0.9,piece,54488,181830.8,EUR,Store L,Germany,2021
+7,watermelon,fruits,5.0,kg,3954,201600.8,EUR,Store L,Germany,2021
+8,pomegranate,fruits,2.5,kg,1904,206360.8,EUR,Store L,Germany,2021
+9,pineapple,fruits,1.5,piece,82061,329452.3,EUR,Store L,Germany,2021
+10,mango,fruits,2.0,piece,26745,382942.3,EUR,Store L,Germany,2021
+11,cucumber,vegetables,0.4,piece,18673,390411.5,EUR,Store L,Germany,2021
+12,carrot,vegetables,0.3,kg,50677,405614.6,EUR,Store L,Germany,2021
+13,capsicum,vegetables,0.5,kg,41664,426446.6,EUR,Store L,Germany,2021
+14,onion,vegetables,0.2,kg,264,426499.4,EUR,Store L,Germany,2021
+15,potato,vegetables,0.3,kg,36941,437581.7,EUR,Store L,Germany,2021
+16,lemon,vegetables,0.4,kg,77691,468658.1,EUR,Store L,Germany,2021
+17,tomato,vegetables,0.6,kg,21861,481774.7,EUR,Store L,Germany,2021
+18,raddish,vegetables,0.3,kg,37803,493115.6,EUR,Store L,Germany,2021
+19,beetroot,vegetables,0.4,kg,15487,499310.4,EUR,Store L,Germany,2021
+20,cabbage,vegetables,0.5,piece,7753,503186.9,EUR,Store L,Germany,2021
+21,lettuce,vegetables,0.6,piece,6309,506972.3,EUR,Store L,Germany,2021
+22,spinach,vegetables,0.7,kg,4610,510199.3,EUR,Store L,Germany,2021
+23,soy bean,vegetables,0.8,kg,6023,515017.7,EUR,Store L,Germany,2021
+24,cauliflower,vegetables,0.6,piece,20096,527075.3,EUR,Store L,Germany,2021
+25,bell pepper,vegetables,0.7,kg,16107,538350.2,EUR,Store L,Germany,2021
+26,chilli pepper,vegetables,0.5,kg,38368,557534.2,EUR,Store L,Germany,2021
+27,turnip,vegetables,0.4,kg,54346,579272.6,EUR,Store L,Germany,2021
+28,corn,vegetables,0.3,kg,54584,595647.8,EUR,Store L,Germany,2021
+29,sweetcorn,vegetables,0.4,kg,24837,605582.6,EUR,Store L,Germany,2021
+30,sweet potato,vegetables,0.5,kg,82150,646657.6,EUR,Store L,Germany,2021
+31,paprika,vegetables,2.0,kg,22199,691055.6,EUR,Store L,Germany,2021
+32,jalepeno,vegetables,2.0,kg,21525,734105.6,EUR,Store L,Germany,2021
+33,ginger,vegetables,1.5,kg,1843,736870.1,EUR,Store L,Germany,2021
+34,garlic,vegetables,1.5,kg,2845,741137.6,EUR,Store L,Germany,2021
+35,peas,vegetables,3.0,kg,5580,757877.6,EUR,Store L,Germany,2021
+36,eggplant,vegetables,1.5,kg,47003,828382.1,EUR,Store L,Germany,2021
+1,banana,fruits,0.5,kg,25885,12942.5,EUR,Store M,Germany,2021
+2,apple,fruits,0.7,kg,75,12995.0,EUR,Store M,Germany,2021
+3,pear,fruits,0.6,kg,55282,46164.2,EUR,Store M,Germany,2021
+4,grapes,fruits,1.2,kg,19216,69223.4,EUR,Store M,Germany,2021
+5,orange,fruits,0.8,kg,23058,87669.8,EUR,Store M,Germany,2021
+6,kiwi,fruits,0.9,piece,18861,104644.7,EUR,Store M,Germany,2021
+7,watermelon,fruits,5.0,kg,71081,460049.7,EUR,Store M,Germany,2021
+8,pomegranate,fruits,2.5,kg,57393,603532.2,EUR,Store M,Germany,2021
+9,pineapple,fruits,1.5,piece,5977,612497.7,EUR,Store M,Germany,2021
+10,mango,fruits,2.0,piece,7096,626689.7,EUR,Store M,Germany,2021
+11,cucumber,vegetables,0.4,piece,42908,643852.9,EUR,Store M,Germany,2021
+12,carrot,vegetables,0.3,kg,27870,652213.9,EUR,Store M,Germany,2021
+13,capsicum,vegetables,0.5,kg,2753,653590.4,EUR,Store M,Germany,2021
+14,onion,vegetables,0.2,kg,24359,658462.2,EUR,Store M,Germany,2021
+15,potato,vegetables,0.3,kg,6585,660437.7,EUR,Store M,Germany,2021
+16,lemon,vegetables,0.4,kg,7994,663635.3,EUR,Store M,Germany,2021
+17,tomato,vegetables,0.6,kg,14210,672161.3,EUR,Store M,Germany,2021
+18,raddish,vegetables,0.3,kg,13917,676336.4,EUR,Store M,Germany,2021
+19,beetroot,vegetables,0.4,kg,55388,698491.6,EUR,Store M,Germany,2021
+20,cabbage,vegetables,0.5,piece,15620,706301.6,EUR,Store M,Germany,2021
+21,lettuce,vegetables,0.6,piece,42306,731685.2,EUR,Store M,Germany,2021
+22,spinach,vegetables,0.7,kg,386,731955.4,EUR,Store M,Germany,2021
+23,soy bean,vegetables,0.8,kg,48919,771090.6,EUR,Store M,Germany,2021
+24,cauliflower,vegetables,0.6,piece,45707,798514.8,EUR,Store M,Germany,2021
+25,bell pepper,vegetables,0.7,kg,44871,829924.5,EUR,Store M,Germany,2021
+26,chilli pepper,vegetables,0.5,kg,33440,846644.5,EUR,Store M,Germany,2021
+27,turnip,vegetables,0.4,kg,27990,857840.5,EUR,Store M,Germany,2021
+28,corn,vegetables,0.3,kg,27937,866221.6,EUR,Store M,Germany,2021
+29,sweetcorn,vegetables,0.4,kg,17920,873389.6,EUR,Store M,Germany,2021
+30,sweet potato,vegetables,0.5,kg,51339,899059.1,EUR,Store M,Germany,2021
+31,paprika,vegetables,2.0,kg,11949,922957.1,EUR,Store M,Germany,2021
+32,jalepeno,vegetables,2.0,kg,34030,991017.1,EUR,Store M,Germany,2021
+33,ginger,vegetables,1.5,kg,52624,1069953.1,EUR,Store M,Germany,2021
+34,garlic,vegetables,1.5,kg,44708,1137015.1,EUR,Store M,Germany,2021
+35,peas,vegetables,3.0,kg,51897,1292706.1,EUR,Store M,Germany,2021
+36,eggplant,vegetables,1.5,kg,46151,1361932.6,EUR,Store M,Germany,2021
+1,banana,fruits,0.5,kg,25044,12522.0,EUR,Store N,Germany,2021
+2,apple,fruits,0.7,kg,16211,23869.7,EUR,Store N,Germany,2021
+3,pear,fruits,0.6,kg,25118,38940.5,EUR,Store N,Germany,2021
+4,grapes,fruits,1.2,kg,2204,41585.3,EUR,Store N,Germany,2021
+5,orange,fruits,0.8,kg,19001,56786.1,EUR,Store N,Germany,2021
+6,kiwi,fruits,0.9,piece,11899,67495.2,EUR,Store N,Germany,2021
+7,watermelon,fruits,5.0,kg,56132,348155.2,EUR,Store N,Germany,2021
+8,pomegranate,fruits,2.5,kg,74878,535350.2,EUR,Store N,Germany,2021
+9,pineapple,fruits,1.5,piece,5992,544338.2,EUR,Store N,Germany,2021
+10,mango,fruits,2.0,piece,25692,595722.2,EUR,Store N,Germany,2021
+11,cucumber,vegetables,0.4,piece,43500,613122.2,EUR,Store N,Germany,2021
+12,carrot,vegetables,0.3,kg,3324,614119.4,EUR,Store N,Germany,2021
+13,capsicum,vegetables,0.5,kg,81520,654879.4,EUR,Store N,Germany,2021
+14,onion,vegetables,0.2,kg,48760,664631.4,EUR,Store N,Germany,2021
+15,potato,vegetables,0.3,kg,33266,674611.2,EUR,Store N,Germany,2021
+16,lemon,vegetables,0.4,kg,25713,684896.4,EUR,Store N,Germany,2021
+17,tomato,vegetables,0.6,kg,10217,691026.6,EUR,Store N,Germany,2021
+18,raddish,vegetables,0.3,kg,4160,692274.6,EUR,Store N,Germany,2021
+19,beetroot,vegetables,0.4,kg,56351,714815.0,EUR,Store N,Germany,2021
+20,cabbage,vegetables,0.5,piece,31220,730425.0,EUR,Store N,Germany,2021
+21,lettuce,vegetables,0.6,piece,88658,783619.8,EUR,Store N,Germany,2021
+22,spinach,vegetables,0.7,kg,44147,814522.7,EUR,Store N,Germany,2021
+23,soy bean,vegetables,0.8,kg,8892,821636.3,EUR,Store N,Germany,2021
+24,cauliflower,vegetables,0.6,piece,87802,874317.5,EUR,Store N,Germany,2021
+25,bell pepper,vegetables,0.7,kg,3166,876533.7,EUR,Store N,Germany,2021
+26,chilli pepper,vegetables,0.5,kg,11386,882226.7,EUR,Store N,Germany,2021
+27,turnip,vegetables,0.4,kg,48505,901628.7,EUR,Store N,Germany,2021
+28,corn,vegetables,0.3,kg,62007,920230.8,EUR,Store N,Germany,2021
+29,sweetcorn,vegetables,0.4,kg,22392,929187.6,EUR,Store N,Germany,2021
+30,sweet potato,vegetables,0.5,kg,29216,943795.6,EUR,Store N,Germany,2021
+31,paprika,vegetables,2.0,kg,77695,1099185.6,EUR,Store N,Germany,2021
+32,jalepeno,vegetables,2.0,kg,29602,1158389.6,EUR,Store N,Germany,2021
+33,ginger,vegetables,1.5,kg,25477,1196605.1,EUR,Store N,Germany,2021
+34,garlic,vegetables,1.5,kg,27435,1237757.6,EUR,Store N,Germany,2021
+35,peas,vegetables,3.0,kg,53784,1399109.6,EUR,Store N,Germany,2021
+36,eggplant,vegetables,1.5,kg,7451,1410286.1,EUR,Store N,Germany,2021
+1,banana,fruits,0.5,kg,59751,29875.5,EUR,Store O,Germany,2021
+2,apple,fruits,0.7,kg,28581,49882.2,EUR,Store O,Germany,2021
+3,pear,fruits,0.6,kg,38355,72895.2,EUR,Store O,Germany,2021
+4,grapes,fruits,1.2,kg,24504,102300.0,EUR,Store O,Germany,2021
+5,orange,fruits,0.8,kg,20171,118436.8,EUR,Store O,Germany,2021
+6,kiwi,fruits,0.9,piece,640,119012.8,EUR,Store O,Germany,2021
+7,watermelon,fruits,5.0,kg,9449,166257.8,EUR,Store O,Germany,2021
+8,pomegranate,fruits,2.5,kg,56747,308125.3,EUR,Store O,Germany,2021
+9,pineapple,fruits,1.5,piece,23056,342709.3,EUR,Store O,Germany,2021
+10,mango,fruits,2.0,piece,8572,359853.3,EUR,Store O,Germany,2021
+11,cucumber,vegetables,0.4,piece,17103,366694.5,EUR,Store O,Germany,2021
+12,carrot,vegetables,0.3,kg,1579,367168.2,EUR,Store O,Germany,2021
+13,capsicum,vegetables,0.5,kg,49570,391953.2,EUR,Store O,Germany,2021
+14,onion,vegetables,0.2,kg,13443,394641.8,EUR,Store O,Germany,2021
+15,potato,vegetables,0.3,kg,55363,411250.7,EUR,Store O,Germany,2021
+16,lemon,vegetables,0.4,kg,40372,427399.5,EUR,Store O,Germany,2021
+17,tomato,vegetables,0.6,kg,20550,439729.5,EUR,Store O,Germany,2021
+18,raddish,vegetables,0.3,kg,19085,445455.0,EUR,Store O,Germany,2021
+19,beetroot,vegetables,0.4,kg,6988,448250.2,EUR,Store O,Germany,2021
+20,cabbage,vegetables,0.5,piece,2456,449478.2,EUR,Store O,Germany,2021
+21,lettuce,vegetables,0.6,piece,4720,452310.2,EUR,Store O,Germany,2021
+22,spinach,vegetables,0.7,kg,55356,491059.4,EUR,Store O,Germany,2021
+23,soy bean,vegetables,0.8,kg,48451,529820.2,EUR,Store O,Germany,2021
+24,cauliflower,vegetables,0.6,piece,26843,545926.0,EUR,Store O,Germany,2021
+25,bell pepper,vegetables,0.7,kg,3080,548082.0,EUR,Store O,Germany,2021
+26,chilli pepper,vegetables,0.5,kg,30795,563479.5,EUR,Store O,Germany,2021
+27,turnip,vegetables,0.4,kg,25041,573495.9,EUR,Store O,Germany,2021
+28,corn,vegetables,0.3,kg,12439,577227.6,EUR,Store O,Germany,2021
+29,sweetcorn,vegetables,0.4,kg,15984,583621.2,EUR,Store O,Germany,2021
+30,sweet potato,vegetables,0.5,kg,55088,611165.2,EUR,Store O,Germany,2021
+31,paprika,vegetables,2.0,kg,25719,662603.2,EUR,Store O,Germany,2021
+32,jalepeno,vegetables,2.0,kg,55711,774025.2,EUR,Store O,Germany,2021
+33,ginger,vegetables,1.5,kg,47457,845210.7,EUR,Store O,Germany,2021
+34,garlic,vegetables,1.5,kg,20871,876517.2,EUR,Store O,Germany,2021
+35,peas,vegetables,3.0,kg,46834,1017019.2,EUR,Store O,Germany,2021
+36,eggplant,vegetables,1.5,kg,30073,1062128.7,EUR,Store O,Germany,2021
+1,banana,fruits,0.5,kg,39776,19888.0,EUR,Store A,Germany,2022
+2,apple,fruits,0.7,kg,18327,32716.9,EUR,Store A,Germany,2022
+3,pear,fruits,0.6,kg,7745,37363.9,EUR,Store A,Germany,2022
+4,grapes,fruits,1.2,kg,49122,96310.3,EUR,Store A,Germany,2022
+5,orange,fruits,0.8,kg,243,96504.7,EUR,Store A,Germany,2022
+6,kiwi,fruits,0.9,piece,58647,149287.0,EUR,Store A,Germany,2022
+7,watermelon,fruits,5.0,kg,34607,322322.0,EUR,Store A,Germany,2022
+8,pomegranate,fruits,2.5,kg,2150,327697.0,EUR,Store A,Germany,2022
+9,pineapple,fruits,1.5,piece,2920,332077.0,EUR,Store A,Germany,2022
+10,mango,fruits,2.0,piece,3467,339011.0,EUR,Store A,Germany,2022
+11,cucumber,vegetables,0.4,piece,88595,374449.0,EUR,Store A,Germany,2022
+12,carrot,vegetables,0.3,kg,53922,390625.6,EUR,Store A,Germany,2022
+13,capsicum,vegetables,0.5,kg,81105,431178.1,EUR,Store A,Germany,2022
+14,onion,vegetables,0.2,kg,9559,433089.9,EUR,Store A,Germany,2022
+15,potato,vegetables,0.3,kg,46374,447002.1,EUR,Store A,Germany,2022
+16,lemon,vegetables,0.4,kg,24093,456639.3,EUR,Store A,Germany,2022
+17,tomato,vegetables,0.6,kg,5555,459972.3,EUR,Store A,Germany,2022
+18,raddish,vegetables,0.3,kg,19328,465770.7,EUR,Store A,Germany,2022
+19,beetroot,vegetables,0.4,kg,38471,481159.1,EUR,Store A,Germany,2022
+20,cabbage,vegetables,0.5,piece,69323,515820.6,EUR,Store A,Germany,2022
+21,lettuce,vegetables,0.6,piece,45881,543349.2,EUR,Store A,Germany,2022
+22,spinach,vegetables,0.7,kg,84472,602479.6,EUR,Store A,Germany,2022
+23,soy bean,vegetables,0.8,kg,40946,635236.4,EUR,Store A,Germany,2022
+24,cauliflower,vegetables,0.6,piece,59397,670874.6,EUR,Store A,Germany,2022
+25,bell pepper,vegetables,0.7,kg,11079,678629.9,EUR,Store A,Germany,2022
+26,chilli pepper,vegetables,0.5,kg,24344,690801.9,EUR,Store A,Germany,2022
+27,turnip,vegetables,0.4,kg,1585,691435.9,EUR,Store A,Germany,2022
+28,corn,vegetables,0.3,kg,26724,699453.1,EUR,Store A,Germany,2022
+29,sweetcorn,vegetables,0.4,kg,23420,708821.1,EUR,Store A,Germany,2022
+30,sweet potato,vegetables,0.5,kg,48212,732927.1,EUR,Store A,Germany,2022
+31,paprika,vegetables,2.0,kg,20553,774033.1,EUR,Store A,Germany,2022
+32,jalepeno,vegetables,2.0,kg,82241,938515.1,EUR,Store A,Germany,2022
+33,ginger,vegetables,1.5,kg,71427,1045655.6,EUR,Store A,Germany,2022
+34,garlic,vegetables,1.5,kg,47635,1117108.1,EUR,Store A,Germany,2022
+35,peas,vegetables,3.0,kg,59017,1294159.1,EUR,Store A,Germany,2022
+36,eggplant,vegetables,1.5,kg,2683,1298183.6,EUR,Store A,Germany,2022
+1,banana,fruits,0.5,kg,24168,12084.0,EUR,Store B,Germany,2022
+2,apple,fruits,0.7,kg,26979,30969.3,EUR,Store B,Germany,2022
+3,pear,fruits,0.6,kg,17525,41484.3,EUR,Store B,Germany,2022
+4,grapes,fruits,1.2,kg,12240,56172.3,EUR,Store B,Germany,2022
+5,orange,fruits,0.8,kg,12436,66121.1,EUR,Store B,Germany,2022
+6,kiwi,fruits,0.9,piece,20423,84501.8,EUR,Store B,Germany,2022
+7,watermelon,fruits,5.0,kg,53563,352316.8,EUR,Store B,Germany,2022
+8,pomegranate,fruits,2.5,kg,57008,494836.8,EUR,Store B,Germany,2022
+9,pineapple,fruits,1.5,piece,62559,588675.3,EUR,Store B,Germany,2022
+10,mango,fruits,2.0,piece,10340,609355.3,EUR,Store B,Germany,2022
+11,cucumber,vegetables,0.4,piece,74637,639210.1,EUR,Store B,Germany,2022
+12,carrot,vegetables,0.3,kg,89127,665948.2,EUR,Store B,Germany,2022
+13,capsicum,vegetables,0.5,kg,184,666040.2,EUR,Store B,Germany,2022
+14,onion,vegetables,0.2,kg,70664,680173.0,EUR,Store B,Germany,2022
+15,potato,vegetables,0.3,kg,42978,693066.4,EUR,Store B,Germany,2022
+16,lemon,vegetables,0.4,kg,11962,697851.2,EUR,Store B,Germany,2022
+17,tomato,vegetables,0.6,kg,1911,698997.8,EUR,Store B,Germany,2022
+18,raddish,vegetables,0.3,kg,25140,706539.8,EUR,Store B,Germany,2022
+19,beetroot,vegetables,0.4,kg,1875,707289.8,EUR,Store B,Germany,2022
+20,cabbage,vegetables,0.5,piece,51068,732823.8,EUR,Store B,Germany,2022
+21,lettuce,vegetables,0.6,piece,13330,740821.8,EUR,Store B,Germany,2022
+22,spinach,vegetables,0.7,kg,41714,770021.6,EUR,Store B,Germany,2022
+23,soy bean,vegetables,0.8,kg,49243,809416.0,EUR,Store B,Germany,2022
+24,cauliflower,vegetables,0.6,piece,9202,814937.2,EUR,Store B,Germany,2022
+25,bell pepper,vegetables,0.7,kg,21976,830320.4,EUR,Store B,Germany,2022
+26,chilli pepper,vegetables,0.5,kg,77916,869278.4,EUR,Store B,Germany,2022
+27,turnip,vegetables,0.4,kg,45772,887587.2,EUR,Store B,Germany,2022
+28,corn,vegetables,0.3,kg,53902,903757.8,EUR,Store B,Germany,2022
+29,sweetcorn,vegetables,0.4,kg,33798,917277.0,EUR,Store B,Germany,2022
+30,sweet potato,vegetables,0.5,kg,89913,962233.5,EUR,Store B,Germany,2022
+31,paprika,vegetables,2.0,kg,85018,1132269.5,EUR,Store B,Germany,2022
+32,jalepeno,vegetables,2.0,kg,2176,1136621.5,EUR,Store B,Germany,2022
+33,ginger,vegetables,1.5,kg,48272,1209029.5,EUR,Store B,Germany,2022
+34,garlic,vegetables,1.5,kg,24931,1246426.0,EUR,Store B,Germany,2022
+35,peas,vegetables,3.0,kg,75731,1473619.0,EUR,Store B,Germany,2022
+36,eggplant,vegetables,1.5,kg,73879,1584437.5,EUR,Store B,Germany,2022
+1,banana,fruits,0.5,kg,19904,9952.0,EUR,Store C,Germany,2022
+2,apple,fruits,0.7,kg,39429,37552.3,EUR,Store C,Germany,2022
+3,pear,fruits,0.6,kg,36441,59416.9,EUR,Store C,Germany,2022
+4,grapes,fruits,1.2,kg,12146,73992.1,EUR,Store C,Germany,2022
+5,orange,fruits,0.8,kg,38397,104709.7,EUR,Store C,Germany,2022
+6,kiwi,fruits,0.9,piece,2602,107051.5,EUR,Store C,Germany,2022
+7,watermelon,fruits,5.0,kg,70168,457891.5,EUR,Store C,Germany,2022
+8,pomegranate,fruits,2.5,kg,20037,507984.0,EUR,Store C,Germany,2022
+9,pineapple,fruits,1.5,piece,79156,626718.0,EUR,Store C,Germany,2022
+10,mango,fruits,2.0,piece,52813,732344.0,EUR,Store C,Germany,2022
+11,cucumber,vegetables,0.4,piece,6380,734896.0,EUR,Store C,Germany,2022
+12,carrot,vegetables,0.3,kg,26977,742989.1,EUR,Store C,Germany,2022
+13,capsicum,vegetables,0.5,kg,18201,752089.6,EUR,Store C,Germany,2022
+14,onion,vegetables,0.2,kg,62224,764534.4,EUR,Store C,Germany,2022
+15,potato,vegetables,0.3,kg,25649,772229.1,EUR,Store C,Germany,2022
+16,lemon,vegetables,0.4,kg,17238,779124.3,EUR,Store C,Germany,2022
+17,tomato,vegetables,0.6,kg,59059,814559.7,EUR,Store C,Germany,2022
+18,raddish,vegetables,0.3,kg,17731,819879.0,EUR,Store C,Germany,2022
+19,beetroot,vegetables,0.4,kg,14436,825653.4,EUR,Store C,Germany,2022
+20,cabbage,vegetables,0.5,piece,5673,828489.9,EUR,Store C,Germany,2022
+21,lettuce,vegetables,0.6,piece,87973,881273.7,EUR,Store C,Germany,2022
+22,spinach,vegetables,0.7,kg,34003,905075.8,EUR,Store C,Germany,2022
+23,soy bean,vegetables,0.8,kg,40332,937341.4,EUR,Store C,Germany,2022
+24,cauliflower,vegetables,0.6,piece,5936,940903.0,EUR,Store C,Germany,2022
+25,bell pepper,vegetables,0.7,kg,24637,958148.9,EUR,Store C,Germany,2022
+26,chilli pepper,vegetables,0.5,kg,48646,982471.9,EUR,Store C,Germany,2022
+27,turnip,vegetables,0.4,kg,5854,984813.5,EUR,Store C,Germany,2022
+28,corn,vegetables,0.3,kg,43124,997750.7,EUR,Store C,Germany,2022
+29,sweetcorn,vegetables,0.4,kg,62457,1022733.5,EUR,Store C,Germany,2022
+30,sweet potato,vegetables,0.5,kg,55241,1050354.0,EUR,Store C,Germany,2022
+31,paprika,vegetables,2.0,kg,198,1050750.0,EUR,Store C,Germany,2022
+32,jalepeno,vegetables,2.0,kg,53653,1158056.0,EUR,Store C,Germany,2022
+33,ginger,vegetables,1.5,kg,5823,1166790.5,EUR,Store C,Germany,2022
+34,garlic,vegetables,1.5,kg,47634,1238241.5,EUR,Store C,Germany,2022
+35,peas,vegetables,3.0,kg,9130,1265631.5,EUR,Store C,Germany,2022
+36,eggplant,vegetables,1.5,kg,27560,1306971.5,EUR,Store C,Germany,2022
+1,banana,fruits,0.5,kg,19881,9940.5,EUR,Store D,Germany,2022
+2,apple,fruits,0.7,kg,63647,54493.4,EUR,Store D,Germany,2022
+3,pear,fruits,0.6,kg,6527,58409.6,EUR,Store D,Germany,2022
+4,grapes,fruits,1.2,kg,17935,79931.6,EUR,Store D,Germany,2022
+5,orange,fruits,0.8,kg,7489,85922.8,EUR,Store D,Germany,2022
+6,kiwi,fruits,0.9,piece,49906,130838.2,EUR,Store D,Germany,2022
+7,watermelon,fruits,5.0,kg,54201,401843.2,EUR,Store D,Germany,2022
+8,pomegranate,fruits,2.5,kg,6714,418628.2,EUR,Store D,Germany,2022
+9,pineapple,fruits,1.5,piece,45537,486933.7,EUR,Store D,Germany,2022
+10,mango,fruits,2.0,piece,47604,582141.7,EUR,Store D,Germany,2022
+11,cucumber,vegetables,0.4,piece,20562,590366.5,EUR,Store D,Germany,2022
+12,carrot,vegetables,0.3,kg,44582,603741.1,EUR,Store D,Germany,2022
+13,capsicum,vegetables,0.5,kg,28562,618022.1,EUR,Store D,Germany,2022
+14,onion,vegetables,0.2,kg,2457,618513.5,EUR,Store D,Germany,2022
+15,potato,vegetables,0.3,kg,76796,641552.3,EUR,Store D,Germany,2022
+16,lemon,vegetables,0.4,kg,28570,652980.3,EUR,Store D,Germany,2022
+17,tomato,vegetables,0.6,kg,24101,667440.9,EUR,Store D,Germany,2022
+18,raddish,vegetables,0.3,kg,23139,674382.6,EUR,Store D,Germany,2022
+19,beetroot,vegetables,0.4,kg,17357,681325.4,EUR,Store D,Germany,2022
+20,cabbage,vegetables,0.5,piece,18842,690746.4,EUR,Store D,Germany,2022
+21,lettuce,vegetables,0.6,piece,1885,691877.4,EUR,Store D,Germany,2022
+22,spinach,vegetables,0.7,kg,5001,695378.1,EUR,Store D,Germany,2022
+23,soy bean,vegetables,0.8,kg,26066,716230.9,EUR,Store D,Germany,2022
+24,cauliflower,vegetables,0.6,piece,8653,721422.7,EUR,Store D,Germany,2022
+25,bell pepper,vegetables,0.7,kg,9416,728013.9,EUR,Store D,Germany,2022
+26,chilli pepper,vegetables,0.5,kg,2455,729241.4,EUR,Store D,Germany,2022
+27,turnip,vegetables,0.4,kg,86057,763664.2,EUR,Store D,Germany,2022
+28,corn,vegetables,0.3,kg,14718,768079.6,EUR,Store D,Germany,2022
+29,sweetcorn,vegetables,0.4,kg,14934,774053.2,EUR,Store D,Germany,2022
+30,sweet potato,vegetables,0.5,kg,57997,803051.7,EUR,Store D,Germany,2022
+31,paprika,vegetables,2.0,kg,36030,875111.7,EUR,Store D,Germany,2022
+32,jalepeno,vegetables,2.0,kg,3545,882201.7,EUR,Store D,Germany,2022
+33,ginger,vegetables,1.5,kg,5905,891059.2,EUR,Store D,Germany,2022
+34,garlic,vegetables,1.5,kg,55320,974039.2,EUR,Store D,Germany,2022
+35,peas,vegetables,3.0,kg,57308,1145963.2,EUR,Store D,Germany,2022
+36,eggplant,vegetables,1.5,kg,1392,1148051.2,EUR,Store D,Germany,2022
+1,banana,fruits,0.5,kg,22302,11151.0,EUR,Store E,Germany,2022
+2,apple,fruits,0.7,kg,216,11302.2,EUR,Store E,Germany,2022
+3,pear,fruits,0.6,kg,44513,38010.0,EUR,Store E,Germany,2022
+4,grapes,fruits,1.2,kg,23156,65797.2,EUR,Store E,Germany,2022
+5,orange,fruits,0.8,kg,12031,75422.0,EUR,Store E,Germany,2022
+6,kiwi,fruits,0.9,piece,56396,126178.4,EUR,Store E,Germany,2022
+7,watermelon,fruits,5.0,kg,7718,164768.4,EUR,Store E,Germany,2022
+8,pomegranate,fruits,2.5,kg,9809,189290.9,EUR,Store E,Germany,2022
+9,pineapple,fruits,1.5,piece,9948,204212.9,EUR,Store E,Germany,2022
+10,mango,fruits,2.0,piece,22214,248640.9,EUR,Store E,Germany,2022
+11,cucumber,vegetables,0.4,piece,44958,266624.1,EUR,Store E,Germany,2022
+12,carrot,vegetables,0.3,kg,22214,273288.3,EUR,Store E,Germany,2022
+13,capsicum,vegetables,0.5,kg,17195,281885.8,EUR,Store E,Germany,2022
+14,onion,vegetables,0.2,kg,8496,283585.0,EUR,Store E,Germany,2022
+15,potato,vegetables,0.3,kg,10530,286744.0,EUR,Store E,Germany,2022
+16,lemon,vegetables,0.4,kg,27520,297752.0,EUR,Store E,Germany,2022
+17,tomato,vegetables,0.6,kg,8764,303010.4,EUR,Store E,Germany,2022
+18,raddish,vegetables,0.3,kg,60524,321167.6,EUR,Store E,Germany,2022
+19,beetroot,vegetables,0.4,kg,21633,329820.8,EUR,Store E,Germany,2022
+20,cabbage,vegetables,0.5,piece,3056,331348.8,EUR,Store E,Germany,2022
+21,lettuce,vegetables,0.6,piece,26267,347109.0,EUR,Store E,Germany,2022
+22,spinach,vegetables,0.7,kg,36971,372988.7,EUR,Store E,Germany,2022
+23,soy bean,vegetables,0.8,kg,22552,391030.3,EUR,Store E,Germany,2022
+24,cauliflower,vegetables,0.6,piece,17666,401629.9,EUR,Store E,Germany,2022
+25,bell pepper,vegetables,0.7,kg,12489,410372.2,EUR,Store E,Germany,2022
+26,chilli pepper,vegetables,0.5,kg,7859,414301.7,EUR,Store E,Germany,2022
+27,turnip,vegetables,0.4,kg,36449,428881.3,EUR,Store E,Germany,2022
+28,corn,vegetables,0.3,kg,9381,431695.6,EUR,Store E,Germany,2022
+29,sweetcorn,vegetables,0.4,kg,75510,461899.6,EUR,Store E,Germany,2022
+30,sweet potato,vegetables,0.5,kg,24804,474301.6,EUR,Store E,Germany,2022
+31,paprika,vegetables,2.0,kg,61145,596591.6,EUR,Store E,Germany,2022
+32,jalepeno,vegetables,2.0,kg,23042,642675.6,EUR,Store E,Germany,2022
+33,ginger,vegetables,1.5,kg,28566,685524.6,EUR,Store E,Germany,2022
+34,garlic,vegetables,1.5,kg,2046,688593.6,EUR,Store E,Germany,2022
+35,peas,vegetables,3.0,kg,2581,696336.6,EUR,Store E,Germany,2022
+36,eggplant,vegetables,1.5,kg,44633,763286.1,EUR,Store E,Germany,2022
+1,banana,fruits,0.5,kg,46852,23426.0,EUR,Store F,Germany,2022
+2,apple,fruits,0.7,kg,21372,38386.4,EUR,Store F,Germany,2022
+3,pear,fruits,0.6,kg,26394,54222.8,EUR,Store F,Germany,2022
+4,grapes,fruits,1.2,kg,12023,68650.4,EUR,Store F,Germany,2022
+5,orange,fruits,0.8,kg,85403,136972.8,EUR,Store F,Germany,2022
+6,kiwi,fruits,0.9,piece,44557,177074.1,EUR,Store F,Germany,2022
+7,watermelon,fruits,5.0,kg,2966,191904.1,EUR,Store F,Germany,2022
+8,pomegranate,fruits,2.5,kg,11766,221319.1,EUR,Store F,Germany,2022
+9,pineapple,fruits,1.5,piece,76973,336778.6,EUR,Store F,Germany,2022
+10,mango,fruits,2.0,piece,36991,410760.6,EUR,Store F,Germany,2022
+11,cucumber,vegetables,0.4,piece,19136,418415.0,EUR,Store F,Germany,2022
+12,carrot,vegetables,0.3,kg,1097,418744.1,EUR,Store F,Germany,2022
+13,capsicum,vegetables,0.5,kg,5276,421382.1,EUR,Store F,Germany,2022
+14,onion,vegetables,0.2,kg,10919,423565.9,EUR,Store F,Germany,2022
+15,potato,vegetables,0.3,kg,68587,444142.0,EUR,Store F,Germany,2022
+16,lemon,vegetables,0.4,kg,8782,447654.8,EUR,Store F,Germany,2022
+17,tomato,vegetables,0.6,kg,17190,457968.8,EUR,Store F,Germany,2022
+18,raddish,vegetables,0.3,kg,55740,474690.8,EUR,Store F,Germany,2022
+19,beetroot,vegetables,0.4,kg,18138,481946.0,EUR,Store F,Germany,2022
+20,cabbage,vegetables,0.5,piece,27223,495557.5,EUR,Store F,Germany,2022
+21,lettuce,vegetables,0.6,piece,471,495840.1,EUR,Store F,Germany,2022
+22,spinach,vegetables,0.7,kg,8912,502078.5,EUR,Store F,Germany,2022
+23,soy bean,vegetables,0.8,kg,75098,562156.9,EUR,Store F,Germany,2022
+24,cauliflower,vegetables,0.6,piece,21298,574935.7,EUR,Store F,Germany,2022
+25,bell pepper,vegetables,0.7,kg,68313,622754.8,EUR,Store F,Germany,2022
+26,chilli pepper,vegetables,0.5,kg,5737,625623.3,EUR,Store F,Germany,2022
+27,turnip,vegetables,0.4,kg,384,625776.9,EUR,Store F,Germany,2022
+28,corn,vegetables,0.3,kg,35093,636304.8,EUR,Store F,Germany,2022
+29,sweetcorn,vegetables,0.4,kg,24942,646281.6,EUR,Store F,Germany,2022
+30,sweet potato,vegetables,0.5,kg,19716,656139.6,EUR,Store F,Germany,2022
+31,paprika,vegetables,2.0,kg,6833,669805.6,EUR,Store F,Germany,2022
+32,jalepeno,vegetables,2.0,kg,13665,697135.6,EUR,Store F,Germany,2022
+33,ginger,vegetables,1.5,kg,10183,712410.1,EUR,Store F,Germany,2022
+34,garlic,vegetables,1.5,kg,5330,720405.1,EUR,Store F,Germany,2022
+35,peas,vegetables,3.0,kg,10505,751920.1,EUR,Store F,Germany,2022
+36,eggplant,vegetables,1.5,kg,45805,820627.6,EUR,Store F,Germany,2022
+1,banana,fruits,0.5,kg,37187,18593.5,EUR,Store G,Germany,2022
+2,apple,fruits,0.7,kg,10631,26035.2,EUR,Store G,Germany,2022
+3,pear,fruits,0.6,kg,51431,56893.8,EUR,Store G,Germany,2022
+4,grapes,fruits,1.2,kg,11328,70487.4,EUR,Store G,Germany,2022
+5,orange,fruits,0.8,kg,4742,74281.0,EUR,Store G,Germany,2022
+6,kiwi,fruits,0.9,piece,907,75097.3,EUR,Store G,Germany,2022
+7,watermelon,fruits,5.0,kg,10456,127377.3,EUR,Store G,Germany,2022
+8,pomegranate,fruits,2.5,kg,44003,237384.8,EUR,Store G,Germany,2022
+9,pineapple,fruits,1.5,piece,60738,328491.8,EUR,Store G,Germany,2022
+10,mango,fruits,2.0,piece,4379,337249.8,EUR,Store G,Germany,2022
+11,cucumber,vegetables,0.4,piece,11233,341743.0,EUR,Store G,Germany,2022
+12,carrot,vegetables,0.3,kg,54434,358073.2,EUR,Store G,Germany,2022
+13,capsicum,vegetables,0.5,kg,28191,372168.7,EUR,Store G,Germany,2022
+14,onion,vegetables,0.2,kg,22953,376759.3,EUR,Store G,Germany,2022
+15,potato,vegetables,0.3,kg,42169,389410.0,EUR,Store G,Germany,2022
+16,lemon,vegetables,0.4,kg,9504,393211.6,EUR,Store G,Germany,2022
+17,tomato,vegetables,0.6,kg,19908,405156.4,EUR,Store G,Germany,2022
+18,raddish,vegetables,0.3,kg,40092,417184.0,EUR,Store G,Germany,2022
+19,beetroot,vegetables,0.4,kg,83183,450457.2,EUR,Store G,Germany,2022
+20,cabbage,vegetables,0.5,piece,1698,451306.2,EUR,Store G,Germany,2022
+21,lettuce,vegetables,0.6,piece,25616,466675.8,EUR,Store G,Germany,2022
+22,spinach,vegetables,0.7,kg,12022,475091.2,EUR,Store G,Germany,2022
+23,soy bean,vegetables,0.8,kg,7264,480902.4,EUR,Store G,Germany,2022
+24,cauliflower,vegetables,0.6,piece,5114,483970.8,EUR,Store G,Germany,2022
+25,bell pepper,vegetables,0.7,kg,36685,509650.3,EUR,Store G,Germany,2022
+26,chilli pepper,vegetables,0.5,kg,18949,519124.8,EUR,Store G,Germany,2022
+27,turnip,vegetables,0.4,kg,52856,540267.2,EUR,Store G,Germany,2022
+28,corn,vegetables,0.3,kg,9238,543038.6,EUR,Store G,Germany,2022
+29,sweetcorn,vegetables,0.4,kg,44745,560936.6,EUR,Store G,Germany,2022
+30,sweet potato,vegetables,0.5,kg,40218,581045.6,EUR,Store G,Germany,2022
+31,paprika,vegetables,2.0,kg,13576,608197.6,EUR,Store G,Germany,2022
+32,jalepeno,vegetables,2.0,kg,6642,621481.6,EUR,Store G,Germany,2022
+33,ginger,vegetables,1.5,kg,87598,752878.6,EUR,Store G,Germany,2022
+34,garlic,vegetables,1.5,kg,21999,785877.1,EUR,Store G,Germany,2022
+35,peas,vegetables,3.0,kg,30530,877467.1,EUR,Store G,Germany,2022
+36,eggplant,vegetables,1.5,kg,24095,913609.6,EUR,Store G,Germany,2022
+1,banana,fruits,0.5,kg,30662,15331.0,EUR,Store H,Germany,2022
+2,apple,fruits,0.7,kg,30686,36811.2,EUR,Store H,Germany,2022
+3,pear,fruits,0.6,kg,3193,38727.0,EUR,Store H,Germany,2022
+4,grapes,fruits,1.2,kg,53569,103009.8,EUR,Store H,Germany,2022
+5,orange,fruits,0.8,kg,23756,122014.6,EUR,Store H,Germany,2022
+6,kiwi,fruits,0.9,piece,49954,166973.2,EUR,Store H,Germany,2022
+7,watermelon,fruits,5.0,kg,81826,576103.2,EUR,Store H,Germany,2022
+8,pomegranate,fruits,2.5,kg,6191,591580.7,EUR,Store H,Germany,2022
+9,pineapple,fruits,1.5,piece,70052,696658.7,EUR,Store H,Germany,2022
+10,mango,fruits,2.0,piece,1860,700378.7,EUR,Store H,Germany,2022
+11,cucumber,vegetables,0.4,piece,33590,713814.7,EUR,Store H,Germany,2022
+12,carrot,vegetables,0.3,kg,63045,732728.2,EUR,Store H,Germany,2022
+13,capsicum,vegetables,0.5,kg,10022,737739.2,EUR,Store H,Germany,2022
+14,onion,vegetables,0.2,kg,18509,741441.0,EUR,Store H,Germany,2022
+15,potato,vegetables,0.3,kg,4955,742927.5,EUR,Store H,Germany,2022
+16,lemon,vegetables,0.4,kg,36945,757705.5,EUR,Store H,Germany,2022
+17,tomato,vegetables,0.6,kg,47193,786021.3,EUR,Store H,Germany,2022
+18,raddish,vegetables,0.3,kg,82481,810765.6,EUR,Store H,Germany,2022
+19,beetroot,vegetables,0.4,kg,418,810932.8,EUR,Store H,Germany,2022
+20,cabbage,vegetables,0.5,piece,86864,854364.8,EUR,Store H,Germany,2022
+21,lettuce,vegetables,0.6,piece,50942,884930.0,EUR,Store H,Germany,2022
+22,spinach,vegetables,0.7,kg,15797,895987.9,EUR,Store H,Germany,2022
+23,soy bean,vegetables,0.8,kg,7870,902283.9,EUR,Store H,Germany,2022
+24,cauliflower,vegetables,0.6,piece,71849,945393.3,EUR,Store H,Germany,2022
+25,bell pepper,vegetables,0.7,kg,4907,948828.2,EUR,Store H,Germany,2022
+26,chilli pepper,vegetables,0.5,kg,6285,951970.7,EUR,Store H,Germany,2022
+27,turnip,vegetables,0.4,kg,19472,959759.5,EUR,Store H,Germany,2022
+28,corn,vegetables,0.3,kg,6318,961654.9,EUR,Store H,Germany,2022
+29,sweetcorn,vegetables,0.4,kg,12621,966703.3,EUR,Store H,Germany,2022
+30,sweet potato,vegetables,0.5,kg,83260,1008333.3,EUR,Store H,Germany,2022
+31,paprika,vegetables,2.0,kg,13301,1034935.3,EUR,Store H,Germany,2022
+32,jalepeno,vegetables,2.0,kg,13078,1061091.3,EUR,Store H,Germany,2022
+33,ginger,vegetables,1.5,kg,41732,1123689.3,EUR,Store H,Germany,2022
+34,garlic,vegetables,1.5,kg,39406,1182798.3,EUR,Store H,Germany,2022
+35,peas,vegetables,3.0,kg,89382,1450944.3,EUR,Store H,Germany,2022
+36,eggplant,vegetables,1.5,kg,9676,1465458.3,EUR,Store H,Germany,2022
+1,banana,fruits,0.5,kg,10961,5480.5,EUR,Store I,Germany,2022
+2,apple,fruits,0.7,kg,15157,16090.4,EUR,Store I,Germany,2022
+3,pear,fruits,0.6,kg,5109,19155.8,EUR,Store I,Germany,2022
+4,grapes,fruits,1.2,kg,34593,60667.4,EUR,Store I,Germany,2022
+5,orange,fruits,0.8,kg,25911,81396.2,EUR,Store I,Germany,2022
+6,kiwi,fruits,0.9,piece,25594,104430.8,EUR,Store I,Germany,2022
+7,watermelon,fruits,5.0,kg,23125,220055.8,EUR,Store I,Germany,2022
+8,pomegranate,fruits,2.5,kg,26164,285465.8,EUR,Store I,Germany,2022
+9,pineapple,fruits,1.5,piece,49262,359358.8,EUR,Store I,Germany,2022
+10,mango,fruits,2.0,piece,39052,437462.8,EUR,Store I,Germany,2022
+11,cucumber,vegetables,0.4,piece,5112,439507.6,EUR,Store I,Germany,2022
+12,carrot,vegetables,0.3,kg,73454,461543.8,EUR,Store I,Germany,2022
+13,capsicum,vegetables,0.5,kg,45805,484446.3,EUR,Store I,Germany,2022
+14,onion,vegetables,0.2,kg,66760,497798.3,EUR,Store I,Germany,2022
+15,potato,vegetables,0.3,kg,15634,502488.5,EUR,Store I,Germany,2022
+16,lemon,vegetables,0.4,kg,27875,513638.5,EUR,Store I,Germany,2022
+17,tomato,vegetables,0.6,kg,17497,524136.7,EUR,Store I,Germany,2022
+18,raddish,vegetables,0.3,kg,19848,530091.1,EUR,Store I,Germany,2022
+19,beetroot,vegetables,0.4,kg,49592,549927.9,EUR,Store I,Germany,2022
+20,cabbage,vegetables,0.5,piece,61754,580804.9,EUR,Store I,Germany,2022
+21,lettuce,vegetables,0.6,piece,75139,625888.3,EUR,Store I,Germany,2022
+22,spinach,vegetables,0.7,kg,55612,664816.7,EUR,Store I,Germany,2022
+23,soy bean,vegetables,0.8,kg,17870,679112.7,EUR,Store I,Germany,2022
+24,cauliflower,vegetables,0.6,piece,24262,693669.9,EUR,Store I,Germany,2022
+25,bell pepper,vegetables,0.7,kg,41334,722603.7,EUR,Store I,Germany,2022
+26,chilli pepper,vegetables,0.5,kg,75921,760564.2,EUR,Store I,Germany,2022
+27,turnip,vegetables,0.4,kg,89666,796430.6,EUR,Store I,Germany,2022
+28,corn,vegetables,0.3,kg,10496,799579.4,EUR,Store I,Germany,2022
+29,sweetcorn,vegetables,0.4,kg,16785,806293.4,EUR,Store I,Germany,2022
+30,sweet potato,vegetables,0.5,kg,29741,821163.9,EUR,Store I,Germany,2022
+31,paprika,vegetables,2.0,kg,5067,831297.9,EUR,Store I,Germany,2022
+32,jalepeno,vegetables,2.0,kg,77549,986395.9,EUR,Store I,Germany,2022
+33,ginger,vegetables,1.5,kg,39262,1045288.9,EUR,Store I,Germany,2022
+34,garlic,vegetables,1.5,kg,7044,1055854.9,EUR,Store I,Germany,2022
+35,peas,vegetables,3.0,kg,54225,1218529.9,EUR,Store I,Germany,2022
+36,eggplant,vegetables,1.5,kg,54489,1300263.4,EUR,Store I,Germany,2022
+1,banana,fruits,0.5,kg,20914,10457.0,EUR,Store J,Germany,2022
+2,apple,fruits,0.7,kg,74541,62635.7,EUR,Store J,Germany,2022
+3,pear,fruits,0.6,kg,21246,75383.3,EUR,Store J,Germany,2022
+4,grapes,fruits,1.2,kg,28648,109760.9,EUR,Store J,Germany,2022
+5,orange,fruits,0.8,kg,68420,164496.9,EUR,Store J,Germany,2022
+6,kiwi,fruits,0.9,piece,2817,167032.2,EUR,Store J,Germany,2022
+7,watermelon,fruits,5.0,kg,21260,273332.2,EUR,Store J,Germany,2022
+8,pomegranate,fruits,2.5,kg,42086,378547.2,EUR,Store J,Germany,2022
+9,pineapple,fruits,1.5,piece,17977,405512.7,EUR,Store J,Germany,2022
+10,mango,fruits,2.0,piece,83749,573010.7,EUR,Store J,Germany,2022
+11,cucumber,vegetables,0.4,piece,28687,584485.5,EUR,Store J,Germany,2022
+12,carrot,vegetables,0.3,kg,63725,603603.0,EUR,Store J,Germany,2022
+13,capsicum,vegetables,0.5,kg,62509,634857.5,EUR,Store J,Germany,2022
+14,onion,vegetables,0.2,kg,13460,637549.5,EUR,Store J,Germany,2022
+15,potato,vegetables,0.3,kg,70152,658595.1,EUR,Store J,Germany,2022
+16,lemon,vegetables,0.4,kg,54008,680198.3,EUR,Store J,Germany,2022
+17,tomato,vegetables,0.6,kg,23597,694356.5,EUR,Store J,Germany,2022
+18,raddish,vegetables,0.3,kg,10637,697547.6,EUR,Store J,Germany,2022
+19,beetroot,vegetables,0.4,kg,73505,726949.6,EUR,Store J,Germany,2022
+20,cabbage,vegetables,0.5,piece,14023,733961.1,EUR,Store J,Germany,2022
+21,lettuce,vegetables,0.6,piece,33126,753836.7,EUR,Store J,Germany,2022
+22,spinach,vegetables,0.7,kg,67318,800959.3,EUR,Store J,Germany,2022
+23,soy bean,vegetables,0.8,kg,83,801025.7,EUR,Store J,Germany,2022
+24,cauliflower,vegetables,0.6,piece,25509,816331.1,EUR,Store J,Germany,2022
+25,bell pepper,vegetables,0.7,kg,82535,874105.6,EUR,Store J,Germany,2022
+26,chilli pepper,vegetables,0.5,kg,8212,878211.6,EUR,Store J,Germany,2022
+27,turnip,vegetables,0.4,kg,35654,892473.2,EUR,Store J,Germany,2022
+28,corn,vegetables,0.3,kg,9108,895205.6,EUR,Store J,Germany,2022
+29,sweetcorn,vegetables,0.4,kg,10953,899586.8,EUR,Store J,Germany,2022
+30,sweet potato,vegetables,0.5,kg,31632,915402.8,EUR,Store J,Germany,2022
+31,paprika,vegetables,2.0,kg,27888,971178.8,EUR,Store J,Germany,2022
+32,jalepeno,vegetables,2.0,kg,12229,995636.8,EUR,Store J,Germany,2022
+33,ginger,vegetables,1.5,kg,6815,1005859.3,EUR,Store J,Germany,2022
+34,garlic,vegetables,1.5,kg,36750,1060984.3,EUR,Store J,Germany,2022
+35,peas,vegetables,3.0,kg,44696,1195072.3,EUR,Store J,Germany,2022
+36,eggplant,vegetables,1.5,kg,11371,1212128.8,EUR,Store J,Germany,2022
+1,banana,fruits,0.5,kg,1462,731.0,EUR,Store K,Germany,2022
+2,apple,fruits,0.7,kg,58101,41401.7,EUR,Store K,Germany,2022
+3,pear,fruits,0.6,kg,36873,63525.5,EUR,Store K,Germany,2022
+4,grapes,fruits,1.2,kg,33153,103309.1,EUR,Store K,Germany,2022
+5,orange,fruits,0.8,kg,2657,105434.7,EUR,Store K,Germany,2022
+6,kiwi,fruits,0.9,piece,6805,111559.2,EUR,Store K,Germany,2022
+7,watermelon,fruits,5.0,kg,38423,303674.2,EUR,Store K,Germany,2022
+8,pomegranate,fruits,2.5,kg,21527,357491.7,EUR,Store K,Germany,2022
+9,pineapple,fruits,1.5,piece,23133,392191.2,EUR,Store K,Germany,2022
+10,mango,fruits,2.0,piece,1949,396089.2,EUR,Store K,Germany,2022
+11,cucumber,vegetables,0.4,piece,33482,409482.0,EUR,Store K,Germany,2022
+12,carrot,vegetables,0.3,kg,13604,413563.2,EUR,Store K,Germany,2022
+13,capsicum,vegetables,0.5,kg,19797,423461.7,EUR,Store K,Germany,2022
+14,onion,vegetables,0.2,kg,39403,431342.3,EUR,Store K,Germany,2022
+15,potato,vegetables,0.3,kg,14302,435632.9,EUR,Store K,Germany,2022
+16,lemon,vegetables,0.4,kg,73793,465150.1,EUR,Store K,Germany,2022
+17,tomato,vegetables,0.6,kg,19136,476631.7,EUR,Store K,Germany,2022
+18,raddish,vegetables,0.3,kg,59668,494532.1,EUR,Store K,Germany,2022
+19,beetroot,vegetables,0.4,kg,19068,502159.3,EUR,Store K,Germany,2022
+20,cabbage,vegetables,0.5,piece,37412,520865.3,EUR,Store K,Germany,2022
+21,lettuce,vegetables,0.6,piece,68462,561942.5,EUR,Store K,Germany,2022
+22,spinach,vegetables,0.7,kg,17584,574251.3,EUR,Store K,Germany,2022
+23,soy bean,vegetables,0.8,kg,28268,596865.7,EUR,Store K,Germany,2022
+24,cauliflower,vegetables,0.6,piece,29478,614552.5,EUR,Store K,Germany,2022
+25,bell pepper,vegetables,0.7,kg,6229,618912.8,EUR,Store K,Germany,2022
+26,chilli pepper,vegetables,0.5,kg,28135,632980.3,EUR,Store K,Germany,2022
+27,turnip,vegetables,0.4,kg,27222,643869.1,EUR,Store K,Germany,2022
+28,corn,vegetables,0.3,kg,26041,651681.4,EUR,Store K,Germany,2022
+29,sweetcorn,vegetables,0.4,kg,85292,685798.2,EUR,Store K,Germany,2022
+30,sweet potato,vegetables,0.5,kg,38120,704858.2,EUR,Store K,Germany,2022
+31,paprika,vegetables,2.0,kg,5744,716346.2,EUR,Store K,Germany,2022
+32,jalepeno,vegetables,2.0,kg,1935,720216.2,EUR,Store K,Germany,2022
+33,ginger,vegetables,1.5,kg,25898,759063.2,EUR,Store K,Germany,2022
+34,garlic,vegetables,1.5,kg,40341,819574.7,EUR,Store K,Germany,2022
+35,peas,vegetables,3.0,kg,552,821230.7,EUR,Store K,Germany,2022
+36,eggplant,vegetables,1.5,kg,51766,898879.7,EUR,Store K,Germany,2022
+1,banana,fruits,0.5,kg,22072,11036.0,EUR,Store L,Germany,2022
+2,apple,fruits,0.7,kg,18942,24295.4,EUR,Store L,Germany,2022
+3,pear,fruits,0.6,kg,18705,35518.4,EUR,Store L,Germany,2022
+4,grapes,fruits,1.2,kg,25050,65578.4,EUR,Store L,Germany,2022
+5,orange,fruits,0.8,kg,2884,67885.6,EUR,Store L,Germany,2022
+6,kiwi,fruits,0.9,piece,57714,119828.2,EUR,Store L,Germany,2022
+7,watermelon,fruits,5.0,kg,34137,290513.2,EUR,Store L,Germany,2022
+8,pomegranate,fruits,2.5,kg,24945,352875.7,EUR,Store L,Germany,2022
+9,pineapple,fruits,1.5,piece,33996,403869.7,EUR,Store L,Germany,2022
+10,mango,fruits,2.0,piece,26136,456141.7,EUR,Store L,Germany,2022
+11,cucumber,vegetables,0.4,piece,24884,466095.3,EUR,Store L,Germany,2022
+12,carrot,vegetables,0.3,kg,42884,478960.5,EUR,Store L,Germany,2022
+13,capsicum,vegetables,0.5,kg,6793,482357.0,EUR,Store L,Germany,2022
+14,onion,vegetables,0.2,kg,47049,491766.8,EUR,Store L,Germany,2022
+15,potato,vegetables,0.3,kg,5718,493482.2,EUR,Store L,Germany,2022
+16,lemon,vegetables,0.4,kg,9544,497299.8,EUR,Store L,Germany,2022
+17,tomato,vegetables,0.6,kg,3445,499366.8,EUR,Store L,Germany,2022
+18,raddish,vegetables,0.3,kg,28532,507926.4,EUR,Store L,Germany,2022
+19,beetroot,vegetables,0.4,kg,5948,510305.6,EUR,Store L,Germany,2022
+20,cabbage,vegetables,0.5,piece,41248,530929.6,EUR,Store L,Germany,2022
+21,lettuce,vegetables,0.6,piece,17329,541327.0,EUR,Store L,Germany,2022
+22,spinach,vegetables,0.7,kg,6271,545716.7,EUR,Store L,Germany,2022
+23,soy bean,vegetables,0.8,kg,11001,554517.5,EUR,Store L,Germany,2022
+24,cauliflower,vegetables,0.6,piece,14507,563221.7,EUR,Store L,Germany,2022
+25,bell pepper,vegetables,0.7,kg,21050,577956.7,EUR,Store L,Germany,2022
+26,chilli pepper,vegetables,0.5,kg,1700,578806.7,EUR,Store L,Germany,2022
+27,turnip,vegetables,0.4,kg,19196,586485.1,EUR,Store L,Germany,2022
+28,corn,vegetables,0.3,kg,19235,592255.6,EUR,Store L,Germany,2022
+29,sweetcorn,vegetables,0.4,kg,9447,596034.4,EUR,Store L,Germany,2022
+30,sweet potato,vegetables,0.5,kg,9966,601017.4,EUR,Store L,Germany,2022
+31,paprika,vegetables,2.0,kg,4086,609189.4,EUR,Store L,Germany,2022
+32,jalepeno,vegetables,2.0,kg,11909,633007.4,EUR,Store L,Germany,2022
+33,ginger,vegetables,1.5,kg,559,633845.9,EUR,Store L,Germany,2022
+34,garlic,vegetables,1.5,kg,29009,677359.4,EUR,Store L,Germany,2022
+35,peas,vegetables,3.0,kg,21488,741823.4,EUR,Store L,Germany,2022
+36,eggplant,vegetables,1.5,kg,29932,786721.4,EUR,Store L,Germany,2022
+1,banana,fruits,0.5,kg,53248,26624.0,EUR,Store M,Germany,2022
+2,apple,fruits,0.7,kg,27536,45899.2,EUR,Store M,Germany,2022
+3,pear,fruits,0.6,kg,82816,95588.8,EUR,Store M,Germany,2022
+4,grapes,fruits,1.2,kg,87044,200041.6,EUR,Store M,Germany,2022
+5,orange,fruits,0.8,kg,4596,203718.4,EUR,Store M,Germany,2022
+6,kiwi,fruits,0.9,piece,6654,209707.0,EUR,Store M,Germany,2022
+7,watermelon,fruits,5.0,kg,15064,285027.0,EUR,Store M,Germany,2022
+8,pomegranate,fruits,2.5,kg,25088,347747.0,EUR,Store M,Germany,2022
+9,pineapple,fruits,1.5,piece,6827,357987.5,EUR,Store M,Germany,2022
+10,mango,fruits,2.0,piece,43360,444707.5,EUR,Store M,Germany,2022
+11,cucumber,vegetables,0.4,piece,39884,460661.1,EUR,Store M,Germany,2022
+12,carrot,vegetables,0.3,kg,11465,464100.6,EUR,Store M,Germany,2022
+13,capsicum,vegetables,0.5,kg,49695,488948.1,EUR,Store M,Germany,2022
+14,onion,vegetables,0.2,kg,26781,494304.3,EUR,Store M,Germany,2022
+15,potato,vegetables,0.3,kg,15388,498920.7,EUR,Store M,Germany,2022
+16,lemon,vegetables,0.4,kg,87982,534113.5,EUR,Store M,Germany,2022
+17,tomato,vegetables,0.6,kg,24299,548692.9,EUR,Store M,Germany,2022
+18,raddish,vegetables,0.3,kg,6917,550768.0,EUR,Store M,Germany,2022
+19,beetroot,vegetables,0.4,kg,29313,562493.2,EUR,Store M,Germany,2022
+20,cabbage,vegetables,0.5,piece,54062,589524.2,EUR,Store M,Germany,2022
+21,lettuce,vegetables,0.6,piece,41747,614572.4,EUR,Store M,Germany,2022
+22,spinach,vegetables,0.7,kg,421,614867.1,EUR,Store M,Germany,2022
+23,soy bean,vegetables,0.8,kg,45945,651623.1,EUR,Store M,Germany,2022
+24,cauliflower,vegetables,0.6,piece,54104,684085.5,EUR,Store M,Germany,2022
+25,bell pepper,vegetables,0.7,kg,79963,740059.6,EUR,Store M,Germany,2022
+26,chilli pepper,vegetables,0.5,kg,59118,769618.6,EUR,Store M,Germany,2022
+27,turnip,vegetables,0.4,kg,76737,800313.4,EUR,Store M,Germany,2022
+28,corn,vegetables,0.3,kg,23881,807477.7,EUR,Store M,Germany,2022
+29,sweetcorn,vegetables,0.4,kg,21298,815996.9,EUR,Store M,Germany,2022
+30,sweet potato,vegetables,0.5,kg,22381,827187.4,EUR,Store M,Germany,2022
+31,paprika,vegetables,2.0,kg,13966,855119.4,EUR,Store M,Germany,2022
+32,jalepeno,vegetables,2.0,kg,8530,872179.4,EUR,Store M,Germany,2022
+33,ginger,vegetables,1.5,kg,62576,966043.4,EUR,Store M,Germany,2022
+34,garlic,vegetables,1.5,kg,53010,1045558.4,EUR,Store M,Germany,2022
+35,peas,vegetables,3.0,kg,15609,1092385.4,EUR,Store M,Germany,2022
+36,eggplant,vegetables,1.5,kg,17373,1118444.9,EUR,Store M,Germany,2022
+1,banana,fruits,0.5,kg,31611,15805.5,EUR,Store N,Germany,2022
+2,apple,fruits,0.7,kg,1056,16544.7,EUR,Store N,Germany,2022
+3,pear,fruits,0.6,kg,37752,39195.9,EUR,Store N,Germany,2022
+4,grapes,fruits,1.2,kg,614,39932.7,EUR,Store N,Germany,2022
+5,orange,fruits,0.8,kg,6092,44806.3,EUR,Store N,Germany,2022
+6,kiwi,fruits,0.9,piece,39301,80177.2,EUR,Store N,Germany,2022
+7,watermelon,fruits,5.0,kg,8654,123447.2,EUR,Store N,Germany,2022
+8,pomegranate,fruits,2.5,kg,20230,174022.2,EUR,Store N,Germany,2022
+9,pineapple,fruits,1.5,piece,15458,197209.2,EUR,Store N,Germany,2022
+10,mango,fruits,2.0,piece,19251,235711.2,EUR,Store N,Germany,2022
+11,cucumber,vegetables,0.4,piece,17607,242754.0,EUR,Store N,Germany,2022
+12,carrot,vegetables,0.3,kg,17272,247935.6,EUR,Store N,Germany,2022
+13,capsicum,vegetables,0.5,kg,24162,260016.6,EUR,Store N,Germany,2022
+14,onion,vegetables,0.2,kg,1009,260218.4,EUR,Store N,Germany,2022
+15,potato,vegetables,0.3,kg,37445,271451.9,EUR,Store N,Germany,2022
+16,lemon,vegetables,0.4,kg,42871,288600.3,EUR,Store N,Germany,2022
+17,tomato,vegetables,0.6,kg,6016,292209.9,EUR,Store N,Germany,2022
+18,raddish,vegetables,0.3,kg,37037,303321.0,EUR,Store N,Germany,2022
+19,beetroot,vegetables,0.4,kg,35786,317635.4,EUR,Store N,Germany,2022
+20,cabbage,vegetables,0.5,piece,7487,321378.9,EUR,Store N,Germany,2022
+21,lettuce,vegetables,0.6,piece,22571,334921.5,EUR,Store N,Germany,2022
+22,spinach,vegetables,0.7,kg,39065,362267.0,EUR,Store N,Germany,2022
+23,soy bean,vegetables,0.8,kg,2966,364639.8,EUR,Store N,Germany,2022
+24,cauliflower,vegetables,0.6,piece,50800,395119.8,EUR,Store N,Germany,2022
+25,bell pepper,vegetables,0.7,kg,1640,396267.8,EUR,Store N,Germany,2022
+26,chilli pepper,vegetables,0.5,kg,45057,418796.3,EUR,Store N,Germany,2022
+27,turnip,vegetables,0.4,kg,25079,428827.9,EUR,Store N,Germany,2022
+28,corn,vegetables,0.3,kg,15047,433342.0,EUR,Store N,Germany,2022
+29,sweetcorn,vegetables,0.4,kg,88670,468810.0,EUR,Store N,Germany,2022
+30,sweet potato,vegetables,0.5,kg,62182,499901.0,EUR,Store N,Germany,2022
+31,paprika,vegetables,2.0,kg,50136,600173.0,EUR,Store N,Germany,2022
+32,jalepeno,vegetables,2.0,kg,15844,631861.0,EUR,Store N,Germany,2022
+33,ginger,vegetables,1.5,kg,77806,748570.0,EUR,Store N,Germany,2022
+34,garlic,vegetables,1.5,kg,76085,862697.5,EUR,Store N,Germany,2022
+35,peas,vegetables,3.0,kg,7800,886097.5,EUR,Store N,Germany,2022
+36,eggplant,vegetables,1.5,kg,22325,919585.0,EUR,Store N,Germany,2022
+1,banana,fruits,0.5,kg,15979,7989.5,EUR,Store O,Germany,2022
+2,apple,fruits,0.7,kg,26950,26854.5,EUR,Store O,Germany,2022
+3,pear,fruits,0.6,kg,34874,47778.9,EUR,Store O,Germany,2022
+4,grapes,fruits,1.2,kg,18168,69580.5,EUR,Store O,Germany,2022
+5,orange,fruits,0.8,kg,1718,70954.9,EUR,Store O,Germany,2022
+6,kiwi,fruits,0.9,piece,14131,83672.8,EUR,Store O,Germany,2022
+7,watermelon,fruits,5.0,kg,17820,172772.8,EUR,Store O,Germany,2022
+8,pomegranate,fruits,2.5,kg,26556,239162.8,EUR,Store O,Germany,2022
+9,pineapple,fruits,1.5,piece,29095,282805.3,EUR,Store O,Germany,2022
+10,mango,fruits,2.0,piece,37751,358307.3,EUR,Store O,Germany,2022
+11,cucumber,vegetables,0.4,piece,42619,375354.9,EUR,Store O,Germany,2022
+12,carrot,vegetables,0.3,kg,23109,382287.6,EUR,Store O,Germany,2022
+13,capsicum,vegetables,0.5,kg,47353,405964.1,EUR,Store O,Germany,2022
+14,onion,vegetables,0.2,kg,39305,413825.1,EUR,Store O,Germany,2022
+15,potato,vegetables,0.3,kg,12402,417545.7,EUR,Store O,Germany,2022
+16,lemon,vegetables,0.4,kg,19502,425346.5,EUR,Store O,Germany,2022
+17,tomato,vegetables,0.6,kg,11189,432059.9,EUR,Store O,Germany,2022
+18,raddish,vegetables,0.3,kg,5784,433795.1,EUR,Store O,Germany,2022
+19,beetroot,vegetables,0.4,kg,5629,436046.7,EUR,Store O,Germany,2022
+20,cabbage,vegetables,0.5,piece,30733,451413.2,EUR,Store O,Germany,2022
+21,lettuce,vegetables,0.6,piece,18380,462441.2,EUR,Store O,Germany,2022
+22,spinach,vegetables,0.7,kg,36656,488100.4,EUR,Store O,Germany,2022
+23,soy bean,vegetables,0.8,kg,3894,491215.6,EUR,Store O,Germany,2022
+24,cauliflower,vegetables,0.6,piece,35645,512602.6,EUR,Store O,Germany,2022
+25,bell pepper,vegetables,0.7,kg,17537,524878.5,EUR,Store O,Germany,2022
+26,chilli pepper,vegetables,0.5,kg,52272,551014.5,EUR,Store O,Germany,2022
+27,turnip,vegetables,0.4,kg,16990,557810.5,EUR,Store O,Germany,2022
+28,corn,vegetables,0.3,kg,12479,561554.2,EUR,Store O,Germany,2022
+29,sweetcorn,vegetables,0.4,kg,67016,588360.6,EUR,Store O,Germany,2022
+30,sweet potato,vegetables,0.5,kg,28344,602532.6,EUR,Store O,Germany,2022
+31,paprika,vegetables,2.0,kg,13221,628974.6,EUR,Store O,Germany,2022
+32,jalepeno,vegetables,2.0,kg,48712,726398.6,EUR,Store O,Germany,2022
+33,ginger,vegetables,1.5,kg,15980,750368.6,EUR,Store O,Germany,2022
+34,garlic,vegetables,1.5,kg,2270,753773.6,EUR,Store O,Germany,2022
+35,peas,vegetables,3.0,kg,34374,856895.6,EUR,Store O,Germany,2022
+36,eggplant,vegetables,1.5,kg,32238,905252.6,EUR,Store O,Germany,2022
+1,banana,fruits,0.5,kg,68726,34363.0,EUR,Store A,Germany,2023
+2,apple,fruits,0.7,kg,32628,57202.6,EUR,Store A,Germany,2023
+3,pear,fruits,0.6,kg,59148,92691.4,EUR,Store A,Germany,2023
+4,grapes,fruits,1.2,kg,27650,125871.4,EUR,Store A,Germany,2023
+5,orange,fruits,0.8,kg,57936,172220.2,EUR,Store A,Germany,2023
+6,kiwi,fruits,0.9,piece,26237,195833.5,EUR,Store A,Germany,2023
+7,watermelon,fruits,5.0,kg,45780,424733.5,EUR,Store A,Germany,2023
+8,pomegranate,fruits,2.5,kg,44208,535253.5,EUR,Store A,Germany,2023
+9,pineapple,fruits,1.5,piece,21648,567725.5,EUR,Store A,Germany,2023
+10,mango,fruits,2.0,piece,1302,570329.5,EUR,Store A,Germany,2023
+11,cucumber,vegetables,0.4,piece,42032,587142.3,EUR,Store A,Germany,2023
+12,carrot,vegetables,0.3,kg,28771,595773.6,EUR,Store A,Germany,2023
+13,capsicum,vegetables,0.5,kg,13904,602725.6,EUR,Store A,Germany,2023
+14,onion,vegetables,0.2,kg,71176,616960.8,EUR,Store A,Germany,2023
+15,potato,vegetables,0.3,kg,60698,635170.2,EUR,Store A,Germany,2023
+16,lemon,vegetables,0.4,kg,28999,646769.8,EUR,Store A,Germany,2023
+17,tomato,vegetables,0.6,kg,55981,680358.4,EUR,Store A,Germany,2023
+18,raddish,vegetables,0.3,kg,25117,687893.5,EUR,Store A,Germany,2023
+19,beetroot,vegetables,0.4,kg,29824,699823.1,EUR,Store A,Germany,2023
+20,cabbage,vegetables,0.5,piece,1705,700675.6,EUR,Store A,Germany,2023
+21,lettuce,vegetables,0.6,piece,15725,710110.6,EUR,Store A,Germany,2023
+22,spinach,vegetables,0.7,kg,25655,728069.1,EUR,Store A,Germany,2023
+23,soy bean,vegetables,0.8,kg,19240,743461.1,EUR,Store A,Germany,2023
+24,cauliflower,vegetables,0.6,piece,40079,767508.5,EUR,Store A,Germany,2023
+25,bell pepper,vegetables,0.7,kg,20375,781771.0,EUR,Store A,Germany,2023
+26,chilli pepper,vegetables,0.5,kg,25725,794633.5,EUR,Store A,Germany,2023
+27,turnip,vegetables,0.4,kg,9289,798349.1,EUR,Store A,Germany,2023
+28,corn,vegetables,0.3,kg,42208,811011.5,EUR,Store A,Germany,2023
+29,sweetcorn,vegetables,0.4,kg,421,811179.9,EUR,Store A,Germany,2023
+30,sweet potato,vegetables,0.5,kg,31868,827113.9,EUR,Store A,Germany,2023
+31,paprika,vegetables,2.0,kg,1403,829919.9,EUR,Store A,Germany,2023
+32,jalepeno,vegetables,2.0,kg,51494,932907.9,EUR,Store A,Germany,2023
+33,ginger,vegetables,1.5,kg,85946,1061826.9,EUR,Store A,Germany,2023
+34,garlic,vegetables,1.5,kg,40480,1122546.9,EUR,Store A,Germany,2023
+35,peas,vegetables,3.0,kg,40001,1242549.9,EUR,Store A,Germany,2023
+36,eggplant,vegetables,1.5,kg,7354,1253580.9,EUR,Store A,Germany,2023
+1,banana,fruits,0.5,kg,1499,749.5,EUR,Store B,Germany,2023
+2,apple,fruits,0.7,kg,13618,10282.1,EUR,Store B,Germany,2023
+3,pear,fruits,0.6,kg,43841,36586.7,EUR,Store B,Germany,2023
+4,grapes,fruits,1.2,kg,44033,89426.3,EUR,Store B,Germany,2023
+5,orange,fruits,0.8,kg,4468,93000.7,EUR,Store B,Germany,2023
+6,kiwi,fruits,0.9,piece,46702,135032.5,EUR,Store B,Germany,2023
+7,watermelon,fruits,5.0,kg,20053,235297.5,EUR,Store B,Germany,2023
+8,pomegranate,fruits,2.5,kg,49986,360262.5,EUR,Store B,Germany,2023
+9,pineapple,fruits,1.5,piece,690,361297.5,EUR,Store B,Germany,2023
+10,mango,fruits,2.0,piece,16614,394525.5,EUR,Store B,Germany,2023
+11,cucumber,vegetables,0.4,piece,50584,414759.1,EUR,Store B,Germany,2023
+12,carrot,vegetables,0.3,kg,52485,430504.6,EUR,Store B,Germany,2023
+13,capsicum,vegetables,0.5,kg,57967,459488.1,EUR,Store B,Germany,2023
+14,onion,vegetables,0.2,kg,59133,471314.7,EUR,Store B,Germany,2023
+15,potato,vegetables,0.3,kg,8325,473812.2,EUR,Store B,Germany,2023
+16,lemon,vegetables,0.4,kg,47665,492878.2,EUR,Store B,Germany,2023
+17,tomato,vegetables,0.6,kg,41378,517705.0,EUR,Store B,Germany,2023
+18,raddish,vegetables,0.3,kg,56544,534668.2,EUR,Store B,Germany,2023
+19,beetroot,vegetables,0.4,kg,9375,538418.2,EUR,Store B,Germany,2023
+20,cabbage,vegetables,0.5,piece,8695,542765.7,EUR,Store B,Germany,2023
+21,lettuce,vegetables,0.6,piece,21682,555774.9,EUR,Store B,Germany,2023
+22,spinach,vegetables,0.7,kg,725,556282.4,EUR,Store B,Germany,2023
+23,soy bean,vegetables,0.8,kg,29186,579631.2,EUR,Store B,Germany,2023
+24,cauliflower,vegetables,0.6,piece,22307,593015.4,EUR,Store B,Germany,2023
+25,bell pepper,vegetables,0.7,kg,55215,631665.9,EUR,Store B,Germany,2023
+26,chilli pepper,vegetables,0.5,kg,16823,640077.4,EUR,Store B,Germany,2023
+27,turnip,vegetables,0.4,kg,53652,661538.2,EUR,Store B,Germany,2023
+28,corn,vegetables,0.3,kg,84743,686961.1,EUR,Store B,Germany,2023
+29,sweetcorn,vegetables,0.4,kg,24024,696570.7,EUR,Store B,Germany,2023
+30,sweet potato,vegetables,0.5,kg,14727,703934.2,EUR,Store B,Germany,2023
+31,paprika,vegetables,2.0,kg,15105,734144.2,EUR,Store B,Germany,2023
+32,jalepeno,vegetables,2.0,kg,4734,743612.2,EUR,Store B,Germany,2023
+33,ginger,vegetables,1.5,kg,4160,749852.2,EUR,Store B,Germany,2023
+34,garlic,vegetables,1.5,kg,10127,765042.7,EUR,Store B,Germany,2023
+35,peas,vegetables,3.0,kg,672,767058.7,EUR,Store B,Germany,2023
+36,eggplant,vegetables,1.5,kg,20290,797493.7,EUR,Store B,Germany,2023
+1,banana,fruits,0.5,kg,9061,4530.5,EUR,Store C,Germany,2023
+2,apple,fruits,0.7,kg,54054,42368.3,EUR,Store C,Germany,2023
+3,pear,fruits,0.6,kg,13186,50279.9,EUR,Store C,Germany,2023
+4,grapes,fruits,1.2,kg,48115,108017.9,EUR,Store C,Germany,2023
+5,orange,fruits,0.8,kg,89302,179459.5,EUR,Store C,Germany,2023
+6,kiwi,fruits,0.9,piece,17445,195160.0,EUR,Store C,Germany,2023
+7,watermelon,fruits,5.0,kg,31694,353630.0,EUR,Store C,Germany,2023
+8,pomegranate,fruits,2.5,kg,61689,507852.5,EUR,Store C,Germany,2023
+9,pineapple,fruits,1.5,piece,67903,609707.0,EUR,Store C,Germany,2023
+10,mango,fruits,2.0,piece,82388,774483.0,EUR,Store C,Germany,2023
+11,cucumber,vegetables,0.4,piece,85575,808713.0,EUR,Store C,Germany,2023
+12,carrot,vegetables,0.3,kg,20385,814828.5,EUR,Store C,Germany,2023
+13,capsicum,vegetables,0.5,kg,59993,844825.0,EUR,Store C,Germany,2023
+14,onion,vegetables,0.2,kg,10807,846986.4,EUR,Store C,Germany,2023
+15,potato,vegetables,0.3,kg,16986,852082.2,EUR,Store C,Germany,2023
+16,lemon,vegetables,0.4,kg,5077,854113.0,EUR,Store C,Germany,2023
+17,tomato,vegetables,0.6,kg,29287,871685.2,EUR,Store C,Germany,2023
+18,raddish,vegetables,0.3,kg,45072,885206.8,EUR,Store C,Germany,2023
+19,beetroot,vegetables,0.4,kg,30080,897238.8,EUR,Store C,Germany,2023
+20,cabbage,vegetables,0.5,piece,61737,928107.3,EUR,Store C,Germany,2023
+21,lettuce,vegetables,0.6,piece,64593,966863.1,EUR,Store C,Germany,2023
+22,spinach,vegetables,0.7,kg,57935,1007417.6,EUR,Store C,Germany,2023
+23,soy bean,vegetables,0.8,kg,14369,1018912.8,EUR,Store C,Germany,2023
+24,cauliflower,vegetables,0.6,piece,650,1019302.8,EUR,Store C,Germany,2023
+25,bell pepper,vegetables,0.7,kg,15931,1030454.5,EUR,Store C,Germany,2023
+26,chilli pepper,vegetables,0.5,kg,1689,1031299.0,EUR,Store C,Germany,2023
+27,turnip,vegetables,0.4,kg,77759,1062402.6,EUR,Store C,Germany,2023
+28,corn,vegetables,0.3,kg,12426,1066130.4,EUR,Store C,Germany,2023
+29,sweetcorn,vegetables,0.4,kg,16303,1072651.6,EUR,Store C,Germany,2023
+30,sweet potato,vegetables,0.5,kg,16821,1081062.1,EUR,Store C,Germany,2023
+31,paprika,vegetables,2.0,kg,71462,1223986.1,EUR,Store C,Germany,2023
+32,jalepeno,vegetables,2.0,kg,19241,1262468.1,EUR,Store C,Germany,2023
+33,ginger,vegetables,1.5,kg,52625,1341405.6,EUR,Store C,Germany,2023
+34,garlic,vegetables,1.5,kg,11244,1358271.6,EUR,Store C,Germany,2023
+35,peas,vegetables,3.0,kg,43653,1489230.6,EUR,Store C,Germany,2023
+36,eggplant,vegetables,1.5,kg,27209,1530044.1,EUR,Store C,Germany,2023
+1,banana,fruits,0.5,kg,11399,5699.5,EUR,Store D,Germany,2023
+2,apple,fruits,0.7,kg,28253,25476.6,EUR,Store D,Germany,2023
+3,pear,fruits,0.6,kg,26366,41296.2,EUR,Store D,Germany,2023
+4,grapes,fruits,1.2,kg,56731,109373.4,EUR,Store D,Germany,2023
+5,orange,fruits,0.8,kg,26331,130438.2,EUR,Store D,Germany,2023
+6,kiwi,fruits,0.9,piece,52361,177563.1,EUR,Store D,Germany,2023
+7,watermelon,fruits,5.0,kg,14616,250643.1,EUR,Store D,Germany,2023
+8,pomegranate,fruits,2.5,kg,36975,343080.6,EUR,Store D,Germany,2023
+9,pineapple,fruits,1.5,piece,42417,406706.1,EUR,Store D,Germany,2023
+10,mango,fruits,2.0,piece,45631,497968.1,EUR,Store D,Germany,2023
+11,cucumber,vegetables,0.4,piece,58142,521224.9,EUR,Store D,Germany,2023
+12,carrot,vegetables,0.3,kg,37401,532445.2,EUR,Store D,Germany,2023
+13,capsicum,vegetables,0.5,kg,24178,544534.2,EUR,Store D,Germany,2023
+14,onion,vegetables,0.2,kg,2000,544934.2,EUR,Store D,Germany,2023
+15,potato,vegetables,0.3,kg,28762,553562.8,EUR,Store D,Germany,2023
+16,lemon,vegetables,0.4,kg,16588,560198.0,EUR,Store D,Germany,2023
+17,tomato,vegetables,0.6,kg,18533,571317.8,EUR,Store D,Germany,2023
+18,raddish,vegetables,0.3,kg,9748,574242.2,EUR,Store D,Germany,2023
+19,beetroot,vegetables,0.4,kg,23064,583467.8,EUR,Store D,Germany,2023
+20,cabbage,vegetables,0.5,piece,17182,592058.8,EUR,Store D,Germany,2023
+21,lettuce,vegetables,0.6,piece,29105,609521.8,EUR,Store D,Germany,2023
+22,spinach,vegetables,0.7,kg,39122,636907.2,EUR,Store D,Germany,2023
+23,soy bean,vegetables,0.8,kg,8198,643465.6,EUR,Store D,Germany,2023
+24,cauliflower,vegetables,0.6,piece,34247,664013.8,EUR,Store D,Germany,2023
+25,bell pepper,vegetables,0.7,kg,51080,699769.8,EUR,Store D,Germany,2023
+26,chilli pepper,vegetables,0.5,kg,22826,711182.8,EUR,Store D,Germany,2023
+27,turnip,vegetables,0.4,kg,31456,723765.2,EUR,Store D,Germany,2023
+28,corn,vegetables,0.3,kg,13542,727827.8,EUR,Store D,Germany,2023
+29,sweetcorn,vegetables,0.4,kg,40935,744201.8,EUR,Store D,Germany,2023
+30,sweet potato,vegetables,0.5,kg,12580,750491.8,EUR,Store D,Germany,2023
+31,paprika,vegetables,2.0,kg,3388,757267.8,EUR,Store D,Germany,2023
+32,jalepeno,vegetables,2.0,kg,2947,763161.8,EUR,Store D,Germany,2023
+33,ginger,vegetables,1.5,kg,38585,821039.3,EUR,Store D,Germany,2023
+34,garlic,vegetables,1.5,kg,4200,827339.3,EUR,Store D,Germany,2023
+35,peas,vegetables,3.0,kg,39587,946100.3,EUR,Store D,Germany,2023
+36,eggplant,vegetables,1.5,kg,31905,993957.8,EUR,Store D,Germany,2023
+1,banana,fruits,0.5,kg,30925,15462.5,EUR,Store E,Germany,2023
+2,apple,fruits,0.7,kg,26487,34003.4,EUR,Store E,Germany,2023
+3,pear,fruits,0.6,kg,26343,49809.2,EUR,Store E,Germany,2023
+4,grapes,fruits,1.2,kg,43476,101980.4,EUR,Store E,Germany,2023
+5,orange,fruits,0.8,kg,70893,158694.8,EUR,Store E,Germany,2023
+6,kiwi,fruits,0.9,piece,669,159296.9,EUR,Store E,Germany,2023
+7,watermelon,fruits,5.0,kg,35330,335946.9,EUR,Store E,Germany,2023
+8,pomegranate,fruits,2.5,kg,4224,346506.9,EUR,Store E,Germany,2023
+9,pineapple,fruits,1.5,piece,55038,429063.9,EUR,Store E,Germany,2023
+10,mango,fruits,2.0,piece,2089,433241.9,EUR,Store E,Germany,2023
+11,cucumber,vegetables,0.4,piece,1249,433741.5,EUR,Store E,Germany,2023
+12,carrot,vegetables,0.3,kg,14261,438019.8,EUR,Store E,Germany,2023
+13,capsicum,vegetables,0.5,kg,15797,445918.3,EUR,Store E,Germany,2023
+14,onion,vegetables,0.2,kg,48120,455542.3,EUR,Store E,Germany,2023
+15,potato,vegetables,0.3,kg,4933,457022.2,EUR,Store E,Germany,2023
+16,lemon,vegetables,0.4,kg,88815,492548.2,EUR,Store E,Germany,2023
+17,tomato,vegetables,0.6,kg,40725,516983.2,EUR,Store E,Germany,2023
+18,raddish,vegetables,0.3,kg,11889,520549.9,EUR,Store E,Germany,2023
+19,beetroot,vegetables,0.4,kg,14180,526221.9,EUR,Store E,Germany,2023
+20,cabbage,vegetables,0.5,piece,88873,570658.4,EUR,Store E,Germany,2023
+21,lettuce,vegetables,0.6,piece,12172,577961.6,EUR,Store E,Germany,2023
+22,spinach,vegetables,0.7,kg,23457,594381.5,EUR,Store E,Germany,2023
+23,soy bean,vegetables,0.8,kg,58290,641013.5,EUR,Store E,Germany,2023
+24,cauliflower,vegetables,0.6,piece,45690,668427.5,EUR,Store E,Germany,2023
+25,bell pepper,vegetables,0.7,kg,46631,701069.2,EUR,Store E,Germany,2023
+26,chilli pepper,vegetables,0.5,kg,35823,718980.7,EUR,Store E,Germany,2023
+27,turnip,vegetables,0.4,kg,26457,729563.5,EUR,Store E,Germany,2023
+28,corn,vegetables,0.3,kg,19949,735548.2,EUR,Store E,Germany,2023
+29,sweetcorn,vegetables,0.4,kg,25178,745619.4,EUR,Store E,Germany,2023
+30,sweet potato,vegetables,0.5,kg,227,745732.9,EUR,Store E,Germany,2023
+31,paprika,vegetables,2.0,kg,43895,833522.9,EUR,Store E,Germany,2023
+32,jalepeno,vegetables,2.0,kg,42069,917660.9,EUR,Store E,Germany,2023
+33,ginger,vegetables,1.5,kg,18813,945880.4,EUR,Store E,Germany,2023
+34,garlic,vegetables,1.5,kg,3510,951145.4,EUR,Store E,Germany,2023
+35,peas,vegetables,3.0,kg,26610,1030975.4,EUR,Store E,Germany,2023
+36,eggplant,vegetables,1.5,kg,59279,1119893.9,EUR,Store E,Germany,2023
+1,banana,fruits,0.5,kg,10495,5247.5,EUR,Store F,Germany,2023
+2,apple,fruits,0.7,kg,1098,6016.1,EUR,Store F,Germany,2023
+3,pear,fruits,0.6,kg,58639,41199.5,EUR,Store F,Germany,2023
+4,grapes,fruits,1.2,kg,22291,67948.7,EUR,Store F,Germany,2023
+5,orange,fruits,0.8,kg,49443,107503.1,EUR,Store F,Germany,2023
+6,kiwi,fruits,0.9,piece,12023,118323.8,EUR,Store F,Germany,2023
+7,watermelon,fruits,5.0,kg,6826,152453.8,EUR,Store F,Germany,2023
+8,pomegranate,fruits,2.5,kg,30913,229736.3,EUR,Store F,Germany,2023
+9,pineapple,fruits,1.5,piece,19958,259673.3,EUR,Store F,Germany,2023
+10,mango,fruits,2.0,piece,31143,321959.3,EUR,Store F,Germany,2023
+11,cucumber,vegetables,0.4,piece,29932,333932.1,EUR,Store F,Germany,2023
+12,carrot,vegetables,0.3,kg,30735,343152.6,EUR,Store F,Germany,2023
+13,capsicum,vegetables,0.5,kg,8806,347555.6,EUR,Store F,Germany,2023
+14,onion,vegetables,0.2,kg,81261,363807.8,EUR,Store F,Germany,2023
+15,potato,vegetables,0.3,kg,80329,387906.5,EUR,Store F,Germany,2023
+16,lemon,vegetables,0.4,kg,51893,408663.7,EUR,Store F,Germany,2023
+17,tomato,vegetables,0.6,kg,31117,427333.9,EUR,Store F,Germany,2023
+18,raddish,vegetables,0.3,kg,56172,444185.5,EUR,Store F,Germany,2023
+19,beetroot,vegetables,0.4,kg,76520,474793.5,EUR,Store F,Germany,2023
+20,cabbage,vegetables,0.5,piece,19761,484674.0,EUR,Store F,Germany,2023
+21,lettuce,vegetables,0.6,piece,11849,491783.4,EUR,Store F,Germany,2023
+22,spinach,vegetables,0.7,kg,21715,506983.9,EUR,Store F,Germany,2023
+23,soy bean,vegetables,0.8,kg,25676,527524.7,EUR,Store F,Germany,2023
+24,cauliflower,vegetables,0.6,piece,31362,546341.9,EUR,Store F,Germany,2023
+25,bell pepper,vegetables,0.7,kg,33042,569471.3,EUR,Store F,Germany,2023
+26,chilli pepper,vegetables,0.5,kg,10911,574926.8,EUR,Store F,Germany,2023
+27,turnip,vegetables,0.4,kg,49638,594782.0,EUR,Store F,Germany,2023
+28,corn,vegetables,0.3,kg,75774,617514.2,EUR,Store F,Germany,2023
+29,sweetcorn,vegetables,0.4,kg,16758,624217.4,EUR,Store F,Germany,2023
+30,sweet potato,vegetables,0.5,kg,33418,640926.4,EUR,Store F,Germany,2023
+31,paprika,vegetables,2.0,kg,8390,657706.4,EUR,Store F,Germany,2023
+32,jalepeno,vegetables,2.0,kg,87887,833480.4,EUR,Store F,Germany,2023
+33,ginger,vegetables,1.5,kg,9090,847115.4,EUR,Store F,Germany,2023
+34,garlic,vegetables,1.5,kg,29287,891045.9,EUR,Store F,Germany,2023
+35,peas,vegetables,3.0,kg,38738,1007259.9,EUR,Store F,Germany,2023
+36,eggplant,vegetables,1.5,kg,26913,1047629.4,EUR,Store F,Germany,2023
+1,banana,fruits,0.5,kg,27767,13883.5,EUR,Store G,Germany,2023
+2,apple,fruits,0.7,kg,45378,45648.1,EUR,Store G,Germany,2023
+3,pear,fruits,0.6,kg,16293,55423.9,EUR,Store G,Germany,2023
+4,grapes,fruits,1.2,kg,14870,73267.9,EUR,Store G,Germany,2023
+5,orange,fruits,0.8,kg,40466,105640.7,EUR,Store G,Germany,2023
+6,kiwi,fruits,0.9,piece,15719,119787.8,EUR,Store G,Germany,2023
+7,watermelon,fruits,5.0,kg,31794,278757.8,EUR,Store G,Germany,2023
+8,pomegranate,fruits,2.5,kg,45805,393270.3,EUR,Store G,Germany,2023
+9,pineapple,fruits,1.5,piece,46821,463501.8,EUR,Store G,Germany,2023
+10,mango,fruits,2.0,piece,10992,485485.8,EUR,Store G,Germany,2023
+11,cucumber,vegetables,0.4,piece,27350,496425.8,EUR,Store G,Germany,2023
+12,carrot,vegetables,0.3,kg,35829,507174.5,EUR,Store G,Germany,2023
+13,capsicum,vegetables,0.5,kg,31287,522818.0,EUR,Store G,Germany,2023
+14,onion,vegetables,0.2,kg,15096,525837.2,EUR,Store G,Germany,2023
+15,potato,vegetables,0.3,kg,16228,530705.6,EUR,Store G,Germany,2023
+16,lemon,vegetables,0.4,kg,33198,543984.8,EUR,Store G,Germany,2023
+17,tomato,vegetables,0.6,kg,18603,555146.6,EUR,Store G,Germany,2023
+18,raddish,vegetables,0.3,kg,57519,572402.3,EUR,Store G,Germany,2023
+19,beetroot,vegetables,0.4,kg,337,572537.1,EUR,Store G,Germany,2023
+20,cabbage,vegetables,0.5,piece,1326,573200.1,EUR,Store G,Germany,2023
+21,lettuce,vegetables,0.6,piece,14763,582057.9,EUR,Store G,Germany,2023
+22,spinach,vegetables,0.7,kg,21823,597334.0,EUR,Store G,Germany,2023
+23,soy bean,vegetables,0.8,kg,31729,622717.2,EUR,Store G,Germany,2023
+24,cauliflower,vegetables,0.6,piece,12563,630255.0,EUR,Store G,Germany,2023
+25,bell pepper,vegetables,0.7,kg,48249,664029.3,EUR,Store G,Germany,2023
+26,chilli pepper,vegetables,0.5,kg,28511,678284.8,EUR,Store G,Germany,2023
+27,turnip,vegetables,0.4,kg,27262,689189.6,EUR,Store G,Germany,2023
+28,corn,vegetables,0.3,kg,76962,712278.2,EUR,Store G,Germany,2023
+29,sweetcorn,vegetables,0.4,kg,14014,717883.8,EUR,Store G,Germany,2023
+30,sweet potato,vegetables,0.5,kg,19063,727415.3,EUR,Store G,Germany,2023
+31,paprika,vegetables,2.0,kg,8773,744961.3,EUR,Store G,Germany,2023
+32,jalepeno,vegetables,2.0,kg,5130,755221.3,EUR,Store G,Germany,2023
+33,ginger,vegetables,1.5,kg,17657,781706.8,EUR,Store G,Germany,2023
+34,garlic,vegetables,1.5,kg,34302,833159.8,EUR,Store G,Germany,2023
+35,peas,vegetables,3.0,kg,23437,903470.8,EUR,Store G,Germany,2023
+36,eggplant,vegetables,1.5,kg,5110,911135.8,EUR,Store G,Germany,2023
+1,banana,fruits,0.5,kg,46217,23108.5,EUR,Store H,Germany,2023
+2,apple,fruits,0.7,kg,82820,81082.5,EUR,Store H,Germany,2023
+3,pear,fruits,0.6,kg,54622,113855.7,EUR,Store H,Germany,2023
+4,grapes,fruits,1.2,kg,3547,118112.1,EUR,Store H,Germany,2023
+5,orange,fruits,0.8,kg,45699,154671.3,EUR,Store H,Germany,2023
+6,kiwi,fruits,0.9,piece,47815,197704.8,EUR,Store H,Germany,2023
+7,watermelon,fruits,5.0,kg,4799,221699.8,EUR,Store H,Germany,2023
+8,pomegranate,fruits,2.5,kg,50750,348574.8,EUR,Store H,Germany,2023
+9,pineapple,fruits,1.5,piece,38508,406336.8,EUR,Store H,Germany,2023
+10,mango,fruits,2.0,piece,14946,436228.8,EUR,Store H,Germany,2023
+11,cucumber,vegetables,0.4,piece,58115,459474.8,EUR,Store H,Germany,2023
+12,carrot,vegetables,0.3,kg,36984,470570.0,EUR,Store H,Germany,2023
+13,capsicum,vegetables,0.5,kg,10317,475728.5,EUR,Store H,Germany,2023
+14,onion,vegetables,0.2,kg,16768,479082.1,EUR,Store H,Germany,2023
+15,potato,vegetables,0.3,kg,21284,485467.3,EUR,Store H,Germany,2023
+16,lemon,vegetables,0.4,kg,20522,493676.1,EUR,Store H,Germany,2023
+17,tomato,vegetables,0.6,kg,57315,528065.1,EUR,Store H,Germany,2023
+18,raddish,vegetables,0.3,kg,7843,530418.0,EUR,Store H,Germany,2023
+19,beetroot,vegetables,0.4,kg,30684,542691.6,EUR,Store H,Germany,2023
+20,cabbage,vegetables,0.5,piece,42841,564112.1,EUR,Store H,Germany,2023
+21,lettuce,vegetables,0.6,piece,17935,574873.1,EUR,Store H,Germany,2023
+22,spinach,vegetables,0.7,kg,13928,584622.7,EUR,Store H,Germany,2023
+23,soy bean,vegetables,0.8,kg,23756,603627.5,EUR,Store H,Germany,2023
+24,cauliflower,vegetables,0.6,piece,44453,630299.3,EUR,Store H,Germany,2023
+25,bell pepper,vegetables,0.7,kg,9406,636883.5,EUR,Store H,Germany,2023
+26,chilli pepper,vegetables,0.5,kg,5438,639602.5,EUR,Store H,Germany,2023
+27,turnip,vegetables,0.4,kg,56904,662364.1,EUR,Store H,Germany,2023
+28,corn,vegetables,0.3,kg,54258,678641.5,EUR,Store H,Germany,2023
+29,sweetcorn,vegetables,0.4,kg,38478,694032.7,EUR,Store H,Germany,2023
+30,sweet potato,vegetables,0.5,kg,57177,722621.2,EUR,Store H,Germany,2023
+31,paprika,vegetables,2.0,kg,28215,779051.2,EUR,Store H,Germany,2023
+32,jalepeno,vegetables,2.0,kg,20503,820057.2,EUR,Store H,Germany,2023
+33,ginger,vegetables,1.5,kg,47266,890956.2,EUR,Store H,Germany,2023
+34,garlic,vegetables,1.5,kg,38135,948158.7,EUR,Store H,Germany,2023
+35,peas,vegetables,3.0,kg,23813,1019597.7,EUR,Store H,Germany,2023
+36,eggplant,vegetables,1.5,kg,26120,1058777.7,EUR,Store H,Germany,2023
+1,banana,fruits,0.5,kg,8228,4114.0,EUR,Store I,Germany,2023
+2,apple,fruits,0.7,kg,14532,14286.4,EUR,Store I,Germany,2023
+3,pear,fruits,0.6,kg,50739,44729.8,EUR,Store I,Germany,2023
+4,grapes,fruits,1.2,kg,15113,62865.4,EUR,Store I,Germany,2023
+5,orange,fruits,0.8,kg,16862,76355.0,EUR,Store I,Germany,2023
+6,kiwi,fruits,0.9,piece,59676,130063.4,EUR,Store I,Germany,2023
+7,watermelon,fruits,5.0,kg,30854,284333.4,EUR,Store I,Germany,2023
+8,pomegranate,fruits,2.5,kg,12048,314453.4,EUR,Store I,Germany,2023
+9,pineapple,fruits,1.5,piece,86395,444045.9,EUR,Store I,Germany,2023
+10,mango,fruits,2.0,piece,8031,460107.9,EUR,Store I,Germany,2023
+11,cucumber,vegetables,0.4,piece,14730,465999.9,EUR,Store I,Germany,2023
+12,carrot,vegetables,0.3,kg,25125,473537.4,EUR,Store I,Germany,2023
+13,capsicum,vegetables,0.5,kg,48059,497566.9,EUR,Store I,Germany,2023
+14,onion,vegetables,0.2,kg,24706,502508.1,EUR,Store I,Germany,2023
+15,potato,vegetables,0.3,kg,27298,510697.5,EUR,Store I,Germany,2023
+16,lemon,vegetables,0.4,kg,5864,513043.1,EUR,Store I,Germany,2023
+17,tomato,vegetables,0.6,kg,59121,548515.7,EUR,Store I,Germany,2023
+18,raddish,vegetables,0.3,kg,9583,551390.6,EUR,Store I,Germany,2023
+19,beetroot,vegetables,0.4,kg,17505,558392.6,EUR,Store I,Germany,2023
+20,cabbage,vegetables,0.5,piece,32631,574708.1,EUR,Store I,Germany,2023
+21,lettuce,vegetables,0.6,piece,20379,586935.5,EUR,Store I,Germany,2023
+22,spinach,vegetables,0.7,kg,29577,607639.4,EUR,Store I,Germany,2023
+23,soy bean,vegetables,0.8,kg,58420,654375.4,EUR,Store I,Germany,2023
+24,cauliflower,vegetables,0.6,piece,9252,659926.6,EUR,Store I,Germany,2023
+25,bell pepper,vegetables,0.7,kg,24976,677409.8,EUR,Store I,Germany,2023
+26,chilli pepper,vegetables,0.5,kg,16917,685868.3,EUR,Store I,Germany,2023
+27,turnip,vegetables,0.4,kg,70813,714193.5,EUR,Store I,Germany,2023
+28,corn,vegetables,0.3,kg,3914,715367.7,EUR,Store I,Germany,2023
+29,sweetcorn,vegetables,0.4,kg,2318,716294.9,EUR,Store I,Germany,2023
+30,sweet potato,vegetables,0.5,kg,52111,742350.4,EUR,Store I,Germany,2023
+31,paprika,vegetables,2.0,kg,21572,785494.4,EUR,Store I,Germany,2023
+32,jalepeno,vegetables,2.0,kg,5403,796300.4,EUR,Store I,Germany,2023
+33,ginger,vegetables,1.5,kg,54926,878689.4,EUR,Store I,Germany,2023
+34,garlic,vegetables,1.5,kg,35033,931238.9,EUR,Store I,Germany,2023
+35,peas,vegetables,3.0,kg,13757,972509.9,EUR,Store I,Germany,2023
+36,eggplant,vegetables,1.5,kg,35699,1026058.4,EUR,Store I,Germany,2023
+1,banana,fruits,0.5,kg,48408,24204.0,EUR,Store J,Germany,2023
+2,apple,fruits,0.7,kg,6435,28708.5,EUR,Store J,Germany,2023
+3,pear,fruits,0.6,kg,10936,35270.1,EUR,Store J,Germany,2023
+4,grapes,fruits,1.2,kg,33441,75399.3,EUR,Store J,Germany,2023
+5,orange,fruits,0.8,kg,44333,110865.7,EUR,Store J,Germany,2023
+6,kiwi,fruits,0.9,piece,10356,120186.1,EUR,Store J,Germany,2023
+7,watermelon,fruits,5.0,kg,8516,162766.1,EUR,Store J,Germany,2023
+8,pomegranate,fruits,2.5,kg,27733,232098.6,EUR,Store J,Germany,2023
+9,pineapple,fruits,1.5,piece,61921,324980.1,EUR,Store J,Germany,2023
+10,mango,fruits,2.0,piece,37271,399522.1,EUR,Store J,Germany,2023
+11,cucumber,vegetables,0.4,piece,13085,404756.1,EUR,Store J,Germany,2023
+12,carrot,vegetables,0.3,kg,3380,405770.1,EUR,Store J,Germany,2023
+13,capsicum,vegetables,0.5,kg,45849,428694.6,EUR,Store J,Germany,2023
+14,onion,vegetables,0.2,kg,46703,438035.2,EUR,Store J,Germany,2023
+15,potato,vegetables,0.3,kg,12814,441879.4,EUR,Store J,Germany,2023
+16,lemon,vegetables,0.4,kg,75957,472262.2,EUR,Store J,Germany,2023
+17,tomato,vegetables,0.6,kg,20938,484825.0,EUR,Store J,Germany,2023
+18,raddish,vegetables,0.3,kg,26250,492700.0,EUR,Store J,Germany,2023
+19,beetroot,vegetables,0.4,kg,81171,525168.4,EUR,Store J,Germany,2023
+20,cabbage,vegetables,0.5,piece,89645,569990.9,EUR,Store J,Germany,2023
+21,lettuce,vegetables,0.6,piece,27503,586492.7,EUR,Store J,Germany,2023
+22,spinach,vegetables,0.7,kg,51914,622832.5,EUR,Store J,Germany,2023
+23,soy bean,vegetables,0.8,kg,7220,628608.5,EUR,Store J,Germany,2023
+24,cauliflower,vegetables,0.6,piece,80974,677192.9,EUR,Store J,Germany,2023
+25,bell pepper,vegetables,0.7,kg,57065,717138.4,EUR,Store J,Germany,2023
+26,chilli pepper,vegetables,0.5,kg,14801,724538.9,EUR,Store J,Germany,2023
+27,turnip,vegetables,0.4,kg,71550,753158.9,EUR,Store J,Germany,2023
+28,corn,vegetables,0.3,kg,3373,754170.8,EUR,Store J,Germany,2023
+29,sweetcorn,vegetables,0.4,kg,29265,765876.8,EUR,Store J,Germany,2023
+30,sweet potato,vegetables,0.5,kg,31998,781875.8,EUR,Store J,Germany,2023
+31,paprika,vegetables,2.0,kg,17257,816389.8,EUR,Store J,Germany,2023
+32,jalepeno,vegetables,2.0,kg,26980,870349.8,EUR,Store J,Germany,2023
+33,ginger,vegetables,1.5,kg,20646,901318.8,EUR,Store J,Germany,2023
+34,garlic,vegetables,1.5,kg,31373,948378.3,EUR,Store J,Germany,2023
+35,peas,vegetables,3.0,kg,16136,996786.3,EUR,Store J,Germany,2023
+36,eggplant,vegetables,1.5,kg,48303,1069240.8,EUR,Store J,Germany,2023
+1,banana,fruits,0.5,kg,16681,8340.5,EUR,Store K,Germany,2023
+2,apple,fruits,0.7,kg,31543,30420.6,EUR,Store K,Germany,2023
+3,pear,fruits,0.6,kg,25748,45869.4,EUR,Store K,Germany,2023
+4,grapes,fruits,1.2,kg,13727,62341.8,EUR,Store K,Germany,2023
+5,orange,fruits,0.8,kg,23091,80814.6,EUR,Store K,Germany,2023
+6,kiwi,fruits,0.9,piece,25861,104089.5,EUR,Store K,Germany,2023
+7,watermelon,fruits,5.0,kg,2703,117604.5,EUR,Store K,Germany,2023
+8,pomegranate,fruits,2.5,kg,65475,281292.0,EUR,Store K,Germany,2023
+9,pineapple,fruits,1.5,piece,37700,337842.0,EUR,Store K,Germany,2023
+10,mango,fruits,2.0,piece,11392,360626.0,EUR,Store K,Germany,2023
+11,cucumber,vegetables,0.4,piece,23225,369916.0,EUR,Store K,Germany,2023
+12,carrot,vegetables,0.3,kg,130,369955.0,EUR,Store K,Germany,2023
+13,capsicum,vegetables,0.5,kg,36891,388400.5,EUR,Store K,Germany,2023
+14,onion,vegetables,0.2,kg,14625,391325.5,EUR,Store K,Germany,2023
+15,potato,vegetables,0.3,kg,12543,395088.4,EUR,Store K,Germany,2023
+16,lemon,vegetables,0.4,kg,27639,406144.0,EUR,Store K,Germany,2023
+17,tomato,vegetables,0.6,kg,34020,426556.0,EUR,Store K,Germany,2023
+18,raddish,vegetables,0.3,kg,48244,441029.2,EUR,Store K,Germany,2023
+19,beetroot,vegetables,0.4,kg,22189,449904.8,EUR,Store K,Germany,2023
+20,cabbage,vegetables,0.5,piece,47290,473549.8,EUR,Store K,Germany,2023
+21,lettuce,vegetables,0.6,piece,68521,514662.4,EUR,Store K,Germany,2023
+22,spinach,vegetables,0.7,kg,2081,516119.1,EUR,Store K,Germany,2023
+23,soy bean,vegetables,0.8,kg,32067,541772.7,EUR,Store K,Germany,2023
+24,cauliflower,vegetables,0.6,piece,1300,542552.7,EUR,Store K,Germany,2023
+25,bell pepper,vegetables,0.7,kg,18013,555161.8,EUR,Store K,Germany,2023
+26,chilli pepper,vegetables,0.5,kg,62118,586220.8,EUR,Store K,Germany,2023
+27,turnip,vegetables,0.4,kg,53105,607462.8,EUR,Store K,Germany,2023
+28,corn,vegetables,0.3,kg,27186,615618.6,EUR,Store K,Germany,2023
+29,sweetcorn,vegetables,0.4,kg,5994,618016.2,EUR,Store K,Germany,2023
+30,sweet potato,vegetables,0.5,kg,687,618359.7,EUR,Store K,Germany,2023
+31,paprika,vegetables,2.0,kg,14437,647233.7,EUR,Store K,Germany,2023
+32,jalepeno,vegetables,2.0,kg,89143,825519.7,EUR,Store K,Germany,2023
+33,ginger,vegetables,1.5,kg,71263,932414.2,EUR,Store K,Germany,2023
+34,garlic,vegetables,1.5,kg,51268,1009316.2,EUR,Store K,Germany,2023
+35,peas,vegetables,3.0,kg,8603,1035125.2,EUR,Store K,Germany,2023
+36,eggplant,vegetables,1.5,kg,1984,1038101.2,EUR,Store K,Germany,2023
+1,banana,fruits,0.5,kg,25729,12864.5,EUR,Store L,Germany,2023
+2,apple,fruits,0.7,kg,3768,15502.1,EUR,Store L,Germany,2023
+3,pear,fruits,0.6,kg,53301,47482.7,EUR,Store L,Germany,2023
+4,grapes,fruits,1.2,kg,14161,64475.9,EUR,Store L,Germany,2023
+5,orange,fruits,0.8,kg,3140,66987.9,EUR,Store L,Germany,2023
+6,kiwi,fruits,0.9,piece,20158,85130.1,EUR,Store L,Germany,2023
+7,watermelon,fruits,5.0,kg,52930,349780.1,EUR,Store L,Germany,2023
+8,pomegranate,fruits,2.5,kg,28950,422155.1,EUR,Store L,Germany,2023
+9,pineapple,fruits,1.5,piece,7798,433852.1,EUR,Store L,Germany,2023
+10,mango,fruits,2.0,piece,2343,438538.1,EUR,Store L,Germany,2023
+11,cucumber,vegetables,0.4,piece,6073,440967.3,EUR,Store L,Germany,2023
+12,carrot,vegetables,0.3,kg,3314,441961.5,EUR,Store L,Germany,2023
+13,capsicum,vegetables,0.5,kg,16483,450203.0,EUR,Store L,Germany,2023
+14,onion,vegetables,0.2,kg,18071,453817.2,EUR,Store L,Germany,2023
+15,potato,vegetables,0.3,kg,12987,457713.3,EUR,Store L,Germany,2023
+16,lemon,vegetables,0.4,kg,27183,468586.5,EUR,Store L,Germany,2023
+17,tomato,vegetables,0.6,kg,38275,491551.5,EUR,Store L,Germany,2023
+18,raddish,vegetables,0.3,kg,28157,499998.6,EUR,Store L,Germany,2023
+19,beetroot,vegetables,0.4,kg,24419,509766.2,EUR,Store L,Germany,2023
+20,cabbage,vegetables,0.5,piece,82860,551196.2,EUR,Store L,Germany,2023
+21,lettuce,vegetables,0.6,piece,44033,577616.0,EUR,Store L,Germany,2023
+22,spinach,vegetables,0.7,kg,28432,597518.4,EUR,Store L,Germany,2023
+23,soy bean,vegetables,0.8,kg,39939,629469.6,EUR,Store L,Germany,2023
+24,cauliflower,vegetables,0.6,piece,13170,637371.6,EUR,Store L,Germany,2023
+25,bell pepper,vegetables,0.7,kg,11553,645458.7,EUR,Store L,Germany,2023
+26,chilli pepper,vegetables,0.5,kg,21935,656426.2,EUR,Store L,Germany,2023
+27,turnip,vegetables,0.4,kg,4704,658307.8,EUR,Store L,Germany,2023
+28,corn,vegetables,0.3,kg,81091,682635.1,EUR,Store L,Germany,2023
+29,sweetcorn,vegetables,0.4,kg,55257,704737.9,EUR,Store L,Germany,2023
+30,sweet potato,vegetables,0.5,kg,67834,738654.9,EUR,Store L,Germany,2023
+31,paprika,vegetables,2.0,kg,81188,901030.9,EUR,Store L,Germany,2023
+32,jalepeno,vegetables,2.0,kg,37486,976002.9,EUR,Store L,Germany,2023
+33,ginger,vegetables,1.5,kg,20204,1006308.9,EUR,Store L,Germany,2023
+34,garlic,vegetables,1.5,kg,77682,1122831.9,EUR,Store L,Germany,2023
+35,peas,vegetables,3.0,kg,37942,1236657.9,EUR,Store L,Germany,2023
+36,eggplant,vegetables,1.5,kg,30246,1282026.9,EUR,Store L,Germany,2023
+1,banana,fruits,0.5,kg,5203,2601.5,EUR,Store M,Germany,2023
+2,apple,fruits,0.7,kg,57124,42588.3,EUR,Store M,Germany,2023
+3,pear,fruits,0.6,kg,63376,80613.9,EUR,Store M,Germany,2023
+4,grapes,fruits,1.2,kg,28677,115026.3,EUR,Store M,Germany,2023
+5,orange,fruits,0.8,kg,11788,124456.7,EUR,Store M,Germany,2023
+6,kiwi,fruits,0.9,piece,55003,173959.4,EUR,Store M,Germany,2023
+7,watermelon,fruits,5.0,kg,24039,294154.4,EUR,Store M,Germany,2023
+8,pomegranate,fruits,2.5,kg,16443,335261.9,EUR,Store M,Germany,2023
+9,pineapple,fruits,1.5,piece,43622,400694.9,EUR,Store M,Germany,2023
+10,mango,fruits,2.0,piece,15541,431776.9,EUR,Store M,Germany,2023
+11,cucumber,vegetables,0.4,piece,21890,440532.9,EUR,Store M,Germany,2023
+12,carrot,vegetables,0.3,kg,1683,441037.8,EUR,Store M,Germany,2023
+13,capsicum,vegetables,0.5,kg,29975,456025.3,EUR,Store M,Germany,2023
+14,onion,vegetables,0.2,kg,84743,472973.9,EUR,Store M,Germany,2023
+15,potato,vegetables,0.3,kg,21963,479562.8,EUR,Store M,Germany,2023
+16,lemon,vegetables,0.4,kg,29170,491230.8,EUR,Store M,Germany,2023
+17,tomato,vegetables,0.6,kg,33846,511538.4,EUR,Store M,Germany,2023
+18,raddish,vegetables,0.3,kg,10495,514686.9,EUR,Store M,Germany,2023
+19,beetroot,vegetables,0.4,kg,54290,536402.9,EUR,Store M,Germany,2023
+20,cabbage,vegetables,0.5,piece,56610,564707.9,EUR,Store M,Germany,2023
+21,lettuce,vegetables,0.6,piece,24045,579134.9,EUR,Store M,Germany,2023
+22,spinach,vegetables,0.7,kg,10763,586669.0,EUR,Store M,Germany,2023
+23,soy bean,vegetables,0.8,kg,2878,588971.4,EUR,Store M,Germany,2023
+24,cauliflower,vegetables,0.6,piece,41194,613687.8,EUR,Store M,Germany,2023
+25,bell pepper,vegetables,0.7,kg,7664,619052.6,EUR,Store M,Germany,2023
+26,chilli pepper,vegetables,0.5,kg,72408,655256.6,EUR,Store M,Germany,2023
+27,turnip,vegetables,0.4,kg,52892,676413.4,EUR,Store M,Germany,2023
+28,corn,vegetables,0.3,kg,28986,685109.2,EUR,Store M,Germany,2023
+29,sweetcorn,vegetables,0.4,kg,4095,686747.2,EUR,Store M,Germany,2023
+30,sweet potato,vegetables,0.5,kg,44171,708832.7,EUR,Store M,Germany,2023
+31,paprika,vegetables,2.0,kg,19956,748744.7,EUR,Store M,Germany,2023
+32,jalepeno,vegetables,2.0,kg,54853,858450.7,EUR,Store M,Germany,2023
+33,ginger,vegetables,1.5,kg,29087,902081.2,EUR,Store M,Germany,2023
+34,garlic,vegetables,1.5,kg,27097,942726.7,EUR,Store M,Germany,2023
+35,peas,vegetables,3.0,kg,8473,968145.7,EUR,Store M,Germany,2023
+36,eggplant,vegetables,1.5,kg,50372,1043703.7,EUR,Store M,Germany,2023
+1,banana,fruits,0.5,kg,19177,9588.5,EUR,Store N,Germany,2023
+2,apple,fruits,0.7,kg,10575,16991.0,EUR,Store N,Germany,2023
+3,pear,fruits,0.6,kg,41796,42068.6,EUR,Store N,Germany,2023
+4,grapes,fruits,1.2,kg,13117,57809.0,EUR,Store N,Germany,2023
+5,orange,fruits,0.8,kg,29287,81238.6,EUR,Store N,Germany,2023
+6,kiwi,fruits,0.9,piece,61976,137017.0,EUR,Store N,Germany,2023
+7,watermelon,fruits,5.0,kg,5032,162177.0,EUR,Store N,Germany,2023
+8,pomegranate,fruits,2.5,kg,56653,303809.5,EUR,Store N,Germany,2023
+9,pineapple,fruits,1.5,piece,89618,438236.5,EUR,Store N,Germany,2023
+10,mango,fruits,2.0,piece,29257,496750.5,EUR,Store N,Germany,2023
+11,cucumber,vegetables,0.4,piece,50117,516797.3,EUR,Store N,Germany,2023
+12,carrot,vegetables,0.3,kg,2485,517542.8,EUR,Store N,Germany,2023
+13,capsicum,vegetables,0.5,kg,35801,535443.3,EUR,Store N,Germany,2023
+14,onion,vegetables,0.2,kg,4782,536399.7,EUR,Store N,Germany,2023
+15,potato,vegetables,0.3,kg,12070,540020.7,EUR,Store N,Germany,2023
+16,lemon,vegetables,0.4,kg,27051,550841.1,EUR,Store N,Germany,2023
+17,tomato,vegetables,0.6,kg,56813,584928.9,EUR,Store N,Germany,2023
+18,raddish,vegetables,0.3,kg,11057,588246.0,EUR,Store N,Germany,2023
+19,beetroot,vegetables,0.4,kg,39900,604206.0,EUR,Store N,Germany,2023
+20,cabbage,vegetables,0.5,piece,39574,623993.0,EUR,Store N,Germany,2023
+21,lettuce,vegetables,0.6,piece,46484,651883.4,EUR,Store N,Germany,2023
+22,spinach,vegetables,0.7,kg,8558,657874.0,EUR,Store N,Germany,2023
+23,soy bean,vegetables,0.8,kg,48488,696664.4,EUR,Store N,Germany,2023
+24,cauliflower,vegetables,0.6,piece,72431,740123.0,EUR,Store N,Germany,2023
+25,bell pepper,vegetables,0.7,kg,55917,779264.9,EUR,Store N,Germany,2023
+26,chilli pepper,vegetables,0.5,kg,13274,785901.9,EUR,Store N,Germany,2023
+27,turnip,vegetables,0.4,kg,11237,790396.7,EUR,Store N,Germany,2023
+28,corn,vegetables,0.3,kg,15058,794914.1,EUR,Store N,Germany,2023
+29,sweetcorn,vegetables,0.4,kg,12461,799898.5,EUR,Store N,Germany,2023
+30,sweet potato,vegetables,0.5,kg,12818,806307.5,EUR,Store N,Germany,2023
+31,paprika,vegetables,2.0,kg,41705,889717.5,EUR,Store N,Germany,2023
+32,jalepeno,vegetables,2.0,kg,5377,900471.5,EUR,Store N,Germany,2023
+33,ginger,vegetables,1.5,kg,39343,959486.0,EUR,Store N,Germany,2023
+34,garlic,vegetables,1.5,kg,19907,989346.5,EUR,Store N,Germany,2023
+35,peas,vegetables,3.0,kg,35847,1096887.5,EUR,Store N,Germany,2023
+36,eggplant,vegetables,1.5,kg,30904,1143243.5,EUR,Store N,Germany,2023
+1,banana,fruits,0.5,kg,45318,22659.0,EUR,Store O,Germany,2023
+2,apple,fruits,0.7,kg,56316,62080.2,EUR,Store O,Germany,2023
+3,pear,fruits,0.6,kg,21859,75195.6,EUR,Store O,Germany,2023
+4,grapes,fruits,1.2,kg,60810,148167.6,EUR,Store O,Germany,2023
+5,orange,fruits,0.8,kg,25166,168300.4,EUR,Store O,Germany,2023
+6,kiwi,fruits,0.9,piece,4220,172098.4,EUR,Store O,Germany,2023
+7,watermelon,fruits,5.0,kg,20369,273943.4,EUR,Store O,Germany,2023
+8,pomegranate,fruits,2.5,kg,24687,335660.9,EUR,Store O,Germany,2023
+9,pineapple,fruits,1.5,piece,89232,469508.9,EUR,Store O,Germany,2023
+10,mango,fruits,2.0,piece,3157,475822.9,EUR,Store O,Germany,2023
+11,cucumber,vegetables,0.4,piece,70738,504118.1,EUR,Store O,Germany,2023
+12,carrot,vegetables,0.3,kg,44843,517571.0,EUR,Store O,Germany,2023
+13,capsicum,vegetables,0.5,kg,26899,531020.5,EUR,Store O,Germany,2023
+14,onion,vegetables,0.2,kg,25301,536080.7,EUR,Store O,Germany,2023
+15,potato,vegetables,0.3,kg,50539,551242.4,EUR,Store O,Germany,2023
+16,lemon,vegetables,0.4,kg,9213,554927.6,EUR,Store O,Germany,2023
+17,tomato,vegetables,0.6,kg,39815,578816.6,EUR,Store O,Germany,2023
+18,raddish,vegetables,0.3,kg,9414,581640.8,EUR,Store O,Germany,2023
+19,beetroot,vegetables,0.4,kg,49506,601443.2,EUR,Store O,Germany,2023
+20,cabbage,vegetables,0.5,piece,37780,620333.2,EUR,Store O,Germany,2023
+21,lettuce,vegetables,0.6,piece,26305,636116.2,EUR,Store O,Germany,2023
+22,spinach,vegetables,0.7,kg,13598,645634.8,EUR,Store O,Germany,2023
+23,soy bean,vegetables,0.8,kg,59175,692974.8,EUR,Store O,Germany,2023
+24,cauliflower,vegetables,0.6,piece,39440,716638.8,EUR,Store O,Germany,2023
+25,bell pepper,vegetables,0.7,kg,61298,759547.4,EUR,Store O,Germany,2023
+26,chilli pepper,vegetables,0.5,kg,9891,764492.9,EUR,Store O,Germany,2023
+27,turnip,vegetables,0.4,kg,26129,774944.5,EUR,Store O,Germany,2023
+28,corn,vegetables,0.3,kg,26559,782912.2,EUR,Store O,Germany,2023
+29,sweetcorn,vegetables,0.4,kg,26779,793623.8,EUR,Store O,Germany,2023
+30,sweet potato,vegetables,0.5,kg,44433,815840.3,EUR,Store O,Germany,2023
+31,paprika,vegetables,2.0,kg,32678,881196.3,EUR,Store O,Germany,2023
+32,jalepeno,vegetables,2.0,kg,5800,892796.3,EUR,Store O,Germany,2023
+33,ginger,vegetables,1.5,kg,27514,934067.3,EUR,Store O,Germany,2023
+34,garlic,vegetables,1.5,kg,17880,960887.3,EUR,Store O,Germany,2023
+35,peas,vegetables,3.0,kg,44604,1094699.3,EUR,Store O,Germany,2023
+36,eggplant,vegetables,1.5,kg,51285,1171626.8,EUR,Store O,Germany,2023

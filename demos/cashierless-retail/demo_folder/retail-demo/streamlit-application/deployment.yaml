@@ -1,0 +1,21 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: streamlit-deployment
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: streamlit
+  template:
+    metadata:
+      labels:
+        app: streamlit
+    spec:
+      containers:
+      - name: streamlit
+        imagePullPolicy: Always 
+        image: registry.mydirk.de/dderichswei/streamlitapp:latest
+        # command: ["sh", "-c", "cd /root && python -m streamlit run cam-app-2.py"]
+        ports:
+        - containerPort: 8501

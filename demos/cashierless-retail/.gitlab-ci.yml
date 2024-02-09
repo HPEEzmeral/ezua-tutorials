@@ -1,0 +1,22 @@
+ddjupyter: 
+
+  script:
+  # - cd infrastructure/azure-component/kafka-ingress
+  # - docker build -t "kafkaingress" .
+  # - docker tag kafkaingress registry.mydirk.de/dderichswei/kafkaingress:latest
+  # - docker push registry.mydirk.de/dderichswei/kafkaingress:latest
+  - cd demo_folder/retail-demo/streamlit-application
+  - docker build -t "streamlitapp" .
+  - docker tag streamlitapp registry.mydirk.de/dderichswei/streamlitapp:1.0.0
+  - docker push registry.mydirk.de/dderichswei/streamlitapp:1.0.0
+
+  - cd ctc
+  - docker build -t "streamlitapp" .
+  - docker tag streamlitapp registry.mydirk.de/dderichswei/streamlitapp:ctc
+  - docker push registry.mydirk.de/dderichswei/streamlitapp:ctc
+
+  - cd ..
+  - cd barca
+  - docker build -t "streamlitapp" .
+  - docker tag streamlitapp registry.mydirk.de/dderichswei/streamlitapp:barca
+  - docker push registry.mydirk.de/dderichswei/streamlitapp:barca

@@ -1,0 +1,1 @@
+{"name": "demo-fruit-veg-model", "implementation": "mlserver_mlflow.MLflowRuntime", "parameters": {"uri": "s3://mlflow/3/e867debbf05f4b7680cd85bc6ac6f0c7/artifacts/model"}}

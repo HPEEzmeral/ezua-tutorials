@@ -1,0 +1,901 @@
+PRODUCT_ID,PRODUCT,TYPE,UNIT PRICE,UNIT,QTY,TOTAL SALES,CURRENCY,STORE,COUNTRY,YEAR
+1,banana,fruits,0.4855,kg,6556,3182.94,EUR,Store A,Switzerland,2019
+2,apple,fruits,0.6797,kg,7699,8415.95,EUR,Store A,Switzerland,2019
+3,pear,fruits,0.5826,kg,114,8482.36,EUR,Store A,Switzerland,2019
+4,grapes,fruits,1.1652,kg,11984,22446.12,EUR,Store A,Switzerland,2019
+5,orange,fruits,0.7768,kg,17972,36406.77,EUR,Store A,Switzerland,2019
+6,kiwi,fruits,0.8739,piece,5345,41077.77,EUR,Store A,Switzerland,2019
+7,watermelon,fruits,4.8549999999999995,kg,25752,166103.73,EUR,Store A,Switzerland,2019
+8,pomegranate,fruits,2.4274999999999998,kg,2385,171893.31,EUR,Store A,Switzerland,2019
+9,pineapple,fruits,1.4565,piece,547,172690.02,EUR,Store A,Switzerland,2019
+10,mango,fruits,1.942,piece,10505,193090.73,EUR,Store A,Switzerland,2019
+11,cucumber,vegetables,0.3884,piece,1883,193822.09,EUR,Store A,Switzerland,2019
+12,carrot,vegetables,0.2913,kg,2416,194525.87,EUR,Store A,Switzerland,2019
+13,capsicum,vegetables,0.4855,kg,28977,208594.2,EUR,Store A,Switzerland,2019
+14,onion,vegetables,0.1942,kg,705,208731.11,EUR,Store A,Switzerland,2019
+15,potato,vegetables,0.2913,kg,12568,212392.17,EUR,Store A,Switzerland,2019
+16,lemon,vegetables,0.3884,kg,5179,214403.69,EUR,Store A,Switzerland,2019
+17,tomato,vegetables,0.5826,kg,19613,225830.23,EUR,Store A,Switzerland,2019
+18,raddish,vegetables,0.2913,kg,2803,226646.74,EUR,Store A,Switzerland,2019
+19,beetroot,vegetables,0.3884,kg,17263,233351.69,EUR,Store A,Switzerland,2019
+20,cabbage,vegetables,0.4855,piece,514,233601.24,EUR,Store A,Switzerland,2019
+21,lettuce,vegetables,0.5826,piece,9352,239049.71,EUR,Store A,Switzerland,2019
+22,spinach,vegetables,0.6797,kg,14121,248647.76,EUR,Store A,Switzerland,2019
+23,soy bean,vegetables,0.7768,kg,670,249168.21,EUR,Store A,Switzerland,2019
+24,cauliflower,vegetables,0.5826,piece,28944,266030.99,EUR,Store A,Switzerland,2019
+25,bell pepper,vegetables,0.6797,kg,26606,284115.09,EUR,Store A,Switzerland,2019
+26,chilli pepper,vegetables,0.4855,kg,9363,288660.82,EUR,Store A,Switzerland,2019
+27,turnip,vegetables,0.3884,kg,9610,292393.35,EUR,Store A,Switzerland,2019
+28,corn,vegetables,0.2913,kg,10659,295498.31,EUR,Store A,Switzerland,2019
+29,sweetcorn,vegetables,0.3884,kg,8729,298888.66,EUR,Store A,Switzerland,2019
+30,sweet potato,vegetables,0.4855,kg,9681,303588.78,EUR,Store A,Switzerland,2019
+31,paprika,vegetables,1.942,kg,1573,306643.55,EUR,Store A,Switzerland,2019
+32,jalepeno,vegetables,1.942,kg,1147,308871.02,EUR,Store A,Switzerland,2019
+33,ginger,vegetables,1.4565,kg,2257,312158.34,EUR,Store A,Switzerland,2019
+34,garlic,vegetables,1.4565,kg,2770,316192.85,EUR,Store A,Switzerland,2019
+35,peas,vegetables,2.913,kg,2887,324602.68,EUR,Store A,Switzerland,2019
+36,eggplant,vegetables,1.4565,kg,9895,339014.75,EUR,Store A,Switzerland,2019
+1,banana,fruits,0.4855,kg,12778,6203.72,EUR,Store B,Switzerland,2019
+2,apple,fruits,0.6797,kg,18352,18677.57,EUR,Store B,Switzerland,2019
+3,pear,fruits,0.5826,kg,17029,28598.67,EUR,Store B,Switzerland,2019
+4,grapes,fruits,1.1652,kg,13110,43874.44,EUR,Store B,Switzerland,2019
+5,orange,fruits,0.7768,kg,10294,51870.82,EUR,Store B,Switzerland,2019
+6,kiwi,fruits,0.8739,piece,15229,65179.44,EUR,Store B,Switzerland,2019
+7,watermelon,fruits,4.8549999999999995,kg,4023,84711.11,EUR,Store B,Switzerland,2019
+8,pomegranate,fruits,2.4274999999999998,kg,2331,90369.61,EUR,Store B,Switzerland,2019
+9,pineapple,fruits,1.4565,piece,5191,97930.3,EUR,Store B,Switzerland,2019
+10,mango,fruits,1.942,piece,7396,112293.33,EUR,Store B,Switzerland,2019
+11,cucumber,vegetables,0.3884,piece,26041,122407.66,EUR,Store B,Switzerland,2019
+12,carrot,vegetables,0.2913,kg,26839,130225.86,EUR,Store B,Switzerland,2019
+13,capsicum,vegetables,0.4855,kg,9667,134919.19,EUR,Store B,Switzerland,2019
+14,onion,vegetables,0.1942,kg,4099,135715.21,EUR,Store B,Switzerland,2019
+15,potato,vegetables,0.2913,kg,4218,136943.92,EUR,Store B,Switzerland,2019
+16,lemon,vegetables,0.3884,kg,6141,139329.08,EUR,Store B,Switzerland,2019
+17,tomato,vegetables,0.5826,kg,14514,147784.94,EUR,Store B,Switzerland,2019
+18,raddish,vegetables,0.2913,kg,1130,148114.11,EUR,Store B,Switzerland,2019
+19,beetroot,vegetables,0.3884,kg,7731,151116.83,EUR,Store B,Switzerland,2019
+20,cabbage,vegetables,0.4855,piece,8685,155333.39,EUR,Store B,Switzerland,2019
+21,lettuce,vegetables,0.5826,piece,7344,159612.01,EUR,Store B,Switzerland,2019
+22,spinach,vegetables,0.6797,kg,4680,162793.01,EUR,Store B,Switzerland,2019
+23,soy bean,vegetables,0.7768,kg,12088,172182.96,EUR,Store B,Switzerland,2019
+24,cauliflower,vegetables,0.5826,piece,9268,177582.5,EUR,Store B,Switzerland,2019
+25,bell pepper,vegetables,0.6797,kg,11075,185110.18,EUR,Store B,Switzerland,2019
+26,chilli pepper,vegetables,0.4855,kg,6864,188442.65,EUR,Store B,Switzerland,2019
+27,turnip,vegetables,0.3884,kg,3640,189856.43,EUR,Store B,Switzerland,2019
+28,corn,vegetables,0.2913,kg,5914,191579.17,EUR,Store B,Switzerland,2019
+29,sweetcorn,vegetables,0.3884,kg,407,191737.25,EUR,Store B,Switzerland,2019
+30,sweet potato,vegetables,0.4855,kg,2598,192998.58,EUR,Store B,Switzerland,2019
+31,paprika,vegetables,1.942,kg,15280,222672.34,EUR,Store B,Switzerland,2019
+32,jalepeno,vegetables,1.942,kg,3092,228677.01,EUR,Store B,Switzerland,2019
+33,ginger,vegetables,1.4565,kg,4042,234564.18,EUR,Store B,Switzerland,2019
+34,garlic,vegetables,1.4565,kg,8936,247579.46,EUR,Store B,Switzerland,2019
+35,peas,vegetables,2.913,kg,17047,297237.37,EUR,Store B,Switzerland,2019
+36,eggplant,vegetables,1.4565,kg,2675,301133.51,EUR,Store B,Switzerland,2019
+1,banana,fruits,0.4855,kg,15404,7478.64,EUR,Store C,Switzerland,2019
+2,apple,fruits,0.6797,kg,4427,10487.67,EUR,Store C,Switzerland,2019
+3,pear,fruits,0.5826,kg,4594,13164.14,EUR,Store C,Switzerland,2019
+4,grapes,fruits,1.1652,kg,13759,29196.13,EUR,Store C,Switzerland,2019
+5,orange,fruits,0.7768,kg,25248,48808.77,EUR,Store C,Switzerland,2019
+6,kiwi,fruits,0.8739,piece,6168,54198.99,EUR,Store C,Switzerland,2019
+7,watermelon,fruits,4.8549999999999995,kg,19553,149128.8,EUR,Store C,Switzerland,2019
+8,pomegranate,fruits,2.4274999999999998,kg,538,150434.8,EUR,Store C,Switzerland,2019
+9,pineapple,fruits,1.4565,piece,14938,172191.99,EUR,Store C,Switzerland,2019
+10,mango,fruits,1.942,piece,18014,207175.18,EUR,Store C,Switzerland,2019
+11,cucumber,vegetables,0.3884,piece,6364,209646.96,EUR,Store C,Switzerland,2019
+12,carrot,vegetables,0.2913,kg,9390,212382.27,EUR,Store C,Switzerland,2019
+13,capsicum,vegetables,0.4855,kg,13705,219036.04,EUR,Store C,Switzerland,2019
+14,onion,vegetables,0.1942,kg,7635,220518.76,EUR,Store C,Switzerland,2019
+15,potato,vegetables,0.2913,kg,1074,220831.62,EUR,Store C,Switzerland,2019
+16,lemon,vegetables,0.3884,kg,7216,223634.31,EUR,Store C,Switzerland,2019
+17,tomato,vegetables,0.5826,kg,27301,239539.87,EUR,Store C,Switzerland,2019
+18,raddish,vegetables,0.2913,kg,28585,247866.68,EUR,Store C,Switzerland,2019
+19,beetroot,vegetables,0.3884,kg,8418,251136.24,EUR,Store C,Switzerland,2019
+20,cabbage,vegetables,0.4855,piece,2560,252379.12,EUR,Store C,Switzerland,2019
+21,lettuce,vegetables,0.5826,piece,9352,257827.59,EUR,Store C,Switzerland,2019
+22,spinach,vegetables,0.6797,kg,1021,258521.56,EUR,Store C,Switzerland,2019
+23,soy bean,vegetables,0.7768,kg,6869,263857.4,EUR,Store C,Switzerland,2019
+24,cauliflower,vegetables,0.5826,piece,589,264200.56,EUR,Store C,Switzerland,2019
+25,bell pepper,vegetables,0.6797,kg,18985,277104.66,EUR,Store C,Switzerland,2019
+26,chilli pepper,vegetables,0.4855,kg,13036,283433.64,EUR,Store C,Switzerland,2019
+27,turnip,vegetables,0.3884,kg,16295,289762.62,EUR,Store C,Switzerland,2019
+28,corn,vegetables,0.2913,kg,7214,291864.05,EUR,Store C,Switzerland,2019
+29,sweetcorn,vegetables,0.3884,kg,16954,298448.99,EUR,Store C,Switzerland,2019
+30,sweet potato,vegetables,0.4855,kg,12923,304723.1,EUR,Store C,Switzerland,2019
+31,paprika,vegetables,1.942,kg,1552,307737.09,EUR,Store C,Switzerland,2019
+32,jalepeno,vegetables,1.942,kg,12827,332647.12,EUR,Store C,Switzerland,2019
+33,ginger,vegetables,1.4565,kg,8868,345563.36,EUR,Store C,Switzerland,2019
+34,garlic,vegetables,1.4565,kg,17805,371496.35,EUR,Store C,Switzerland,2019
+35,peas,vegetables,2.913,kg,13803,411704.49,EUR,Store C,Switzerland,2019
+36,eggplant,vegetables,1.4565,kg,18991,439364.88,EUR,Store C,Switzerland,2019
+1,banana,fruits,0.4855,kg,10029,4869.08,EUR,Store D,Switzerland,2019
+2,apple,fruits,0.6797,kg,27150,23322.93,EUR,Store D,Switzerland,2019
+3,pear,fruits,0.5826,kg,19430,34642.85,EUR,Store D,Switzerland,2019
+4,grapes,fruits,1.1652,kg,16745,54154.13,EUR,Store D,Switzerland,2019
+5,orange,fruits,0.7768,kg,18789,68749.42,EUR,Store D,Switzerland,2019
+6,kiwi,fruits,0.8739,piece,2821,71214.69,EUR,Store D,Switzerland,2019
+7,watermelon,fruits,4.8549999999999995,kg,20800,172198.69,EUR,Store D,Switzerland,2019
+8,pomegranate,fruits,2.4274999999999998,kg,979,174575.22,EUR,Store D,Switzerland,2019
+9,pineapple,fruits,1.4565,piece,17193,199616.82,EUR,Store D,Switzerland,2019
+10,mango,fruits,1.942,piece,16080,230844.18,EUR,Store D,Switzerland,2019
+11,cucumber,vegetables,0.3884,piece,20305,238730.64,EUR,Store D,Switzerland,2019
+12,carrot,vegetables,0.2913,kg,9742,241568.49,EUR,Store D,Switzerland,2019
+13,capsicum,vegetables,0.4855,kg,9747,246300.66,EUR,Store D,Switzerland,2019
+14,onion,vegetables,0.1942,kg,9606,248166.14,EUR,Store D,Switzerland,2019
+15,potato,vegetables,0.2913,kg,19502,253847.07,EUR,Store D,Switzerland,2019
+16,lemon,vegetables,0.3884,kg,6096,256214.76,EUR,Store D,Switzerland,2019
+17,tomato,vegetables,0.5826,kg,1800,257263.44,EUR,Store D,Switzerland,2019
+18,raddish,vegetables,0.2913,kg,8322,259687.64,EUR,Store D,Switzerland,2019
+19,beetroot,vegetables,0.3884,kg,3743,261141.42,EUR,Store D,Switzerland,2019
+20,cabbage,vegetables,0.4855,piece,29204,275319.96,EUR,Store D,Switzerland,2019
+21,lettuce,vegetables,0.5826,piece,7860,279899.2,EUR,Store D,Switzerland,2019
+22,spinach,vegetables,0.6797,kg,16967,291431.67,EUR,Store D,Switzerland,2019
+23,soy bean,vegetables,0.7768,kg,27076,312464.3,EUR,Store D,Switzerland,2019
+24,cauliflower,vegetables,0.5826,piece,2741,314061.21,EUR,Store D,Switzerland,2019
+25,bell pepper,vegetables,0.6797,kg,8518,319850.9,EUR,Store D,Switzerland,2019
+26,chilli pepper,vegetables,0.4855,kg,2115,320877.73,EUR,Store D,Switzerland,2019
+27,turnip,vegetables,0.3884,kg,3291,322155.95,EUR,Store D,Switzerland,2019
+28,corn,vegetables,0.2913,kg,1287,322530.86,EUR,Store D,Switzerland,2019
+29,sweetcorn,vegetables,0.3884,kg,12623,327433.63,EUR,Store D,Switzerland,2019
+30,sweet potato,vegetables,0.4855,kg,4841,329783.93,EUR,Store D,Switzerland,2019
+31,paprika,vegetables,1.942,kg,15529,359941.25,EUR,Store D,Switzerland,2019
+32,jalepeno,vegetables,1.942,kg,3815,367349.98,EUR,Store D,Switzerland,2019
+33,ginger,vegetables,1.4565,kg,5091,374765.02,EUR,Store D,Switzerland,2019
+34,garlic,vegetables,1.4565,kg,16645,399008.47,EUR,Store D,Switzerland,2019
+35,peas,vegetables,2.913,kg,284,399835.76,EUR,Store D,Switzerland,2019
+36,eggplant,vegetables,1.4565,kg,2205,403047.34,EUR,Store D,Switzerland,2019
+1,banana,fruits,0.4855,kg,2577,1251.13,EUR,Store E,Switzerland,2019
+2,apple,fruits,0.6797,kg,14399,11038.13,EUR,Store E,Switzerland,2019
+3,pear,fruits,0.5826,kg,275,11198.35,EUR,Store E,Switzerland,2019
+4,grapes,fruits,1.1652,kg,4034,15898.77,EUR,Store E,Switzerland,2019
+5,orange,fruits,0.7768,kg,9563,23327.3,EUR,Store E,Switzerland,2019
+6,kiwi,fruits,0.8739,piece,4697,27432.01,EUR,Store E,Switzerland,2019
+7,watermelon,fruits,4.8549999999999995,kg,1470,34568.86,EUR,Store E,Switzerland,2019
+8,pomegranate,fruits,2.4274999999999998,kg,5033,46786.47,EUR,Store E,Switzerland,2019
+9,pineapple,fruits,1.4565,piece,3632,52076.48,EUR,Store E,Switzerland,2019
+10,mango,fruits,1.942,piece,6902,65480.16,EUR,Store E,Switzerland,2019
+11,cucumber,vegetables,0.3884,piece,17472,72266.29,EUR,Store E,Switzerland,2019
+12,carrot,vegetables,0.2913,kg,18057,77526.29,EUR,Store E,Switzerland,2019
+13,capsicum,vegetables,0.4855,kg,27166,90715.38,EUR,Store E,Switzerland,2019
+14,onion,vegetables,0.1942,kg,1062,90921.62,EUR,Store E,Switzerland,2019
+15,potato,vegetables,0.2913,kg,1160,91259.53,EUR,Store E,Switzerland,2019
+16,lemon,vegetables,0.3884,kg,11729,95815.08,EUR,Store E,Switzerland,2019
+17,tomato,vegetables,0.5826,kg,4414,98386.67,EUR,Store E,Switzerland,2019
+18,raddish,vegetables,0.2913,kg,18183,103683.38,EUR,Store E,Switzerland,2019
+19,beetroot,vegetables,0.3884,kg,12329,108471.96,EUR,Store E,Switzerland,2019
+20,cabbage,vegetables,0.4855,piece,8667,112679.79,EUR,Store E,Switzerland,2019
+21,lettuce,vegetables,0.5826,piece,6781,116630.4,EUR,Store E,Switzerland,2019
+22,spinach,vegetables,0.6797,kg,4247,119517.09,EUR,Store E,Switzerland,2019
+23,soy bean,vegetables,0.7768,kg,7840,125607.2,EUR,Store E,Switzerland,2019
+24,cauliflower,vegetables,0.5826,piece,790,126067.45,EUR,Store E,Switzerland,2019
+25,bell pepper,vegetables,0.6797,kg,17049,137655.66,EUR,Store E,Switzerland,2019
+26,chilli pepper,vegetables,0.4855,kg,10820,142908.77,EUR,Store E,Switzerland,2019
+27,turnip,vegetables,0.3884,kg,20068,150703.18,EUR,Store E,Switzerland,2019
+28,corn,vegetables,0.2913,kg,2876,151540.96,EUR,Store E,Switzerland,2019
+29,sweetcorn,vegetables,0.3884,kg,13387,156740.47,EUR,Store E,Switzerland,2019
+30,sweet potato,vegetables,0.4855,kg,15014,164029.77,EUR,Store E,Switzerland,2019
+31,paprika,vegetables,1.942,kg,6257,176180.86,EUR,Store E,Switzerland,2019
+32,jalepeno,vegetables,1.942,kg,24159,223097.64,EUR,Store E,Switzerland,2019
+33,ginger,vegetables,1.4565,kg,6297,232269.22,EUR,Store E,Switzerland,2019
+34,garlic,vegetables,1.4565,kg,3600,237512.62,EUR,Store E,Switzerland,2019
+35,peas,vegetables,2.913,kg,3157,246708.96,EUR,Store E,Switzerland,2019
+36,eggplant,vegetables,1.4565,kg,2923,250966.31,EUR,Store E,Switzerland,2019
+1,banana,fruits,0.4855,kg,10953,5317.68,EUR,Store A,Switzerland,2020
+2,apple,fruits,0.6797,kg,7770,10598.95,EUR,Store A,Switzerland,2020
+3,pear,fruits,0.5826,kg,27317,26513.83,EUR,Store A,Switzerland,2020
+4,grapes,fruits,1.1652,kg,1313,28043.74,EUR,Store A,Switzerland,2020
+5,orange,fruits,0.7768,kg,5579,32377.51,EUR,Store A,Switzerland,2020
+6,kiwi,fruits,0.8739,piece,8486,39793.42,EUR,Store A,Switzerland,2020
+7,watermelon,fruits,4.8549999999999995,kg,2463,51751.29,EUR,Store A,Switzerland,2020
+8,pomegranate,fruits,2.4274999999999998,kg,7217,69270.56,EUR,Store A,Switzerland,2020
+9,pineapple,fruits,1.4565,piece,5685,77550.76,EUR,Store A,Switzerland,2020
+10,mango,fruits,1.942,piece,5249,87744.32,EUR,Store A,Switzerland,2020
+11,cucumber,vegetables,0.3884,piece,18879,95076.92,EUR,Store A,Switzerland,2020
+12,carrot,vegetables,0.2913,kg,2414,95780.12,EUR,Store A,Switzerland,2020
+13,capsicum,vegetables,0.4855,kg,1038,96284.07,EUR,Store A,Switzerland,2020
+14,onion,vegetables,0.1942,kg,6294,97506.36,EUR,Store A,Switzerland,2020
+15,potato,vegetables,0.2913,kg,13623,101474.74,EUR,Store A,Switzerland,2020
+16,lemon,vegetables,0.3884,kg,4398,103182.93,EUR,Store A,Switzerland,2020
+17,tomato,vegetables,0.5826,kg,1194,103878.55,EUR,Store A,Switzerland,2020
+18,raddish,vegetables,0.2913,kg,13910,107930.53,EUR,Store A,Switzerland,2020
+19,beetroot,vegetables,0.3884,kg,2415,108868.52,EUR,Store A,Switzerland,2020
+20,cabbage,vegetables,0.4855,piece,3964,110793.04,EUR,Store A,Switzerland,2020
+21,lettuce,vegetables,0.5826,piece,29647,128065.38,EUR,Store A,Switzerland,2020
+22,spinach,vegetables,0.6797,kg,13317,137116.95,EUR,Store A,Switzerland,2020
+23,soy bean,vegetables,0.7768,kg,3286,139669.51,EUR,Store A,Switzerland,2020
+24,cauliflower,vegetables,0.5826,piece,27942,155948.52,EUR,Store A,Switzerland,2020
+25,bell pepper,vegetables,0.6797,kg,27211,174443.84,EUR,Store A,Switzerland,2020
+26,chilli pepper,vegetables,0.4855,kg,1072,174964.3,EUR,Store A,Switzerland,2020
+27,turnip,vegetables,0.3884,kg,88,174998.48,EUR,Store A,Switzerland,2020
+28,corn,vegetables,0.2913,kg,8284,177411.6,EUR,Store A,Switzerland,2020
+29,sweetcorn,vegetables,0.3884,kg,2343,178321.63,EUR,Store A,Switzerland,2020
+30,sweet potato,vegetables,0.4855,kg,5787,181131.21,EUR,Store A,Switzerland,2020
+31,paprika,vegetables,1.942,kg,25468,230590.07,EUR,Store A,Switzerland,2020
+32,jalepeno,vegetables,1.942,kg,7858,245850.31,EUR,Store A,Switzerland,2020
+33,ginger,vegetables,1.4565,kg,18844,273296.59,EUR,Store A,Switzerland,2020
+34,garlic,vegetables,1.4565,kg,6351,282546.82,EUR,Store A,Switzerland,2020
+35,peas,vegetables,2.913,kg,29820,369412.48,EUR,Store A,Switzerland,2020
+36,eggplant,vegetables,1.4565,kg,16683,393711.27,EUR,Store A,Switzerland,2020
+1,banana,fruits,0.4855,kg,15891,7715.08,EUR,Store B,Switzerland,2020
+2,apple,fruits,0.6797,kg,12866,16460.1,EUR,Store B,Switzerland,2020
+3,pear,fruits,0.5826,kg,10792,22747.52,EUR,Store B,Switzerland,2020
+4,grapes,fruits,1.1652,kg,3847,27230.04,EUR,Store B,Switzerland,2020
+5,orange,fruits,0.7768,kg,4573,30782.35,EUR,Store B,Switzerland,2020
+6,kiwi,fruits,0.8739,piece,1284,31904.44,EUR,Store B,Switzerland,2020
+7,watermelon,fruits,4.8549999999999995,kg,6414,63044.41,EUR,Store B,Switzerland,2020
+8,pomegranate,fruits,2.4274999999999998,kg,641,64600.44,EUR,Store B,Switzerland,2020
+9,pineapple,fruits,1.4565,piece,15462,87120.84,EUR,Store B,Switzerland,2020
+10,mango,fruits,1.942,piece,14182,114662.28,EUR,Store B,Switzerland,2020
+11,cucumber,vegetables,0.3884,piece,18574,121876.42,EUR,Store B,Switzerland,2020
+12,carrot,vegetables,0.2913,kg,5395,123447.99,EUR,Store B,Switzerland,2020
+13,capsicum,vegetables,0.4855,kg,8049,127355.78,EUR,Store B,Switzerland,2020
+14,onion,vegetables,0.1942,kg,721,127495.8,EUR,Store B,Switzerland,2020
+15,potato,vegetables,0.2913,kg,7185,129588.79,EUR,Store B,Switzerland,2020
+16,lemon,vegetables,0.3884,kg,11896,134209.19,EUR,Store B,Switzerland,2020
+17,tomato,vegetables,0.5826,kg,11251,140764.03,EUR,Store B,Switzerland,2020
+18,raddish,vegetables,0.2913,kg,1078,141078.05,EUR,Store B,Switzerland,2020
+19,beetroot,vegetables,0.3884,kg,2628,142098.76,EUR,Store B,Switzerland,2020
+20,cabbage,vegetables,0.4855,piece,4525,144295.65,EUR,Store B,Switzerland,2020
+21,lettuce,vegetables,0.5826,piece,13883,152383.89,EUR,Store B,Switzerland,2020
+22,spinach,vegetables,0.6797,kg,9971,159161.17,EUR,Store B,Switzerland,2020
+23,soy bean,vegetables,0.7768,kg,2766,161309.8,EUR,Store B,Switzerland,2020
+24,cauliflower,vegetables,0.5826,piece,10948,167688.11,EUR,Store B,Switzerland,2020
+25,bell pepper,vegetables,0.6797,kg,2504,169390.08,EUR,Store B,Switzerland,2020
+26,chilli pepper,vegetables,0.4855,kg,2723,170712.09,EUR,Store B,Switzerland,2020
+27,turnip,vegetables,0.3884,kg,6219,173127.55,EUR,Store B,Switzerland,2020
+28,corn,vegetables,0.2913,kg,6896,175136.36,EUR,Store B,Switzerland,2020
+29,sweetcorn,vegetables,0.3884,kg,1975,175903.45,EUR,Store B,Switzerland,2020
+30,sweet potato,vegetables,0.4855,kg,17229,184268.13,EUR,Store B,Switzerland,2020
+31,paprika,vegetables,1.942,kg,13323,210141.39,EUR,Store B,Switzerland,2020
+32,jalepeno,vegetables,1.942,kg,6784,223315.92,EUR,Store B,Switzerland,2020
+33,ginger,vegetables,1.4565,kg,4669,230116.32,EUR,Store B,Switzerland,2020
+34,garlic,vegetables,1.4565,kg,9716,244267.67,EUR,Store B,Switzerland,2020
+35,peas,vegetables,2.913,kg,24652,316078.95,EUR,Store B,Switzerland,2020
+36,eggplant,vegetables,1.4565,kg,10664,331611.07,EUR,Store B,Switzerland,2020
+1,banana,fruits,0.4855,kg,27901,13545.94,EUR,Store C,Switzerland,2020
+2,apple,fruits,0.6797,kg,1909,14843.48,EUR,Store C,Switzerland,2020
+3,pear,fruits,0.5826,kg,14977,23569.08,EUR,Store C,Switzerland,2020
+4,grapes,fruits,1.1652,kg,18177,44748.92,EUR,Store C,Switzerland,2020
+5,orange,fruits,0.7768,kg,13917,55559.65,EUR,Store C,Switzerland,2020
+6,kiwi,fruits,0.8739,piece,1374,56760.39,EUR,Store C,Switzerland,2020
+7,watermelon,fruits,4.8549999999999995,kg,5543,83671.65,EUR,Store C,Switzerland,2020
+8,pomegranate,fruits,2.4274999999999998,kg,15251,120693.46,EUR,Store C,Switzerland,2020
+9,pineapple,fruits,1.4565,piece,23190,154469.69,EUR,Store C,Switzerland,2020
+10,mango,fruits,1.942,piece,3751,161754.13,EUR,Store C,Switzerland,2020
+11,cucumber,vegetables,0.3884,piece,7421,164636.45,EUR,Store C,Switzerland,2020
+12,carrot,vegetables,0.2913,kg,12352,168234.59,EUR,Store C,Switzerland,2020
+13,capsicum,vegetables,0.4855,kg,11085,173616.35,EUR,Store C,Switzerland,2020
+14,onion,vegetables,0.1942,kg,24937,178459.12,EUR,Store C,Switzerland,2020
+15,potato,vegetables,0.2913,kg,13550,182406.23,EUR,Store C,Switzerland,2020
+16,lemon,vegetables,0.3884,kg,14007,187846.55,EUR,Store C,Switzerland,2020
+17,tomato,vegetables,0.5826,kg,6841,191832.12,EUR,Store C,Switzerland,2020
+18,raddish,vegetables,0.2913,kg,9877,194709.29,EUR,Store C,Switzerland,2020
+19,beetroot,vegetables,0.3884,kg,7076,197457.61,EUR,Store C,Switzerland,2020
+20,cabbage,vegetables,0.4855,piece,4213,199503.02,EUR,Store C,Switzerland,2020
+21,lettuce,vegetables,0.5826,piece,1740,200516.74,EUR,Store C,Switzerland,2020
+22,spinach,vegetables,0.6797,kg,4834,203802.41,EUR,Store C,Switzerland,2020
+23,soy bean,vegetables,0.7768,kg,16701,216775.75,EUR,Store C,Switzerland,2020
+24,cauliflower,vegetables,0.5826,piece,9307,222198.01,EUR,Store C,Switzerland,2020
+25,bell pepper,vegetables,0.6797,kg,6437,226573.24,EUR,Store C,Switzerland,2020
+26,chilli pepper,vegetables,0.4855,kg,941,227030.09,EUR,Store C,Switzerland,2020
+27,turnip,vegetables,0.3884,kg,1137,227471.7,EUR,Store C,Switzerland,2020
+28,corn,vegetables,0.2913,kg,16010,232135.42,EUR,Store C,Switzerland,2020
+29,sweetcorn,vegetables,0.3884,kg,9511,235829.49,EUR,Store C,Switzerland,2020
+30,sweet potato,vegetables,0.4855,kg,7978,239702.81,EUR,Store C,Switzerland,2020
+31,paprika,vegetables,1.942,kg,2686,244919.02,EUR,Store C,Switzerland,2020
+32,jalepeno,vegetables,1.942,kg,9109,262608.7,EUR,Store C,Switzerland,2020
+33,ginger,vegetables,1.4565,kg,18325,289299.06,EUR,Store C,Switzerland,2020
+34,garlic,vegetables,1.4565,kg,28763,331192.37,EUR,Store C,Switzerland,2020
+35,peas,vegetables,2.913,kg,10481,361723.52,EUR,Store C,Switzerland,2020
+36,eggplant,vegetables,1.4565,kg,19356,389915.54,EUR,Store C,Switzerland,2020
+1,banana,fruits,0.4855,kg,26136,12689.03,EUR,Store D,Switzerland,2020
+2,apple,fruits,0.6797,kg,29227,32554.62,EUR,Store D,Switzerland,2020
+3,pear,fruits,0.5826,kg,12029,39562.72,EUR,Store D,Switzerland,2020
+4,grapes,fruits,1.1652,kg,2357,42309.09,EUR,Store D,Switzerland,2020
+5,orange,fruits,0.7768,kg,12075,51688.95,EUR,Store D,Switzerland,2020
+6,kiwi,fruits,0.8739,piece,11503,61741.42,EUR,Store D,Switzerland,2020
+7,watermelon,fruits,4.8549999999999995,kg,8755,104246.95,EUR,Store D,Switzerland,2020
+8,pomegranate,fruits,2.4274999999999998,kg,98,104484.84,EUR,Store D,Switzerland,2020
+9,pineapple,fruits,1.4565,piece,15328,126810.08,EUR,Store D,Switzerland,2020
+10,mango,fruits,1.942,piece,28299,181766.73,EUR,Store D,Switzerland,2020
+11,cucumber,vegetables,0.3884,piece,7273,184591.57,EUR,Store D,Switzerland,2020
+12,carrot,vegetables,0.2913,kg,4812,185993.3,EUR,Store D,Switzerland,2020
+13,capsicum,vegetables,0.4855,kg,15243,193393.78,EUR,Store D,Switzerland,2020
+14,onion,vegetables,0.1942,kg,18834,197051.34,EUR,Store D,Switzerland,2020
+15,potato,vegetables,0.2913,kg,14402,201246.64,EUR,Store D,Switzerland,2020
+16,lemon,vegetables,0.3884,kg,5944,203555.29,EUR,Store D,Switzerland,2020
+17,tomato,vegetables,0.5826,kg,25643,218494.91,EUR,Store D,Switzerland,2020
+18,raddish,vegetables,0.2913,kg,3540,219526.11,EUR,Store D,Switzerland,2020
+19,beetroot,vegetables,0.3884,kg,12412,224346.93,EUR,Store D,Switzerland,2020
+20,cabbage,vegetables,0.4855,piece,6733,227615.8,EUR,Store D,Switzerland,2020
+21,lettuce,vegetables,0.5826,piece,272,227774.27,EUR,Store D,Switzerland,2020
+22,spinach,vegetables,0.6797,kg,5385,231434.45,EUR,Store D,Switzerland,2020
+23,soy bean,vegetables,0.7768,kg,7998,237647.3,EUR,Store D,Switzerland,2020
+24,cauliflower,vegetables,0.5826,piece,10412,243713.33,EUR,Store D,Switzerland,2020
+25,bell pepper,vegetables,0.6797,kg,13406,252825.39,EUR,Store D,Switzerland,2020
+26,chilli pepper,vegetables,0.4855,kg,26099,265496.45,EUR,Store D,Switzerland,2020
+27,turnip,vegetables,0.3884,kg,2837,266598.34,EUR,Store D,Switzerland,2020
+28,corn,vegetables,0.2913,kg,11382,269913.92,EUR,Store D,Switzerland,2020
+29,sweetcorn,vegetables,0.3884,kg,2884,271034.06,EUR,Store D,Switzerland,2020
+30,sweet potato,vegetables,0.4855,kg,8113,274972.93,EUR,Store D,Switzerland,2020
+31,paprika,vegetables,1.942,kg,8009,290526.4,EUR,Store D,Switzerland,2020
+32,jalepeno,vegetables,1.942,kg,8499,307031.46,EUR,Store D,Switzerland,2020
+33,ginger,vegetables,1.4565,kg,9936,321503.25,EUR,Store D,Switzerland,2020
+34,garlic,vegetables,1.4565,kg,15392,343921.69,EUR,Store D,Switzerland,2020
+35,peas,vegetables,2.913,kg,624,345739.41,EUR,Store D,Switzerland,2020
+36,eggplant,vegetables,1.4565,kg,2374,349197.14,EUR,Store D,Switzerland,2020
+1,banana,fruits,0.4855,kg,29645,14392.65,EUR,Store E,Switzerland,2020
+2,apple,fruits,0.6797,kg,2231,15909.06,EUR,Store E,Switzerland,2020
+3,pear,fruits,0.5826,kg,469,16182.3,EUR,Store E,Switzerland,2020
+4,grapes,fruits,1.1652,kg,9566,27328.6,EUR,Store E,Switzerland,2020
+5,orange,fruits,0.7768,kg,27660,48814.89,EUR,Store E,Switzerland,2020
+6,kiwi,fruits,0.8739,piece,5435,53564.54,EUR,Store E,Switzerland,2020
+7,watermelon,fruits,4.8549999999999995,kg,2901,67648.89,EUR,Store E,Switzerland,2020
+8,pomegranate,fruits,2.4274999999999998,kg,5436,80844.78,EUR,Store E,Switzerland,2020
+9,pineapple,fruits,1.4565,piece,6483,90287.27,EUR,Store E,Switzerland,2020
+10,mango,fruits,1.942,piece,10592,110856.93,EUR,Store E,Switzerland,2020
+11,cucumber,vegetables,0.3884,piece,9445,114525.37,EUR,Store E,Switzerland,2020
+12,carrot,vegetables,0.2913,kg,867,114777.93,EUR,Store E,Switzerland,2020
+13,capsicum,vegetables,0.4855,kg,4975,117193.29,EUR,Store E,Switzerland,2020
+14,onion,vegetables,0.1942,kg,3651,117902.32,EUR,Store E,Switzerland,2020
+15,potato,vegetables,0.2913,kg,16399,122679.34,EUR,Store E,Switzerland,2020
+16,lemon,vegetables,0.3884,kg,9604,126409.54,EUR,Store E,Switzerland,2020
+17,tomato,vegetables,0.5826,kg,14798,135030.85,EUR,Store E,Switzerland,2020
+18,raddish,vegetables,0.2913,kg,3980,136190.23,EUR,Store E,Switzerland,2020
+19,beetroot,vegetables,0.3884,kg,4386,137893.75,EUR,Store E,Switzerland,2020
+20,cabbage,vegetables,0.4855,piece,2036,138882.23,EUR,Store E,Switzerland,2020
+21,lettuce,vegetables,0.5826,piece,5060,141830.18,EUR,Store E,Switzerland,2020
+22,spinach,vegetables,0.6797,kg,6958,146559.54,EUR,Store E,Switzerland,2020
+23,soy bean,vegetables,0.7768,kg,12063,155930.07,EUR,Store E,Switzerland,2020
+24,cauliflower,vegetables,0.5826,piece,6887,159942.44,EUR,Store E,Switzerland,2020
+25,bell pepper,vegetables,0.6797,kg,14965,170114.15,EUR,Store E,Switzerland,2020
+26,chilli pepper,vegetables,0.4855,kg,5558,172812.56,EUR,Store E,Switzerland,2020
+27,turnip,vegetables,0.3884,kg,20853,180911.86,EUR,Store E,Switzerland,2020
+28,corn,vegetables,0.2913,kg,8493,183385.88,EUR,Store E,Switzerland,2020
+29,sweetcorn,vegetables,0.3884,kg,17099,190027.13,EUR,Store E,Switzerland,2020
+30,sweet potato,vegetables,0.4855,kg,9564,194670.45,EUR,Store E,Switzerland,2020
+31,paprika,vegetables,1.942,kg,2600,199719.65,EUR,Store E,Switzerland,2020
+32,jalepeno,vegetables,1.942,kg,616,200915.92,EUR,Store E,Switzerland,2020
+33,ginger,vegetables,1.4565,kg,309,201365.98,EUR,Store E,Switzerland,2020
+34,garlic,vegetables,1.4565,kg,25321,238246.02,EUR,Store E,Switzerland,2020
+35,peas,vegetables,2.913,kg,5775,255068.59,EUR,Store E,Switzerland,2020
+36,eggplant,vegetables,1.4565,kg,503,255801.21,EUR,Store E,Switzerland,2020
+1,banana,fruits,0.4855,kg,19264,9352.67,EUR,Store A,Switzerland,2021
+2,apple,fruits,0.6797,kg,18979,22252.7,EUR,Store A,Switzerland,2021
+3,pear,fruits,0.5826,kg,321,22439.71,EUR,Store A,Switzerland,2021
+4,grapes,fruits,1.1652,kg,3542,26566.85,EUR,Store A,Switzerland,2021
+5,orange,fruits,0.7768,kg,8497,33167.32,EUR,Store A,Switzerland,2021
+6,kiwi,fruits,0.8739,piece,4222,36856.93,EUR,Store A,Switzerland,2021
+7,watermelon,fruits,4.8549999999999995,kg,24768,157105.57,EUR,Store A,Switzerland,2021
+8,pomegranate,fruits,2.4274999999999998,kg,739,158899.49,EUR,Store A,Switzerland,2021
+9,pineapple,fruits,1.4565,piece,19047,186641.44,EUR,Store A,Switzerland,2021
+10,mango,fruits,1.942,piece,8124,202418.25,EUR,Store A,Switzerland,2021
+11,cucumber,vegetables,0.3884,piece,10491,206492.96,EUR,Store A,Switzerland,2021
+12,carrot,vegetables,0.2913,kg,2348,207176.93,EUR,Store A,Switzerland,2021
+13,capsicum,vegetables,0.4855,kg,11748,212880.58,EUR,Store A,Switzerland,2021
+14,onion,vegetables,0.1942,kg,26547,218036.01,EUR,Store A,Switzerland,2021
+15,potato,vegetables,0.2913,kg,3289,218994.1,EUR,Store A,Switzerland,2021
+16,lemon,vegetables,0.3884,kg,4445,220720.53,EUR,Store A,Switzerland,2021
+17,tomato,vegetables,0.5826,kg,8098,225438.43,EUR,Store A,Switzerland,2021
+18,raddish,vegetables,0.2913,kg,8076,227790.97,EUR,Store A,Switzerland,2021
+19,beetroot,vegetables,0.3884,kg,6534,230328.77,EUR,Store A,Switzerland,2021
+20,cabbage,vegetables,0.4855,piece,1820,231212.38,EUR,Store A,Switzerland,2021
+21,lettuce,vegetables,0.5826,piece,6267,234863.54,EUR,Store A,Switzerland,2021
+22,spinach,vegetables,0.6797,kg,1350,235781.13,EUR,Store A,Switzerland,2021
+23,soy bean,vegetables,0.7768,kg,10706,244097.55,EUR,Store A,Switzerland,2021
+24,cauliflower,vegetables,0.5826,piece,1225,244811.24,EUR,Store A,Switzerland,2021
+25,bell pepper,vegetables,0.6797,kg,16775,256213.21,EUR,Store A,Switzerland,2021
+26,chilli pepper,vegetables,0.4855,kg,4977,258629.54,EUR,Store A,Switzerland,2021
+27,turnip,vegetables,0.3884,kg,7096,261385.63,EUR,Store A,Switzerland,2021
+28,corn,vegetables,0.2913,kg,6570,263299.47,EUR,Store A,Switzerland,2021
+29,sweetcorn,vegetables,0.3884,kg,6689,265897.47,EUR,Store A,Switzerland,2021
+30,sweet potato,vegetables,0.4855,kg,2838,267275.32,EUR,Store A,Switzerland,2021
+31,paprika,vegetables,1.942,kg,4135,275305.49,EUR,Store A,Switzerland,2021
+32,jalepeno,vegetables,1.942,kg,241,275773.52,EUR,Store A,Switzerland,2021
+33,ginger,vegetables,1.4565,kg,6919,285851.04,EUR,Store A,Switzerland,2021
+34,garlic,vegetables,1.4565,kg,10754,301514.24,EUR,Store A,Switzerland,2021
+35,peas,vegetables,2.913,kg,27410,381359.57,EUR,Store A,Switzerland,2021
+36,eggplant,vegetables,1.4565,kg,19317,409494.78,EUR,Store A,Switzerland,2021
+1,banana,fruits,0.4855,kg,18309,8889.02,EUR,Store B,Switzerland,2021
+2,apple,fruits,0.6797,kg,29271,28784.52,EUR,Store B,Switzerland,2021
+3,pear,fruits,0.5826,kg,1596,29714.35,EUR,Store B,Switzerland,2021
+4,grapes,fruits,1.1652,kg,15962,48313.27,EUR,Store B,Switzerland,2021
+5,orange,fruits,0.7768,kg,18292,62522.5,EUR,Store B,Switzerland,2021
+6,kiwi,fruits,0.8739,piece,10144,71387.34,EUR,Store B,Switzerland,2021
+7,watermelon,fruits,4.8549999999999995,kg,3118,86525.23,EUR,Store B,Switzerland,2021
+8,pomegranate,fruits,2.4274999999999998,kg,9408,109363.15,EUR,Store B,Switzerland,2021
+9,pineapple,fruits,1.4565,piece,26906,148551.74,EUR,Store B,Switzerland,2021
+10,mango,fruits,1.942,piece,5131,158516.14,EUR,Store B,Switzerland,2021
+11,cucumber,vegetables,0.3884,piece,9601,162245.17,EUR,Store B,Switzerland,2021
+12,carrot,vegetables,0.2913,kg,1253,162610.17,EUR,Store B,Switzerland,2021
+13,capsicum,vegetables,0.4855,kg,3104,164117.16,EUR,Store B,Switzerland,2021
+14,onion,vegetables,0.1942,kg,3461,164789.28,EUR,Store B,Switzerland,2021
+15,potato,vegetables,0.2913,kg,8399,167235.91,EUR,Store B,Switzerland,2021
+16,lemon,vegetables,0.3884,kg,19545,174827.19,EUR,Store B,Switzerland,2021
+17,tomato,vegetables,0.5826,kg,1246,175553.11,EUR,Store B,Switzerland,2021
+18,raddish,vegetables,0.2913,kg,4378,176828.42,EUR,Store B,Switzerland,2021
+19,beetroot,vegetables,0.3884,kg,85,176861.44,EUR,Store B,Switzerland,2021
+20,cabbage,vegetables,0.4855,piece,27408,190168.02,EUR,Store B,Switzerland,2021
+21,lettuce,vegetables,0.5826,piece,8668,195218.0,EUR,Store B,Switzerland,2021
+22,spinach,vegetables,0.6797,kg,13590,204455.12,EUR,Store B,Switzerland,2021
+23,soy bean,vegetables,0.7768,kg,21625,221253.42,EUR,Store B,Switzerland,2021
+24,cauliflower,vegetables,0.5826,piece,6780,225203.45,EUR,Store B,Switzerland,2021
+25,bell pepper,vegetables,0.6797,kg,9156,231426.78,EUR,Store B,Switzerland,2021
+26,chilli pepper,vegetables,0.4855,kg,16521,239447.73,EUR,Store B,Switzerland,2021
+27,turnip,vegetables,0.3884,kg,20875,247555.58,EUR,Store B,Switzerland,2021
+28,corn,vegetables,0.2913,kg,4367,248827.68,EUR,Store B,Switzerland,2021
+29,sweetcorn,vegetables,0.3884,kg,2718,249883.35,EUR,Store B,Switzerland,2021
+30,sweet potato,vegetables,0.4855,kg,29286,264101.71,EUR,Store B,Switzerland,2021
+31,paprika,vegetables,1.942,kg,8176,279979.5,EUR,Store B,Switzerland,2021
+32,jalepeno,vegetables,1.942,kg,5194,290066.25,EUR,Store B,Switzerland,2021
+33,ginger,vegetables,1.4565,kg,12120,307719.03,EUR,Store B,Switzerland,2021
+34,garlic,vegetables,1.4565,kg,9063,320919.29,EUR,Store B,Switzerland,2021
+35,peas,vegetables,2.913,kg,6221,339041.06,EUR,Store B,Switzerland,2021
+36,eggplant,vegetables,1.4565,kg,12941,357889.63,EUR,Store B,Switzerland,2021
+1,banana,fruits,0.4855,kg,21713,10541.66,EUR,Store C,Switzerland,2021
+2,apple,fruits,0.6797,kg,17351,22335.14,EUR,Store C,Switzerland,2021
+3,pear,fruits,0.5826,kg,16730,32082.03,EUR,Store C,Switzerland,2021
+4,grapes,fruits,1.1652,kg,19322,54596.03,EUR,Store C,Switzerland,2021
+5,orange,fruits,0.7768,kg,13083,64758.9,EUR,Store C,Switzerland,2021
+6,kiwi,fruits,0.8739,piece,5917,69929.77,EUR,Store C,Switzerland,2021
+7,watermelon,fruits,4.8549999999999995,kg,18480,159650.17,EUR,Store C,Switzerland,2021
+8,pomegranate,fruits,2.4274999999999998,kg,9830,183512.49,EUR,Store C,Switzerland,2021
+9,pineapple,fruits,1.4565,piece,8249,195527.16,EUR,Store C,Switzerland,2021
+10,mango,fruits,1.942,piece,13745,222219.95,EUR,Store C,Switzerland,2021
+11,cucumber,vegetables,0.3884,piece,2132,223048.02,EUR,Store C,Switzerland,2021
+12,carrot,vegetables,0.2913,kg,2257,223705.49,EUR,Store C,Switzerland,2021
+13,capsicum,vegetables,0.4855,kg,1738,224549.28,EUR,Store C,Switzerland,2021
+14,onion,vegetables,0.1942,kg,9094,226315.34,EUR,Store C,Switzerland,2021
+15,potato,vegetables,0.2913,kg,3161,227236.14,EUR,Store C,Switzerland,2021
+16,lemon,vegetables,0.3884,kg,18630,234472.03,EUR,Store C,Switzerland,2021
+17,tomato,vegetables,0.5826,kg,1357,235262.62,EUR,Store C,Switzerland,2021
+18,raddish,vegetables,0.2913,kg,15180,239684.55,EUR,Store C,Switzerland,2021
+19,beetroot,vegetables,0.3884,kg,4864,241573.73,EUR,Store C,Switzerland,2021
+20,cabbage,vegetables,0.4855,piece,4145,243586.13,EUR,Store C,Switzerland,2021
+21,lettuce,vegetables,0.5826,piece,18686,254472.59,EUR,Store C,Switzerland,2021
+22,spinach,vegetables,0.6797,kg,3243,256676.86,EUR,Store C,Switzerland,2021
+23,soy bean,vegetables,0.7768,kg,11539,265640.35,EUR,Store C,Switzerland,2021
+24,cauliflower,vegetables,0.5826,piece,24988,280198.36,EUR,Store C,Switzerland,2021
+25,bell pepper,vegetables,0.6797,kg,3417,282520.9,EUR,Store C,Switzerland,2021
+26,chilli pepper,vegetables,0.4855,kg,1329,283166.13,EUR,Store C,Switzerland,2021
+27,turnip,vegetables,0.3884,kg,15750,289283.43,EUR,Store C,Switzerland,2021
+28,corn,vegetables,0.2913,kg,14349,293463.29,EUR,Store C,Switzerland,2021
+29,sweetcorn,vegetables,0.3884,kg,9890,297304.57,EUR,Store C,Switzerland,2021
+30,sweet potato,vegetables,0.4855,kg,2745,298637.26,EUR,Store C,Switzerland,2021
+31,paprika,vegetables,1.942,kg,24115,345468.59,EUR,Store C,Switzerland,2021
+32,jalepeno,vegetables,1.942,kg,19821,383960.98,EUR,Store C,Switzerland,2021
+33,ginger,vegetables,1.4565,kg,6601,393575.33,EUR,Store C,Switzerland,2021
+34,garlic,vegetables,1.4565,kg,5246,401216.13,EUR,Store C,Switzerland,2021
+35,peas,vegetables,2.913,kg,19319,457492.38,EUR,Store C,Switzerland,2021
+36,eggplant,vegetables,1.4565,kg,7760,468794.82,EUR,Store C,Switzerland,2021
+1,banana,fruits,0.4855,kg,23161,11244.67,EUR,Store D,Switzerland,2021
+2,apple,fruits,0.6797,kg,7596,16407.67,EUR,Store D,Switzerland,2021
+3,pear,fruits,0.5826,kg,2040,17596.17,EUR,Store D,Switzerland,2021
+4,grapes,fruits,1.1652,kg,14746,34778.21,EUR,Store D,Switzerland,2021
+5,orange,fruits,0.7768,kg,20777,50917.78,EUR,Store D,Switzerland,2021
+6,kiwi,fruits,0.8739,piece,27373,74839.05,EUR,Store D,Switzerland,2021
+7,watermelon,fruits,4.8549999999999995,kg,29970,220343.4,EUR,Store D,Switzerland,2021
+8,pomegranate,fruits,2.4274999999999998,kg,5575,233876.71,EUR,Store D,Switzerland,2021
+9,pineapple,fruits,1.4565,piece,6508,243355.61,EUR,Store D,Switzerland,2021
+10,mango,fruits,1.942,piece,8384,259637.34,EUR,Store D,Switzerland,2021
+11,cucumber,vegetables,0.3884,piece,5544,261790.63,EUR,Store D,Switzerland,2021
+12,carrot,vegetables,0.2913,kg,9693,264614.2,EUR,Store D,Switzerland,2021
+13,capsicum,vegetables,0.4855,kg,9592,269271.12,EUR,Store D,Switzerland,2021
+14,onion,vegetables,0.1942,kg,6102,270456.13,EUR,Store D,Switzerland,2021
+15,potato,vegetables,0.2913,kg,18017,275704.48,EUR,Store D,Switzerland,2021
+16,lemon,vegetables,0.3884,kg,9234,279290.96,EUR,Store D,Switzerland,2021
+17,tomato,vegetables,0.5826,kg,871,279798.41,EUR,Store D,Switzerland,2021
+18,raddish,vegetables,0.2913,kg,61,279816.18,EUR,Store D,Switzerland,2021
+19,beetroot,vegetables,0.3884,kg,16219,286115.64,EUR,Store D,Switzerland,2021
+20,cabbage,vegetables,0.4855,piece,10440,291184.26,EUR,Store D,Switzerland,2021
+21,lettuce,vegetables,0.5826,piece,3820,293409.79,EUR,Store D,Switzerland,2021
+22,spinach,vegetables,0.6797,kg,16691,304754.66,EUR,Store D,Switzerland,2021
+23,soy bean,vegetables,0.7768,kg,12184,314219.19,EUR,Store D,Switzerland,2021
+24,cauliflower,vegetables,0.5826,piece,5684,317530.69,EUR,Store D,Switzerland,2021
+25,bell pepper,vegetables,0.6797,kg,21354,332045.0,EUR,Store D,Switzerland,2021
+26,chilli pepper,vegetables,0.4855,kg,9215,336518.89,EUR,Store D,Switzerland,2021
+27,turnip,vegetables,0.3884,kg,3611,337921.4,EUR,Store D,Switzerland,2021
+28,corn,vegetables,0.2913,kg,6584,339839.32,EUR,Store D,Switzerland,2021
+29,sweetcorn,vegetables,0.3884,kg,8057,342968.66,EUR,Store D,Switzerland,2021
+30,sweet potato,vegetables,0.4855,kg,9062,347368.26,EUR,Store D,Switzerland,2021
+31,paprika,vegetables,1.942,kg,6627,360237.89,EUR,Store D,Switzerland,2021
+32,jalepeno,vegetables,1.942,kg,20033,399141.98,EUR,Store D,Switzerland,2021
+33,ginger,vegetables,1.4565,kg,3447,404162.53,EUR,Store D,Switzerland,2021
+34,garlic,vegetables,1.4565,kg,4832,411200.34,EUR,Store D,Switzerland,2021
+35,peas,vegetables,2.913,kg,9916,440085.65,EUR,Store D,Switzerland,2021
+36,eggplant,vegetables,1.4565,kg,28804,482038.68,EUR,Store D,Switzerland,2021
+1,banana,fruits,0.4855,kg,10249,4975.89,EUR,Store E,Switzerland,2021
+2,apple,fruits,0.6797,kg,3699,7490.1,EUR,Store E,Switzerland,2021
+3,pear,fruits,0.5826,kg,1326,8262.63,EUR,Store E,Switzerland,2021
+4,grapes,fruits,1.1652,kg,2212,10840.05,EUR,Store E,Switzerland,2021
+5,orange,fruits,0.7768,kg,7364,16560.4,EUR,Store E,Switzerland,2021
+6,kiwi,fruits,0.8739,piece,6882,22574.58,EUR,Store E,Switzerland,2021
+7,watermelon,fruits,4.8549999999999995,kg,7333,58176.3,EUR,Store E,Switzerland,2021
+8,pomegranate,fruits,2.4274999999999998,kg,1753,62431.71,EUR,Store E,Switzerland,2021
+9,pineapple,fruits,1.4565,piece,13847,82599.86,EUR,Store E,Switzerland,2021
+10,mango,fruits,1.942,piece,396,83368.89,EUR,Store E,Switzerland,2021
+11,cucumber,vegetables,0.3884,piece,5618,85550.93,EUR,Store E,Switzerland,2021
+12,carrot,vegetables,0.2913,kg,18174,90845.01,EUR,Store E,Switzerland,2021
+13,capsicum,vegetables,0.4855,kg,2217,91921.37,EUR,Store E,Switzerland,2021
+14,onion,vegetables,0.1942,kg,17200,95261.61,EUR,Store E,Switzerland,2021
+15,potato,vegetables,0.2913,kg,5750,96936.58,EUR,Store E,Switzerland,2021
+16,lemon,vegetables,0.3884,kg,1339,97456.65,EUR,Store E,Switzerland,2021
+17,tomato,vegetables,0.5826,kg,7890,102053.36,EUR,Store E,Switzerland,2021
+18,raddish,vegetables,0.2913,kg,2398,102751.9,EUR,Store E,Switzerland,2021
+19,beetroot,vegetables,0.3884,kg,18178,109812.23,EUR,Store E,Switzerland,2021
+20,cabbage,vegetables,0.4855,piece,15786,117476.34,EUR,Store E,Switzerland,2021
+21,lettuce,vegetables,0.5826,piece,14212,125756.25,EUR,Store E,Switzerland,2021
+22,spinach,vegetables,0.6797,kg,8719,131682.55,EUR,Store E,Switzerland,2021
+23,soy bean,vegetables,0.7768,kg,5033,135592.19,EUR,Store E,Switzerland,2021
+24,cauliflower,vegetables,0.5826,piece,8991,140830.34,EUR,Store E,Switzerland,2021
+25,bell pepper,vegetables,0.6797,kg,25755,158336.02,EUR,Store E,Switzerland,2021
+26,chilli pepper,vegetables,0.4855,kg,4894,160712.05,EUR,Store E,Switzerland,2021
+27,turnip,vegetables,0.3884,kg,29288,172087.51,EUR,Store E,Switzerland,2021
+28,corn,vegetables,0.2913,kg,8453,174549.87,EUR,Store E,Switzerland,2021
+29,sweetcorn,vegetables,0.3884,kg,5054,176512.85,EUR,Store E,Switzerland,2021
+30,sweet potato,vegetables,0.4855,kg,18250,185373.22,EUR,Store E,Switzerland,2021
+31,paprika,vegetables,1.942,kg,1831,188929.02,EUR,Store E,Switzerland,2021
+32,jalepeno,vegetables,1.942,kg,17178,222288.7,EUR,Store E,Switzerland,2021
+33,ginger,vegetables,1.4565,kg,8427,234562.63,EUR,Store E,Switzerland,2021
+34,garlic,vegetables,1.4565,kg,7625,245668.44,EUR,Store E,Switzerland,2021
+35,peas,vegetables,2.913,kg,4019,257375.78,EUR,Store E,Switzerland,2021
+36,eggplant,vegetables,1.4565,kg,3348,262252.15,EUR,Store E,Switzerland,2021
+1,banana,fruits,0.4855,kg,11046,5362.83,EUR,Store A,Switzerland,2022
+2,apple,fruits,0.6797,kg,2928,7352.99,EUR,Store A,Switzerland,2022
+3,pear,fruits,0.5826,kg,12908,14873.2,EUR,Store A,Switzerland,2022
+4,grapes,fruits,1.1652,kg,7922,24103.91,EUR,Store A,Switzerland,2022
+5,orange,fruits,0.7768,kg,18258,38286.72,EUR,Store A,Switzerland,2022
+6,kiwi,fruits,0.8739,piece,3682,41504.42,EUR,Store A,Switzerland,2022
+7,watermelon,fruits,4.8549999999999995,kg,917,45956.46,EUR,Store A,Switzerland,2022
+8,pomegranate,fruits,2.4274999999999998,kg,13036,77601.35,EUR,Store A,Switzerland,2022
+9,pineapple,fruits,1.4565,piece,26788,116618.07,EUR,Store A,Switzerland,2022
+10,mango,fruits,1.942,piece,5577,127448.6,EUR,Store A,Switzerland,2022
+11,cucumber,vegetables,0.3884,piece,8447,130729.42,EUR,Store A,Switzerland,2022
+12,carrot,vegetables,0.2913,kg,3684,131802.57,EUR,Store A,Switzerland,2022
+13,capsicum,vegetables,0.4855,kg,3196,133354.23,EUR,Store A,Switzerland,2022
+14,onion,vegetables,0.1942,kg,578,133466.47,EUR,Store A,Switzerland,2022
+15,potato,vegetables,0.2913,kg,3647,134528.85,EUR,Store A,Switzerland,2022
+16,lemon,vegetables,0.3884,kg,11607,139037.0,EUR,Store A,Switzerland,2022
+17,tomato,vegetables,0.5826,kg,20949,151241.89,EUR,Store A,Switzerland,2022
+18,raddish,vegetables,0.2913,kg,24979,158518.27,EUR,Store A,Switzerland,2022
+19,beetroot,vegetables,0.3884,kg,18046,165527.34,EUR,Store A,Switzerland,2022
+20,cabbage,vegetables,0.4855,piece,3473,167213.48,EUR,Store A,Switzerland,2022
+21,lettuce,vegetables,0.5826,piece,10954,173595.28,EUR,Store A,Switzerland,2022
+22,spinach,vegetables,0.6797,kg,1392,174541.43,EUR,Store A,Switzerland,2022
+23,soy bean,vegetables,0.7768,kg,19634,189793.12,EUR,Store A,Switzerland,2022
+24,cauliflower,vegetables,0.5826,piece,4906,192651.35,EUR,Store A,Switzerland,2022
+25,bell pepper,vegetables,0.6797,kg,10105,199519.72,EUR,Store A,Switzerland,2022
+26,chilli pepper,vegetables,0.4855,kg,6964,202900.74,EUR,Store A,Switzerland,2022
+27,turnip,vegetables,0.3884,kg,22916,211801.32,EUR,Store A,Switzerland,2022
+28,corn,vegetables,0.2913,kg,2969,212666.19,EUR,Store A,Switzerland,2022
+29,sweetcorn,vegetables,0.3884,kg,6543,215207.49,EUR,Store A,Switzerland,2022
+30,sweet potato,vegetables,0.4855,kg,2386,216365.89,EUR,Store A,Switzerland,2022
+31,paprika,vegetables,1.942,kg,3699,223549.35,EUR,Store A,Switzerland,2022
+32,jalepeno,vegetables,1.942,kg,6605,236376.26,EUR,Store A,Switzerland,2022
+33,ginger,vegetables,1.4565,kg,1743,238914.94,EUR,Store A,Switzerland,2022
+34,garlic,vegetables,1.4565,kg,868,240179.18,EUR,Store A,Switzerland,2022
+35,peas,vegetables,2.913,kg,4493,253267.29,EUR,Store A,Switzerland,2022
+36,eggplant,vegetables,1.4565,kg,8236,265263.02,EUR,Store A,Switzerland,2022
+1,banana,fruits,0.4855,kg,12140,5893.97,EUR,Store B,Switzerland,2022
+2,apple,fruits,0.6797,kg,3117,8012.59,EUR,Store B,Switzerland,2022
+3,pear,fruits,0.5826,kg,4965,10905.2,EUR,Store B,Switzerland,2022
+4,grapes,fruits,1.1652,kg,8956,21340.74,EUR,Store B,Switzerland,2022
+5,orange,fruits,0.7768,kg,897,22037.52,EUR,Store B,Switzerland,2022
+6,kiwi,fruits,0.8739,piece,4032,25561.09,EUR,Store B,Switzerland,2022
+7,watermelon,fruits,4.8549999999999995,kg,29414,168366.06,EUR,Store B,Switzerland,2022
+8,pomegranate,fruits,2.4274999999999998,kg,3023,175704.39,EUR,Store B,Switzerland,2022
+9,pineapple,fruits,1.4565,piece,8366,187889.47,EUR,Store B,Switzerland,2022
+10,mango,fruits,1.942,piece,6371,200261.95,EUR,Store B,Switzerland,2022
+11,cucumber,vegetables,0.3884,piece,5470,202386.5,EUR,Store B,Switzerland,2022
+12,carrot,vegetables,0.2913,kg,8673,204912.95,EUR,Store B,Switzerland,2022
+13,capsicum,vegetables,0.4855,kg,285,205051.31,EUR,Store B,Switzerland,2022
+14,onion,vegetables,0.1942,kg,4458,205917.06,EUR,Store B,Switzerland,2022
+15,potato,vegetables,0.2913,kg,9991,208827.44,EUR,Store B,Switzerland,2022
+16,lemon,vegetables,0.3884,kg,10914,213066.43,EUR,Store B,Switzerland,2022
+17,tomato,vegetables,0.5826,kg,1100,213707.29,EUR,Store B,Switzerland,2022
+18,raddish,vegetables,0.2913,kg,4736,215086.89,EUR,Store B,Switzerland,2022
+19,beetroot,vegetables,0.3884,kg,6139,217471.28,EUR,Store B,Switzerland,2022
+20,cabbage,vegetables,0.4855,piece,5205,219998.3,EUR,Store B,Switzerland,2022
+21,lettuce,vegetables,0.5826,piece,10066,225862.76,EUR,Store B,Switzerland,2022
+22,spinach,vegetables,0.6797,kg,12654,234463.68,EUR,Store B,Switzerland,2022
+23,soy bean,vegetables,0.7768,kg,6277,239339.65,EUR,Store B,Switzerland,2022
+24,cauliflower,vegetables,0.5826,piece,11745,246182.29,EUR,Store B,Switzerland,2022
+25,bell pepper,vegetables,0.6797,kg,29132,265983.31,EUR,Store B,Switzerland,2022
+26,chilli pepper,vegetables,0.4855,kg,16606,274045.52,EUR,Store B,Switzerland,2022
+27,turnip,vegetables,0.3884,kg,5873,276326.6,EUR,Store B,Switzerland,2022
+28,corn,vegetables,0.2913,kg,29386,284886.74,EUR,Store B,Switzerland,2022
+29,sweetcorn,vegetables,0.3884,kg,21135,293095.57,EUR,Store B,Switzerland,2022
+30,sweet potato,vegetables,0.4855,kg,13748,299770.23,EUR,Store B,Switzerland,2022
+31,paprika,vegetables,1.942,kg,4543,308592.73,EUR,Store B,Switzerland,2022
+32,jalepeno,vegetables,1.942,kg,1210,310942.55,EUR,Store B,Switzerland,2022
+33,ginger,vegetables,1.4565,kg,9234,324391.87,EUR,Store B,Switzerland,2022
+34,garlic,vegetables,1.4565,kg,25506,361541.36,EUR,Store B,Switzerland,2022
+35,peas,vegetables,2.913,kg,4922,375879.15,EUR,Store B,Switzerland,2022
+36,eggplant,vegetables,1.4565,kg,19936,404915.93,EUR,Store B,Switzerland,2022
+1,banana,fruits,0.4855,kg,16363,7944.24,EUR,Store C,Switzerland,2022
+2,apple,fruits,0.6797,kg,15320,18357.24,EUR,Store C,Switzerland,2022
+3,pear,fruits,0.5826,kg,6897,22375.43,EUR,Store C,Switzerland,2022
+4,grapes,fruits,1.1652,kg,4170,27234.32,EUR,Store C,Switzerland,2022
+5,orange,fruits,0.7768,kg,15294,39114.7,EUR,Store C,Switzerland,2022
+6,kiwi,fruits,0.8739,piece,6028,44382.57,EUR,Store C,Switzerland,2022
+7,watermelon,fruits,4.8549999999999995,kg,3906,63346.2,EUR,Store C,Switzerland,2022
+8,pomegranate,fruits,2.4274999999999998,kg,6165,78311.73,EUR,Store C,Switzerland,2022
+9,pineapple,fruits,1.4565,piece,14496,99425.16,EUR,Store C,Switzerland,2022
+10,mango,fruits,1.942,piece,15324,129184.36,EUR,Store C,Switzerland,2022
+11,cucumber,vegetables,0.3884,piece,3220,130435.01,EUR,Store C,Switzerland,2022
+12,carrot,vegetables,0.2913,kg,20859,136511.24,EUR,Store C,Switzerland,2022
+13,capsicum,vegetables,0.4855,kg,4854,138867.86,EUR,Store C,Switzerland,2022
+14,onion,vegetables,0.1942,kg,8857,140587.89,EUR,Store C,Switzerland,2022
+15,potato,vegetables,0.2913,kg,10155,143546.04,EUR,Store C,Switzerland,2022
+16,lemon,vegetables,0.3884,kg,9951,147411.01,EUR,Store C,Switzerland,2022
+17,tomato,vegetables,0.5826,kg,23669,161200.57,EUR,Store C,Switzerland,2022
+18,raddish,vegetables,0.2913,kg,6033,162957.98,EUR,Store C,Switzerland,2022
+19,beetroot,vegetables,0.3884,kg,15872,169122.66,EUR,Store C,Switzerland,2022
+20,cabbage,vegetables,0.4855,piece,3020,170588.87,EUR,Store C,Switzerland,2022
+21,lettuce,vegetables,0.5826,piece,3428,172586.03,EUR,Store C,Switzerland,2022
+22,spinach,vegetables,0.6797,kg,19149,185601.6,EUR,Store C,Switzerland,2022
+23,soy bean,vegetables,0.7768,kg,3058,187977.06,EUR,Store C,Switzerland,2022
+24,cauliflower,vegetables,0.5826,piece,15320,196902.49,EUR,Store C,Switzerland,2022
+25,bell pepper,vegetables,0.6797,kg,7151,201763.02,EUR,Store C,Switzerland,2022
+26,chilli pepper,vegetables,0.4855,kg,11482,207337.53,EUR,Store C,Switzerland,2022
+27,turnip,vegetables,0.3884,kg,968,207713.5,EUR,Store C,Switzerland,2022
+28,corn,vegetables,0.2913,kg,8532,210198.88,EUR,Store C,Switzerland,2022
+29,sweetcorn,vegetables,0.3884,kg,14445,215809.31,EUR,Store C,Switzerland,2022
+30,sweet potato,vegetables,0.4855,kg,2338,216944.41,EUR,Store C,Switzerland,2022
+31,paprika,vegetables,1.942,kg,3810,224343.43,EUR,Store C,Switzerland,2022
+32,jalepeno,vegetables,1.942,kg,5424,234876.84,EUR,Store C,Switzerland,2022
+33,ginger,vegetables,1.4565,kg,16537,258962.98,EUR,Store C,Switzerland,2022
+34,garlic,vegetables,1.4565,kg,10174,273781.41,EUR,Store C,Switzerland,2022
+35,peas,vegetables,2.913,kg,17524,324828.82,EUR,Store C,Switzerland,2022
+36,eggplant,vegetables,1.4565,kg,17738,350664.22,EUR,Store C,Switzerland,2022
+1,banana,fruits,0.4855,kg,2492,1209.87,EUR,Store D,Switzerland,2022
+2,apple,fruits,0.6797,kg,2858,3152.45,EUR,Store D,Switzerland,2022
+3,pear,fruits,0.5826,kg,921,3689.02,EUR,Store D,Switzerland,2022
+4,grapes,fruits,1.1652,kg,1393,5312.15,EUR,Store D,Switzerland,2022
+5,orange,fruits,0.7768,kg,2291,7091.8,EUR,Store D,Switzerland,2022
+6,kiwi,fruits,0.8739,piece,14561,19816.65,EUR,Store D,Switzerland,2022
+7,watermelon,fruits,4.8549999999999995,kg,5085,44504.33,EUR,Store D,Switzerland,2022
+8,pomegranate,fruits,2.4274999999999998,kg,2447,50444.42,EUR,Store D,Switzerland,2022
+9,pineapple,fruits,1.4565,piece,12972,69338.14,EUR,Store D,Switzerland,2022
+10,mango,fruits,1.942,piece,5277,79586.07,EUR,Store D,Switzerland,2022
+11,cucumber,vegetables,0.3884,piece,6901,82266.42,EUR,Store D,Switzerland,2022
+12,carrot,vegetables,0.2913,kg,14095,86372.29,EUR,Store D,Switzerland,2022
+13,capsicum,vegetables,0.4855,kg,4898,88750.27,EUR,Store D,Switzerland,2022
+14,onion,vegetables,0.1942,kg,9328,90561.77,EUR,Store D,Switzerland,2022
+15,potato,vegetables,0.2913,kg,16538,95379.29,EUR,Store D,Switzerland,2022
+16,lemon,vegetables,0.3884,kg,7972,98475.62,EUR,Store D,Switzerland,2022
+17,tomato,vegetables,0.5826,kg,937,99021.51,EUR,Store D,Switzerland,2022
+18,raddish,vegetables,0.2913,kg,4083,100210.89,EUR,Store D,Switzerland,2022
+19,beetroot,vegetables,0.3884,kg,9634,103952.74,EUR,Store D,Switzerland,2022
+20,cabbage,vegetables,0.4855,piece,18093,112736.89,EUR,Store D,Switzerland,2022
+21,lettuce,vegetables,0.5826,piece,14418,121136.81,EUR,Store D,Switzerland,2022
+22,spinach,vegetables,0.6797,kg,7857,126477.22,EUR,Store D,Switzerland,2022
+23,soy bean,vegetables,0.7768,kg,8397,133000.01,EUR,Store D,Switzerland,2022
+24,cauliflower,vegetables,0.5826,piece,8047,137688.19,EUR,Store D,Switzerland,2022
+25,bell pepper,vegetables,0.6797,kg,7609,142860.03,EUR,Store D,Switzerland,2022
+26,chilli pepper,vegetables,0.4855,kg,234,142973.63,EUR,Store D,Switzerland,2022
+27,turnip,vegetables,0.3884,kg,19361,150493.45,EUR,Store D,Switzerland,2022
+28,corn,vegetables,0.2913,kg,5964,152230.76,EUR,Store D,Switzerland,2022
+29,sweetcorn,vegetables,0.3884,kg,19096,159647.64,EUR,Store D,Switzerland,2022
+30,sweet potato,vegetables,0.4855,kg,2871,161041.52,EUR,Store D,Switzerland,2022
+31,paprika,vegetables,1.942,kg,8066,176705.69,EUR,Store D,Switzerland,2022
+32,jalepeno,vegetables,1.942,kg,487,177651.44,EUR,Store D,Switzerland,2022
+33,ginger,vegetables,1.4565,kg,9993,192206.25,EUR,Store D,Switzerland,2022
+34,garlic,vegetables,1.4565,kg,1826,194865.81,EUR,Store D,Switzerland,2022
+35,peas,vegetables,2.913,kg,14680,237628.65,EUR,Store D,Switzerland,2022
+36,eggplant,vegetables,1.4565,kg,15399,260057.3,EUR,Store D,Switzerland,2022
+1,banana,fruits,0.4855,kg,2855,1386.1,EUR,Store E,Switzerland,2022
+2,apple,fruits,0.6797,kg,29362,21343.45,EUR,Store E,Switzerland,2022
+3,pear,fruits,0.5826,kg,2258,22658.96,EUR,Store E,Switzerland,2022
+4,grapes,fruits,1.1652,kg,28711,56113.02,EUR,Store E,Switzerland,2022
+5,orange,fruits,0.7768,kg,16441,68884.39,EUR,Store E,Switzerland,2022
+6,kiwi,fruits,0.8739,piece,1072,69821.21,EUR,Store E,Switzerland,2022
+7,watermelon,fruits,4.8549999999999995,kg,22322,178194.52,EUR,Store E,Switzerland,2022
+8,pomegranate,fruits,2.4274999999999998,kg,1525,181896.46,EUR,Store E,Switzerland,2022
+9,pineapple,fruits,1.4565,piece,29346,224638.91,EUR,Store E,Switzerland,2022
+10,mango,fruits,1.942,piece,21098,265611.22,EUR,Store E,Switzerland,2022
+11,cucumber,vegetables,0.3884,piece,12715,270549.73,EUR,Store E,Switzerland,2022
+12,carrot,vegetables,0.2913,kg,3259,271499.08,EUR,Store E,Switzerland,2022
+13,capsicum,vegetables,0.4855,kg,12182,277413.44,EUR,Store E,Switzerland,2022
+14,onion,vegetables,0.1942,kg,3247,278044.01,EUR,Store E,Switzerland,2022
+15,potato,vegetables,0.2913,kg,2090,278652.82,EUR,Store E,Switzerland,2022
+16,lemon,vegetables,0.3884,kg,23384,287735.17,EUR,Store E,Switzerland,2022
+17,tomato,vegetables,0.5826,kg,13398,295540.84,EUR,Store E,Switzerland,2022
+18,raddish,vegetables,0.2913,kg,8186,297925.42,EUR,Store E,Switzerland,2022
+19,beetroot,vegetables,0.3884,kg,2979,299082.47,EUR,Store E,Switzerland,2022
+20,cabbage,vegetables,0.4855,piece,4953,301487.15,EUR,Store E,Switzerland,2022
+21,lettuce,vegetables,0.5826,piece,6646,305359.11,EUR,Store E,Switzerland,2022
+22,spinach,vegetables,0.6797,kg,7993,310791.95,EUR,Store E,Switzerland,2022
+23,soy bean,vegetables,0.7768,kg,17613,324473.73,EUR,Store E,Switzerland,2022
+24,cauliflower,vegetables,0.5826,piece,16923,334333.07,EUR,Store E,Switzerland,2022
+25,bell pepper,vegetables,0.6797,kg,5149,337832.84,EUR,Store E,Switzerland,2022
+26,chilli pepper,vegetables,0.4855,kg,9253,342325.18,EUR,Store E,Switzerland,2022
+27,turnip,vegetables,0.3884,kg,4483,344066.37,EUR,Store E,Switzerland,2022
+28,corn,vegetables,0.2913,kg,15465,348571.33,EUR,Store E,Switzerland,2022
+29,sweetcorn,vegetables,0.3884,kg,3423,349900.82,EUR,Store E,Switzerland,2022
+30,sweet potato,vegetables,0.4855,kg,14937,357152.73,EUR,Store E,Switzerland,2022
+31,paprika,vegetables,1.942,kg,13588,383540.63,EUR,Store E,Switzerland,2022
+32,jalepeno,vegetables,1.942,kg,7529,398161.95,EUR,Store E,Switzerland,2022
+33,ginger,vegetables,1.4565,kg,3384,403090.74,EUR,Store E,Switzerland,2022
+34,garlic,vegetables,1.4565,kg,15838,426158.79,EUR,Store E,Switzerland,2022
+35,peas,vegetables,2.913,kg,9737,454522.67,EUR,Store E,Switzerland,2022
+36,eggplant,vegetables,1.4565,kg,462,455195.58,EUR,Store E,Switzerland,2022
+1,banana,fruits,0.4855,kg,3063,1487.09,EUR,Store A,Switzerland,2023
+2,apple,fruits,0.6797,kg,11399,9234.99,EUR,Store A,Switzerland,2023
+3,pear,fruits,0.5826,kg,7084,13362.13,EUR,Store A,Switzerland,2023
+4,grapes,fruits,1.1652,kg,4099,18138.28,EUR,Store A,Switzerland,2023
+5,orange,fruits,0.7768,kg,13532,28649.94,EUR,Store A,Switzerland,2023
+6,kiwi,fruits,0.8739,piece,7694,35373.72,EUR,Store A,Switzerland,2023
+7,watermelon,fruits,4.8549999999999995,kg,23069,147373.72,EUR,Store A,Switzerland,2023
+8,pomegranate,fruits,2.4274999999999998,kg,4884,159229.63,EUR,Store A,Switzerland,2023
+9,pineapple,fruits,1.4565,piece,9643,173274.66,EUR,Store A,Switzerland,2023
+10,mango,fruits,1.942,piece,15016,202435.73,EUR,Store A,Switzerland,2023
+11,cucumber,vegetables,0.3884,piece,8249,205639.64,EUR,Store A,Switzerland,2023
+12,carrot,vegetables,0.2913,kg,3353,206616.37,EUR,Store A,Switzerland,2023
+13,capsicum,vegetables,0.4855,kg,5931,209495.87,EUR,Store A,Switzerland,2023
+14,onion,vegetables,0.1942,kg,17584,212910.68,EUR,Store A,Switzerland,2023
+15,potato,vegetables,0.2913,kg,23940,219884.41,EUR,Store A,Switzerland,2023
+16,lemon,vegetables,0.3884,kg,18131,226926.49,EUR,Store A,Switzerland,2023
+17,tomato,vegetables,0.5826,kg,6818,230898.65,EUR,Store A,Switzerland,2023
+18,raddish,vegetables,0.2913,kg,15068,235287.96,EUR,Store A,Switzerland,2023
+19,beetroot,vegetables,0.3884,kg,18702,242551.82,EUR,Store A,Switzerland,2023
+20,cabbage,vegetables,0.4855,piece,19325,251934.11,EUR,Store A,Switzerland,2023
+21,lettuce,vegetables,0.5826,piece,264,252087.91,EUR,Store A,Switzerland,2023
+22,spinach,vegetables,0.6797,kg,8595,257929.93,EUR,Store A,Switzerland,2023
+23,soy bean,vegetables,0.7768,kg,9897,265617.92,EUR,Store A,Switzerland,2023
+24,cauliflower,vegetables,0.5826,piece,1756,266640.97,EUR,Store A,Switzerland,2023
+25,bell pepper,vegetables,0.6797,kg,511,266988.3,EUR,Store A,Switzerland,2023
+26,chilli pepper,vegetables,0.4855,kg,5885,269845.46,EUR,Store A,Switzerland,2023
+27,turnip,vegetables,0.3884,kg,14485,275471.44,EUR,Store A,Switzerland,2023
+28,corn,vegetables,0.2913,kg,16272,280211.47,EUR,Store A,Switzerland,2023
+29,sweetcorn,vegetables,0.3884,kg,19553,287805.86,EUR,Store A,Switzerland,2023
+30,sweet potato,vegetables,0.4855,kg,2793,289161.86,EUR,Store A,Switzerland,2023
+31,paprika,vegetables,1.942,kg,19975,327953.31,EUR,Store A,Switzerland,2023
+32,jalepeno,vegetables,1.942,kg,191,328324.23,EUR,Store A,Switzerland,2023
+33,ginger,vegetables,1.4565,kg,21405,359500.61,EUR,Store A,Switzerland,2023
+34,garlic,vegetables,1.4565,kg,16188,383078.43,EUR,Store A,Switzerland,2023
+35,peas,vegetables,2.913,kg,22866,449687.09,EUR,Store A,Switzerland,2023
+36,eggplant,vegetables,1.4565,kg,641,450620.71,EUR,Store A,Switzerland,2023
+1,banana,fruits,0.4855,kg,21324,10352.8,EUR,Store B,Switzerland,2023
+2,apple,fruits,0.6797,kg,3892,12998.19,EUR,Store B,Switzerland,2023
+3,pear,fruits,0.5826,kg,18258,23635.31,EUR,Store B,Switzerland,2023
+4,grapes,fruits,1.1652,kg,8037,33000.02,EUR,Store B,Switzerland,2023
+5,orange,fruits,0.7768,kg,4178,36245.49,EUR,Store B,Switzerland,2023
+6,kiwi,fruits,0.8739,piece,4868,40499.63,EUR,Store B,Switzerland,2023
+7,watermelon,fruits,4.8549999999999995,kg,2016,50287.31,EUR,Store B,Switzerland,2023
+8,pomegranate,fruits,2.4274999999999998,kg,2261,55775.89,EUR,Store B,Switzerland,2023
+9,pineapple,fruits,1.4565,piece,19647,84391.75,EUR,Store B,Switzerland,2023
+10,mango,fruits,1.942,piece,16779,116976.56,EUR,Store B,Switzerland,2023
+11,cucumber,vegetables,0.3884,piece,14939,122778.87,EUR,Store B,Switzerland,2023
+12,carrot,vegetables,0.2913,kg,1231,123137.46,EUR,Store B,Switzerland,2023
+13,capsicum,vegetables,0.4855,kg,2446,124325.0,EUR,Store B,Switzerland,2023
+14,onion,vegetables,0.1942,kg,17544,127732.04,EUR,Store B,Switzerland,2023
+15,potato,vegetables,0.2913,kg,7482,129911.55,EUR,Store B,Switzerland,2023
+16,lemon,vegetables,0.3884,kg,7885,132974.08,EUR,Store B,Switzerland,2023
+17,tomato,vegetables,0.5826,kg,11277,139544.06,EUR,Store B,Switzerland,2023
+18,raddish,vegetables,0.2913,kg,13007,143333.0,EUR,Store B,Switzerland,2023
+19,beetroot,vegetables,0.3884,kg,8570,146661.59,EUR,Store B,Switzerland,2023
+20,cabbage,vegetables,0.4855,piece,29053,160766.82,EUR,Store B,Switzerland,2023
+21,lettuce,vegetables,0.5826,piece,7173,164945.81,EUR,Store B,Switzerland,2023
+22,spinach,vegetables,0.6797,kg,8783,170915.61,EUR,Store B,Switzerland,2023
+23,soy bean,vegetables,0.7768,kg,6304,175812.56,EUR,Store B,Switzerland,2023
+24,cauliflower,vegetables,0.5826,piece,20817,187940.55,EUR,Store B,Switzerland,2023
+25,bell pepper,vegetables,0.6797,kg,16009,198821.86,EUR,Store B,Switzerland,2023
+26,chilli pepper,vegetables,0.4855,kg,12644,204960.52,EUR,Store B,Switzerland,2023
+27,turnip,vegetables,0.3884,kg,1279,205457.29,EUR,Store B,Switzerland,2023
+28,corn,vegetables,0.2913,kg,154,205502.15,EUR,Store B,Switzerland,2023
+29,sweetcorn,vegetables,0.3884,kg,8004,208610.9,EUR,Store B,Switzerland,2023
+30,sweet potato,vegetables,0.4855,kg,4870,210975.29,EUR,Store B,Switzerland,2023
+31,paprika,vegetables,1.942,kg,3097,216989.66,EUR,Store B,Switzerland,2023
+32,jalepeno,vegetables,1.942,kg,9019,234504.56,EUR,Store B,Switzerland,2023
+33,ginger,vegetables,1.4565,kg,24241,269811.58,EUR,Store B,Switzerland,2023
+34,garlic,vegetables,1.4565,kg,9888,284213.45,EUR,Store B,Switzerland,2023
+35,peas,vegetables,2.913,kg,25405,358218.21,EUR,Store B,Switzerland,2023
+36,eggplant,vegetables,1.4565,kg,2002,361134.13,EUR,Store B,Switzerland,2023
+1,banana,fruits,0.4855,kg,5197,2523.14,EUR,Store C,Switzerland,2023
+2,apple,fruits,0.6797,kg,2014,3892.06,EUR,Store C,Switzerland,2023
+3,pear,fruits,0.5826,kg,12035,10903.65,EUR,Store C,Switzerland,2023
+4,grapes,fruits,1.1652,kg,2943,14332.83,EUR,Store C,Switzerland,2023
+5,orange,fruits,0.7768,kg,3526,17071.83,EUR,Store C,Switzerland,2023
+6,kiwi,fruits,0.8739,piece,3166,19838.6,EUR,Store C,Switzerland,2023
+7,watermelon,fruits,4.8549999999999995,kg,25158,141980.69,EUR,Store C,Switzerland,2023
+8,pomegranate,fruits,2.4274999999999998,kg,6520,157807.99,EUR,Store C,Switzerland,2023
+9,pineapple,fruits,1.4565,piece,5289,165511.42,EUR,Store C,Switzerland,2023
+10,mango,fruits,1.942,piece,8710,182426.24,EUR,Store C,Switzerland,2023
+11,cucumber,vegetables,0.3884,piece,1695,183084.57,EUR,Store C,Switzerland,2023
+12,carrot,vegetables,0.2913,kg,9958,185985.34,EUR,Store C,Switzerland,2023
+13,capsicum,vegetables,0.4855,kg,23430,197360.6,EUR,Store C,Switzerland,2023
+14,onion,vegetables,0.1942,kg,97,197379.44,EUR,Store C,Switzerland,2023
+15,potato,vegetables,0.2913,kg,1026,197678.32,EUR,Store C,Switzerland,2023
+16,lemon,vegetables,0.3884,kg,5138,199673.92,EUR,Store C,Switzerland,2023
+17,tomato,vegetables,0.5826,kg,6063,203206.22,EUR,Store C,Switzerland,2023
+18,raddish,vegetables,0.2913,kg,10631,206303.03,EUR,Store C,Switzerland,2023
+19,beetroot,vegetables,0.3884,kg,15102,212168.65,EUR,Store C,Switzerland,2023
+20,cabbage,vegetables,0.4855,piece,16590,220223.09,EUR,Store C,Switzerland,2023
+21,lettuce,vegetables,0.5826,piece,22108,233103.21,EUR,Store C,Switzerland,2023
+22,spinach,vegetables,0.6797,kg,10265,240080.33,EUR,Store C,Switzerland,2023
+23,soy bean,vegetables,0.7768,kg,27242,261241.92,EUR,Store C,Switzerland,2023
+24,cauliflower,vegetables,0.5826,piece,7366,265533.35,EUR,Store C,Switzerland,2023
+25,bell pepper,vegetables,0.6797,kg,10618,272750.4,EUR,Store C,Switzerland,2023
+26,chilli pepper,vegetables,0.4855,kg,6471,275892.07,EUR,Store C,Switzerland,2023
+27,turnip,vegetables,0.3884,kg,4851,277776.2,EUR,Store C,Switzerland,2023
+28,corn,vegetables,0.2913,kg,17906,282992.22,EUR,Store C,Switzerland,2023
+29,sweetcorn,vegetables,0.3884,kg,9320,286612.11,EUR,Store C,Switzerland,2023
+30,sweet potato,vegetables,0.4855,kg,7097,290057.7,EUR,Store C,Switzerland,2023
+31,paprika,vegetables,1.942,kg,6998,303647.82,EUR,Store C,Switzerland,2023
+32,jalepeno,vegetables,1.942,kg,26641,355384.64,EUR,Store C,Switzerland,2023
+33,ginger,vegetables,1.4565,kg,2596,359165.71,EUR,Store C,Switzerland,2023
+34,garlic,vegetables,1.4565,kg,6641,368838.33,EUR,Store C,Switzerland,2023
+35,peas,vegetables,2.913,kg,1735,373892.39,EUR,Store C,Switzerland,2023
+36,eggplant,vegetables,1.4565,kg,5005,381182.17,EUR,Store C,Switzerland,2023
+1,banana,fruits,0.4855,kg,1518,736.99,EUR,Store D,Switzerland,2023
+2,apple,fruits,0.6797,kg,16569,11998.94,EUR,Store D,Switzerland,2023
+3,pear,fruits,0.5826,kg,26023,27159.94,EUR,Store D,Switzerland,2023
+4,grapes,fruits,1.1652,kg,18847,49120.46,EUR,Store D,Switzerland,2023
+5,orange,fruits,0.7768,kg,26154,69436.89,EUR,Store D,Switzerland,2023
+6,kiwi,fruits,0.8739,piece,8632,76980.39,EUR,Store D,Switzerland,2023
+7,watermelon,fruits,4.8549999999999995,kg,11755,134050.92,EUR,Store D,Switzerland,2023
+8,pomegranate,fruits,2.4274999999999998,kg,18088,177959.54,EUR,Store D,Switzerland,2023
+9,pineapple,fruits,1.4565,piece,8506,190348.53,EUR,Store D,Switzerland,2023
+10,mango,fruits,1.942,piece,14054,217641.4,EUR,Store D,Switzerland,2023
+11,cucumber,vegetables,0.3884,piece,5390,219734.87,EUR,Store D,Switzerland,2023
+12,carrot,vegetables,0.2913,kg,17150,224730.67,EUR,Store D,Switzerland,2023
+13,capsicum,vegetables,0.4855,kg,27597,238129.01,EUR,Store D,Switzerland,2023
+14,onion,vegetables,0.1942,kg,19887,241991.07,EUR,Store D,Switzerland,2023
+15,potato,vegetables,0.2913,kg,15208,246421.16,EUR,Store D,Switzerland,2023
+16,lemon,vegetables,0.3884,kg,6320,248875.84,EUR,Store D,Switzerland,2023
+17,tomato,vegetables,0.5826,kg,5627,252154.13,EUR,Store D,Switzerland,2023
+18,raddish,vegetables,0.2913,kg,2569,252902.48,EUR,Store D,Switzerland,2023
+19,beetroot,vegetables,0.3884,kg,4424,254620.77,EUR,Store D,Switzerland,2023
+20,cabbage,vegetables,0.4855,piece,1301,255252.4,EUR,Store D,Switzerland,2023
+21,lettuce,vegetables,0.5826,piece,24571,269567.47,EUR,Store D,Switzerland,2023
+22,spinach,vegetables,0.6797,kg,368,269817.6,EUR,Store D,Switzerland,2023
+23,soy bean,vegetables,0.7768,kg,1810,271223.6,EUR,Store D,Switzerland,2023
+24,cauliflower,vegetables,0.5826,piece,19350,282496.91,EUR,Store D,Switzerland,2023
+25,bell pepper,vegetables,0.6797,kg,2875,284451.05,EUR,Store D,Switzerland,2023
+26,chilli pepper,vegetables,0.4855,kg,14359,291422.35,EUR,Store D,Switzerland,2023
+27,turnip,vegetables,0.3884,kg,24833,301067.48,EUR,Store D,Switzerland,2023
+28,corn,vegetables,0.2913,kg,17308,306109.3,EUR,Store D,Switzerland,2023
+29,sweetcorn,vegetables,0.3884,kg,8157,309277.48,EUR,Store D,Switzerland,2023
+30,sweet potato,vegetables,0.4855,kg,13099,315637.05,EUR,Store D,Switzerland,2023
+31,paprika,vegetables,1.942,kg,1746,319027.78,EUR,Store D,Switzerland,2023
+32,jalepeno,vegetables,1.942,kg,6050,330776.88,EUR,Store D,Switzerland,2023
+33,ginger,vegetables,1.4565,kg,16374,354625.61,EUR,Store D,Switzerland,2023
+34,garlic,vegetables,1.4565,kg,6182,363629.69,EUR,Store D,Switzerland,2023
+35,peas,vegetables,2.913,kg,6287,381943.72,EUR,Store D,Switzerland,2023
+36,eggplant,vegetables,1.4565,kg,394,382517.58,EUR,Store D,Switzerland,2023
+1,banana,fruits,0.4855,kg,16183,7856.85,EUR,Store E,Switzerland,2023
+2,apple,fruits,0.6797,kg,10195,14786.39,EUR,Store E,Switzerland,2023
+3,pear,fruits,0.5826,kg,12251,21923.82,EUR,Store E,Switzerland,2023
+4,grapes,fruits,1.1652,kg,3101,25537.11,EUR,Store E,Switzerland,2023
+5,orange,fruits,0.7768,kg,2793,27706.71,EUR,Store E,Switzerland,2023
+6,kiwi,fruits,0.8739,piece,17921,43367.87,EUR,Store E,Switzerland,2023
+7,watermelon,fruits,4.8549999999999995,kg,2015,53150.7,EUR,Store E,Switzerland,2023
+8,pomegranate,fruits,2.4274999999999998,kg,1228,56131.67,EUR,Store E,Switzerland,2023
+9,pineapple,fruits,1.4565,piece,15533,78755.48,EUR,Store E,Switzerland,2023
+10,mango,fruits,1.942,piece,15708,109260.42,EUR,Store E,Switzerland,2023
+11,cucumber,vegetables,0.3884,piece,4135,110866.45,EUR,Store E,Switzerland,2023
+12,carrot,vegetables,0.2913,kg,12545,114520.81,EUR,Store E,Switzerland,2023
+13,capsicum,vegetables,0.4855,kg,4947,116922.58,EUR,Store E,Switzerland,2023
+14,onion,vegetables,0.1942,kg,7942,118464.91,EUR,Store E,Switzerland,2023
+15,potato,vegetables,0.2913,kg,12398,122076.45,EUR,Store E,Switzerland,2023
+16,lemon,vegetables,0.3884,kg,8687,125450.48,EUR,Store E,Switzerland,2023
+17,tomato,vegetables,0.5826,kg,7625,129892.81,EUR,Store E,Switzerland,2023
+18,raddish,vegetables,0.2913,kg,12600,133563.19,EUR,Store E,Switzerland,2023
+19,beetroot,vegetables,0.3884,kg,2150,134398.25,EUR,Store E,Switzerland,2023
+20,cabbage,vegetables,0.4855,piece,15404,141876.89,EUR,Store E,Switzerland,2023
+21,lettuce,vegetables,0.5826,piece,6484,145654.47,EUR,Store E,Switzerland,2023
+22,spinach,vegetables,0.6797,kg,702,146131.62,EUR,Store E,Switzerland,2023
+23,soy bean,vegetables,0.7768,kg,11769,155273.78,EUR,Store E,Switzerland,2023
+24,cauliflower,vegetables,0.5826,piece,16473,164870.94,EUR,Store E,Switzerland,2023
+25,bell pepper,vegetables,0.6797,kg,4368,167839.87,EUR,Store E,Switzerland,2023
+26,chilli pepper,vegetables,0.4855,kg,6292,170894.64,EUR,Store E,Switzerland,2023
+27,turnip,vegetables,0.3884,kg,97,170932.32,EUR,Store E,Switzerland,2023
+28,corn,vegetables,0.2913,kg,6772,172905.0,EUR,Store E,Switzerland,2023
+29,sweetcorn,vegetables,0.3884,kg,9887,176745.11,EUR,Store E,Switzerland,2023
+30,sweet potato,vegetables,0.4855,kg,13319,183211.48,EUR,Store E,Switzerland,2023
+31,paprika,vegetables,1.942,kg,9887,202412.04,EUR,Store E,Switzerland,2023
+32,jalepeno,vegetables,1.942,kg,8154,218247.11,EUR,Store E,Switzerland,2023
+33,ginger,vegetables,1.4565,kg,13701,238202.61,EUR,Store E,Switzerland,2023
+34,garlic,vegetables,1.4565,kg,18525,265184.28,EUR,Store E,Switzerland,2023
+35,peas,vegetables,2.913,kg,4500,278292.78,EUR,Store E,Switzerland,2023
+36,eggplant,vegetables,1.4565,kg,11673,295294.5,EUR,Store E,Switzerland,2023

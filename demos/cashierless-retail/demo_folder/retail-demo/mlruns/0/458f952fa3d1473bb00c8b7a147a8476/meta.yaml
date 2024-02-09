@@ -1,0 +1,15 @@
+artifact_uri: file:///mnt/shared/end2end/end2end/mlruns/0/458f952fa3d1473bb00c8b7a147a8476/artifacts
+end_time: 1686238500286
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 458f952fa3d1473bb00c8b7a147a8476
+run_name: grandiose-grub-696
+run_uuid: 458f952fa3d1473bb00c8b7a147a8476
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1686238313795
+status: 4
+tags: []
+user_id: discover-user01

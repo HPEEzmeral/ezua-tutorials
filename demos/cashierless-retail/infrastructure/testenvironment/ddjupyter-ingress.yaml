@@ -1,0 +1,25 @@
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+  annotations:
+    cert-manager.io/cluster-issuer: letsencrypt
+    kubernetes.io/ingress.class: nginx
+    nginx.ingress.kubernetes.io/client_max_body_size: 2048m
+    nginx.ingress.kubernetes.io/proxy-body-size: 2048m
+  name: ezuademo.mydirk.de
+spec:
+  rules:
+  - host: ezuademo.mydirk.de
+    http:
+      paths:
+      - backend:
+          service:
+            name: hpecp-tutorialbox
+            port:
+              number: 8888
+        path: /
+        pathType: ImplementationSpecific
+  tls:
+  - hosts:
+    - ezuademo.mydirk.de
+    secretName: ezuademo.mydirk.de
