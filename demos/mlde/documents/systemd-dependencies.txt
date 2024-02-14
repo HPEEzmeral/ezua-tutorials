@@ -1,0 +1,17 @@
+In `systemd`, you can specify dependencies and ordering between units using the `After` and `Before` directives in the unit configuration files.
+
+The `After` directive specifies that a unit should be started after another unit. For example, if unit `A` has an `After=B` directive in its configuration file, `systemd` will start unit `B` before starting unit `A`.
+
+The `Before` directive works in the opposite way, specifying that a unit should be stopped before another unit. For example, if unit `A` has a `Before=B` directive in its configuration file, `systemd` will stop unit `A` before stopping unit `B`.
+
+You can also use the `Wants` and `Requires` directives to specify weaker or stronger dependencies between units. The `Wants` directive specifies that a unit should be started if the specified unit is started. The `Requires` directive specifies that a unit must be running to start specified unit, but it does not affect the execution order.
+
+Moreover, the `Requisite` directive specifies a strong dependency between units. When a unit has a `Requisite=` dependency on another unit, `systemd` will not start the former unit if the latter unit is not running or not available.
+
+The `BindsTo` directive specifies a dependency between units that is similar to the `After` directive, but it also causes the dependent unit to be stopped when the unit it is bound to is stopped.
+
+The `PartOf` directive specifies that a unit is part of a larger unit and should be started and stopped along with that unit.
+
+The `Conflicts` directive specifies that a unit should not be started if another unit is running. This can be used to prevent two units that are mutually exclusive from being started at the same time.
+
+These directives can be used in combination with the `After`, `Before`, `Wants`, and `Requires` directives to specify more complex dependencies and ordering between units.

@@ -1,0 +1,26 @@
+`systemd` timers are a feature of the `systemd` system and service manager that enables automatic triggering of actions or commands at specific times or intervals. They are similar to the `cron` daemon, which is used to schedule periodic tasks in UNIX-like operating systems, but with additional features and more flexibility.
+
+Systemd timers are defined using `.timer` files, which specify when and how often the timer should trigger, as well as what action or command should be executed when the timer expires. These files are typically stored in the `/etc/systemd/system` directory, and can be managed using the `systemctl` command.
+
+Here is an example of a simple systemd timer file that runs the `example.service` service every hour:
+
+```configuration
+[Unit]
+Description=tutorialinux service timer
+
+[Timer]
+OnBootSec=0min
+OnCalendar=*:*:0/30
+Unit=test.service
+
+[Install]
+WantedBy=multi-user.target
+```
+
+To enable and start the timer, you can use the following command:
+
+```shell
+sudo systemctl start example.timer
+```
+
+You can then use the `systemctl list-timers` command to view a list of all active timers on the system, along with their next scheduled execution time and the action they will trigger.
