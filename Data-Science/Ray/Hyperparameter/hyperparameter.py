@@ -82,7 +82,7 @@ def train_func(config):
         print("=========1", np.mean(pipeline.predict(test.data)))
         print("=========2", test.target)
         print("=========3", test.data)
-        tune.report(mean_accuracy=np.mean(pipeline.predict(test.data)))
+        train.report({'mean_accuracy': np.mean(pipeline.predict(test.data))})
         
 analysis = tune.run(
                 train_func,
