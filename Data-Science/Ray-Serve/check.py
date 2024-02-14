@@ -4,7 +4,7 @@ from fastapi import FastAPI
 app = FastAPI()
 from textblob import TextBlob
 
-# runtime_env = {"pip": ["textblob"], "env_vars":{"HTTP_PROXY": "http://10.78.90.46:80", "HTTPS_PROXY": "http://10.78.90.46:80", "http_proxy": "http://10.78.90.46:80", "https_proxy": "http://10.78.90.46:80"}}
+# runtime_env = {"pip": ["textblob"], "env_vars":{"HTTP_PROXY": "http://<proxy_host>:<port>", "HTTPS_PROXY": "http://<proxy_host>:<port>", "http_proxy": "http://<proxy_host>:<port>", "https_proxy": "http://<proxy_host>:<port>"}}
 # ray.init(address="ray://kuberay-head-svc.kuberay:10001", ignore_reinit_error=True, runtime_env=runtime_env)
 ray.init(address="ray://kuberay-head-svc.kuberay:10001", ignore_reinit_error=True)
 serve.start(http_options= { 
