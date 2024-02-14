@@ -70,3 +70,4 @@ download and view it.
 ### Drift summary report:
 ![image](https://github.com/HPEEzmeral/ezua-tutorials/assets/70695037/5f302556-1e56-49f3-856e-5e9cc9a75e0a)
 
+Note that - /shared/airflow-whylog.  directory should exists, else DAG will failed
