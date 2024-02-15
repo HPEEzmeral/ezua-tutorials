@@ -30,7 +30,6 @@ class EmbeddingsClient:
         deployment_name = self.embeddings_model_name
         model_name = deployment_name
 
-        # Build the vectorstore URL
         svc = f'{deployment_name}-predictor-default.{namespace}.{domain_name}'
         url = f"https://{svc}/v2/models/{model_name}/infer"
         return url

@@ -2,7 +2,6 @@ import os
 import logging
 import boto3
 import urllib
-import posixpath
 
 
 logger = logging.getLogger(__name__)
@@ -27,37 +26,21 @@ def download_directory(uri: str) -> str:
     Args:
         uri (str): The URI of the directory object.
     """
+    local_dir = "db"
+
     client = _get_s3_client()
 
     parsed_uri = urllib.parse.urlparse(uri)
-    bucket = parsed_uri.netloc
-    prefix = posixpath.dirname(parsed_uri.path)
+    bucket_name = parsed_uri.netloc
+    s3_folder = parsed_uri.path.lstrip('/')
 
-    try:
-        logger.info(f"Fetching the database in bucket {bucket}"
-                    f" with key prefix {prefix}.")
-        response = client.list_objects_v2(Bucket=bucket, Prefix=prefix)
-        if "Contents" in response:
-            os.makedirs("db", exist_ok=True)
-            os.makedirs("db/index", exist_ok=True)
-            objects = response["Contents"]
-            for obj in objects:
-                # Extract the object key and remove the common prefix
-                object_key = obj["Key"]
-                file_name = posixpath.basename(object_key)
-                logger.info(f"objects: {object_key}")
-
-                if file_name.endswith(".parquet"):
-                    # Download the object
-                    client.download_file(bucket, object_key, f"db/{file_name}")
-                    logger.info(f"Downloaded object: {object_key}")
-                else:
-                    client.download_file(bucket, object_key, f"db/index/{file_name}")
-                    logger.info(f"Downloaded object: {object_key}")
-
-        else:
-            logger.info("No objects found in the directory.")
-    except Exception as e:
-        logger.error(f"Error downloading directory: {e}")
+    paginator = client.get_paginator('list_objects_v2')
+    for page in paginator.paginate(Bucket=bucket_name, Prefix=s3_folder):
+        for obj in page.get('Contents', []):
+            local_file_path = os.path.join(local_dir, obj['Key'][len(s3_folder):].lstrip('/'))
+            if not os.path.exists(os.path.dirname(local_file_path)):
+                os.makedirs(os.path.dirname(local_file_path))
+            client.download_file(bucket_name, obj['Key'], local_file_path)
+            print(f"Downloaded {obj['Key']} to {local_file_path}")
 
     return "db"
