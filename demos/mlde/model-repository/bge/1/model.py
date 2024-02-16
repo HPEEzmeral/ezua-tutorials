@@ -1,14 +1,50 @@
+import os
 import torch
-import numpy as np
+import logging
 import triton_python_backend_utils as pb_utils
 
 from transformers import AutoModel, AutoTokenizer
 
 
+logging.basicConfig(level=logging.INFO)
+logger = logging.getLogger(__name__)
+
+
 class TritonPythonModel:
     def initialize(self, args):
-        self.tokenizer = AutoTokenizer.from_pretrained("/mnt/models/bge/1/bge-m3", local_files_only=True)
-        self.model = AutoModel.from_pretrained("/mnt/models/bge/1/bge-m3", local_files_only=True)
+        model_repository = args.get("model_repository", None)
+        if not model_repository:
+            logger.warning("Model repository not found in args."
+                           " Using default path: `/mnt/models`")
+            model_repository = "/mnt/models"
+        
+        model_version = args.get("model_version", None)
+        if not model_version:
+            logger.warning("Model version not found in args."
+                           " Using default version: `1`")
+            model_version = "1"
+        
+        model_name = args.get("model_name", None)
+        if not model_name:
+            logger.warning("Model name not found in args."
+                           " Using default model: `bge`")
+            model_name = "bge"
+
+        model_path = os.path.join(
+            model_repository, model_name, model_version, "bge-m3")
+        
+        logger.info(f"Loading model from: {model_path}...")
+
+        try:
+            self.tokenizer = AutoTokenizer.from_pretrained(
+                model_path, local_files_only=True)
+            self.model = AutoModel.from_pretrained(
+                model_path, local_files_only=True)
+        except OSError as e:
+            logger.error(f"Failed to load model from {model_path}. {e}")
+            raise
+        
+        logger.info("Model loaded successfully.")
 
     def execute(self, requests):
         responses = []
