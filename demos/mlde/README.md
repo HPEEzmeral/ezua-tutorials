@@ -24,6 +24,8 @@ To make this happen, you:
 For this tutorial, ensure you have:
 
 - Access to an HPE Ezmeral Unified Analytics (EzUA) cluster.
+- The fine-tuned BGE-M3 embeddings model that this tutorial uses.
+- Access to the Llama 2 LLM employed in this tutorial (i.e., 7B, Chat version), along with its compiled TensorRT-LLM engines.
 
 ## Procedure
 

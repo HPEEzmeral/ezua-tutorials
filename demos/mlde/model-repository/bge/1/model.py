@@ -23,15 +23,15 @@ class TritonPythonModel:
             logger.warning("Model version not found in args."
                            " Using default version: `1`")
             model_version = "1"
-        
+
         model_name = args.get("model_name", None)
         if not model_name:
             logger.warning("Model name not found in args."
                            " Using default model: `bge`")
             model_name = "bge"
-
+        
         model_path = os.path.join(
-            model_repository, model_name, model_version, "bge-m3")
+            model_repository, model_version, "bge-m3")
         
         logger.info(f"Loading model from: {model_path}...")
 
@@ -43,6 +43,10 @@ class TritonPythonModel:
         except OSError as e:
             logger.error(f"Failed to load model from {model_path}. {e}")
             raise
+            
+        self.device = "cuda" if torch.cuda.is_available() else "cpu"
+        
+        self.model.to(self.device)
         
         logger.info("Model loaded successfully.")
 
@@ -58,13 +62,14 @@ class TritonPythonModel:
 
             tokens = self.tokenizer([decoded_string], padding=True, truncation=True, return_tensors="pt")
 
+            tokens.to(self.device)
             with torch.no_grad():
                 output = self.model(**tokens, output_hidden_states=True, return_dict=True)
             
             inference_response = pb_utils.InferenceResponse(
                 output_tensors=[
                     pb_utils.Tensor(
-                        "embeddings", output.pooler_output.detach().numpy()
+                        "embeddings", output.pooler_output.detach().cpu().numpy()
                     )
                 ]
             )

@@ -8,6 +8,10 @@ class EmbeddingsModel:
         self.model = AutoModel.from_pretrained(model_path)
         self.model.eval()
         
+        self.device = "cuda" if torch.cuda.is_available() else "cpu"
+
+        self.model.to(self.device)
+        
     def __call__(self, texts):
         return self.embed_documents(texts)
     
@@ -16,7 +20,9 @@ class EmbeddingsModel:
 
     def embed_documents(self, texts):
         batch_tokens = self.tokenizer(texts, padding=True, truncation=True, return_tensors="pt")
-
+        
+        batch_tokens.to(self.device)
+        
         # Get the embeddings
         with torch.no_grad():
             # Get hidden state of shape [bs, seq_len, hid_dim]
