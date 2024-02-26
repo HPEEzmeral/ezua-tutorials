@@ -48,6 +48,10 @@ To complete the tutorial follow the steps below:
        pip install -r requirements.txt
        ```
 1. Launch the five Notebooks in order and execute the code cells.
+1. Use the EzUA "Import Framework" wizard to upload the tarball located inside the `application`
+   folder. This creates a user interface for your application. Complete the steps and wait for a new
+   endpoint to become ready.
+1. Connect to the endpoint and submit your questions.
 
 ## Troubleshooting
 
