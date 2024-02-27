@@ -5,7 +5,7 @@ an open source Large Language Model (LLM) and a fine-tuned embeddings model. Thi
 questions from a corpus of private documentation. In this use case, we are using the Ezmeral
 Unified Analytics (EzUA) and the Ezmeral Data Fabric (EzDF) documentation as our dataset.
 
-![llm-high-level](images/LLM-high-level.png)
+![llm-high-level](images/llm-figure.png)
 
 To make this happen, you:
 
@@ -107,7 +107,7 @@ Launch and run each Notebook to explore and execute the experiment end-to-end:
 
 The last Notebook outlines the user's perspective. The application flow is depicted in the following figure:
 
-![flow-chart](images/LLM-flowchart.svg)
+![flow-chart](images/llm-flowchart.svg)
 
 1. User: Fine-tune an embeddings model on the private documentation.
 1. User: Push the fine-tuned model in a model registry.
