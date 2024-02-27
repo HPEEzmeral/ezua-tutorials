@@ -6,9 +6,9 @@ metadata:
 spec:
   sparkConf:
     # S3 credentials should be specified below
-    spark.hadoop.fs.s3a.endpoint: "https://objectstore-zone1-svc.dataplatform.svc.cluster.local:9000/"
-    spark.hadoop.fs.s3a.access.key: "minioadmin"
-    spark.hadoop.fs.s3a.secret.key: "minioadmin"
+    spark.hadoop.fs.s3a.endpoint: <s3-endpoint>
+    spark.hadoop.fs.s3a.access.key: <access-key>
+    spark.hadoop.fs.s3a.secret.key: <secret-key>
     spark.hadoop.fs.s3a.path.style.access: "true"
     spark.hadoop.fs.s3a.impl: "org.apache.hadoop.fs.s3a.S3AFileSystem"
     spark.hadoop.fs.s3a.connection.ssl.enabled: "true"
