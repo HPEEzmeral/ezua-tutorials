@@ -22,8 +22,8 @@ docker-build:
 	$(foreach target, app llm transformer vectorstore, \
 		docker build \
 			-t $(EZKF_REGISTRY)/qna-$(target):$(VERSION) \
-			-f $(TOPDIR)/demos/question-answering/dockerfiles/$(target)/Dockerfile \
-			$(TOPDIR)/demos/question-answering/dockerfiles/$(target); \
+			-f $(TOPDIR)/demos/rag-demos/question-answering/dockerfiles/$(target)/Dockerfile \
+			$(TOPDIR)/demos/rag-demos/question-answering/dockerfiles/$(target); \
 	)
 
 	@echo "Building the images for the Fraud Detection demo..."
