@@ -1,15 +1,15 @@
 name: bge_finetune
-workspace: Tyler
-project: doc_embeds
-description: Docs
+workspace: RAG
+project: finetune_embedding
+description: "Docs"
 hyperparameters:
   global_batch_size: 5
   eval_steps: 25
   model_id: "BAAI/bge-m3"
   epochs: 5
 resources:
-  slots_per_trial: 1
-  resource_pool: A100
+  slots_per_trial: 0
+  resource_pool: default
 environment:
   image: vmtyler/doc_embeds:0.1
 checkpoint_storage:
