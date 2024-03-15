@@ -8,7 +8,7 @@ image:
   repository: dpoulopoulos/qna-app
   pullPolicy: Always
   # Overrides the image tag whose default is the chart appVersion.
-  tag: "v0.1.0"
+  tag: "v1.3.0-d79aa03"
 
 imagePullSecrets: []
 nameOverride: ""
@@ -28,13 +28,13 @@ podAnnotations: {}
 podSecurityContext: {}
 # fsGroup: 2000
 
-securityContext: {}
+securityContext:
 # capabilities:
 #   drop:
 #   - ALL
 # readOnlyRootFilesystem: true
 # runAsNonRoot: true
-# runAsUser: 1000
+  runAsUser: 0
 
 service:
   type: ClusterIP

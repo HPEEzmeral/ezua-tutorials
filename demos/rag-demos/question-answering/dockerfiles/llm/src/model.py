@@ -11,6 +11,17 @@ logger = logging.getLogger(__name__)
 
 MODEL = "orca-mini-3b.ggmlv3.q4_0.bin"
 
+DEFAULT_SYSTEM = """
+You are an AI assistant. You will be given a task. You must generate a detailed
+answer.
+"""
+
+DEFAULT_INSTRUCTION = """
+Use the following pieces of context to answer the question at the end. If you
+don't know the answer, just say that you don't know, don't try to make up an
+answer.
+"""
+
 PROMPT_TEMPLATE = """
 ### System:
 {system}
@@ -47,13 +58,10 @@ class LLM(kserve.Model):
 
         # prompt parameters
         prompt_template = data.get("prompt_template", PROMPT_TEMPLATE)
-        system = data.get("system", "")
-        instruction = data["instruction"]
+        system = data.get("system", DEFAULT_SYSTEM)
+        instruction = data.get("instruction", DEFAULT_INSTRUCTION)
         context = data["context"]
         query = data["input"]
-
-        logger.info(f"Received instruction: {instruction}")
-        logger.info(f"Received input: {query}")
 
         # generation parameters
         temperature = data.get("temperature", .2)

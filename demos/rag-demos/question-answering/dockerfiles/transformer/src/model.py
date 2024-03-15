@@ -10,8 +10,6 @@ from kserve import Model, ModelServer, model_server
 
 logger = logging.getLogger(__name__)
 
-PREDICTOR_URL_FORMAT = "http://{0}/v1/models/{1}:predict"
-
 
 class Transformer(Model):
     def __init__(self, name: str, predictor_host: str, protocol: str,
@@ -40,7 +38,7 @@ class Transformer(Model):
         model_name = deployment_name
 
         # Build the vectorstore URL
-        svc = f'{deployment_name}-predictor-default.{namespace}.{domain_name}'
+        svc = f'{deployment_name}-predictor.{namespace}.{domain_name}'
         url = f"https://{svc}/v1/models/{model_name}:predict"
         return url
 
