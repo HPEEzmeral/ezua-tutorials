@@ -8,7 +8,7 @@ image:
   repository: dpoulopoulos/qna-app
   pullPolicy: Always
   # Overrides the image tag whose default is the chart appVersion.
-  tag: "v1.3.0-d79aa03"
+  tag: "v1.3.0-c2ab2f7"
 
 imagePullSecrets: []
 nameOverride: ""

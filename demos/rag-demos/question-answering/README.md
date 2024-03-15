@@ -95,9 +95,9 @@ application directories containing the respective Dockerfiles to build these ima
 - LLM Model: [`dockerfiles/llm`](dockerfiles/llm)
 
 > For your convenience, you can use the pre-built images we have prepared for you:
-> - Vector Store: `dpoulopoulos/qna-vectorstore:v1.3.0-d79aa03`
-> - LLM Predictor: `dpoulopoulos/qna-llm:v1.3.0-d79aa03`
-> - LLM Transformer: `dpoulopoulos/qna-transformer:v1.3.0-d79aa03`
+> - Vector Store: `dpoulopoulos/qna-vectorstore:v1.3.0-c2ab2f7`
+> - LLM Predictor: `dpoulopoulos/qna-llm:v1.3.0-c2ab2f7`
+> - LLM Transformer: `dpoulopoulos/qna-transformer:v1.3.0-c2ab2f7`
 
 Once the images are ready, proceed to run the Notebooks. The project consists of four Notebooks.
 Launch and run each Notebook to explore and execute the experiment end-to-end:
