@@ -38,11 +38,12 @@ For this tutorial, ensure you have:
 To complete the tutorial follow the steps below:
 
 1. Login to your EzUA cluster, using your credentials.
-1. Create a new Notebook server using the `dpoulopoulos/jupyter:v1.7.0-dirty` image. Request at
-   least `8Gi` of memory for the Notebook server, `4` CPUs and `1` GPU device.
+1. Create a new Notebook server using the
+   `lr1-bd-harbor-registry.mip.storage.hpecorp.net/develop/ezkf/jupyter:v1.2.0-c98a236` image.
+   Request at least `8Gi` of memory for the Notebook server, `4` CPUs and `1` GPU device.
 1. Connect to the Notebook server, launch a new terminal window, and clone the repository locally.
    See the troubleshooting section if this step fails.
-1. Navigate to the tutorial's directory (`ezua-tutorials/demos/question-answering-llama`)
+1. Navigate to the tutorial's directory (`ezua-tutorials/demos/rag-demos/question-answering-gpu`)
 1. Install the required dependencies:
        ```
        pip install -r requirements.txt
@@ -91,8 +92,8 @@ to build these images:
 - LLM Transformer: [`dockerfiles/transformer`](dockerfiles/transformer)
 
 > For your convenience, you can use the pre-built images we have prepared for you:
-> - Vector Store: `dpoulopoulos/qna-vectorstore-mlde:v0.1.0`
-> - LLM Transformer: `dpoulopoulos/qna-transformer-mlde:v0.1.0`
+> - Vector Store: `dpoulopoulos/qna-vectorstore-gpu:v1.3.0-2d7386d`
+> - LLM Transformer: `dpoulopoulos/qna-transformer-gpu:v1.3.0-2d7386d`
 
 Once the images are ready, proceed to run the Notebooks. The project consists of five Notebooks.
 Launch and run each Notebook to explore and execute the experiment end-to-end:

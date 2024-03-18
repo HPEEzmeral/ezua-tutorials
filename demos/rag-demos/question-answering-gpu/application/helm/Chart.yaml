@@ -1,6 +1,6 @@
 name: ai-search
-version: 0.1.0
+version: 1.3.0
 apiVersion: v2
-appVersion: v0.1.0
+appVersion: v1.3.0
 description: Install the AI Search application on EzAF
 type: application
