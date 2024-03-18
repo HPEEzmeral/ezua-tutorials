@@ -33,7 +33,6 @@ class Transformer(Model):
         predictor_host: str,
         protocol: str,
         use_ssl: bool,
-        vectorstore_endpoint: str,
         vectorstore_name: str,
     ):
         super().__init__(name)
@@ -46,7 +45,6 @@ class Transformer(Model):
         self.ready = True
 
         # Transformer specific arguments
-        self.vectorstore_endpoint = vectorstore_endpoint
         self.vectorstore_name = vectorstore_name
 
         self.vectorstore_url = self._build_vectorstore_url()
@@ -59,11 +57,11 @@ class Transformer(Model):
     def _build_vectorstore_url(self):
         domain_name = "svc.cluster.local"
         namespace = self._get_namespace()
-        deployment_name = self.vectorstore_endpoint
-        model_name = self.vectorstore_name
+        deployment_name = self.vectorstore_name
+        model_name = deployment_name
 
         # Build the vectorstore URL
-        svc = f"{deployment_name}.{namespace}.{domain_name}"
+        svc = f'{deployment_name}-predictor.{namespace}.{domain_name}'
         url = f"https://{svc}/v1/models/{model_name}:predict"
         return url
 
@@ -186,28 +184,18 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser(parents=[model_server.parser])
     parser.add_argument(
         "--predictor_host", help="The URL for the model predict function",
-        required=True
-    )
+        required=True)
     parser.add_argument(
-        "--protocol", help="The protocol for the predictor", default="v1"
-    )
+        "--protocol", help="The protocol for the predictor", default="v1")
     parser.add_argument(
-        "--model_name", help="The name that the model is served under."
-    )
+        "--model_name", help="The name that the model is served under.")
     parser.add_argument(
         "--use_ssl", help="Use ssl for connecting to the predictor",
-        action="store_true"
-    )
-    parser.add_argument(
-        "--vectorstore_endpoint",
-        default="vectorstore-predictor",
-        help="The endpoint of the Vector Store Inference Service",
-    )
+        action="store_true")
     parser.add_argument(
         "--vectorstore_name",
         default="vectorstore",
-        help="The name of the Vector Store Inference Service",
-    )
+        help="The name of the Vector Store Inference Service")
     args, _ = parser.parse_known_args()
 
     logger.info(args)
@@ -217,7 +205,6 @@ if __name__ == "__main__":
         args.predictor_host,
         args.protocol,
         args.use_ssl,
-        args.vectorstore_endpoint,
         args.vectorstore_name,
     )
     ModelServer().start([model])

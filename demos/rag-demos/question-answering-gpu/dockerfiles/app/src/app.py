@@ -1,7 +1,6 @@
 import json
 import logging
 
-import argparse
 import gradio as gr
 import requests
 from theme import EzmeralTheme
@@ -10,6 +9,10 @@ from theme import EzmeralTheme
 DOMAIN_NAME = "svc.cluster.local"
 NAMESPACE = open(
     "/var/run/secrets/kubernetes.io/serviceaccount/namespace", "r").read()
+DEPLOYMENT_NAME = "ensemble"
+MODEL_NAME = DEPLOYMENT_NAME
+SVC = f"{DEPLOYMENT_NAME}-transformer.{NAMESPACE}.{DOMAIN_NAME}"
+URL = f"https://{SVC}/v1/models/{MODEL_NAME}:predict"
 
 
 HEADER = """
@@ -30,9 +33,6 @@ EXAMPLES = [
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
 
-subdomain = None
-model_name = None
-
 
 def llm_service(
     question,
@@ -44,9 +44,6 @@ def llm_service(
     context_check,
     request: gr.Request,
 ):
-    SVC = f"{subdomain}.{NAMESPACE}.{DOMAIN_NAME}"
-    URL = f"https://{SVC}/v1/models/{model_name}:predict"
-
     data = {
         "input": question,
         "max_tokens": int(max_tokens),
@@ -80,11 +77,7 @@ def llm_service(
     return result
 
 
-def main(llm_server_subdomain, llm_name):
-    global subdomain, model_name
-    subdomain = llm_server_subdomain
-    model_name = llm_name
-
+def main():
     with gr.Blocks(theme=EzmeralTheme()) as app:
         # Application Header
         gr.HTML(HEADER)
@@ -192,13 +185,4 @@ def main(llm_server_subdomain, llm_name):
 
 
 if __name__ == "__main__":
-    parser = argparse.ArgumentParser()
-    parser.add_argument("--llm-server-subdomain", type=str,
-                        default="ensemble-transformer")
-    parser.add_argument("--llm-name", type=str, default="ensemble")
-    args = parser.parse_args()
-
-    logger.info("LLM Server Subdomain: %s", args.llm_server_subdomain)
-    logger.info("Model Name: %s", args.llm_name)
-
-    main(args.llm_server_subdomain, args.llm_name)
+    main()

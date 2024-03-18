@@ -16,17 +16,15 @@ DEFAULT_NUM_DOCS = 2
 
 class VectorStore(kserve.Model):
     def __init__(
-        self, name: str, persist_uri: str, model_endpoint: str, model_name: str
-    ):
+        self, name: str, persist_uri: str, model_name: str):
         super().__init__(name)
         self.name = name
-        self._prepare_vectorstore(persist_uri, model_endpoint, model_name)
+        self._prepare_vectorstore(persist_uri, model_name)
 
         self.ready = True
 
-    def _prepare_vectorstore(
-            self, uri: str, model_endpoint: str, model_name: str, ):
-        self.embeddings = EmbeddingsClient(model_endpoint, model_name)
+    def _prepare_vectorstore(self, uri: str, model_name: str, ):
+        self.embeddings = EmbeddingsClient(model_name)
         persist_dir = download_directory(uri)
         self.vectordb = Chroma(
             persist_directory=persist_dir, embedding_function=self.embeddings
@@ -51,29 +49,19 @@ class VectorStore(kserve.Model):
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(
-        prog="VectorStore", description="VectorStore server"
-    )
+        prog="VectorStore", description="VectorStore server")
     parser.add_argument(
         "--persist-uri",
         type=str,
         required=True,
-        help="The location of the persisted VectorStore.",
-    )
-    parser.add_argument(
-        "--model-endpoint",
-        type=str,
-        default="bge-predictor",
-        help="The endpoint of the embeddings model inference service.",
-    )
+        help="The location of the persisted VectorStore.")
     parser.add_argument(
         "--model-name",
         type=str,
         default="bge",
-        help="The name of the embeddings model.",
-    )
+        help="The name of the embeddings model.")
     args = parser.parse_args()
 
     model = VectorStore(
-        "vectorstore", args.persist_uri, args.model_endpoint, args.model_name
-    )
+        "vectorstore", args.persist_uri, args.model_name)
     kserve.ModelServer(workers=1).start([model])

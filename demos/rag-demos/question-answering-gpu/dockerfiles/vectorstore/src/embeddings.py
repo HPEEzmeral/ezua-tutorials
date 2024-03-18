@@ -7,8 +7,8 @@ logger = logging.getLogger(__name__)
 
 
 class EmbeddingsClient:
-    def __init__(self, model_endpoint: str, model_name: str) -> None:
-        self._url = self._build_url(model_endpoint, model_name)
+    def __init__(self, model_name: str) -> None:
+        self._url = self._build_url(model_name)
 
     @property
     def authorization(self):
@@ -23,11 +23,13 @@ class EmbeddingsClient:
             "/var/run/secrets/kubernetes.io/serviceaccount/namespace", "r"
         ).read()
 
-    def _build_url(self, model_endpoint, model_name,):
+    def _build_url(self, model_name):
         domain_name = "svc.cluster.local"
         namespace = self._get_namespace()
+        deployment_name = model_name
+        model_name = deployment_name
 
-        svc = f"{model_endpoint}.{namespace}.{domain_name}"
+        svc = f"{deployment_name}-predictor.{namespace}.{domain_name}"
         url = f"https://{svc}/v2/models/{model_name}/infer"
 
         return url
