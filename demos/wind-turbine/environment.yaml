@@ -1,5 +1,0 @@
-name: wind-turbine
-channels:
-  - conda-forge
-dependencies:
-  - sparkmagic=0.20.3
