@@ -3,7 +3,7 @@
 ##### This example demonstrates the comparison between executing tasks locally and distributedly using Ray.
 
 ### Prerequisites:
-* Ensure you are using a Tensorflow notebook environment with aleast 3 CPUs and 4 Gi of memory in Kubeflow. 
+* Ensure you are using a Data Science notebook environment with aleast 3 CPUs and 4 Gi of memory in Kubeflow. 
 * Ray client and server versions must match. Typically, `ray --version` can be used to verify the installed version. 
 * Activate the Ray-specific Python kernel in your notebook environment. 
 * To ensure optimal performance, use dedicated directories containing only the essential files needed for that job submission as a working directory.
