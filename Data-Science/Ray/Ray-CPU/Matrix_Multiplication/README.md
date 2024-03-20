@@ -47,3 +47,4 @@ if __name__ == "__main__":
 
 Below is a screenshot showing the comparative performance results, illustrating Ray's effectiveness in handling intensive computational tasks:
 
+![alt text](resources/ray-matrix-multiplication-example-run.png)
