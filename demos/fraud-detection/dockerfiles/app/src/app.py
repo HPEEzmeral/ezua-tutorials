@@ -18,7 +18,7 @@ DOMAIN_NAME = "svc.cluster.local"
 NAMESPACE = open("/var/run/secrets/kubernetes.io/serviceaccount/namespace", "r").read()
 DEPLOYMENT_NAME = "fraud-detection"
 MODEL_NAME = DEPLOYMENT_NAME
-SVC = f'{DEPLOYMENT_NAME}-predictor-default.{NAMESPACE}.{DOMAIN_NAME}'
+SVC = f'{DEPLOYMENT_NAME}-predictor.{NAMESPACE}.{DOMAIN_NAME}'
 URL = f"https://{SVC}/v2/models/{MODEL_NAME}/infer"
 
 
