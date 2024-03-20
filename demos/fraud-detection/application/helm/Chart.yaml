@@ -1,6 +1,6 @@
 name: fraud-detection-app
-version: 0.2.1
+version: 1.3.0
 apiVersion: v2
-appVersion: v0.2.1
+appVersion: v1.3.0
 description: Install the Fraud Detection application on EzAF
 type: application

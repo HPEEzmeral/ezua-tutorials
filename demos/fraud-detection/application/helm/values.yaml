@@ -8,7 +8,7 @@ image:
   repository: dpoulopoulos/fraud-detection-app
   pullPolicy: Always
   # Overrides the image tag whose default is the chart appVersion.
-  tag: "v0.2.1"
+  tag: "v1.3.0-061fd1f"
 
 imagePullSecrets: []
 nameOverride: ""
