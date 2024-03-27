@@ -25,16 +25,16 @@ dag = DAG(
     schedule_interval=None,
     tags=["ezaf", "spark", "pi"],
     params={
-        "Spark-image-url": Param(
-            "",
+        "spark_image_url": Param(
+            "gcr.io/mapr-252711/apache-spark:3.5.0-py",
             type=["null", "string"],
             description="Provide Python-Spark image url",
-        )
-        "Spark-image-version": Param(
-            "",
+        ),
+        "spark_image_version": Param(
+            "3.5.0",
             type=["null", "string"],
             description="Provide Spark image Version",
-        
+        )
     },
     render_template_as_native_obj=True,
     access_control={"All": {"can_read", "can_edit", "can_delete"}},
