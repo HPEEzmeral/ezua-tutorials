@@ -4,12 +4,14 @@
 
 In order to create Kubfeflow notebook with GPU, choose corresponding image with CUDA support. During notebook server
 creation, click on "Custom Notebook" button within selected "Jupyter" section, and choose one of the following images
-in drop-down from the following list:
+in drop-down from the notebook images list:
 
-* `gcr.io/mapr-252711/kubeflow/notebooks/jupyter-tensorflow-cuda-full` (Tensorflow CUDA image)
-* `gcr.io/mapr-252711/kubeflow/notebooks/jupyter-pytorch-cuda-full` (PyTorch CUDA image)
+* `gcr.io/mapr-252711/kubeflow/notebooks/jupyter-tensorflow-cuda-full:<TAG>` (Tensorflow CUDA image)
+* `gcr.io/mapr-252711/kubeflow/notebooks/jupyter-pytorch-cuda-full:<TAG>` (PyTorch CUDA image)
 
-![nb-images-list](img/nb-images-list.png)
+Note: `TAG` will vary based on the UA releases.
+
+</br>
 
 Also set number of GPUs to 1 in "GPU" section and select "Nvidia" in "GPU Vendor" drop-down:
 
