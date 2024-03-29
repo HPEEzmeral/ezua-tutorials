@@ -2,7 +2,7 @@
 
 APP_IMAGE_NAME=${APP_IMAGE_NAME:-"gcr.io/mapr-252711/ezua-tutorials"}
 GIT_HASH=$(git log -n1 --pretty=%h)
-APP_IMAGE_TAG="ezua-1.4-$GIT_HASH"
+APP_IMAGE_TAG="ezua-1.4.0-$GIT_HASH"
 
 function build() {
   echo "Building the ${APP_IMAGE_NAME}:${APP_IMAGE_TAG} image"
