@@ -3,7 +3,7 @@
 # Define variables
 IMG_NAME := gcr.io/mapr-252711/ezua-tutorials
 GIT_HASH := $(shell git log -n1 --pretty=%h)
-IMG_TAG ?= ezua-1.4-$(GIT_HASH)
+IMG_TAG ?= ezua-1.4.0-$(GIT_HASH)
 
 # Build Docker image
 docker-build:
