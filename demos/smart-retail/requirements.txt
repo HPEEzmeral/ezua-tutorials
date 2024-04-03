@@ -16,6 +16,7 @@ argon2-cffi-bindings @ file:///home/conda/feedstock_root/build_artifacts/argon2-
 arrow @ file:///home/conda/feedstock_root/build_artifacts/arrow_1696128962909/work
 astor==0.8.1
 asttokens @ file:///home/conda/feedstock_root/build_artifacts/asttokens_1698341106958/work
+astunparse==1.6.3
 async-generator==1.10
 attrs @ file:///home/conda/feedstock_root/build_artifacts/attrs_1704011227531/work
 autopep8==2.0.4
@@ -83,12 +84,14 @@ filelock==3.13.1
 fire==0.5.0
 fissix==21.11.13
 Flask==3.0.1
+flatbuffers==24.3.25
 fonttools @ file:///home/conda/feedstock_root/build_artifacts/fonttools_1704979841314/work
 fqdn @ file:///home/conda/feedstock_root/build_artifacts/fqdn_1638810296540/work/dist
 frozenlist==1.4.1
 fsspec @ file:///home/conda/feedstock_root/build_artifacts/fsspec_1702335961905/work
 future==0.18.3
 fuzzywuzzy==0.18.0
+gast==0.5.4
 gitdb==4.0.11
 GitPython==3.1.41
 google-api-core==2.15.0
@@ -98,6 +101,7 @@ google-auth-httplib2==0.2.0
 google-cloud-core==2.4.1
 google-cloud-storage==2.14.0
 google-crc32c==1.5.0
+google-pasta==0.2.0
 google-resumable-media==2.7.0
 googleapis-common-protos==1.62.0
 gpustat==1.1.1
@@ -151,6 +155,7 @@ jupyterlab-widgets @ file:///home/conda/feedstock_root/build_artifacts/jupyterla
 jupyterlab_git==0.44.0
 jupyterlab_pygments @ file:///home/conda/feedstock_root/build_artifacts/jupyterlab_pygments_1700744013163/work
 jupyterlab_server @ file:///home/conda/feedstock_root/build_artifacts/jupyterlab_server-split_1700310846957/work
+keras==3.1.1
 kfp==1.8.22
 kfp-pipeline-spec==0.1.16
 kfp-server-api==1.8.5
@@ -161,6 +166,7 @@ kserve==0.11.2
 kubeflow-kale @ file:///tmp/kale/backend
 kubeflow-katib==0.16.0
 kubernetes==25.3.0
+libclang==18.1.1
 libmambapy @ file:///home/conda/feedstock_root/build_artifacts/mamba-split_1697042855635/work/libmambapy
 llvmlite==0.41.1
 locket @ file:///home/conda/feedstock_root/build_artifacts/locket_1650660393415/work
@@ -168,12 +174,15 @@ lz4 @ file:///home/conda/feedstock_root/build_artifacts/lz4_1704831090180/work
 Mako==1.3.1
 mamba @ file:///home/conda/feedstock_root/build_artifacts/mamba-split_1697042855635/work/mamba
 Markdown==3.5.2
+markdown-it-py==3.0.0
 MarkupSafe @ file:///home/conda/feedstock_root/build_artifacts/markupsafe_1705778939739/work
 matplotlib @ file:///home/conda/feedstock_root/build_artifacts/matplotlib-suite_1697011600307/work
 matplotlib-inline @ file:///home/conda/feedstock_root/build_artifacts/matplotlib-inline_1660814786464/work
+mdurl==0.1.2
 menuinst @ file:///home/conda/feedstock_root/build_artifacts/menuinst_1705068285750/work
 minio==6.0.2
 mistune==2.0.5
+ml-dtypes==0.3.2
 ml-metadata==1.14.0
 mlflow==2.8.1
 mmh3==4.1.0
@@ -184,6 +193,7 @@ multidict==6.0.4
 munkres==1.1.4
 mypy==1.8.0
 mypy-extensions==1.0.0
+namex==0.0.7
 nbclassic @ file:///home/conda/feedstock_root/build_artifacts/nbclassic_1683202081046/work
 nbclient @ file:///home/conda/feedstock_root/build_artifacts/nbclient_1684790896106/work
 nbconvert==7.2.10
@@ -201,6 +211,8 @@ oauthlib==3.2.2
 opencensus==0.11.4
 opencensus-context==0.1.3
 openpyxl @ file:///home/conda/feedstock_root/build_artifacts/openpyxl_1695464696880/work
+opt-einsum==3.3.0
+optree==0.11.0
 orjson==3.9.12
 overrides @ file:///home/conda/feedstock_root/build_artifacts/overrides_1705794179781/work
 packaging @ file:///home/conda/feedstock_root/build_artifacts/packaging_1696202382185/work
@@ -269,6 +281,7 @@ requests-toolbelt==0.10.1
 rfc3339-validator @ file:///home/conda/feedstock_root/build_artifacts/rfc3339-validator_1638811747357/work
 rfc3986==1.5.0
 rfc3986-validator @ file:///home/conda/feedstock_root/build_artifacts/rfc3986-validator_1598024191506/work
+rich==13.7.1
 rpds-py @ file:///home/conda/feedstock_root/build_artifacts/rpds-py_1705159806770/work
 rsa==4.9
 ruamel.yaml @ file:///home/conda/feedstock_root/build_artifacts/ruamel.yaml_1698138626992/work
@@ -297,6 +310,10 @@ table-logger==0.3.6
 tabulate==0.9.0
 tblib @ file:///home/conda/feedstock_root/build_artifacts/tblib_1702066284995/work
 tenacity==8.2.3
+tensorboard==2.16.2
+tensorboard-data-server==0.7.2
+tensorflow==2.16.1
+tensorflow-io-gcs-filesystem==0.36.0
 termcolor==2.4.0
 terminado @ file:///home/conda/feedstock_root/build_artifacts/terminado_1699810101464/work
 threadpoolctl @ file:///home/conda/feedstock_root/build_artifacts/threadpoolctl_1689261241048/work
