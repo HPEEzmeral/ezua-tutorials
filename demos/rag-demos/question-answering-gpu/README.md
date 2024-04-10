@@ -39,7 +39,7 @@ To complete the tutorial follow the steps below:
 
 1. Login to your EzUA cluster, using your credentials.
 1. Create a new Notebook server using the
-   `lr1-bd-harbor-registry.mip.storage.hpecorp.net/develop/ezkf/jupyter:v1.2.0-c98a236` image.
+   `marketplace.us1.greenlake-hpe.com/ezmeral/ezkf/jupyter:v1.3.0-e658264` image.
    Request at least `8Gi` of memory for the Notebook server, `4` CPUs and `1` GPU device.
 1. Connect to the Notebook server, launch a new terminal window, and clone the repository locally.
    See the troubleshooting section if this step fails.
@@ -92,8 +92,8 @@ to build these images:
 - LLM Transformer: [`dockerfiles/transformer`](dockerfiles/transformer)
 
 > For your convenience, you can use the pre-built images we have prepared for you:
-> - Vector Store: `dpoulopoulos/qna-vectorstore-gpu:v1.3.0-2d7386d`
-> - LLM Transformer: `dpoulopoulos/qna-transformer-gpu:v1.3.0-2d7386d`
+> - Vector Store: `marketplace.us1.greenlake-hpe.com/ezmeral/ezkf/qna-vectorstore-gpu:v1.3.0-e658264`
+> - LLM Transformer: `marketplace.us1.greenlake-hpe.com/ezmeral/ezkf/qna-transformer-gpu:v1.3.0-e658264`
 
 Once the images are ready, proceed to run the Notebooks. The project consists of five Notebooks.
 Launch and run each Notebook to explore and execute the experiment end-to-end:
