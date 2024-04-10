@@ -5,10 +5,10 @@
 replicaCount: 1
 
 image:
-  repository: dpoulopoulos/qna-app-gpu
+  repository: marketplace.us1.greenlake-hpe.com/ezmeral/ezkf/qna-app-gpu
   pullPolicy: Always
   # Overrides the image tag whose default is the chart appVersion.
-  tag: "v1.3.0-2d7386d"
+  tag: "v1.3.0-e658264"
 
 imagePullSecrets: []
 nameOverride: ""
