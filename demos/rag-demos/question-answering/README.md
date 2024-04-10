@@ -27,7 +27,7 @@ To complete the tutorial follow the steps below:
 
 1. Login to your EzUA cluster, using your credentials.
 1. Create a new Notebook server using the
-   `lr1-bd-harbor-registry.mip.storage.hpecorp.net/develop/ezkf/jupyter:v1.2.0-c98a236` image.
+   `marketplace.us1.greenlake-hpe.com/ezmeral/ezkf/jupyter:v1.3.0-e658264` image.
    Request at least `4Gi` of memory for the Notebook server.
 1. Connect to the Notebook server, launch a new terminal window, and clone the repository locally.
    See the troubleshooting section if this step fails.
@@ -95,9 +95,9 @@ application directories containing the respective Dockerfiles to build these ima
 - LLM Model: [`dockerfiles/llm`](dockerfiles/llm)
 
 > For your convenience, you can use the pre-built images we have prepared for you:
-> - Vector Store: `dpoulopoulos/qna-vectorstore:v1.3.0-c2ab2f7`
-> - LLM Predictor: `dpoulopoulos/qna-llm:v1.3.0-c2ab2f7`
-> - LLM Transformer: `dpoulopoulos/qna-transformer:v1.3.0-c2ab2f7`
+> - Vector Store: `marketplace.us1.greenlake-hpe.com/ezmeral/ezkf/qna-vectorstore:v1.3.0-e658264`
+> - LLM Predictor: `marketplace.us1.greenlake-hpe.com/ezmeral/ezkf/qna-llm:v1.3.0-e658264`
+> - LLM Transformer: `marketplace.us1.greenlake-hpe.com/ezmeral/ezkf/qna-transformer:v1.3.0-e658264`
 
 Once the images are ready, proceed to run the Notebooks. The project consists of four Notebooks.
 Launch and run each Notebook to explore and execute the experiment end-to-end:

@@ -5,10 +5,10 @@
 replicaCount: 1
 
 image:
-  repository: dpoulopoulos/fraud-detection-app
+  repository: marketplace.us1.greenlake-hpe.com/ezmeral/ezkf/fraud-detection-app
   pullPolicy: Always
   # Overrides the image tag whose default is the chart appVersion.
-  tag: "v1.3.0-061fd1f"
+  tag: "v1.3.0-e658264"
 
 imagePullSecrets: []
 nameOverride: ""

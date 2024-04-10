@@ -32,7 +32,7 @@ For this tutorial, ensure you have:
 To complete the tutorial follow the steps below:
 
 1. Login to your EzUA cluster, using your credentials.
-1. Create a new Notebook server using the `lr1-bd-harbor-registry.mip.storage.hpecorp.net/develop/ezkf/jupyter:v1.2.0-c98a236` image.
+1. Create a new Notebook server using the `marketplace.us1.greenlake-hpe.com/ezmeral/ezkf/jupyter:v1.3.0-e658264` image.
    Request at least 4Gi of memory for the Notebook server.
 1. Connect to the Notebook server, launch a new terminal window, and clone the repository locally.
    See the troubleshooting section if this step fails.
