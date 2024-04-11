@@ -1,0 +1,7 @@
+mlflow==2.8.1
+tensorflow==2.13.0
+urllib3==1.26.18
+uvicorn==0.19.0
+pandas==1.5.3
+ipython-genutils==0.2.0
+keras==2.13.1
