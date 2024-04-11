@@ -1,0 +1,515 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Retail Application</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+
+    <link rel="icon" type="image/png" href="{{ url_for('static', filename='favicon.ico') }}">
+
+ <style>
+
+@font-face {
+    font-family: "MetricHPE-Semibold";
+    src: url('../static/fonts/MetricHPE/MetricHPE-Web-Semibold.woff');
+    /* Add other font properties like font-weight and font-style if needed */
+}
+
+@font-face {
+    font-family: "MetricHPE-Medium";
+    src: url('../static/fonts/MetricHPE/MetricHPE-Web-Medium.woff');
+    /* Add other font properties like font-weight and font-style if needed */
+}
+
+@font-face {
+    font-family: "MetricHPE-Black";
+    src: url('../static/fonts/MetricHPE/MetricHPE-Web-Black.woff');
+    /* Add other font properties like font-weight and font-style if needed */
+}
+
+@font-face {
+    font-family: "MetricHPE-Regular";
+    src: url('../static/fonts/MetricHPE/MetricHPE-Web-Regular.woff');
+    /* Add other font properties like font-weight and font-style if needed */
+}
+
+@font-face {
+    font-family: "MetricHPE-Light";
+    src: url('../static/fonts/MetricHPE/MetricHPE-Web-Light.woff');
+    /* Add other font properties like font-weight and font-style if needed */
+}
+
+@font-face {
+    font-family: "MetricHPE-Bold";
+    src: url('../static/fonts/MetricHPE/MetricHPE-Web-Bold.woff');
+    /* Add other font properties like font-weight and font-style if needed */
+}
+
+
+    body{
+        font-family: "MetricHPE-Regular";
+        background-color: #01a982;
+    }
+
+    h1, h2, h3, h4, h5{
+        font-family: "MetricHPE-Bold";
+    }
+
+    .title{
+
+        font-size: 60px;
+    }
+
+    .container{
+
+        padding: 30px;
+        border: 2px solid transparent;
+        border-radius: 5%;
+        background-color: white;
+    }
+
+    .primary-container{
+        margin-top: 2%;
+        margin-bottom: 1%;
+    }
+
+    .message{
+        margin-top: 10%;
+        display: none;
+        font-size: 18px;
+    }
+     .form__radio-input {
+	 display: none;
+}
+ .form__radio-label {
+	 display: flex;
+	 justify-content: start;
+	 align-items: center;
+	 gap: 1rem;
+	 font-size: 1.5rem;
+	 cursor: pointer;
+}
+ .form__radio-button {
+	 height: 1.5rem;
+	 width: 1.5rem;
+	 border: 5px solid #01a982;
+	 border-radius: 50%;
+	 display: inline-block;
+	 position: relative;
+	 transform: translateY(-2px);
+}
+ .form__radio-button::after {
+	 content: "";
+	 display: block;
+	 height: 1.3rem;
+	 width: 1.3rem;
+	 position: absolute;
+	 border-radius: 50%;
+	 top: 50%;
+	 left: 50%;
+	 transition: opacity 0.1s;
+	 transform: translate(-50%, -50%);
+	 background-color: #01a982;
+	 opacity: 0;
+}
+ .form__radio-input:checked + .form__radio-label .form__radio-button:after {
+	 opacity: 1;
+}
+
+.scan-button{
+    background:#01a982;
+    border: none;
+}
+
+.scan-button:hover, .scan-button:active, .scan-button:focus{
+
+    background:#00ce9e;
+
+}
+
+.img-stream{
+    border: 1px solid transparent;
+    border-radius: 5%;
+}
+
+.table-container{
+    height: 245px; 
+    max-height: 245px; 
+    overflow-y: auto;
+}
+
+.table-container table {
+    width: 100%;
+    margin: 0;
+    border-collapse: collapse;
+}
+
+.table-container th,
+.table-container td {
+    padding: 8px;
+    border-bottom: 1px solid #ddd; /* Add borders between rows for aesthetics */
+}
+
+.table-container thead th {
+    position: sticky;
+    top: 0;
+    background-color: #f9f9f9; /* Background color for header */
+}
+
+.video-stream{
+    border: 1px solid transparent;
+    border-radius: 5%;
+}
+
+ </style>
+
+</head>
+<body>
+    <div class="container primary-container">
+    <div class="container mt-2">
+        <div class="row align-items-center mb-5">
+            <img src="{{ url_for('static', filename='hpe_logo.png') }}" alt="HPE logo" class="px-3 mt-2 mb-3 mr-5" width="250">
+            <h1 class="title">Smart Retail Experience</h1>
+        </div>
+        <div class="row mt-1">
+            <div class="col-md-6">
+                <video class='mb-3 video-stream' id="video_feed" width="100%" autoplay></video>
+                <span id="status" class="pt-5">Ready to scan item.</span>
+                <button id="save_frame_btn" class="btn btn-success scan-button mt-3 mb-5 w-100 ">Scan Item</button>
+                <div id="progress_parent" class="progress mt-3 mb-5">
+                    <div id="progress_bar" class="progress-bar" role="progressbar" style="width: 0%;" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+                <div class="row">
+            <div class="col-md-6">
+                <form id="countryForm">
+                    <label>Select Country:</label><br>
+
+                    <div class="form-group">
+                        <div class="form__radio-group">
+                            <input class="form__radio-input" type="radio" id="czech" name="country" value="czech">
+                            <!-- <input id="small" type="radio" class="form__radio-input" name="size" /> -->
+                            <label for="czech" class="form__radio-label">
+                              <span class="form__radio-button"></span>
+                              <span class="form__radio-label-text">Czech Republic<span></label>
+                          </div>
+
+                          <div class="form__radio-group">
+                            <input class="form__radio-input" type="radio" id="germany" name="country" value="germany" checked>
+                            <!-- <input id="small" type="radio" class="form__radio-input" name="size" /> -->
+                            <label for="germany" class="form__radio-label">
+                              <span class="form__radio-button"></span>
+                              <span class="form__radio-label-text">Germany<span></label>
+                          </div>
+
+                          <div class="form__radio-group">
+                            <input class="form__radio-input" type="radio" id="swiss" name="country" value="swiss">
+                            <!-- <input id="small" type="radio" class="form__radio-input" name="size" /> -->
+                            <label for="swiss" class="form__radio-label">
+                              <span class="form__radio-button"></span>
+                              <span class="form__radio-label-text">Switzerland<span></label>
+                          </div>
+                      
+
+                    </div>
+                </form>
+            </div>
+            <div class="col-md-6">
+                <div class="form-group mb-5" id="scanningForm">
+                    <label>Scanning Mode:</label><br>
+
+                    <div class="form__radio-group">
+                        <input class="form__radio-input" type="radio" id="manual" name="switchingMode" value="manual" checked>
+                        <!-- <input id="small" type="radio" class="form__radio-input" name="size" /> -->
+                        <label for="manual" class="form__radio-label">
+                          <span class="form__radio-button"></span>
+                          <span class="form__radio-label-text">Manual<span></label>
+                      </div>
+
+                      <div class="form__radio-group">
+                        <input class="form__radio-input" type="radio" id="auto" name="switchingMode" value="auto">
+                        <!-- <input id="small" type="radio" class="form__radio-input" name="size" /> -->
+                        <label for="auto" class="form__radio-label">
+                          <span class="form__radio-button"></span>
+                          <span class="form__radio-label-text">Automatic<span></label>
+                      </div>
+                </div>
+            </div>
+            </div>
+            </div>
+            <div class="col-md-1"></div>
+            <div class="col-md-5">
+                <div class="row mt-2 mb-4 ml-1">
+                    <h3><span id="item">Please scan your first item.</span></h3>
+                </div>
+                <div class="row mt-2 mb-3 ml-1 align-items-center">
+                    <img src="{{ url_for('static', filename='trolley_icon.png') }}" alt="Trolley Icon" width="35" class="mb-1 mr-2">
+                    <h2 style="font-family: 'MetricHPE-Regular';"><span id="total-items">0</span><span id="item-text"> items</span></h2>
+                </div>
+                <div class="table-container">
+                    <table class="table">
+                        <thead>
+                            <tr>
+                                <th>Item</th>
+                                <th>Price</th>
+                            </tr>
+                        </thead>
+                        <tbody id="items-table">
+                            <!-- Table rows will be dynamically added here -->
+                        </tbody>
+                    </table>
+                </div>
+                <h2 class="mt-5">Total Price: <span id="currencySymbol">€</span><span id="total-price">0.00</span></h2>
+                <div class="row">
+                    <p class="message" id="message"></p>
+                </div>
+            </div>            
+        </div>
+    </div>
+</div>
+<div class="row justify-content-center">
+    <p class="signature" style="color:white;">Application developed by Alex Ollman. &nbsp;<a href="mailto: aollman@hpe.com" style="text-decoration:underline; color: white;">Questions, bugs or feedback?</a><span class="ml-5">© Copyright 2024 Hewlett Packard Enterprise </span> </p>
+</div>
+<script>
+    $(document).ready(function() {
+        const currencySymbols = {
+            'czech': 'Kč',
+            'germany': '€',
+            'swiss': '₣'
+        };
+
+        var statusText = document.getElementById('status');
+        var itemText = document.getElementById('item');
+
+        statusText.style.color = "#01a892";
+        statusText.innerHTML = 'Ready to scan item.';
+
+        // Access the webcam stream
+        navigator.mediaDevices.getUserMedia({ video: true })
+        .then(function(stream) {
+            var video = document.getElementById('video_feed');
+            video.srcObject = stream;
+        })
+        .catch(function(error) {
+            console.log('Error accessing webcam:', error);
+        });
+
+        function updateTotalItemsCount() {
+            var totalItems = $('#items-table tr').length; // Exclude header row
+            $('#total-items').text(totalItems);
+            if (totalItems == 1){
+                $('#item-text').text(" item");
+            }
+            else{
+                $('#item-text').text(" items");
+            }
+        }
+
+        var timerInterval;
+
+        var progressBar = $('#progress_bar');
+        var progressWidth = 0;
+
+        var scanning = true;
+
+        function updateProgressBarColor() {
+            var progressBar = $('#progress_bar');
+            if (scanning) {
+                // Set progress bar color to #01a982 when scanning is true
+                progressBar.css('background-color', '#00ce9e');
+            } else {
+                // Set progress bar color to black when scanning is false
+                progressBar.css('background-color', '#f2b500');
+            }
+        }
+
+        // Function to initialize the timer
+        function initTimer() {
+            clearInterval(timerInterval); // Clear any existing timer
+            timerInterval = setInterval(function() {
+                if (scanning){
+                    if (progressWidth >= 60) {
+                    statusText.style.color = "#01a892";
+                    statusText.innerHTML = 'Scanning...';
+                }
+                else{
+                    statusText.style.color = "#01a892";
+                    statusText.innerHTML = 'Scanner ready. Present the item to the camera.';
+                }
+                }
+                else{
+                    statusText.style.color = "orange";
+                    statusText.innerHTML = 'Processing...';
+                }
+                progressWidth += 3;
+                if (progressWidth > 0){
+                    progressBar.width(progressWidth + '%');
+                }
+                else{
+                    progressBar.width('0%'); 
+                }
+                if (progressWidth >= 100) {
+                    progressBar.width('100%'); // Reset progress bar width
+                    if (progressWidth >= 112){
+                        progressBar.width('0%'); // Reset progress bar width
+                        progressWidth = -10;
+                        // Trigger the save_frame_btn function
+                        if (scanning){
+                            $('#save_frame_btn').click();
+                            scanning = false;
+                        }
+                        else{
+                            scanning = true;
+                        }
+                    }
+                }
+                updateProgressBarColor();
+            }, 200);
+        }
+
+        // Change event for scanning mode selection
+        $('input[name="switchingMode"]').change(function() {
+            var mode = $(this).val();
+            if (mode === 'auto') {
+                // Switch to Auto mode
+                $('#save_frame_btn').hide();
+                $('#progress_parent').show();
+                $('#progress_bar').show();
+                initTimer(); // Initialize the timer for auto mode
+            } else {
+                // Switch to Manual mode
+                clearInterval(timerInterval); // Stop any existing timer
+                $('#progress_bar').hide();
+                $('#progress_parent').hide();
+                $('#save_frame_btn').show();
+                progressWidth = 0;
+                progressBar.width('0%');
+                statusText.style.color = "#01a982";
+                statusText.innerHTML = "Ready to scan item.";
+                scanning = true;
+            }
+        });
+
+        // Click event for the Save Frame button
+        $('#save_frame_btn').click(function() {
+            var video = document.getElementById('video_feed');
+            var canvas = document.createElement('canvas');
+            canvas.width = video.videoWidth;
+            canvas.height = video.videoHeight;
+            var context = canvas.getContext('2d');
+            context.drawImage(video, 0, 0, canvas.width, canvas.height);
+            var imageData = canvas.toDataURL('image/jpeg');
+
+            var statusText = document.getElementById('status');
+            statusText.style.color = "orange";
+            statusText.innerHTML = 'Processing...';
+
+            // Get the selected country
+            var country = $("input[name='country']:checked").val();
+            var currencySymbol = currencySymbols[country];
+            var statusText = document.getElementById('status');
+            var totalPriceElement = $('#total-price');
+            var currencySymbolElement = $('#currencySymbol');
+            
+            // Send the captured frame and country to the server for processing
+            $.ajax({
+                type: 'POST',
+                url: '/save_frame',
+                data: { 'image_data': imageData, 'country': country },
+                success: function(response) {
+                    var detectedItem = response.item;
+                    var detectedItemPrice = parseFloat(response.price); // Parse the price as a float
+
+                    // Check if detectedItemPrice is a valid number
+                    if (!isNaN(detectedItemPrice)) {
+                        detectedItemPrice = detectedItemPrice.toFixed(2); // Convert to fixed decimal places if valid
+                    } else {
+                        // Handle the case where price is not a valid number
+                        console.log('Invalid price:', response.price);
+                        return; // Exit the function
+                    }
+
+                    if (detectedItem) {
+                        itemText.style.color = "#01a982";
+                        itemText.innerHTML = "Item scanned: " + detectedItem + ' (' + currencySymbol + detectedItemPrice + ')'
+                        var itemRow = '<tr><td>' + detectedItem + '</td><td>' + currencySymbol + detectedItemPrice + '</td></tr>';
+                        $('#items-table').append(itemRow);
+                        var tableContainer = $('.table-container');
+                        tableContainer.scrollTop(tableContainer.prop("scrollHeight"));
+
+                        var totalPrice = parseFloat(totalPriceElement.text());
+                        totalPrice += parseFloat(detectedItemPrice);
+                        totalPriceElement.text(totalPrice.toFixed(2));
+                        currencySymbolElement.text(currencySymbol);
+
+                        updateTotalItemsCount();
+                    } else {
+                        itemText.style.color = "black";
+                        itemText.innerHTML = "No item detected."
+                    }
+                    if (scanning)
+                    {
+                        statusText.style.color = "#01a892";
+                        statusText.innerHTML = 'Ready to scan item.'
+                    }
+
+                },
+                error: function(error) {
+                    itemText.style.color = "black";
+                    itemText.innerHTML = "No item detected."
+                    console.log(error);
+                    if (scanning){
+                        statusText.style.color = "#01a892";
+                        statusText.innerHTML = 'Ready to scan item.'
+                    }
+                }
+            });
+        });
+
+        // When the mouse enters the form
+        $('#countryForm').mouseenter(function() {
+        // Show the message
+        $('#message').html('Switching the country changes the database that Presto will query to get the price of an item. <br><br><span><b style="color:orange;">Note: </b> Switching the countries will reset the shopping cart.</span>')
+        $('#message').show();
+        });
+
+        // When the mouse leaves the form
+        $('#countryForm').mouseleave(function() {
+            // Hide the message
+            $('#message').hide();
+        });
+
+                // When the mouse enters the form
+        $('#scanningForm').mouseenter(function() {
+        // Show the message
+        $('#message').html('Toggle whether to scan an item manually, or to scan items automatically when prompted. <br><br>In Auto, the capture will happen each time the timing bar reaches the end and the status is <span style="color: #01a982;">"Scanning..."</span>.')
+        $('#message').show();
+        });
+
+        // When the mouse leaves the form
+        $('#scanningForm').mouseleave(function() {
+            // Hide the message
+            $('#message').hide();
+        });
+
+        $("input[name='country']").change(function() {
+        // Reset items table when a different country is selected
+        $('#items-table').empty();
+        $('#total-price').text('0.00');
+        $('#item').css('color', 'black');
+        $('#item').text('Please scan your first item.');
+        $('#currencySymbol').text(currencySymbols[$(this).val()]);
+    });
+    // Trigger initial setup for manual mode
+    $('#progress_parent').hide();
+    $('#germany').prop("checked", true);
+    $('#manual').prop("checked", true);
+
+    });
+
+
+
+</script>
+</body>
+</html>
