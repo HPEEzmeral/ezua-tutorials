@@ -44,10 +44,9 @@ class Transformer(Model):
 
     @property
     def _http_client(self):
-        if self._http_client_instance is None:
-            headers = {"Authorization": self.authorization}
-            self._http_client_instance = httpx.AsyncClient(headers=headers,
-                                                           verify=False)
+        headers = {"Authorization": self.authorization}
+        self._http_client_instance = httpx.AsyncClient(
+            headers=headers, verify=False)
         return self._http_client_instance
 
     def preprocess(self, request: dict, headers: dict) -> dict:
