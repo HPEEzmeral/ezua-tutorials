@@ -1,8 +1,5 @@
-# Smart Retail Experience 
-#### HPE Ezmeral Unified Analytics Technical Demonstration
-
-
 ![smart-retail-experience](images/high-level-overview.png)
+## Smart Retail Experience 
 
 In this technical demonstation, you will play the role of a seasoned data scientist at one of Europe's leading grocery chains. You are in charge of ingesting and presenting all of the sales numbers to gather crucial insights into how the business can operate more effectively; understanding what customers like and how they shop. Whilst presenting to your executives, you have been asked to come up with a new idea for the future of checkouts that leverages vision-based machine learning. 
 
