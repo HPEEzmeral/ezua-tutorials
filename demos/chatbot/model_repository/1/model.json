@@ -1,0 +1,6 @@
+{
+    "model":"facebook/opt-125m",
+    "disable_log_requests": "false",
+    "gpu_memory_utilization": 0.5,
+    "enforce_eager": "true"
+}
