@@ -6,7 +6,7 @@
 * Ensure you are using a Data Science notebook environment in Kubeflow.
 * Ray client and server versions must match. Typically, `ray --version` can be used to verify the installed version.
 * Activate the Ray-specific Python kernel in your notebook environment.
-* To ensure optimal performance, use dedicated directories containing only the essential files needed for that job submission as a working directory. `json` data files are located `resources` directory.
+* To ensure optimal performance, use dedicated directories containing only the essential files needed for that job submission as a working directory. `json` data files are located in the `resources` directory.
 
 ### News Recommendation System
 The objective is to develop a simple yet effective news recommendation system. We will:
