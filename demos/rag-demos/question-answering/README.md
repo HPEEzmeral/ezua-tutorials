@@ -97,7 +97,7 @@ application directories containing the respective Dockerfiles to build these ima
 > For your convenience, you can use the pre-built images we have prepared for you:
 > - Vector Store: `marketplace.us1.greenlake-hpe.com/ezmeral/ezkf/qna-vectorstore:v1.3.0-e658264`
 > - LLM Predictor: `marketplace.us1.greenlake-hpe.com/ezmeral/ezkf/qna-llm:v1.3.0-e658264`
-> - LLM Transformer: `marketplace.us1.greenlake-hpe.com/ezmeral/ezkf/qna-transformer:v1.3.0-e658264`
+> - LLM Transformer: `marketplace.us1.greenlake-hpe.com/ezmeral/ezkf/qna-transformer:v1.3.0-f7315d3`
 
 Once the images are ready, proceed to run the Notebooks. The project consists of four Notebooks.
 Launch and run each Notebook to explore and execute the experiment end-to-end:
