@@ -15,7 +15,7 @@ spec:
   mode: cluster
   image: gcr.io/mapr-252711/spark-3.5.0:v3.5.0
   imagePullPolicy: Always
-  mainApplicationFile: "local:///mounts/shared-volume/ezua-tutorials/Data-Analytics/Spark/DataTransfer/DataTransfer.jar"
+  mainApplicationFile: "local:///mounts/shared-volume/ezua-tutorials/current-release/Data-Analytics/Spark/DataTransfer/DataTransfer.jar"
   mainClass: com.mapr.sparkdemo.DataTransfer
   arguments:
     - s3a://ezua-demo/data/mnist
