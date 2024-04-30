@@ -496,6 +496,7 @@
         $("input[name='country']").change(function() {
         // Reset items table when a different country is selected
         $('#items-table').empty();
+        $('#total-items').text('0');
         $('#total-price').text('0.00');
         $('#item').css('color', 'black');
         $('#item').text('Please scan your first item.');
