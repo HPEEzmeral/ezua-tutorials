@@ -58,7 +58,7 @@ if args.csvfile != None:
     current_user = getpass.getuser()
     
     # Define the directory path
-    directory = f"/home/{current_user}/{current_user}/data/"
+    directory = f"/mnt/shared/retail-data/raw-data/"
 
     # Create the directory if it doesn't exist
     if not os.path.exists(directory):
