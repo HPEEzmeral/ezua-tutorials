@@ -3,15 +3,14 @@ kind: SparkApplication
 metadata:
   name: spark-pi-{{ts_nodash|replace("T", "")}}
 spec:
-  type: Scala
+  type: Python
   sparkVersion: 3.5.0
   mode: cluster
-  image: '{{dag_run.conf["airgap_registry_url"]|default("", True)}}gcr.io/mapr-252711/spark-3.5.0:v3.5.0'
+  image: '{{dag_run.conf["airgap_registry_url"]|default("", True)}}gcr.io/mapr-252711/spark-3.5.0:v3.5.0.3.4'
   imagePullPolicy: Always
   imagePullSecrets:
   - imagepull
-  mainClass: org.apache.spark.examples.SparkPi
-  mainApplicationFile: "local:///opt/mapr/spark/spark-3.5.0/examples/jars/spark-examples_2.12-3.5.0.0-eep.jar"
+  mainApplicationFile: "local:///mnt/shared/ezua-tutorials/current-release/Data-Analytics/Spark/pi/pi.py"
   restartPolicy:
     type: Never
   driver:
