@@ -1,8 +1,8 @@
 #!/bin/python3
 """
-EZUAF DEMO
-created by Dirk Derichsweiler & Vincent Charbonnier, 2023
-create dataset in csv
+HPE Ezmeral Unified Analytics - Create Synthetic Retail Store CSV Data 
+Created by Dirk Derichsweiler & Vincent Charbonnier, 2023
+Modified by Alex Ollman, 2024
 """
 
 import random
@@ -50,8 +50,8 @@ if args.path != None:
 else:
     path = "./data/"
 
-if not os.path.exists(path):
-    os.makedirs(path)
+    if not os.path.exists(path):
+        os.makedirs(path)
 
 if args.csvfile != None: 
     # Get the current user
