@@ -49,10 +49,17 @@ To complete this tutorial follow the steps below:
 ## Clean Up
 
 To clean up the resources used during this experiment, follow the steps below:
-
+### Deleting Endpoints
 1. Navigate to the `Tools and Frameworks` page in your Unified Analytics cluster and open `Kubeflow`.
 1. In the left toolbar, click `Endpoints`.
 1. Delete the `retail-experiment` isvc that was launched in Exercize 6.
+
+### Remove Hive Metastore
+1. Navigate to the `Tools and Frameworks` page in your Unified Analytics cluster and open `Kubeflow`.
+1. In the left toolbar, click `Endpoints`.
+1. Delete the `retail-experiment` isvc that was launched in Exercize 6.
+
+### Remove Application
 1. Navigate to the `Tools and Frameworks` page in your Unified Analytics cluster.
 1. Under the `Data Science` tab, click on the three dots in the top-right corner of the `Smart Retail Experience` application. 
 1. Click `Delete`.
