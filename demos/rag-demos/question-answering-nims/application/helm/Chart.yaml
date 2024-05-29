@@ -1,0 +1,6 @@
+name: chatbot
+version: 1.4.2
+apiVersion: v2
+appVersion: v1.4.2
+description: Install the AI Search application on EzAF
+type: application
