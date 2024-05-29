@@ -1,6 +1,6 @@
 name: chatbot
-version: 1.4.2
+version: 1.4.0
 apiVersion: v2
-appVersion: v1.4.2
-description: Install the AI Search application on EzAF
+appVersion: v1.4.0
+description: Install the HPE portfolio assistant
 type: application

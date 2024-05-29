@@ -5,10 +5,10 @@
 replicaCount: 1
 
 image:
-  repository: dpoulopoulos/qna-app-nims
+  repository: dpoulopoulos/chatbot-app
   pullPolicy: Always
   # Overrides the image tag whose default is the chart appVersion.
-  tag: "v1.4.3-06f7cf7-dirty"
+  tag: "v1.4.0-b29a173"
 
 imagePullSecrets: []
 nameOverride: ""
