@@ -91,34 +91,45 @@ def get_sql_chain(
     )
 
 
-def get_retriever(embeddings: object, top_k: int = NUM_DOCS):
-    global vectorstore
+def get_embeddings():
+    embeddings = EmbeddingsClient(
+        model_name=EMBEDDINGS_MODEL,
+        embeddings_url=EMBEDDINGS_URL
+    )
 
-    print("Loading vectorstore")
-    print(f"Embeddings: {embeddings}")
-    print(f"Embeddings URL: {EMBEDDINGS_URL}")
+    return embeddings
+
+
+def get_vector_store():
+    global vectorstore
+    embeddings = get_embeddings()
+
+    print("Loading vectorstore...")
 
     if not vectorstore:
         try:
             vectorstore = FAISS.load_local(
-                "vectorstore",
-                embeddings,
+                "vectorstore", embeddings,
                 allow_dangerous_deserialization=True
             )
         except Exception as e:
             print(e)
             assert vectorstore, "No vectorstore initialized."
 
+    return vectorstore
+
+
+def get_retriever(top_k: int = NUM_DOCS):
+    vectorstore = get_vector_store()
     return vectorstore.as_retriever(search_kwargs={'k': top_k})
 
 
 def get_rag_chain(
     chat_model: object,
-    embeddings: object,
     num_docs: int = NUM_DOCS
 ) -> RunnableSerializable[Dict[str, Union[str, List[Tuple[str, str]]]], str]:
     prompt = ChatPromptTemplate.from_template(RAG_TEMPLATE)
-    retriever = get_retriever(embeddings, top_k=num_docs)
+    retriever = get_retriever(top_k=num_docs)
     rag_chain = (
         RunnableLambda(lambda x: x["question"])
         | {"context": retriever, "question": RunnablePassthrough()}
@@ -149,10 +160,7 @@ def route(
         temperature=info.get("temperature", 0.1)
     )
 
-    embeddings = EmbeddingsClient(
-        model_name=EMBEDDINGS_MODEL,
-        embeddings_url=EMBEDDINGS_URL
-    )
+    embeddings = get_embeddings()
 
     sql_model = VLLMOpenAI(
         openai_api_key="EMPTY",
@@ -200,7 +208,7 @@ def route(
     )
     sql_chain = get_sql_chain(sql_model, chat_model) | itemgetter("answer")
     rag_chain = (
-        get_rag_chain(chat_model, embeddings, NUM_DOCS)
+        get_rag_chain(chat_model, NUM_DOCS)
         | debug
         | itemgetter("answer")
     )

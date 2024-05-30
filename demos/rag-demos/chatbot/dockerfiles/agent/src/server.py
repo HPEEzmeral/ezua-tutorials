@@ -1,15 +1,18 @@
 # Standard library imports
 import os
+import io
 import logging
-from typing import List, Tuple, Dict, Any
+import tempfile
+from typing import Dict, Any
 
 import uvicorn
-from fastapi import FastAPI, HTTPException, Request
-from pydantic import BaseModel, Field
-from fastapi import FastAPI
-
+from pydantic import BaseModel
+from fastapi import (FastAPI, APIRouter, Request,
+                     UploadFile, File, HTTPException)
+from langchain.document_loaders import PyPDFLoader
+from langchain_text_splitters import RecursiveCharacterTextSplitter
 from langserve import add_routes
-from chains import get_avatar_chain
+from chains import get_avatar_chain, get_vector_store
 
 
 logging.basicConfig(level=logging.INFO)
@@ -25,6 +28,46 @@ app = FastAPI(
     description="Spin up a simple api server using Langchain's"
                 " Runnable interfaces",
 )
+router = APIRouter()
+
+
+@app.post("/uploadpdf/")
+async def upload_pdf(file: UploadFile, req: Request):
+    os.environ["AUTH_TOKEN"] = req.headers["authorization"]
+
+    print(req.headers)
+
+    # Read the uploaded file into memory
+    file_content = await file.read()
+
+    # Use BytesIO to handle the file in memory
+    pdf_stream = io.BytesIO(file_content)
+
+    # Create a temporary file to store the PDF content
+    with tempfile.NamedTemporaryFile(delete=False, suffix=".pdf") as tmp_file:
+        tmp_file.write(pdf_stream.getbuffer())
+        tmp_file_path = tmp_file.name
+
+    # Use LangChain's PyPDFLoader to read the PDF contents from the temporary file
+    loader = PyPDFLoader(file_path=tmp_file_path)
+    documents = loader.load()
+
+    print(f"Loaded {len(documents)} documents from the PDF file.")
+
+    text_splitter = RecursiveCharacterTextSplitter(
+        chunk_size=500, chunk_overlap=100)
+    docs = text_splitter.split_documents(documents)
+
+    vectorstore = get_vector_store()
+    vectorstore.add_documents(docs)
+
+    # Extract text from the documents
+    contents = "\n".join([doc.page_content for doc in documents])
+
+    return {"contents": contents}
+
+
+app.include_router(router)
 
 
 def set_auth_token(config: Dict[str, Any], req: Request) -> Dict[str, Any]:

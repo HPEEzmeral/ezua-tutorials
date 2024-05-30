@@ -57,11 +57,24 @@ class EmbeddingsClient(Embeddings):
         self.model_name = model_name
         self._url = f"{embeddings_url}/embeddings"
         
-    def __call__(self, query: str):
-        return self.embed_query(query)
+    def __call__(self, texts: str):
+        return self.embed_documents(texts)
 
-    def embed_documents(self, documents):
-        pass
+    def embed_documents(self, texts):
+        headers = {"Authorization": os.getenv("AUTH_TOKEN")}
+
+        data = {
+            "input": texts,
+            "model": self.model_name,
+            "input_type": "query"
+        }
+
+        response = requests.post(
+            self._url, json=data, headers=headers, verify=False)
+
+        result = json.loads(response.text)["data"]
+        embeddings = [item["embedding"] for item in result]
+        return embeddings
 
     async def aembed_documents(self, documents):
         pass
