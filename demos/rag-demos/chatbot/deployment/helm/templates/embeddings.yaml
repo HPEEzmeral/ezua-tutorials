@@ -1,0 +1,27 @@
+apiVersion: serving.kserve.io/v1beta1
+kind: InferenceService
+metadata:
+  annotations:
+    autoscaling.knative.dev/target: "10"
+    ngc_model_location: ohlfw0olaadg/ea-participants/nv-embed-qa:4
+    nim_model_name: nv-embed-qa
+  name: nv-embed-qa-4
+  namespace: {{ .Release.Namespace }}
+spec:
+  predictor:
+    minReplicas: 1
+    model:
+      modelFormat:
+        name: nvidia-nim-embedding
+      name: ""
+      resources:
+        limits:
+          cpu: "8"
+          memory: 128Gi
+          nvidia.com/gpu: "1"
+        requests:
+          cpu: "6"
+          memory: 64Gi
+          nvidia.com/gpu: "1"
+      runtime: nvidia-nim-embedding-24.02
+      storageUri: pvc://nim-pvc/model-store/

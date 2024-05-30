@@ -1,0 +1,28 @@
+apiVersion: serving.kserve.io/v1beta1
+kind: InferenceService
+metadata:
+  annotations:
+    autoscaling.knative.dev/target: "10"
+    ngc_model_location: hf.co:meta-llama/Llama-2-7b-chat-hf
+    nim_model_name: llama2-7b-chat
+    num_gpus: "1"
+  name: llama2-7b-chat-1xgpu-day0
+  namespace: {{ .Release.Namespace }}
+spec:
+  predictor:
+    minReplicas: 1
+    model:
+      modelFormat:
+        name: nvidia-nim-llm
+      name: ""
+      resources:
+        limits:
+          cpu: "8"
+          memory: 64Gi
+          nvidia.com/gpu: "1"
+        requests:
+          cpu: "6"
+          memory: 48Gi
+          nvidia.com/gpu: "1"
+      runtime: nvidia-nim-llm-24.02.day0
+      storageUri: pvc://nim-pvc/model-store/Llama-2-7b-chat-hf/

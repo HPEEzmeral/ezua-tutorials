@@ -1,0 +1,51 @@
+kind: ClusterServingRuntime
+metadata:
+  name: nvidia-nim-embedding-24.02
+spec:
+  annotations:
+    prometheus.kserve.io/path: /metrics
+    prometheus.kserve.io/port: "8002"
+  containers:
+  - args:
+    - |
+      sed -i 's/checkpoint_path: .*/checkpoint_path: "\/mnt\/models\/nv-embed-qa_v4\/NV-Embed-QA-4.nemo"/g' /app/model_config_templates/NV-Embed-QA_template.yaml; \
+      /app/bin/web -c /mnt/models/nv-embed-qa_v4/NV-Embed-QA-4.nemo -g /app/model_config_templates/NV-Embed-QA_template.yaml -p "8080"
+    command:
+    - /bin/sh
+    - -c
+    image: nvcr.io/ohlfw0olaadg/ea-participants/nemo-retriever-embedding-microservice:24.02
+    name: kserve-container
+    ports:
+    - containerPort: 8080
+      protocol: TCP
+    resources:
+      limits:
+        cpu: "8"
+        memory: 128Gi
+        nvidia.com/gpu: 1
+      requests:
+        cpu: "6"
+        memory: 64Gi
+        nvidia.com/gpu: 1
+    securityContext:
+      runAsUser: 4474987
+    volumeMounts:
+    - mountPath: /dev/shm
+      name: dshm
+  {{- with .Values.imagePullSecrets }}
+  imagePullSecrets:
+    {{- toYaml . | nindent 8 }}
+  {{- end }}
+  protocolVersions:
+  - v2
+  - grpc-v2
+  supportedModelFormats:
+  - autoSelect: true
+    name: nvidia-nim-embedding
+    priority: 1
+    version: "24.02"
+  volumes:
+  - emptyDir:
+      medium: Memory
+      sizeLimit: 128Gi
+    name: dshm
