@@ -160,8 +160,6 @@ def route(
         temperature=info.get("temperature", 0.1)
     )
 
-    embeddings = get_embeddings()
-
     sql_model = VLLMOpenAI(
         openai_api_key="EMPTY",
         openai_api_base=SQL_URL,
@@ -219,8 +217,11 @@ def route(
         RunnableAssign({"question": condense_question_chain})
         | RunnableAssign({"tool": tool_picker_chain})
         | RunnableBranch(
+            ((lambda x: x["manual_options"] == "Chat"), no_context_chain),
+            ((lambda x: x["manual_options"] == "SQL Query"), sql_chain),
+            ((lambda x: x["manual_options"] == "Vector Store Query"), rag_chain),
             ((lambda x: "greet" in x["tool"]), chat_chain),
-            ((lambda x: x["ctx"] == False), no_context_chain),
+            ((lambda x: x["ctx"] is False), no_context_chain),
             ((lambda x: "sql" in x["tool"]), sql_chain),
             ((lambda x: "search" in x["tool"]), rag_chain),
             itemgetter("question") | chat_chain
@@ -240,5 +241,6 @@ def get_avatar_chain() -> (
         "temperature": lambda x: x["temperature"],
         "max_tokens": lambda x: x["max_tokens"],
         "ctx": lambda x: x["ctx"],
+        "manual_options": lambda x: x["manual_options"],
     } | RunnableLambda(route)
     return chain

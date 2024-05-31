@@ -22,7 +22,7 @@ logger = logging.getLogger(__name__)
 
 custom_css = """
 #chatbot {
-    height: calc(65vh - 50px) !important; /* Adjust the height as needed */
+    height: calc(60vh - 50px) !important; /* Adjust the height as needed */
     overflow: auto;
 }
 """
@@ -31,9 +31,10 @@ custom_css = """
 def chat_service(
         message,
         chat_history,
-        ctx,
         temperature,
         max_tokens,
+        ctx,
+        manual_options,
         request: gr.Request):
     headers = {"Authorization": request.headers.get("authorization")}
 
@@ -45,9 +46,10 @@ def chat_service(
         {
             "question": message,
             "chat_history": chat_history,
-            "ctx": ctx,
             "temperature": temperature,
             "max_tokens": max_tokens,
+            "ctx": ctx,
+            "manual_options": manual_options
         }
     }
     response = requests.post(
@@ -62,6 +64,15 @@ def chat_service(
     chat_history.append((message, bot_message))
     
     return "", chat_history
+
+
+def update_ui(choice):
+    if choice == "auto":
+        return gr.update(
+            visible=True, value=True), gr.update(visible=False, value=None)
+    else:
+        return gr.update(
+            visible=False, value=False), gr.update(visible=True, value="Chat", interactive=True)
 
 
 def upload_document(files, request: gr.Request):
@@ -97,12 +108,28 @@ def main():
                     placeholder=LOGO,
                 )
             with gr.Row():
-                ctx = gr.Checkbox(
-                    value=True,
-                    label="Use Private Knowledge Base",
-                    info="Do you want to retrieve and use relevant context"
-                            " from your private knowledge database?",
-                )
+                with gr.Column():
+                    radio_buttons = gr.Radio(
+                        choices=["auto", "manual"],
+                        info="Select mode of operation. In auto mode, the chatbot"
+                             " will use an intelligent model to determine the flow."
+                             " In manual mode, you can choose the type of query to perform.",
+                        value="auto",
+                        show_label=False
+                    )
+                with gr.Column():
+                    ctx = gr.Checkbox(
+                        value=True,
+                        label="Use Private Knowledge Base",
+                        info="Do you want to retrieve and use relevant context"
+                            " from your private knowledge database?"
+                    )
+                    manual_options = gr.Radio(
+                        choices=["Chat", "SQL Query", "Vector Store Query"],
+                        info="Select the type of query you want to perform.",
+                        visible=False,
+                        show_label=False
+                    )
             with gr.Row():
                 msg = gr.Textbox(
                     placeholder="Enter your message...",
@@ -148,12 +175,17 @@ def main():
                     db_progress = gr.Textbox(
                         value="Waiting...", show_label=False)
 
-        inputs = [msg, chatbot, ctx, temperature, max_tokens]
+        inputs = [msg, chatbot, temperature, max_tokens, ctx, manual_options]
 
         submit_btn.click(chat_service, inputs, [msg, chatbot])
         upload_btn.click(
             upload_document, inputs=[document], outputs=[db_progress])
         clear_btn.click
+        radio_buttons.change(
+            update_ui, 
+            radio_buttons, 
+            [ctx, manual_options]
+        )
 
         msg.submit(chat_service, inputs, [msg, chatbot])
 
