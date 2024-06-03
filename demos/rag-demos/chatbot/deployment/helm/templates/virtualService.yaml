@@ -1,9 +1,9 @@
 apiVersion: networking.istio.io/v1alpha3
 kind: VirtualService
 metadata:
-  name: {{ include "ai-search.fullname" . }}
+  name: {{ include "chatbot.fullname" . }}
   labels:
-    {{- include "ai-search.labels" . | nindent 4 }}
+    {{- include "chatbot.labels" . | nindent 4 }}
 spec:
   gateways:
     - {{ .Values.ezua.virtualService.istioGateway }}
@@ -17,6 +17,6 @@ spec:
         uri: /
       route:
         - destination:
-            host: {{ include "ai-search.fullname" . }}.{{ .Release.Namespace }}.svc.cluster.local
+            host: {{ include "chatbot.fullname" . }}.{{ .Release.Namespace }}.svc.cluster.local
             port:
               number: {{ .Values.service.port }}

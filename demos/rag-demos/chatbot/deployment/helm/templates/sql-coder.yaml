@@ -1,0 +1,72 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  labels:
+    io.kompose.service: sql-llm
+  name: sql-llm
+  namespace: {{ .Release.Namespace }}
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      io.kompose.service: sql-llm
+  strategy:
+    type: Recreate
+  template:
+    metadata:
+      labels:
+        hpe-ezua/app: ezaf-other
+        hpe-ezua/type: infra-service
+        io.kompose.network/nvidia-llm: "true"
+        io.kompose.service: sql-llm
+    spec:
+      containers:
+      - args:
+        - --model
+        - defog/sqlcoder-7b-2
+        - --tensor-parallel-size
+        - "2"
+        env:
+        - name: HF_HOME
+          value: "/cache"
+        - name: NUMBA_CACHE_DIR
+          value: "/tmp/numba_cache"
+        image: vllm/vllm-openai:v0.4.1
+        imagePullPolicy: IfNotPresent
+        name: sqlcoder-server
+        ports:
+        - containerPort: 8000
+          hostPort: 8000
+          name: 8000-tcp
+          protocol: TCP
+        resources:
+          limits:
+            nvidia.com/gpu: "2"
+          requests:
+            nvidia.com/gpu: "2"
+        volumeMounts:
+        - mountPath: /cache
+          name: model-repo
+      restartPolicy: Always
+      volumes:
+      - name: model-repo
+        persistentVolumeClaim:
+          claimName: nim-pvc
+---
+apiVersion: v1
+kind: Service
+metadata:
+  labels:
+    io.kompose.service: sql-llm
+  name: sql-llm
+  namespace: {{ .Release.Namespace }}
+spec:
+  ports:
+  - name: 8000-tcp
+    port: 8000
+    protocol: TCP
+    targetPort: 8000
+  selector:
+    io.kompose.service: sql-llm
+  sessionAffinity: None
+  type: ClusterIP

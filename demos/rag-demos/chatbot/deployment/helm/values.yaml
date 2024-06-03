@@ -10,30 +10,24 @@ image:
   repository: dpoulopoulos/chatbot-app
   pullPolicy: Always
   # Overrides the image tag whose default is the chart appVersion.
-  tag: "v1.4.0-b29a173"
+  tag: v1.4.0-b29a173
 
 sqlCoder:
-  name: "sql-llm"
+  name: sql-llm
   port: 8000
 
 llm:
-  name: "llama2-7b-chat-1xgpu-day0"
+  name: llama2-7b-chat-1xgpu-day0
 
 embeddings:
-  name: "nv-embed-qa-4"
+  name: nv-embed-qa-4
 
 agent:
-  langserveHost: "0.0.0.0"
-  langservePort: "9000"
+  langserveHost: 0.0.0.0
+  langservePort: 9000
   image:
     repository: dpoulopoulos/chatbot-agent
-    tag: "v1.4.0-5cd0cd9"
-
-imagePullSecret:
-  name: ngc-secret
-  registry: nvcr.io
-  username: $oauthtoken
-  password: my-password
+    tag: v1.4.0-5cd0cd9
 
 imagePullSecrets:
   - name: ngc-secret

@@ -24,15 +24,15 @@ spec:
       containers:
       - env:
         - name: LANGSERVE_HOST
-          value: {{ .Values.agent.langserveHost }}
+          value: "{{ .Values.agent.langserveHost }}"
         - name: LANGSERVE_PORT
-          value: {{ .Values.agent.langservePort }}
+          value: "{{ .Values.agent.langservePort }}"
         - name: SQL_URL
-          value: http://{{ .Values.sqlCoder.name }}.{{ .Values.namespace }}:8000/v1
+          value: "http://{{ .Values.sqlCoder.name }}.{{ .Values.namespace }}:8000/v1"
         - name: LLM_URL
-          value: http://{{ .Values.llm.name }}-predictor.{{ .Values.namespace }}/v1
+          value: "http://{{ .Values.llm.name }}-predictor.{{ .Values.namespace }}/v1"
         - name: EMBEDDINGS_URL
-          value: http://{{ .Values.embeddings.name }}-predictor.{{ .Values.namespace }}/v1
+          value: "http://{{ .Values.embeddings.name }}-predictor.{{ .Values.namespace }}/v1"
         image:  "{{ .Values.agent.image.repository }}:{{ .Values.agent.image.tag }}"
         imagePullPolicy: IfNotPresent
         name: chain-server
@@ -52,10 +52,10 @@ metadata:
   namespace: {{ .Release.Namespace }}
 spec:
   ports:
-  - name: {{ Values.agent.langservePort}}-tcp
-    port: {{ Values.agent.langservePort}}
+  - name: {{ .Values.agent.langservePort}}-tcp
+    port: {{ .Values.agent.langservePort}}
     protocol: TCP
-    targetPort: {{ Values.agent.langservePort}}
+    targetPort: {{ .Values.agent.langservePort}}
   selector:
     io.kompose.service: agent
   type: ClusterIP
