@@ -14,17 +14,17 @@ from sqlalchemy import create_engine, text
 logging.basicConfig(level=logging.WARNING)
 logger = logging.getLogger(__name__)
 
-# # Create a file handler and set its level to DEBUG
-# log_file_path = os.path.join(os.path.expanduser("~"), "app_log.txt")
-# file_handler = logging.FileHandler(log_file_path)
-# file_handler.setLevel(logging.DEBUG)
+# Create a file handler and set its level to DEBUG
+log_file_path = "app_log.txt"
+file_handler = logging.FileHandler(log_file_path)
+file_handler.setLevel(logging.DEBUG)
 
-# # Create a formatter and set the formatter for the handler
-# formatter = logging.Formatter('%(asctime)s - %(levelname)s - %(message)s')
-# file_handler.setFormatter(formatter)
+# Create a formatter and set the formatter for the handler
+formatter = logging.Formatter('%(asctime)s - %(levelname)s - %(message)s')
+file_handler.setFormatter(formatter)
 
-# # Add the file handler to the logger
-# logger.addHandler(file_handler)
+# Add the file handler to the logger
+logger.addHandler(file_handler)
 
 
 DOMAIN_NAME = "svc.cluster.local"
@@ -32,6 +32,7 @@ try:
     NAMESPACE = open("/var/run/secrets/kubernetes.io/serviceaccount/namespace", "r").read() 
 except:
     NAMESPACE = 'ezmeral'
+    logger.warning("Namespace not found.")
 DEPLOYMENT_NAME = "retail-experiment"
 MODEL_NAME = DEPLOYMENT_NAME
 SVC = f'{DEPLOYMENT_NAME}-predictor.{NAMESPACE}.{DOMAIN_NAME}'
@@ -68,6 +69,7 @@ def format_data(data):
     
     return json_request
 
+
 def query_presto(product, engine, country):
     table_name = 'retail.default.' + country
     # This function retrieves the unit price of a product from a Presto database.
@@ -82,13 +84,18 @@ def query_presto(product, engine, country):
     QUERY = f"SELECT unitprice FROM {table_name} WHERE PRODUCT = '{product}' LIMIT 1"
 
     # Execute the SQL query and retrieve the result
-    with engine.connect() as connection:
-        with connection.begin():
-            result = connection.execute(text(QUERY))
-            for row in result:
-                # Extract the unit price (a number) from the query result
-                number = float(row[0])
-                
+    try:
+        with engine.connect() as connection:
+            with connection.begin():
+                result = connection.execute(text(QUERY))
+                logger.warning(result)
+                for row in result:
+                    # Extract the unit price (a number) from the query result
+                    number = float(row[0])
+    except Exception as e:
+        number = float(5)
+        logging.error('Error at %s', 'division', exc_info=e)
+                    
     # Return the extracted unit price
     return number
 
