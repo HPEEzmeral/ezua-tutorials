@@ -1,0 +1,18 @@
+apiVersion: serving.kserve.io/v1beta1
+kind: InferenceService
+metadata:
+  annotations:
+    nim_model_name: {{ .Values.embeddings.nimModelName }}
+  name: {{ .Values.embeddings.name }}-{{ .Values.embeddings.modelVersion }}
+  namespace: {{ .Release.Namespace }}
+spec:
+  predictor:
+    minReplicas: {{ .Values.embeddings.minReplicaCount }}
+    model:
+      modelFormat:
+        name: {{ .Values.embeddings.modelFormat }}
+      name: ""
+      resources:
+        {{- toYaml .Values.embeddings.resources | nindent 8 }}
+      runtime: {{ .Values.embeddings.runtime }}
+      storageUri: pvc://{{ .Values.modelVolume }}/{{ .Values.modelRepoName}}/

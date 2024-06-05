@@ -1,0 +1,19 @@
+apiVersion: serving.kserve.io/v1beta1
+kind: InferenceService
+metadata:
+  annotations:
+    num_gpus: "{{ .Values.llm.numGPUs }}"
+    nim_model_name: {{ .Values.llm.nimModelName }}
+  name: {{ .Values.llm.name}}
+  namespace: {{ .Release.Namespace }}
+spec:
+  predictor:
+    minReplicas: {{ .Values.llm.minReplicaCount }}
+    model:
+      modelFormat:
+        name: {{ .Values.llm.modelFormat }}
+      name: ""
+      resources:
+        {{- toYaml .Values.llm.resources | nindent 8 }}
+      runtime: {{ .Values.llm.runtime }}
+      storageUri: "pvc://{{ .Values.modelVolume }}/{{ .Values.llm.modelName}}"

@@ -1,0 +1,56 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  labels:
+    io.kompose.service: agent
+  name: agent
+  namespace: {{ .Release.Namespace }}
+spec:
+  replicas: {{ .Values.agent.replicaCount }}
+  selector:
+    matchLabels:
+      io.kompose.service: agent
+  template:
+    metadata:
+      labels:
+        io.kompose.network/nvidia-llm: "true"
+        io.kompose.service: agent
+    spec:
+      containers:
+      - env:
+        - name: LANGSERVE_HOST
+          value: "{{ .Values.agent.langserveHost }}"
+        - name: LANGSERVE_PORT
+          value: "{{ .Values.agent.langservePort }}"
+        - name: SQL_URL
+          value: "http://{{ .Values.sqlCoder.name }}.{{ .Release.Namespace }}:8000/v1"
+        - name: LLM_URL
+          value: "http://{{ .Values.llm.name }}-predictor.{{ .Release.Namespace }}/v1"
+        - name: EMBEDDINGS_URL
+          value: "http://{{ .Values.embeddings.name }}-{{ .Values.embeddings.modelVersion }}-predictor.{{ .Release.Namespace }}/v1"
+        image: "{{ .Values.agent.image.repository }}:{{ .Values.agent.image.tag }}"
+        imagePullPolicy: {{ .Values.agent.pullPolicy }}
+        name: {{ .Values.agent.containerName }}
+        ports:
+        - containerPort: {{ .Values.agent.langservePort}}
+          hostPort: {{ .Values.agent.langservePort}}
+          name: {{ .Values.agent.langservePort}}-tcp
+          protocol: TCP
+      restartPolicy: Always
+---
+apiVersion: v1
+kind: Service
+metadata:
+  labels:
+    io.kompose.service: agent
+  name: agent
+  namespace: {{ .Release.Namespace }}
+spec:
+  ports:
+  - name: {{ .Values.agent.langservePort}}-tcp
+    port: {{ .Values.agent.langservePort}}
+    protocol: TCP
+    targetPort: {{ .Values.agent.langservePort}}
+  selector:
+    io.kompose.service: agent
+  type: ClusterIP

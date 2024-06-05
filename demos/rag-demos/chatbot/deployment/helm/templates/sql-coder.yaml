@@ -1,0 +1,66 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  labels:
+    io.kompose.service: sql-llm
+  name: sql-llm
+  namespace: {{ .Release.Namespace }}
+spec:
+  replicas: {{ .Values.sqlCoder.replicaCount }}
+  selector:
+    matchLabels:
+      io.kompose.service: sql-llm
+  template:
+    metadata:
+      labels:
+        io.kompose.network/nvidia-llm: "true"
+        io.kompose.service: sql-llm
+    spec:
+      containers:
+      - args:
+        - --model
+        - defog/sqlcoder-7b-2
+        - --tensor-parallel-size
+        - "2"
+        env:
+        - name: HF_HOME
+          value: "/cache"
+        - name: NUMBA_CACHE_DIR
+          value: "/tmp/numba_cache"
+        image: {{ .Values.sqlCoder.image.repository}}:{{ .Values.sqlCoder.image.tag }}
+        securityContext:
+          {{- toYaml .Values.securityContext | nindent 10 }}
+        imagePullPolicy: {{ .Values.sqlCoder.image.pullPolicy }}
+        name: sqlcoder-server
+        ports:
+        - containerPort: {{ .Values.sqlCoder.containerPort }}
+          hostPort: {{ .Values.sqlCoder.hostPort }}
+          name: {{ .Values.sqlCoder.containerPort }}-tcp
+          protocol: TCP
+        resources:
+          {{- toYaml .Values.sqlCoder.resources | nindent 10 }}
+        volumeMounts:
+        - mountPath: /cache
+          name: model-repo
+      restartPolicy: Always
+      volumes:  
+      - name: model-repo
+        persistentVolumeClaim:
+          claimName: {{ .Values.modelVolume }}
+---
+apiVersion: v1
+kind: Service
+metadata:
+  labels:
+    io.kompose.service: sql-llm
+  name: sql-llm
+  namespace: {{ .Release.Namespace }}
+spec:
+  ports:
+  - name: {{ .Values.sqlCoder.containerPort }}-tcp
+    port: {{ .Values.sqlCoder.hostPort }}
+    protocol: TCP
+    targetPort: {{ .Values.sqlCoder.containerPort }}
+  selector:
+    io.kompose.service: sql-llm
+  type: ClusterIP
