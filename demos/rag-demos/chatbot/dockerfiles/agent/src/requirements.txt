@@ -1,0 +1,15 @@
+httptools==0.6.1
+httpx-sse==0.4.0
+langserve==0.0.43
+langchain==0.1.20
+langchain-community==0.0.38
+python-dotenv==1.0.1
+sqlglot==21.2.1
+sse-starlette==1.8.2
+uvloop==0.19.0
+vllm==0.3.2
+openai==1.12.0
+faiss-cpu==1.8.0
+watchfiles==0.21.0
+websockets==12.0
+pypdf==4.2.0
