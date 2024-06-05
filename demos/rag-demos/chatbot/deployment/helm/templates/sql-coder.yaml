@@ -31,7 +31,9 @@ spec:
           value: "/cache"
         - name: NUMBA_CACHE_DIR
           value: "/tmp/numba_cache"
-        image: vllm/vllm-openai:v0.4.1
+        image: vllm/vllm-openai:v0.4.3
+        securityContext:
+          runAsUser: 0
         imagePullPolicy: IfNotPresent
         name: sqlcoder-server
         ports:
@@ -48,10 +50,10 @@ spec:
         - mountPath: /cache
           name: model-repo
       restartPolicy: Always
-      volumes:
+      volumes:  
       - name: model-repo
         persistentVolumeClaim:
-          claimName: nim-pvc
+          claimName: {{ .Values.modelVolume }}
 ---
 apiVersion: v1
 kind: Service

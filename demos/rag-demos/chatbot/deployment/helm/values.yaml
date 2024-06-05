@@ -5,12 +5,13 @@
 replicaCount: 1
 nameOverride: ""
 fullnameOverride: ""
+modelVolume: "model-repository"
 
 image:
   repository: dpoulopoulos/chatbot-app
   pullPolicy: Always
   # Overrides the image tag whose default is the chart appVersion.
-  tag: v1.4.0-b29a173
+  tag: v1.4.0-78cda62
 
 sqlCoder:
   name: sql-llm
@@ -27,7 +28,7 @@ agent:
   langservePort: 9000
   image:
     repository: dpoulopoulos/chatbot-agent
-    tag: v1.4.0-5cd0cd9
+    tag: v1.4.0-a02659a
 
 imagePullSecrets:
   - name: ngc-secret
