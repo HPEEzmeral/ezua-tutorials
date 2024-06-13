@@ -35,8 +35,6 @@ router = APIRouter()
 async def upload_pdf(file: UploadFile, req: Request):
     os.environ["AUTH_TOKEN"] = req.headers["authorization"]
 
-    print(req.headers)
-
     # Read the uploaded file into memory
     file_content = await file.read()
 
@@ -65,6 +63,19 @@ async def upload_pdf(file: UploadFile, req: Request):
     contents = "\n".join([doc.page_content for doc in documents])
 
     return {"contents": contents}
+
+
+@app.post("/deletedocs/")
+def delete_docs(req: Request):
+    os.environ["AUTH_TOKEN"] = req.headers["authorization"]
+
+    vectorstore = get_vector_store()
+
+    n_docs = vectorstore.index.ntotal
+    for i in range(n_docs):
+        vectorstore.delete([vectorstore.index_to_docstore_id[i]])
+
+    return {"message": "All documents have been deleted."}
 
 
 app.include_router(router)
