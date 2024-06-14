@@ -10,19 +10,43 @@ To complete the tutorial follow the steps below:
 
 - Login to Ezmeral Unified Analytics cluster.
 - Create a new notebook server using the `jupyter-data-science` image.
+
+![select-jupyter-image](images/image-selection.jpg)
+
+- Wait for notebook to be ready and then "Connect" to newly created notebook.
+
 - Clone the repository locally.
-- Create a new conda environment using the specified `environment.yaml` file:
+
+  Open the Terminal within the launcher:
+
+  ![select-jupyter-image](images/nb-launcher.jpg)
+
+  ```bash
+  git clone https://github.com/HPEEzmeral/ezua-tutorials.git
   ```
+
+  ```bash
+  cd ezua-tutorials/E2E-Demos/Question-Answering
+  ```
+
+- Create a new conda environment using the specified `environment.yaml` file:
+
+  ```bash
   conda env create -f environment.yaml
   ```
+
 - Activate the new conda environment:
-  ```
+
+  ```bash
   conda activate question-answering
   ```
+
 - Add the new conda environment as an ipykernel:
-  ```
+
+  ```bash
   python -m ipykernel install --user --name=question-answering
   ```
+
 - Launch the five Notebooks in order and execute the code cells. Make sure to select the `question-answering` environment kernel for each Notebook.
 
 ## How It Works
@@ -40,6 +64,7 @@ KServe allows you to create an inference service using a custom predictor. Since
 1. LLM Model: Move into the `llm` directory and build the Docker image using the provided Dockerfile.
 
 > For your convenience, you can use the pre-built images we have prepared for you:
+>
 > - Vector Store: `gcr.io/mapr-252711/ezua-demos/vectorstore:v0.1.0`
 > - LLM Predictor: `gcr.io/mapr-252711/ezua-demos/llm-predictor:v0.1.0`
 > - LLM Transformer: `gcr.io/mapr-252711/ezua-demos/llm-transformer:v0.1.0`
