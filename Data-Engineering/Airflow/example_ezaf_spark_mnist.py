@@ -60,18 +60,16 @@ dag = DAG(
 submit = SparkKubernetesOperator(
     task_id="submit",
     application_file="example_ezaf_spark_mnist.yaml",
-    do_xcom_push=True,
+    # do_xcom_push=True,
     dag=dag,
-    api_group="sparkoperator.hpe.com",
     enable_impersonation_from_ldap_user=True,
 )
 
-sensor = SparkKubernetesSensor(
-    task_id="monitor",
-    application_name="{{ task_instance.xcom_pull(task_ids='submit')['metadata']['name'] }}",
-    dag=dag,
-    api_group="sparkoperator.hpe.com",
-    attach_log=True,
-)
+# sensor = SparkKubernetesSensor(
+#     task_id="monitor",
+#     application_name="{{ task_instance.xcom_pull(task_ids='submit')['metadata']['name'] }}",
+#     dag=dag,
+#     attach_log=True,
+# )
 
-submit >> sensor
+# submit >> sensor
