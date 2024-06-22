@@ -44,6 +44,7 @@ submit = SparkKubernetesOperator(
     task_id="submit",
     application_file="example_spark_pi_oss.yaml",
     # do_xcom_push=True,
+    delete_on_termination=False,
     dag=dag,
     enable_impersonation_from_ldap_user=True,
 )
