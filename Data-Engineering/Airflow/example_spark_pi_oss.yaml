@@ -4,9 +4,9 @@ metadata:
   name: spark-pi-oss-{{ts_nodash|replace("T", "")}}
 spec:
   type: Python
-  sparkVersion: '{{dag_run.conf["Spark-image-version"]}}'
+  sparkVersion: '{{dag_run.conf["spark_image_version"]}}'
   mode: cluster
-  image: '{{dag_run.conf["Spark-image"]|default("", True)}}'
+  image: '{{dag_run.conf["spark_image_url"]|default("", True)}}'
   imagePullPolicy: Always
   imagePullSecrets:
   - imagepull
@@ -19,11 +19,11 @@ spec:
     coreLimit: "1000m"
     memory: "512m"
     labels:
-      version: '{{dag_run.conf["Spark-image-version"]}}'
+      version: '{{dag_run.conf["spark_image_version"]}}'
   executor:
     cores: 1
     instances: 2
     coreLimit: "1000m"
     memory: "512m"
     labels:
-      version: '{{dag_run.conf["Spark-image-version"]}}'
+      version: '{{dag_run.conf["spark_image_version"]}}'
