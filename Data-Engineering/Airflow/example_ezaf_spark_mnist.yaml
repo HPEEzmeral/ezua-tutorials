@@ -46,3 +46,7 @@ spec:
     volumeMounts:
       - name: shared-volume
         mountPath: /mounts/shared-volume/shared
+    volumes:
+      - name: shared-volume
+        persistentVolumeClaim:
+          claimName: kubeflow-shared-pvc
