@@ -8,7 +8,7 @@ inputs:
 - {name: BackoffLimit,                type: Integer,    default: -1,        description: 'Number of retries before marking this job as failed.'}
 - {name: ttl Seconds After Finished,  type: Integer,    default: -1,        description: 'Defines the TTL for cleaning up finished TFJobs.'}
 - {name: CleanPodPolicy,              type: String,     default: Running,   description: 'Defines the policy for cleaning up pods after the TFJob completes.'}
-# type for below inputs are changed from JsonObject to String to avoid error with kfp component's output expansion in dictionaries.
+# The type for below inputs is changed from JsonObject to String to avoid error with kfp component's output expansion in dictionaries.
 - {name: PS Spec,                     type: String,     default: '{}',      description: 'TFJob ps replicaSpecs.'}
 - {name: Worker Spec,                 type: String,     default: '{}',      description: 'TFJob worker replicaSpecs.'}
 - {name: Chief Spec,                  type: String,     default: '{}',      description: 'TFJob chief replicaSpecs.'}
