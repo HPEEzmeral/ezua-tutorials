@@ -13,16 +13,16 @@ spec:
     fs.s3a.connection.ssl.enabled: '{{"true" if dag_run.conf["s3_endpoint_ssl_enabled"] else "false"}}'
     fs.s3a.aws.credentials.provider: "org.apache.spark.s3a.EzSparkAWSCredentialProvider"
   type: Scala
-  sparkVersion: 3.5.0
+  sparkVersion: 3.5.1
   mode: cluster
-  image: '{{dag_run.conf["airgap_registry_url"]|default("", True)}}gcr.io/mapr-252711/spark-3.5.0:v3.5.0'
+  image: '{{dag_run.conf["airgap_registry_url"]|default("", True)}}gcr.io/mapr-252711/spark-3.5.1:v3.5.1.0.0'
   imagePullPolicy: Always
-  mainApplicationFile: local:///mnt/shared/ezua-tutorials/current-release/Data-Analytics/Spark/DataProcessTransfer/DataProcessTransfer.jar
+  mainApplicationFile: local:///mounts/shared-volume/shared/ezua-tutorials/current-release/Data-Analytics/Spark/DataProcessTransfer/DataProcessTransfer.jar
   mainClass: com.mapr.sparkdemo.DataProcessTransfer
   arguments:
     - s3a://{{dag_run.conf["s3_bucket"]}}/{{dag_run.conf["s3_path"]}}
     - csv
-    - file:///mnt/user/{{dag_run.conf["export_path"]}}
+    - file:///mounts/shared-volume/shared/{{dag_run.conf["export_path"]}}
     - parquet
   restartPolicy:
     type: Never
@@ -33,10 +33,20 @@ spec:
     coreLimit: "1000m"
     memory: "512m"
     labels:
-      version: 3.5.0
+      version: 3.5.1
+    volumeMounts:
+      - name: shared-volume
+        mountPath: /mounts/shared-volume/shared
   executor:
     cores: 1
     instances: 2
     memory: "512m"
     labels:
-      version: 3.5.0
+      version: 3.5.1
+    volumeMounts:
+      - name: shared-volume
+        mountPath: /mounts/shared-volume/shared
+    volumes:
+      - name: shared-volume
+        persistentVolumeClaim:
+          claimName: kubeflow-shared-pvc
