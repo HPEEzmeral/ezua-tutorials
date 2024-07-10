@@ -22,7 +22,7 @@ spec:
   mode: cluster
   image: gcr.io/mapr-252711/spark-gpu-3.5.1:v3.5.1.0.0
   imagePullPolicy: Always
-  mainApplicationFile: "local:///mounts/shared-volume/ezua-tutorials/current-release/Data-Analytics/Spark-GPU/Scala/SparkExamples.jar"
+  mainApplicationFile: "local:///mounts/shared-volume/shared/ezua-tutorials/current-release/Data-Analytics/Spark-GPU/Scala/SparkExamples.jar"
   mainClass: com.hpe.examples.spark.sql.SqlOnGpuExample
   restartPolicy:
     type: Never
