@@ -5,26 +5,26 @@ metadata:
   namespace: <username>
 spec:
   type: Python
-  sparkVersion: 3.5.0
+  sparkVersion: 3.5.1
   mode: cluster
-  image: gcr.io/mapr-252711/spark-3.5.0:v3.5.0
+  image: gcr.io/mapr-252711/spark-3.5.1:v3.5.1.0.1
   imagePullPolicy: Always
-  mainApplicationFile: "local:///mounts/shared-volume/ezua-tutorials/current-release/Data-Analytics/Spark/wordcount/wordcount.py"
+  mainApplicationFile: "local:///mounts/shared-volume/shared/ezua-tutorials/current-release/Data-Analytics/Spark/wordcount/wordcount.py"
   arguments:
-  - file:///mounts/shared-volume/ezua-tutorials/current-release/Data-Analytics/Spark/wordcount/wordcount.txt
+  - file:///mounts/shared-volume/shared/ezua-tutorials/current-release/Data-Analytics/Spark/wordcount/wordcount.txt
   restartPolicy:
     type: Never
   imagePullSecrets:
     - imagepull
   driver:
     labels:
-      version: 3.5.0
+      version: 3.5.1
     volumeMounts:
       - name: shared-volume
         mountPath: /mounts/shared-volume
   executor:
     labels:
-      version: 3.5.0
+      version: 3.5.1
     volumeMounts:
       - name: shared-volume
         mountPath: /mounts/shared-volume

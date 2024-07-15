@@ -11,16 +11,16 @@ spec:
     spark.hadoop.fs.s3a.aws.credentials.provider: "org.apache.spark.s3a.EzSparkAWSCredentialProvider"
     spark.hadoop.fs.s3a.endpoint: http://local-s3-service.ezdata-system.svc.cluster.local:30000
   type: Scala
-  sparkVersion: 3.5.0
+  sparkVersion: 3.5.1
   mode: cluster
-  image: gcr.io/mapr-252711/spark-3.5.0:v3.5.0
+  image: gcr.io/mapr-252711/spark-3.5.1:v3.5.1.0.1
   imagePullPolicy: Always
-  mainApplicationFile: "local:///mounts/shared-volume/ezua-tutorials/current-release/Data-Analytics/Spark/DataTransfer/DataTransfer.jar"
+  mainApplicationFile: "local:///mounts/shared-volume/shared/ezua-tutorials/current-release/Data-Analytics/Spark/DataTransfer/DataTransfer.jar"
   mainClass: com.mapr.sparkdemo.DataTransfer
   arguments:
     - s3a://ezua-demo/data/mnist
     - binaryFile
-    - file:///mounts/shared-volume/mnist-spark-data
+    - file:///mounts/shared-volume/shared/mnist-spark-data
     - parquet
   restartPolicy:
     type: Never
@@ -28,13 +28,13 @@ spec:
     - imagepull
   driver:
     labels:
-      version: 3.5.0
+      version: 3.5.1
     volumeMounts:
       - name: shared-volume
         mountPath: /mounts/shared-volume
   executor:
     labels:
-      version: 3.5.0
+      version: 3.5.1
     volumeMounts:
       - name: shared-volume
         mountPath: /mounts/shared-volume
