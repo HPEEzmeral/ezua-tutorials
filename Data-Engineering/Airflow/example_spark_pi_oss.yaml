@@ -4,14 +4,14 @@ metadata:
   name: spark-pi-oss-{{ts_nodash|replace("T", "")}}
 spec:
   type: Python
-  sparkVersion: '{{dag_run.conf["Spark-image-version"]}}'
+  sparkVersion: '{{dag_run.conf["spark_image_version"]}}'
   mode: cluster
-  image: '{{dag_run.conf["Spark-image"]|default("", True)}}'
+  image: '{{dag_run.conf["spark_image_url"]|default("", True)}}'
   imagePullPolicy: Always
   imagePullSecrets:
   - imagepull
   mainClass: org.apache.spark.examples.SparkPi
-  mainApplicationFile: "local:///mnt/shared/ezua-tutorials/current-release/Data-Analytics/Spark/pi/pi.py"
+  mainApplicationFile: "local:///mounts/shared-volume/shared/ezua-tutorials/current-release/Data-Analytics/Spark/pi/pi.py"
   restartPolicy:
     type: Never
   driver:
@@ -19,11 +19,21 @@ spec:
     coreLimit: "1000m"
     memory: "512m"
     labels:
-      version: '{{dag_run.conf["Spark-image-version"]}}'
+      version: '{{dag_run.conf["spark_image_version"]}}'
+    volumeMounts:
+      - name: shared-volume
+        mountPath: /mounts/shared-volume/shared
   executor:
     cores: 1
     instances: 2
     coreLimit: "1000m"
     memory: "512m"
     labels:
-      version: '{{dag_run.conf["Spark-image-version"]}}'
+      version: '{{dag_run.conf["spark_image_version"]}}'
+    volumeMounts:
+      - name: shared-volume
+        mountPath: /mounts/shared-volume/shared
+    volumes:
+      - name: shared-volume
+        persistentVolumeClaim:
+          claimName: kubeflow-shared-pvc

@@ -26,12 +26,12 @@ dag = DAG(
     tags=["ezaf", "spark", "pi"],
     params={
         "spark_image_url": Param(
-            "gcr.io/mapr-252711/apache-spark:3.5.0-py",
+            "gcr.io/mapr-252711/apache-spark:3.5.1-py",
             type=["null", "string"],
             description="Provide Python-Spark image url",
         ),
         "spark_image_version": Param(
-            "3.5.0",
+            "3.5.1",
             type=["null", "string"],
             description="Provide Spark image Version",
         )
@@ -43,18 +43,17 @@ dag = DAG(
 submit = SparkKubernetesOperator(
     task_id="submit",
     application_file="example_spark_pi_oss.yaml",
-    do_xcom_push=True,
+    # do_xcom_push=True,
+    delete_on_termination=False,
     dag=dag,
-    api_group="sparkoperator.hpe.com",
     enable_impersonation_from_ldap_user=True,
 )
 
-sensor = SparkKubernetesSensor(
-    task_id="monitor",
-    application_name="{{ task_instance.xcom_pull(task_ids='submit')['metadata']['name'] }}",
-    dag=dag,
-    api_group="sparkoperator.hpe.com",
-    attach_log=True,
-)
+# sensor = SparkKubernetesSensor(
+#     task_id="monitor",
+#     application_name="{{ task_instance.xcom_pull(task_ids='submit')['metadata']['name'] }}",
+#     dag=dag,
+#     attach_log=True,
+# )
 
-submit >> sensor
+# submit >> sensor
