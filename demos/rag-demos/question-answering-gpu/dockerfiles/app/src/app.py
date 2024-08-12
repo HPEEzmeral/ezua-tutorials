@@ -81,75 +81,76 @@ def main():
     with gr.Blocks(theme=EzmeralTheme()) as app:
         # Application Header
         gr.HTML(HEADER)
+        with gr.Column():
 
-        # Main Section
-        with gr.Row():
-            question = gr.Textbox(label="Question", autofocus=True)
-        with gr.Row():
-            with gr.Column():
-                submit_btn = gr.Button("Submit", variant="primary")
-            with gr.Column():
-                clear_btn = gr.ClearButton(value="Reset", variant="secondary")
+            # Main Section
+            with gr.Row():
+                question = gr.Textbox(label="Question", autofocus=True)
+            with gr.Row():
+                with gr.Column():
+                    submit_btn = gr.Button("Submit", variant="primary")
+                with gr.Column():
+                    clear_btn = gr.ClearButton(value="Reset", variant="secondary")
         
         # Advanced Settings
-        with gr.Accordion("Advanced options", open=False):
-            with gr.Row():
-                with gr.Column():
-                    temperature = gr.Slider(
-                        label="Temperature",
-                        minimum=0.0,
-                        maximum=1.0,
-                        value=0.2,
-                        info="The model temperature. Larger values increase"
-                             " creativity but decrease factuality.",
+            with gr.Accordion("Advanced options", open=False):
+                with gr.Row():
+                    with gr.Column():
+                        temperature = gr.Slider(
+                            label="Temperature",
+                            minimum=0.0,
+                            maximum=1.0,
+                            value=0.2,
+                            info="The model temperature. Larger values increase"
+                                " creativity but decrease factuality.",
+                        )
+                        max_tokens = gr.Number(
+                            label="Max Tokens",
+                            minimum=10,
+                            maximum=1000,
+                            value=100,
+                            info="The maximum number of tokens to generate.",
+                        )
+                        num_docs = gr.Number(
+                            label="Number of documents to retrieve",
+                            minimum=1,
+                            maximum=4,
+                            value=4,
+                            info="The maximum number of documents to retrieve"
+                                " from the vector store.",
+                        )
+                    with gr.Column():
+                        top_k = gr.Number(
+                            label="Top k",
+                            minimum=5,
+                            maximum=200,
+                            value=40,
+                            info="Randomly sample from the top_k most likely"
+                                " tokens at each generation step. Set this to 1"
+                                " for greedy decoding.",
+                        )
+                        top_p = gr.Slider(
+                            label="Top p",
+                            minimum=0.1,
+                            maximum=1.0,
+                            value=0.4,
+                            info="Randomly sample at each generation step from the"
+                                " top most likely tokens whose probabilities add"
+                                " up to top_p.",
+                        )
+                with gr.Row():
+                    context_check = gr.Checkbox(
+                        value=True,
+                        label="Use knowledge base",
+                        info="Do you want to retrieve and use relevant context"
+                            " from your knowledge database?",
                     )
-                    max_tokens = gr.Number(
-                        label="Max Tokens",
-                        minimum=10,
-                        maximum=1000,
-                        value=100,
-                        info="The maximum number of tokens to generate.",
-                    )
-                    num_docs = gr.Number(
-                        label="Number of documents to retrieve",
-                        minimum=1,
-                        maximum=4,
-                        value=4,
-                        info="The maximum number of documents to retrieve"
-                             " from the vector store.",
-                    )
-                with gr.Column():
-                    top_k = gr.Number(
-                        label="Top k",
-                        minimum=5,
-                        maximum=200,
-                        value=40,
-                        info="Randomly sample from the top_k most likely"
-                             " tokens at each generation step. Set this to 1"
-                             " for greedy decoding.",
-                    )
-                    top_p = gr.Slider(
-                        label="Top p",
-                        minimum=0.1,
-                        maximum=1.0,
-                        value=0.4,
-                        info="Randomly sample at each generation step from the"
-                             " top most likely tokens whose probabilities add"
-                             " up to top_p.",
-                    )
-            with gr.Row():
-                context_check = gr.Checkbox(
-                    value=True,
-                    label="Use knowledge base",
-                    info="Do you want to retrieve and use relevant context"
-                         " from your knowledge database?",
-                )
-        
-        # Output Section
-        output = gr.Textbox(label="Answer")
+        with gr.Column():
+            # Output Section
+            output = gr.Textbox(label="Answer")
 
-        # Examples Section
-        gr.Examples(examples=EXAMPLES, inputs=[question])
+            # Examples Section
+            gr.Examples(examples=EXAMPLES, inputs=[question])
 
         # Event Handlers
         submit_btn.click(
