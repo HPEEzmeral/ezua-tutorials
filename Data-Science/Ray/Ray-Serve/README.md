@@ -36,6 +36,30 @@
 * **Temporary Workaround:** Due to a current limitation where `serve deploy` does not recognize the `--working-dir` option (track progress at Ray Issue https://github.com/ray-project/ray/issues/29354), a temporary workaround involves using `JobSubmissionClient` to manually push files to the Ray Cluster.
 ![6_workaround.png](resources%2F6_workaround.png)
 
+* **Update!** 
+
+  Please see https://github.com/ray-project/ray/issues/46378, as detailed ray will not have ML packages installed by default
+  
+  User has to provide dependencies required to serve an application, follow below steps to add dependenices:
+  1. Specify the dependencies required in the config file as below example:
+  ```
+    runtime_env:
+      working_dir: "gcs://_ray_pkg_fef565b457f470d9.zip"
+      pip:
+      - joblib==1.4.2
+      - scikit-learn==1.5.1
+  ```
+  2. Based on the cluster setup,set proxy if required :
+  ```
+    runtime_env:
+      working_dir: "gcs://_ray_pkg_fef565b457f470d9.zip"
+      pip:
+      - joblib==1.4.2
+      - scikit-learn==1.5.1
+      env_vars:
+        http_proxy: proxy_url
+        https_proxy: proxy_url
+  ```
 
 * **Deploy the Application:** With the configuration file adjusted to push the necessary files, proceed to deploy the application to the Ray Cluster:
 ![7_deployment.png](resources%2F7_deployment.png)
