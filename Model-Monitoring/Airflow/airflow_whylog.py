@@ -43,7 +43,7 @@ def profile_data_ref(data_path=file_path("data/reference_dataset.csv")):
 
 
 with DAG(
-    dag_id='whylogs-wine-quality-final',
+    dag_id='whylogs-wine-quality',
     schedule_interval=None,
     default_args=default_args,
     # start_date=datetime.now(),
@@ -80,4 +80,3 @@ with DAG(
     (
         profile_data_target>>profile_data_ref>>is_in_range>> summary_drift
     )
-    
