@@ -4,6 +4,7 @@ import os
 import pandas as pd
 import whylogs as why
 from whylogs.core.constraints.factories import greater_than_number
+from airflow.utils.dates import days_ago
 
 from airflow.models.dag import DAG
 from airflow.operators.python import get_current_context
@@ -12,7 +13,15 @@ from whylogs_provider.operators.whylogs import (
     WhylogsConstraintsOperator,
     WhylogsSummaryDriftOperator,
 )
-
+default_args = {
+    "owner": "airflow",
+    "depends_on_past": False,
+    "start_date": days_ago(1),
+    "email": ["airflow@example.com"],
+    "email_on_failure": False,
+    "email_on_retry": False,
+    "retries": 0,
+}
 def file_path(relative_path):
     dir = os.path.dirname(os.path.abspath(__file__))
     split_path = relative_path.split("/")
@@ -34,13 +43,14 @@ def profile_data_ref(data_path=file_path("data/reference_dataset.csv")):
 
 
 with DAG(
-    dag_id='whylogs-wine-quality',
+    dag_id='whylogs-wine-quality-final',
     schedule_interval=None,
-    start_date=datetime.now(),
+    default_args=default_args,
+    # start_date=datetime.now(),
     max_active_runs=1,
     tags=['responsible', 'data_transformation'],
     access_control={
-        'All': {
+        "All": {
             'can_read',
             'can_edit',
             'can_delete'
@@ -70,3 +80,4 @@ with DAG(
     (
         profile_data_target>>profile_data_ref>>is_in_range>> summary_drift
     )
+    
