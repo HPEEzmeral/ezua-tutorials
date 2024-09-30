@@ -15,7 +15,7 @@ spec:
   type: Scala
   sparkVersion: 3.5.1
   mode: cluster
-  image: '{{dag_run.conf["airgap_registry_url"]|default("", True)}}gcr.io/mapr-252711/spark-3.5.1:v3.5.1.0.1'
+  image: '{{dag_run.conf["airgap_registry_url"]|default("", True)}}gcr.io/mapr-252711/spark-3.5.1:v3.5.1.0.4'
   imagePullPolicy: Always
   mainApplicationFile: local:///mounts/shared-volume/shared/ezua-tutorials/current-release/Data-Analytics/Spark/DataTransfer/DataTransfer.jar
   mainClass: com.mapr.sparkdemo.DataTransfer
