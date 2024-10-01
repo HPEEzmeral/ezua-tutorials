@@ -1,5 +1,5 @@
 TOPDIR	  := $(shell git rev-parse --show-toplevel)
-BASE_VER  ?= v1.3.0
+BASE_VER  ?= v1.5.0
 BUILD_ID  ?= $(shell git describe --always --dirty)
 VERSION	  := $(BASE_VER)-$(BUILD_ID)
 
