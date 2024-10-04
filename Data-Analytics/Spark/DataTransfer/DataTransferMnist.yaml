@@ -13,7 +13,7 @@ spec:
   type: Scala
   sparkVersion: 3.5.1
   mode: cluster
-  image: gcr.io/mapr-252711/spark-3.5.1:v3.5.1.0.1
+  image: gcr.io/mapr-252711/spark-3.5.1:v3.5.1.0.4
   imagePullPolicy: Always
   mainApplicationFile: "local:///mounts/shared-volume/shared/ezua-tutorials/current-release/Data-Analytics/Spark/DataTransfer/DataTransfer.jar"
   mainClass: com.mapr.sparkdemo.DataTransfer
@@ -29,15 +29,16 @@ spec:
   driver:
     labels:
       version: 3.5.1
-    volumeMounts:
-      - name: shared-volume
-        mountPath: /mounts/shared-volume
+    cores: 1
+    coreLimit: "1"
+    memory: 512m    
   executor:
     labels:
       version: 3.5.1
-    volumeMounts:
-      - name: shared-volume
-        mountPath: /mounts/shared-volume
+    cores: 1
+    coreLimit: "1"
+    memory: 512m
+    instances: 1
   volumes:
     - name: shared-volume
       persistentVolumeClaim:
