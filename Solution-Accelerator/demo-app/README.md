@@ -6,7 +6,7 @@ Ensure that the llama3-8b and Rag Coordinator nims installed:
  - Go to "Get Started with Solution Accelerators" interface.
  - Click on `Endpoint Details` (top right corner).
 
- #TODO: add screenshot with `Endpoint Details` 
+![Endpoint Details](https://github.com/user-attachments/assets/990d523a-0d25-4dec-8d3b-4c4fce9c407b)
 
 **Steps** 
 
