@@ -11,12 +11,15 @@ Please note that there is a Serve deployment config file example under resource 
 * Run below commands from the terminal to install vLLM in the Ray kernel 
     ``` pyton
     conda activate ray
+
     # Proxies are optional based on your env
     export HTTP_PROXY=<>
     export HTTPS_PROXY=<>
     export https_proxy=<>
     && export http_proxy=<>
-    pip install vllm==0.5.1
+
+    pip install vllm
+    # This will install the latest stable version of vLLM.However,any version of vLLM can be installed,we recommend installing version >=0.5.1
     ```
 * To ensure optimal performance, use dedicated directories containing only the essential files needed for that job submission as a working directory.
 * Activate the Ray-specific Python kernel in your notebook environment.
