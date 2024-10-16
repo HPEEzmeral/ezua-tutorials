@@ -1,0 +1,23 @@
+apiVersion: kyverno.io/v1
+kind: ClusterPolicy
+metadata:
+  name: add-vendor-app-labels-{{ include "nim-llm-service.fullname" . }}
+  annotations:
+    "helm.sh/hook": pre-install
+    "helm.sh/hook-delete-policy": before-hook-creation
+spec:
+  background: false
+  rules:
+  - name: add-vendor-app-labels
+    match:
+      any:
+      - resources:
+          namespaces:
+          - {{ .Release.Namespace }}
+          kinds:
+          - Pod
+    mutate:
+      patchStrategicMerge:
+        metadata:
+          labels:
+            hpe-ezua/type: vendor-service

@@ -1,0 +1,19 @@
+apiVersion: networking.istio.io/v1alpha3
+kind: VirtualService
+metadata:
+  name: {{ include "nim-llm-service.fullname" . }}-vs
+  namespace: {{ .Release.Namespace }}
+spec:
+  hosts:
+    - {{ printf "%s-%s.%s" .Values.ezua.virtualService.endpointPrefix .Release.Namespace .Values.ezua.domainName | quote }}
+  gateways:
+    - {{ .Values.ezua.virtualService.istioGateway | quote }}
+  http:
+    - match:
+        - uri:
+            prefix: {{ .Values.ezua.virtualService.endpointSuffix | quote }}
+      route:
+        - destination:
+            host: {{ include "nim-llm-service.fullname" . | quote }}
+            port:
+              number: 80
