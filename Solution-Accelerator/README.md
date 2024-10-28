@@ -1,4 +1,4 @@
-# NVIDIA-NIM Unit Testing Guide
+# NVIDIA-NIM Unit Tests with Solution Accelerator
 
 This guide explains how to test NVIDIA-NIM unit tests using the Solution Accelerator.
 
@@ -11,8 +11,8 @@ This guide explains how to test NVIDIA-NIM unit tests using the Solution Acceler
 ## Setup Process
 
 ### 1. Import Tar File
-1. Navigate to the "Get Started" section of Solution Accelerator interface
-2. Click "Add New"
+1. Navigate to the Tools & Framework section
+2. Click "Import Framework"
 3. Upload your NVIDIA-NIM unit tests tar file
 4. Complete the solution accelerator details
    > **Note**: For non-user namespace deployment, add label `hpe-ezua/ezmodels=true` to the namespace
@@ -26,8 +26,6 @@ Update the following default values in Solution Accelerator Values:
 
 ### 3. Deploy
 Click "Deploy" to initiate the deployment process
-
-## Testing Guide
 
 ### Deployment Verification
 1. Check if the application deployed successfully
