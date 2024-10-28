@@ -70,7 +70,7 @@ curl -X POST "https://llama3-8b-predictor-${NAMESPACE}.${DOMAIN}/v1/chat/complet
 
 ### 3. Reranker API
 ```bash
-curl --location 'https://nv-rerankqa-mistral-4b-v3-predictor-ezai-services.hpe-pcailr1-h100.com/v1/ranking' \
+curl --location "https://nv-rerankqa-mistral-4b-v3-predictor-${NAMESPACE}.${DOMAIN}/v1/ranking" \
 --header 'Content-Type: application/json' \
 --data '{
   "model": "nvidia/nv-rerankqa-mistral-4b-v3",
