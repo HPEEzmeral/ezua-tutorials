@@ -24,9 +24,9 @@ storageUri: "pvc://models-pvc/"
 # change the image repository and tag based on your setup
 clusterServingRuntime:
   image:
-    repository: ""
+    repository: "lr1-bd-harbor-registry.mip.storage.hpecorp.net/develop/nvcr.io/nim/nvidia/nv-embedqa-e5-v5"
     pullPolicy: IfNotPresent
-    tag: ""
+    tag: "1.0.1"
     
 serviceAccount:
   # Specifies whether a service account should be created
@@ -140,6 +140,3 @@ ezua:
   namespace: "${NAMESPACE}"
   virtualService:
     endpoint: "embed-e5-v5-predictor-${NAMESPACE}.${DOMAIN_NAME}/v1/embeddings"
-    istioGateway: "istio-system/ezaf-gateway"
-    endpointPrefix: "embed-e5-v5-predictor"  
-    endpointSuffix: "/v1/embeddings"

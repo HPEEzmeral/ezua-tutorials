@@ -43,19 +43,19 @@ Replace the following in all URLs:
 ### 1. Embedding API
 
 ```bash
-curl -X POST "https://<namespace>.<domain>/v1/embeddings" \
-  -H "Content-Type: application/json" \
-  -d '{
-    "input": "In this example, the model would use different strategies to embed the passage.",
-    "input_type": "passage",
+curl --location "https://embed-e5-v5-predictor-${NAMESPACE}.${DOMAIN}/v1/embeddings" \
+--header 'Content-Type: application/json' \
+--data '{
+    "input": "This is a test query",
+    "input_type": "query",
     "model": "nvidia/nv-embedqa-e5-v5"
-  }'
+}'
 ```
 
 ### 2. LLM API
 
 ```bash
-curl -X POST "https://<namespace>.<domain>/v1/chat/completions" \
+curl -X POST "https://llama3-8b-predictor-${NAMESPACE}.${DOMAIN}/v1/chat/completions" \
   -H "Content-Type: application/json" \
   -d '{
     "model": "meta/llama3-8b-instruct",

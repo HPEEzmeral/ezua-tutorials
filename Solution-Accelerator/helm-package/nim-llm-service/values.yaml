@@ -18,9 +18,9 @@ storageUri: "pvc://models-pvc/"
 # change the image repository and tag based on your setup
 clusterServingRuntime:
   image:
-    repository: ""
+    repository: "lr1-bd-harbor-registry.mip.storage.hpecorp.net/develop/nvcr.io/nim/meta/llama3-8b-instruct"
     pullPolicy: IfNotPresent
-    tag: ""
+    tag: "1.0.3"
     
 serviceAccount:
   # Specifies whether a service account should be created
@@ -137,6 +137,3 @@ ezua:
   #Example of a VirtualService is here:
   virtualService:
     endpoint: "llama3-8b-predictor-${NAMESPACE}.${DOMAIN_NAME}/v1/chat/completions"
-    istioGateway: "istio-system/ezaf-gateway"
-    endpointPrefix: "llama3-8b-predictor"  # Ensure this has a default value
-    endpointSuffix: "/v1/chat/completions"
