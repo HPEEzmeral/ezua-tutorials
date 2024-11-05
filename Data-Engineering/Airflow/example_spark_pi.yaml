@@ -6,7 +6,7 @@ spec:
   type: Scala
   sparkVersion: 3.5.1
   mode: cluster
-  image: '{{dag_run.conf["airgap_registry_url"]|default("", True)}}gcr.io/mapr-252711/spark-3.5.1:v3.5.1.0.1'
+  image: '{{dag_run.conf["airgap_registry_url"]|default("", True)}}gcr.io/mapr-252711/spark-3.5.1:v3.5.1.0.5'
   imagePullPolicy: Always
   imagePullSecrets:
   - imagepull
