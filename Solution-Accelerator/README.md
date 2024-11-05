@@ -13,7 +13,7 @@ This guide explains how to test NVIDIA-NIM unit tests using the Solution Acceler
 ### 1. Import Tar File
 1. Navigate to the Tools & Framework section
 2. Click "Import Framework"
-3. Upload your NVIDIA-NIM unit tests tar file
+3. Upload your helm charts unit tests tar file (They can we found in ezua-tutorials/Solution-Accelerator/helm-package) 
 4. Complete the solution accelerator details
    > **Note**: For non-user namespace deployment, add label `hpe-ezua/ezmodels=true` to the namespace
 
@@ -49,8 +49,25 @@ curl --location "https://embed-e5-v5-predictor-${NAMESPACE}.${DOMAIN}/v1/embeddi
     "model": "nvidia/nv-embedqa-e5-v5"
 }'
 ```
+### 2. llama 3.1 8b API
 
-### 2. LLM API
+```bash
+curl -X POST "https://llama3-1-8b-predictor-${NAMESPACE}.${DOMAIN}/v1/chat/completions" \
+  -H "Content-Type: application/json" \
+  -d '{
+    "model": "meta/llama-3.1-8b-instruct",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Hello! How are you?"
+      }
+    ],
+    "max_tokens": 256,
+    "stream": false
+  }'
+```
+
+### 3. llama 3 8b API
 
 ```bash
 curl -X POST "https://llama3-8b-predictor-${NAMESPACE}.${DOMAIN}/v1/chat/completions" \
@@ -68,7 +85,7 @@ curl -X POST "https://llama3-8b-predictor-${NAMESPACE}.${DOMAIN}/v1/chat/complet
   }'
 ```
 
-### 3. Reranker API
+### 4. Reranker API
 ```bash
 curl --location "https://nv-rerankqa-mistral-4b-v3-predictor-${NAMESPACE}.${DOMAIN}/v1/ranking" \
 --header 'Content-Type: application/json' \
