@@ -13,7 +13,7 @@ This guide explains how to test NVIDIA-NIM unit tests using the Solution Acceler
 ### 1. Import Tar File
 1. Navigate to the Tools & Framework section
 2. Click "Import Framework"
-3. Upload your helm charts unit tests tar file (They can we found in ezua-tutorials/Solution-Accelerator/helm-package) 
+3. Upload your helm charts unit tests tar file (They can be found in ezua-tutorials/Solution-Accelerator/helm-package) 
 4. Complete the solution accelerator details
    > **Note**: For non-user namespace deployment, add label `hpe-ezua/ezmodels=true` to the namespace
 
