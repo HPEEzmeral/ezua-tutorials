@@ -1,0 +1,13 @@
+apiVersion: serving.kserve.io/v1beta1
+kind: InferenceService
+metadata:
+  annotations:
+    sidecar.istio.io/inject: 'false'
+  name: stock-exp-1
+  namespace: hpedemo-user01
+spec:
+  predictor:
+    serviceAccountName: kserve-minio-sa
+    tensorflow:
+      resources: null
+      storageUri: s3://mlflow/2/594c725e3ab441e4a5d126589d98d9b9/artifacts/model/data/model
