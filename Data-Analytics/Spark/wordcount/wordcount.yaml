@@ -9,9 +9,9 @@ spec:
   mode: cluster
   image: gcr.io/mapr-252711/spark-3.5.0:v3.5.0
   imagePullPolicy: Always
-  mainApplicationFile: "local:///mounts/shared-volume/ezua-tutorials/current-release/Data-Analytics/Spark/wordcount/wordcount.py"
+  mainApplicationFile: "local:///mounts/shared-volume/shared/ezua-tutorials/current-release/Data-Analytics/Spark/wordcount/wordcount.py"
   arguments:
-  - file:///mounts/shared-volume/ezua-tutorials/current-release/Data-Analytics/Spark/wordcount/wordcount.txt
+  - file:///mounts/shared-volume/shared/ezua-tutorials/current-release/Data-Analytics/Spark/wordcount/wordcount.txt
   restartPolicy:
     type: Never
   imagePullSecrets:
@@ -19,16 +19,6 @@ spec:
   driver:
     labels:
       version: 3.5.0
-    volumeMounts:
-      - name: shared-volume
-        mountPath: /mounts/shared-volume
   executor:
     labels:
       version: 3.5.0
-    volumeMounts:
-      - name: shared-volume
-        mountPath: /mounts/shared-volume
-  volumes:
-    - name: shared-volume
-      persistentVolumeClaim:
-        claimName: kubeflow-shared-pvc
