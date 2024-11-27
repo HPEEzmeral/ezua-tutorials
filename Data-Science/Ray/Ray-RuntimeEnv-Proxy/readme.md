@@ -21,3 +21,12 @@ To complete the tutorial follow simple steps below:
 2. Create a new notebook server using the `jupyter-data-science` image.
 3. Clone the repository locally.
 4. Launch the `ray-runtimeenv-workaround.ipynb` notebook file.
+
+
+## EXAMPLE-3
+With environmental variables such as (runtime_env, num_cpus, proxy, etc.)
+To complete the tutorial follow simple steps below:
+1. Login to you EzAF cluster.
+2. Create a new notebook server using the `jupyter-data-science` image.
+3. Clone the repository locally.
+4. Launch the `ray-runtime-env-packages-vlidate.ipynb` notebook file.
