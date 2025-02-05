@@ -11,7 +11,7 @@ spec:
   imagePullSecrets:
   - imagepull
   mainClass: org.apache.spark.examples.SparkPi
-  mainApplicationFile: "local:///opt/mapr/spark/spark-3.5.1/examples/jars/spark-examples_2.12-3.5.1.0-eep.jar"
+  mainApplicationFile: "local:///mounts/shared-volume/shared/ezua-tutorials/current-release/Data-Analytics/Spark/pi/pi.py"
   restartPolicy:
     type: Never
   driver:
