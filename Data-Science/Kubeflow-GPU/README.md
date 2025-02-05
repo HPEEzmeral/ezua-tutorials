@@ -32,38 +32,6 @@ image, then GPU is working properly within Kubeflow Notebook:
 
 ![check-gpu-nb](img/check_gpu_nb_3.jpg)
 
-## Running Kubeflow Pipelines and Katib experiments on GPU via Kale extension
-
-It is possible to specify GPU resources for separate pipeline steps via Kale extension. In order to do that, edit
-pipeline step (by clicking on "pencil" icon in top right corner of the cell) and click on "GPU" button. Then switch
-toggle in the modal window, specify number of GPUs (it should be 1) and Nvidia for GPU vendor in the corresponding
-fields and save changes by clicking "OK" button:
-
-![kale-gpu-requests](img/kale_gpu_requests_1.png)
-
-![kale-gpu-requests](img/kale_gpu_requests_2.png)
-
-After saving changes, GPU resources will be added to the pipeline step and it will be possible to run pipeline with
-GPU resources.
-
-### Training MNIST model with Tensorflow on GPU via Kale extension
-
-Open `Train_mnist_kfp_gpu.ipynb` notebook in order to train MNIST model with Tensorflow on GPU via Kale. Run all cells
-in notebook just to check that it works properly. Then open Kale extension by clicking on "Kale" button on left panel
-and click on "Compile and Run" button at the bottom of the extension window. Proceed to detailed view of pipeline run
-by clicking on "View" link. After pipeline run is finished, open "Logs" tab at the "Eval timing" step and check that
-duration of GPU training is less than duration of CPU training:
-
-```text
-======= Timing =======
-CPU time: 367.7431707382202 sec
-GPU time: 29.72864580154419 sec
-```
-
-Check logs of "Train model cpu" and "Train model gpu1" steps in order to see accuracy of each trained model.
-
-The trained MNIST model is exported to `/mnt/user/mnist-gpu-test` directory in the notebook server pod.
-
 ## Running InferenceService on GPU for trained model
 
 In order to run inference service on GPU for trained model, create `InferenceService` resource and specify in resources
