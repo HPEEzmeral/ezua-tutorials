@@ -6,6 +6,9 @@ import os
 
 NUM_MODELS = 5
 
+model_storage="/tmp/ray/tune_models"
+os.makedirs(model_storage, exist_ok=True)
+
 def train_model(config):
     score = config["model_id"]
 
@@ -34,7 +37,18 @@ trial_space = {
 train_model = tune.with_resources(train_model, {"cpu": 1})
 
 # Start a Tune run and print the best result.
-tuner = tune.Tuner(train_model, param_space=trial_space)
+tuner = tune.Tuner(
+    train_model, 
+    param_space=trial_space,
+    run_config=tune.RunConfig(
+        storage_path=model_storage,
+        name="independent_tune_experiment",
+        checkpoint_config=tune.CheckpointConfig(
+            checkpoint_frequency=0,
+            checkpoint_at_end=False
+        )
+    )
+)
 results = tuner.fit()
 
 # Access individual results.
