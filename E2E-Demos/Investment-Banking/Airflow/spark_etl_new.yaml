@@ -2,6 +2,7 @@ apiVersion: "sparkoperator.hpe.com/v1beta2"
 kind: SparkApplication
 metadata:
   name: "spark-etl"
+  namespace: project-user-bhargav-jitendra-das
 spec:
   hadoopConf:
     fs.s3a.endpoint: http://local-s3-service.ezdata-system.svc.cluster.local:30000
@@ -15,7 +16,7 @@ spec:
   mode: cluster
   image: "lr1-bd-harbor-registry.mip.storage.hpecorp.net/develop/hpe-spark/spark:v3.5.2.4.0"
   imagePullPolicy: Always
-  mainApplicationFile: "local:///mnt/shared/spark/spark_etl_test.py"
+  mainApplicationFile: "s3a://spark-test/spark_etl.py"
   restartPolicy:
     type: Never
   imagePullSecrets:
@@ -23,6 +24,13 @@ spec:
   driver:
     labels:
       version: 3.5.2
+    coreLimit: "1"
+    cores: 1
+    memory: 512m  
   executor:
     labels:
       version: 3.5.2
+    coreLimit: "1"
+    cores: 1
+    memory: 512m
+    instances: 1
