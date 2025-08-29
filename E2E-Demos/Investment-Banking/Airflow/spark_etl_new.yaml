@@ -2,7 +2,6 @@ apiVersion: "sparkoperator.hpe.com/v1beta2"
 kind: SparkApplication
 metadata:
   name: "spark-etl"
-  namespace: project-user-bhargav-jitendra-das
 spec:
   hadoopConf:
     fs.s3a.endpoint: http://local-s3-service.ezdata-system.svc.cluster.local:30000
