@@ -11,7 +11,7 @@ default_args = {
     'depends_on_past': False,
     'start_date': datetime(2023,7,5),
     'retries': 1,
-    'retry_delay': timedelta(minutes=5),
+    'retry_delay': timedelta(minutes=10),
 }
 dag = DAG(
     'spark-etl-new',
