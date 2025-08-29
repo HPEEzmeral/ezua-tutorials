@@ -49,6 +49,7 @@ task2=SparkKubernetesOperator(
     application_file="spark_etl_new.yaml",
     do_xcom_push=True,
     dag=dag,
+    delete_on_termination=False,
     enable_impersonation_from_ldap_user=True
 )
 task3 = PythonOperator(
