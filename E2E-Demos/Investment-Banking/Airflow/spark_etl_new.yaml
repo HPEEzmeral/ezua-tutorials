@@ -3,19 +3,17 @@ kind: SparkApplication
 metadata:
   name: "spark-etl"
 spec:
+  hadoopConf:
+    fs.s3a.endpoint: http://local-s3-service.ezdata-system.svc.cluster.local:30000
+    fs.s3a.impl: org.apache.hadoop.fs.s3a.S3AFileSystem
+    fs.s3a.path.style.access: "true"
   sparkConf:
-    spark.hadoop.fs.s3a.path.style.access: "true"
-    spark.hadoop.fs.s3a.impl: "org.apache.hadoop.fs.s3a.S3AFileSystem"
     spark.hadoop.fs.s3a.connection.ssl.enabled: "false"
-    spark.mapr.extraconf.secret: {{dag_run.conf.get("s3_secret_name", "spark-s3-creds")}} 
-    spark.hadoop.fs.s3a.s3.client.factory.impl: org.apache.hadoop.fs.s3a.NonChunkedDefaultS3ClientFactory
-    spark.driver.extraClassPath: /mnt/shared/spark/disable-chunk-encoding-334.jar
-    spark.executor.extraClassPath: /mnt/shared/spark/disable-chunk-encoding-334.jar
-    spark.hadoop.fs.s3a.bucket.ezua-demo.endpoint: http://local-s3-service.ezdata-system.svc.cluster.local:30000
+    spark.hadoop.fs.s3a.aws.credentials.provider: org.apache.spark.s3a.EzSparkAWSCredentialProvider
   type: Python
-  sparkVersion: 3.4.1
+  sparkVersion: 3.5.2
   mode: cluster
-  image: "gcr.io/mapr-252711/spark-py-3.4.1:v3.4.1"
+  image: "lr1-bd-harbor-registry.mip.storage.hpecorp.net/develop/hpe-spark/spark:v3.5.2.4.0"
   imagePullPolicy: Always
   mainApplicationFile: "local:///mnt/shared/spark/spark_etl_test.py"
   restartPolicy:
@@ -24,7 +22,7 @@ spec:
     - imagepull
   driver:
     labels:
-      version: 3.4.1
+      version: 3.5.2
   executor:
     labels:
-      version: 3.4.1
+      version: 3.5.2
