@@ -25,16 +25,25 @@ spec:
     - imagepull
   driver:
     labels:
-      version: 3.4.1
+      version: 3.5.2
+    coreLimit: "1"
+    cores: 1
+    memory: 512m
     volumeMounts:
       - name: shared-volume
         mountPath: /mounts/shared-volume
+
   executor:
     labels:
-      version: 3.4.1
+      version: 3.5.2
+    coreLimit: "1"
+    cores: 1
+    memory: 512m
+    instances: 1
     volumeMounts:
       - name: shared-volume
         mountPath: /mounts/shared-volume
+
   volumes:
     - name: shared-volume
       persistentVolumeClaim:
