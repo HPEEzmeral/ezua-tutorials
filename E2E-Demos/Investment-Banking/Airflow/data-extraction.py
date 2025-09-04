@@ -105,7 +105,7 @@ with DAG(
         # S3 params
         's3_endpoint': Param("local-s3-service.ezdata-system.svc.cluster.local:30000", type="string"),
         's3_endpoint_ssl_enabled': Param(False, type="boolean"),
-        's3_bucket_name': Param("bank-demo", type="string"),
+        's3_bucket_name': Param("bank", type="string"),
         's3_files_prefix': Param(f"bank.csv", type="string"),
         'result_path_in_shared_volume': Param("exported_by_airflow", type="string"),
         'result_path_prefix_s3': Param("from_minio", type="string"),
@@ -117,7 +117,7 @@ with DAG(
         'presto_catalog': Param("investmentbank", type="string"),
         'presto_schema': Param("bank_demo", type="string"),
         'presto_user': Param("", type=["null", "string"]),
-        'presto_tables_list': Param(f"`bank`", type="string"),
+        'presto_tables_list': Param(f"bank", type="string"),
         'result_path_prefix_presto': Param("from_presto", type="string"),
     },
     access_control={'All': {'can_read', 'can_edit', 'can_delete'}}
