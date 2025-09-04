@@ -28,10 +28,10 @@ with DAG(
     tags=['DF', 'S3', 'MySQL'],
     params={
         's3_bucket_name': Param("bank-demo", type="string"),
-        's3_files_prefix': Param(f"bank{today}.csv", type="string"),
+        's3_files_prefix': Param(f"bank.csv", type="string"),
         'result_path_in_shared_volume': Param("exported_by_airflow", type="string"),
         'result_path_prefix_s3': Param("from_minio", type="string"),
-        'mysql_tables_list': Param(f"`bank{today}`", type="string"),
+        'mysql_tables_list': Param(f"`bank`", type="string"),
         'result_path_prefix_mysql': Param("from_mysql", type="string")
     },
     access_control={
