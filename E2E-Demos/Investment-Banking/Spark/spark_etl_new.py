@@ -4,12 +4,11 @@ import pyspark.sql.functions as F
 from pyspark.sql.functions import *
 from datetime import datetime
 
-today = datetime.today().strftime('%Y-%m-%d')
 spark = SparkSession.builder.master("local").appName("ETL").getOrCreate()
 
-df1=spark.read.format('csv').option("header","true").option("inferSchema","true").load(f"file:///mounts/shared-volume/exported_by_airflow/from_minio/bank{today}.csv")
+df1=spark.read.format('csv').option("header","true").option("inferSchema","true").load(f"file:///mounts/shared-volume/exported_by_airflow/from_minio/bank.csv")
 
-df2=spark.read.format('csv').option("header","true").option("inferSchema","true").load(f"file:///mounts/shared-volume/exported_by_airflow/from_mysql/`bank{today}`.csv")
+df2=spark.read.format('csv').option("header","true").option("inferSchema","true").load(f"file:///mounts/shared-volume/exported_by_airflow/from_presto/bank.csv")
 
 df1.show()
 df2.show()
@@ -111,4 +110,5 @@ df.head(25)
 
 df = df.withColumnRenamed("y", "target")
 
-df.coalesce(1).write.format("com.databricks.spark.csv").option("header", "true").csv(f"s3a://bank/merged_data{today}")
+df.coalesce(1).write.format("com.databricks.spark.csv").option("header", "true").csv("s3a://bank/merged_data")
+
