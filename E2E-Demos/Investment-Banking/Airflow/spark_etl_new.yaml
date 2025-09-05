@@ -13,7 +13,7 @@ spec:
   type: Python
   sparkVersion: 3.5.2
   mode: cluster
-  image: "lr1-bd-harbor-registry.mip.storage.hpecorp.net/develop/hpe-spark/spark:v3.5.2.4.0"
+  image: "172.98.1.155/ezmeral-common/hpe-spark/spark:v3.5.2.4.0"
   imagePullPolicy: Always
   mainApplicationFile: "s3a://spark-test/spark_etl_airflow.py"
   restartPolicy:
