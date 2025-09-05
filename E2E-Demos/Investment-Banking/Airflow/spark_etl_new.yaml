@@ -4,7 +4,7 @@ metadata:
   name: "spark-etl"
 spec:
   hadoopConf:
-    fs.s3a.endpoint: http://local-s3-service.ezdata-system.svc.cluster.local:30000
+    fs.s3a.endpoint: http://minio-service.ezdata-system.svc.cluster.local:30000
     fs.s3a.impl: org.apache.hadoop.fs.s3a.S3AFileSystem
     fs.s3a.path.style.access: "true"
   sparkConf:
