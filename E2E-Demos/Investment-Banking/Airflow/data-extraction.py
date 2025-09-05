@@ -103,7 +103,7 @@ with DAG(
     tags=['DF', 'S3', 'Presto'],
     params={
         # S3 params
-        's3_endpoint': Param("local-s3-service.ezdata-system.svc.cluster.local:30000", type="string"),
+        's3_endpoint': Param("minio-service.ezdata-system.svc.cluster.local:30000", type="string"),
         's3_endpoint_ssl_enabled': Param(False, type="boolean"),
         's3_bucket_name': Param("bank", type="string"),
         's3_files_prefix': Param(f"bank.csv", type="string"),
@@ -114,7 +114,7 @@ with DAG(
         'presto_host': Param("ezpresto-svc-https-locator.ezpresto.svc.cluster.local", type="string"),
         'presto_port': Param(8081, type="integer"),
         'presto_protocol': Param("https", type="string", enum=["http", "https"]),
-        'presto_catalog': Param("investmentbank", type="string"),
+        'presto_catalog': Param("mysql", type="string"),
         'presto_schema': Param("bank_demo", type="string"),
         'presto_user': Param("", type=["null", "string"]),
         'presto_tables_list': Param(f"bank", type="string"),
