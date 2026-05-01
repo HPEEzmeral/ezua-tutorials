@@ -60,7 +60,7 @@ with DAG(
     description="Pipeline to train and evaluate multiple machine learning models",
     default_args=default_args,
     start_date=datetime(2025, 1, 1),
-    schedule_interval=None,
+    schedule=None,
     catchup=False,
     tags=['machine_learning', 'model_training'],
     access_control={'All': {'can_read', 'can_edit', 'can_delete'}},
