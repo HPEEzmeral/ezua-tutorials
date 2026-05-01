@@ -24,13 +24,13 @@ from __future__ import annotations
 
 import pendulum
 from airflow.models import DAG
+from airflow.models.baseoperator import chain
 from airflow.operators.bash import BashOperator
-from airflow.utils.helpers import chain
 
 
 with DAG(
     dag_id="complex_pipeline",
-    schedule_interval=None,
+    schedule=None,
     start_date=pendulum.datetime(2025, 1, 1, tz="UTC"),
     catchup=False,
     tags=["example", "example2", "example3"],
