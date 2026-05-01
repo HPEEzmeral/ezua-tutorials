@@ -59,7 +59,7 @@ with DAG(
     dag_id='data_pipeline',
     description='A sample data processing pipeline',
     default_args=default_args,
-    schedule_interval=None,
+    schedule=None,
     start_date=datetime(2025, 1, 1),
     catchup=False,
     tags=['sample', 'tutorial'],
